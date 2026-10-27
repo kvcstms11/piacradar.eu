@@ -42,7 +42,7 @@ jobs:
           ls -1 szotar/ | head -5
           echo "osszesen: $(ls -1 szotar/ | wc -l) oldal"
           echo "--- sitemap ---"
-          grep -c "<loc>" sitemap.xml
+          grep -c "<loc>" sitemap-1.xml
 
       - name: Commit if changed
         run: |
