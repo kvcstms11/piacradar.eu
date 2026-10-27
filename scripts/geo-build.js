@@ -320,11 +320,11 @@ ${rel.map((r) => `      <li><a href="${esc(r.slug)}.html">${esc(shorten(r.title,
 <meta property="og:description" content="${esc(desc)}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="${url}" />
-<meta property="og:image" content="${SITE}/og.png" />
+<meta property="og:image" content="${SITE}/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${esc(entry.title)} — Piacradar Pénzügyi Szótár" />
 <meta name="twitter:description" content="${esc(desc)}" />
-<meta name="twitter:image" content="${SITE}/og.png" />
+<meta name="twitter:image" content="${SITE}/og-image.jpg" />
 ${PAGE_HEAD_ICONS}
 <style>
 ${PAGE_CSS}
@@ -437,11 +437,11 @@ function categoryPageHTML(cat, inCat, allCats) {
 <meta property="og:description" content="${esc(desc)}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="${url}" />
-<meta property="og:image" content="${SITE}/og.png" />
+<meta property="og:image" content="${SITE}/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${esc(cat)} — Piacradar Pénzügyi Szótár" />
 <meta name="twitter:description" content="${esc(desc)}" />
-<meta name="twitter:image" content="${SITE}/og.png" />
+<meta name="twitter:image" content="${SITE}/og-image.jpg" />
 ${PAGE_HEAD_ICONS}
 <style>
 ${PAGE_CSS}
