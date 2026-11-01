@@ -11,9 +11,11 @@
  *   - szotar/kategoria-<slug>.html    (CATEGORY HUBS — concentrate internal link weight)
  *   - glossary.html                   (JSON-LD DefinedTermSet + static category links + static term list
  *                                      grouped by category, between PR:GLOSSARY markers)
- *   - stories.html                    (JSON-LD Blog block refreshed in place)
+ *   - tortenetek/<slug>.html          (ONE PAGE PER STORY, slug from the title)
+ *   - stories.html                    (JSON-LD Blog block + static story cards between PR:STORIES markers)
  *   - llms-full.txt                   (full machine-readable content)
- *   - sitemap-1.xml                   (static pages + category hubs + every term page)
+ *   - sitemap-1.xml                   (static pages + category hubs + term pages + story pages)
+ *   - content-dates.json              (content hash + last-change date per page → sitemap lastmod)
  *
  *   - index.html, glossary.html, stories.html, adatkezeles.html
  *                                     (cookie consent block between PR:CONSENT markers)
@@ -24,10 +26,13 @@
  */
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const SITE = 'https://piacradar.eu';
 const TG = 'https://t.me/+Mk5bfbCfUf1lMGE0';
 const TERM_DIR = 'szotar';
+const STORY_DIR = 'tortenetek';
+const DATES_FILE = 'content-dates.json';
 const GA_ID = 'G-GH0TVS1NRN';
 const STATIC_PAGES = ['index.html', 'glossary.html', 'stories.html', 'adatkezeles.html'];
 
@@ -252,6 +257,72 @@ function relatedTerms(entry, inCat, count = 6) {
   }
   return out;
 }
+
+// ---------- Tartalmi dátumok (sitemap lastmod, dateModified) ----------
+/* Minden oldalhoz eltároljuk a tartalom hash-ét és az utolsó változás napját.
+   A dátum csak akkor frissül, ha az adott bejegyzés tartalma tényleg megváltozott,
+   így a lastmod oldalanként a valós utolsó módosítást mutatja, nem a build napját.
+   A kezdőértékeket a git-előzményekből számoltuk (lásd scripts/content-dates-bootstrap.js). */
+const contentHash = (v) =>
+  crypto.createHash('sha1').update(typeof v === 'string' ? v : JSON.stringify(v)).digest('hex').slice(0, 16);
+
+// A kézzel szerkesztett oldalakból kivesszük a build által generált blokkokat, hogy
+// csak a valódi tartalmi változás számítson.
+const stripGenerated = (html) =>
+  html
+    .replace(/<!-- PR:CONSENT:START[\s\S]*?<!-- PR:CONSENT:END -->/g, '')
+    .replace(/<!-- Structured Data \(GEO\/SEO\)[^>]*-->\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '');
+
+// Kulcsok: szotar/<slug>, tortenet/<story_id>, page/<fájl>
+function contentSources(glossary, stories, readPage) {
+  const src = {};
+  for (const e of glossary) if (e.slug) src[`szotar/${e.slug}`] = contentHash(e);
+  for (const st of stories) if (st.story_id) src[`tortenet/${st.story_id}`] = contentHash(st);
+  for (const p of ['index.html', 'adatkezeles.html']) {
+    const html = readPage(p);
+    if (html != null) src[`page/${p}`] = contentHash(stripGenerated(html));
+  }
+  return src;
+}
+
+function updateContentDates(glossary, stories) {
+  const today = new Date().toISOString().slice(0, 10);
+  let db = {};
+  try { db = readJSON(DATES_FILE); } catch (e) { db = {}; }
+  const src = contentSources(glossary, stories, (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null));
+  const out = {};
+  let changed = 0;
+  for (const k of Object.keys(src).sort()) {
+    if (db[k] && db[k].hash === src[k]) out[k] = db[k];
+    else { out[k] = { hash: src[k], date: today }; changed++; }
+  }
+  fs.writeFileSync(DATES_FILE, JSON.stringify(out, null, 1) + '\n');
+  const dateOf = (k) => (out[k] ? out[k].date : null);
+  const maxOf = (keys) => keys.map(dateOf).filter(Boolean).sort().pop() || null;
+  return { dateOf, maxOf, changed };
+}
+
+// ---------- Történet-segédfüggvények ----------
+const storySlugs = (stories) => {
+  const used = new Map();
+  const out = new Map();
+  for (const st of stories) {
+    let base = slugify(st.title);
+    if (base.length > 80) base = base.slice(0, 80).replace(/-[^-]*$/, '');
+    let slug = base;
+    let i = 2;
+    while (used.has(slug)) slug = `${base}-${i++}`;
+    used.set(slug, true);
+    out.set(st.story_id, slug);
+  }
+  return out;
+};
+const storyUrl = (slug) => `${SITE}/${STORY_DIR}/${slug}.html`;
+const storyParas = (st) =>
+  String(st.story_text || '')
+    .split(/\n\s*\n+/)
+    .map(clean)
+    .filter(Boolean);
 
 // ---------- Közös stíluslap (fogalom- és kategóriaoldalakhoz) ----------
 const PAGE_CSS = `:root{--bg:#0b1220;--text:rgba(255,255,255,.92);--muted:rgba(255,255,255,.68);--border:rgba(255,255,255,.14);--accent:#5eead4;--accent2:#60a5fa;--radius:18px}
@@ -566,6 +637,187 @@ ${CONSENT}
 `;
 }
 
+// ---------- Story pages ----------
+function storyPageHTML(st, slug, prev, next, slugs, modified) {
+  const url = storyUrl(slug);
+  const cat = st.category || 'Pénzügytörténet';
+  const desc = shorten(st.takeaway || st.story_text || '', 155);
+  const ld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BlogPosting',
+        headline: st.title,
+        description: shorten(st.takeaway || st.story_text || '', 300),
+        articleSection: cat,
+        url,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        image: `${SITE}/og-image.jpg`,
+        inLanguage: 'hu',
+        ...(st.sent_at && String(st.sent_at).toLowerCase() !== 'none' ? { datePublished: st.sent_at } : {}),
+        ...(modified ? { dateModified: modified } : {}),
+        isPartOf: { '@type': 'Blog', name: 'Szombati Történetek', url: `${SITE}/stories.html` },
+        author: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
+        publisher: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Piacradar', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Szombati Történetek', item: `${SITE}/stories.html` },
+          { '@type': 'ListItem', position: 3, name: st.title, item: url },
+        ],
+      },
+    ],
+  };
+
+  const body = storyParas(st).map((p) => `      <p>${esc(p)}</p>`).join('\n');
+  const extra = [
+    st.takeaway ? `  <section class="sec">\n    <h2>Tanulság</h2>\n    <p>${esc(clean(st.takeaway))}</p>\n  </section>` : '',
+    st.why_now ? `  <section class="sec">\n    <h2>Miért aktuális?</h2>\n    <p>${esc(clean(st.why_now))}</p>\n  </section>` : '',
+  ]
+    .filter(Boolean)
+    .join('\n');
+
+  const nav = [];
+  if (prev) nav.push(`<a class="pn" href="${esc(slugs.get(prev.story_id))}.html">← ${esc(shorten(prev.title, 42))}</a>`);
+  else nav.push('<span></span>');
+  if (next) nav.push(`<a class="pn" href="${esc(slugs.get(next.story_id))}.html">${esc(shorten(next.title, 42))} →</a>`);
+  else nav.push('<span></span>');
+
+  return `<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>${esc(st.title)} | Piacradar Történetek</title>
+<meta name="description" content="${esc(desc)}" />
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+<meta name="theme-color" content="#0b1220" />
+<link rel="canonical" href="${url}" />
+<meta property="og:title" content="${esc(st.title)} — Piacradar Történetek" />
+<meta property="og:description" content="${esc(desc)}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="${url}" />
+<meta property="og:image" content="${SITE}/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${esc(st.title)} — Piacradar Történetek" />
+<meta name="twitter:description" content="${esc(desc)}" />
+<meta name="twitter:image" content="${SITE}/og-image.jpg" />
+${PAGE_HEAD_ICONS}
+<style>
+${PAGE_CSS}
+.story p{margin:0 0 14px;font-size:16px;color:rgba(255,255,255,.86)}
+</style>
+<script type="application/ld+json">
+${JSON.stringify(ld, null, 2)}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <nav class="crumbs" aria-label="Morzsamenü">
+    <a href="/">Piacradar</a> › <a href="/stories.html">Szombati Történetek</a> › <span>${esc(st.title)}</span>
+  </nav>
+
+  <div class="kick"><span class="dot"></span> ${esc(cat)}</div>
+  <h1>${esc(st.title)}</h1>
+
+  <article class="story">
+${body}
+  </article>
+${extra}
+
+  <div class="pn-row">
+    ${nav.join('\n    ')}
+  </div>
+
+  <div class="cta">
+    <h3>Értsd meg, mi mozgatja a piacot</h3>
+    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
+    <a class="btn ghost" href="/stories.html">Összes történet</a>
+  </div>
+
+${PAGE_FOOTER}
+</div>
+${CONSENT}
+</body>
+</html>
+`;
+}
+
+function buildStoryPages(stories, slugs, dates) {
+  if (!fs.existsSync(STORY_DIR)) fs.mkdirSync(STORY_DIR, { recursive: true });
+  const wanted = new Set();
+  stories.forEach((st, i) => {
+    const slug = slugs.get(st.story_id);
+    const html = storyPageHTML(st, slug, stories[i - 1] || null, stories[i + 1] || null, slugs, dates.dateOf(`tortenet/${st.story_id}`));
+    fs.writeFileSync(path.join(STORY_DIR, `${slug}.html`), html);
+    wanted.add(`${slug}.html`);
+  });
+  let removed = 0;
+  for (const f of fs.readdirSync(STORY_DIR)) {
+    if (f.endsWith('.html') && !wanted.has(f)) { fs.unlinkSync(path.join(STORY_DIR, f)); removed++; }
+  }
+  return { written: wanted.size, removed };
+}
+
+/* Statikus történetkártyák a stories.html-be (legújabb elöl, mint eddig) + kategóriagombok és
+   statisztika. A keresés és a szűrés a meglévő kártyákon dolgozik, data.json letöltése nélkül. */
+function embedStoryList(stories, slugs) {
+  const p = 'stories.html';
+  let html = fs.readFileSync(p, 'utf8');
+  const cards = stories
+    .slice()
+    .reverse()
+    .map((st) => {
+      const cat = st.category || 'Pénzügytörténet';
+      const search = clean(`${st.title} ${st.takeaway || ''} ${st.story_text || ''}`).toLowerCase();
+      return `      <a class="story-card" href="/${STORY_DIR}/${esc(slugs.get(st.story_id))}.html" id="${esc(st.story_id)}" data-cat="${esc(st.category || '')}" data-search="${esc(search)}">
+        <div class="card-meta">
+          <span class="card-cat">${esc(cat)}</span>
+        </div>
+        <h2 class="card-title">${esc(st.title)}</h2>
+        <div class="card-takeaway">${esc(st.takeaway || '')}</div>
+        <div class="card-footer">
+          <span class="card-read">Olvasás</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </a>`;
+    })
+    .join('\n');
+  const block = `<!-- PR:STORIES:START — auto-generated by geo-build.js, do not edit by hand -->
+${cards}
+      <div id="emptyState"><p>Nincs találat a keresésre.</p></div>
+      <!-- PR:STORIES:END -->`;
+  const re = /<!-- PR:STORIES:START[\s\S]*?<!-- PR:STORIES:END -->/;
+  if (re.test(html)) html = html.replace(re, () => block);
+  else {
+    const old = /<div id="storyGrid">\s*<div id="loading">[\s\S]*?<\/div>\s*<\/div>/;
+    if (!old.test(html)) throw new Error('stories.html: nem találom a #storyGrid helyét');
+    html = html.replace(old, () => `<div id="storyGrid">\n      ${block}\n    </div>`);
+  }
+  // Kategóriagombok (az első előfordulás sorrendjében, mint eddig)
+  const cats = [...new Set(stories.map((s) => s.category).filter(Boolean))];
+  const btns = [
+    '<button class="filter-btn active" data-cat="all">Összes</button>',
+    ...cats.map((c) => `<button class="filter-btn" data-cat="${esc(c)}">${esc(c)}</button>`),
+  ].join('\n      ');
+  const reBtn = /<!-- PR:FILTERS:START[\s\S]*?<!-- PR:FILTERS:END -->/;
+  const btnBlock = `<!-- PR:FILTERS:START -->\n      ${btns}\n      <!-- PR:FILTERS:END -->`;
+  if (reBtn.test(html)) html = html.replace(reBtn, () => btnBlock);
+  else {
+    const oldBtn = /(<div class="filter-row" id="filterRow">)\s*<button class="filter-btn active" data-cat="all">Összes<\/button>/;
+    if (!oldBtn.test(html)) throw new Error('stories.html: nem találom a #filterRow helyét');
+    html = html.replace(oldBtn, (m, a) => `${a}\n      ${btnBlock}`);
+  }
+  html = html
+    .replace(/(id="statTotal">)[^<]*(<)/, `$1${stories.length}$2`)
+    .replace(/(id="statCats">)[^<]*(<)/, `$1${cats.length}$2`);
+  fs.writeFileSync(p, html);
+  return stories.length;
+}
+
 // ---------- Page generation ----------
 function buildPages(glossary) {
   if (!fs.existsSync(TERM_DIR)) fs.mkdirSync(TERM_DIR, { recursive: true });
@@ -636,14 +888,14 @@ function glossaryLD(glossary) {
 }
 
 // ---------- STORIES JSON-LD (Blog) ----------
-function storiesLD(stories) {
+function storiesLD(stories, slugs) {
   const posts = stories.map((st) => {
     const post = {
       '@type': 'BlogPosting',
       headline: st.title,
       description: shorten(st.takeaway || st.story_text || '', 200),
       articleSection: st.category || '',
-      url: `${SITE}/stories.html#${st.story_id || ''}`,
+      url: storyUrl(slugs.get(st.story_id)),
       inLanguage: 'hu',
       isPartOf: { '@type': 'Blog', name: 'Szombati Történetek', url: `${SITE}/stories.html` },
       publisher: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
@@ -794,27 +1046,30 @@ ${groups}
 }
 
 // ---------- sitemap-1.xml ----------
-function buildSitemap(glossary) {
-  const today = new Date().toISOString().slice(0, 10);
+function buildSitemap(glossary, stories, slugs, dates) {
+  const termKeys = glossary.filter((e) => e.slug).map((e) => `szotar/${e.slug}`);
+  const storyKeys = stories.map((st) => `tortenet/${st.story_id}`);
   const urls = [
-    { loc: `${SITE}/`, freq: 'weekly', pri: '1.0' },
-    { loc: `${SITE}/glossary.html`, freq: 'weekly', pri: '0.9' },
-    { loc: `${SITE}/stories.html`, freq: 'weekly', pri: '0.8' },
-    { loc: `${SITE}/adatkezeles.html`, freq: 'yearly', pri: '0.2' },
+    { loc: `${SITE}/`, freq: 'weekly', pri: '1.0', mod: dates.dateOf('page/index.html') },
+    { loc: `${SITE}/glossary.html`, freq: 'weekly', pri: '0.9', mod: dates.maxOf(termKeys) },
+    { loc: `${SITE}/stories.html`, freq: 'weekly', pri: '0.8', mod: dates.maxOf(storyKeys) },
+    { loc: `${SITE}/adatkezeles.html`, freq: 'yearly', pri: '0.2', mod: dates.dateOf('page/adatkezeles.html') },
   ];
   // Kategória-hubok elöl: ezeken keresztül jut el a crawler a fogalmakhoz
   for (const c of orderedCategories(glossary)) {
-    if (glossary.some((e) => catOf(e) === c && e.slug)) {
-      urls.push({ loc: catUrl(c), freq: 'weekly', pri: '0.8' });
-    }
+    const keys = glossary.filter((e) => catOf(e) === c && e.slug).map((e) => `szotar/${e.slug}`);
+    if (keys.length) urls.push({ loc: catUrl(c), freq: 'weekly', pri: '0.8', mod: dates.maxOf(keys) });
   }
   for (const e of [...glossary].sort(byTitle)) {
-    if (e.slug) urls.push({ loc: termUrl(e.slug), freq: 'monthly', pri: '0.6' });
+    if (e.slug) urls.push({ loc: termUrl(e.slug), freq: 'monthly', pri: '0.6', mod: dates.dateOf(`szotar/${e.slug}`) });
+  }
+  for (const st of stories) {
+    urls.push({ loc: storyUrl(slugs.get(st.story_id)), freq: 'yearly', pri: '0.6', mod: dates.dateOf(`tortenet/${st.story_id}`) });
   }
   const body = urls
     .map(
       (u) =>
-        `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.pri}</priority>\n  </url>`
+        `  <url>\n    <loc>${u.loc}</loc>\n${u.mod ? `    <lastmod>${u.mod}</lastmod>\n` : ''}    <changefreq>${u.freq}</changefreq>\n    <priority>${u.pri}</priority>\n  </url>`
     )
     .join('\n');
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
@@ -823,7 +1078,7 @@ function buildSitemap(glossary) {
 }
 
 // ---------- llms-full.txt ----------
-function buildLlmsFull(glossary, stories) {
+function buildLlmsFull(glossary, stories, slugs) {
   const out = [];
   out.push('# Piacradar — teljes tartalom (AI/LLM olvasásra)\n');
   out.push(
@@ -866,9 +1121,9 @@ function buildLlmsFull(glossary, stories) {
     out.push(`\n## ${clean(st.title)}`);
     const meta = [];
     if (st.category) meta.push(`Kategória: ${clean(st.category)}`);
-    meta.push(`Hivatkozás: ${SITE}/stories.html#${st.story_id || ''}`);
+    meta.push(`Hivatkozás: ${storyUrl(slugs.get(st.story_id))}`);
     out.push(meta.join(' · '));
-    if (st.story_text) out.push(`\n${clean(st.story_text)}`);
+    if (st.story_text) out.push(`\n${storyParas(st).join('\n\n')}`);
     if (st.takeaway) out.push(`\n**Tanulság:** ${clean(st.takeaway)}`);
     if (st.why_now) out.push(`\n**Miért aktuális:** ${clean(st.why_now)}`);
   }
@@ -880,25 +1135,33 @@ function main() {
   const glossary = readJSON('glossary-data.json');
   const stories = readJSON('data.json');
 
+  const slugs = storySlugs(stories);
   const pages = buildPages(glossary);
   const gLen = embedLD('glossary.html', glossaryLD(glossary));
   const catLinks = embedCategoryLinks(glossary);
   const listed = embedGlossaryList(glossary);
-  const sLen = embedLD('stories.html', storiesLD(stories));
+  const sLen = embedLD('stories.html', storiesLD(stories, slugs));
+  const storyCards = embedStoryList(stories, slugs);
   const consent = injectConsent();
+  // A dátumokat a kézzel szerkesztett oldalak frissítése után számoljuk
+  const dates = updateContentDates(glossary, stories);
+  const storyPages = buildStoryPages(stories, slugs, dates);
 
-  const full = buildLlmsFull(glossary, stories);
+  const full = buildLlmsFull(glossary, stories, slugs);
   fs.writeFileSync('llms-full.txt', full);
 
-  const smCount = buildSitemap(glossary);
+  const smCount = buildSitemap(glossary, stories, slugs, dates);
 
   console.log(`${TERM_DIR}/: ${pages.terms} fogalomoldal + ${pages.cats} kategoria-oldal, ${pages.removed} elavult torolve`);
   console.log(`glossary.html: ${glossary.length} fogalom JSON-LD + ${catLinks} kategoria-link (${gLen} bytes)`);
   console.log(`glossary.html: ${listed} statikus fogalomkártya`);
-  console.log(`stories.html: ${stories.length} tortenet JSON-LD (${sLen} bytes)`);
+  console.log(`stories.html: ${stories.length} tortenet JSON-LD (${sLen} bytes), ${storyCards} statikus kártya`);
+  console.log(`${STORY_DIR}/: ${storyPages.written} történetoldal, ${storyPages.removed} elavult torolve`);
+  console.log(`${DATES_FILE}: ${dates.changed} új/megváltozott tartalom`);
   console.log(`llms-full.txt: ${full.length} bytes`);
   console.log(`sitemap-1.xml: ${smCount} URL`);
   console.log(`cookie consent: ${pages.terms + pages.cats} szótároldal + ${consent} statikus oldal`);
 }
 
-main();
+if (require.main === module) main();
+module.exports = { contentHash, contentSources };
