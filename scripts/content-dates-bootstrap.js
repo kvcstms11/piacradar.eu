@@ -4,7 +4,8 @@
  *
  * Minden olyan commitot végigjár (a legrégebbitől), amely a data.json-t, a glossary-data.json-t,
  * az index.html-t vagy az adatkezeles.html-t módosította, és bejegyzésenként megjegyzi,
- * melyik commitban változott utoljára a tartalom (ugyanazzal a hash-sel, amit a geo-build.js használ).
+ * melyik commitban jelent meg először (datePublished) és melyikben változott utoljára a tartalom
+ * (lastmod / dateModified) — ugyanazzal a hash-sel, amit a geo-build.js használ.
  * Ehhez teljes git-előzmény kell (nem sekély klón). Utána a geo-build.js tartja karban a fájlt.
  *
  * Futtatás: node scripts/content-dates-bootstrap.js
@@ -48,7 +49,8 @@ for (const { sha, date } of commits) {
   };
   const src = contentSources(parse('glossary-data.json'), parse('data.json'), read);
   for (const [k, h] of Object.entries(src)) {
-    if (!last[k] || last[k].hash !== h) last[k] = { hash: h, date };
+    if (!last[k]) last[k] = { hash: h, date, first: date };
+    else if (last[k].hash !== h) last[k] = { hash: h, date, first: last[k].first };
   }
 }
 
@@ -58,7 +60,11 @@ const readNow = (f) => (fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : null);
 const now = contentSources(JSON.parse(readNow('glossary-data.json')), JSON.parse(readNow('data.json')), readNow);
 const out = {};
 for (const k of Object.keys(now).sort()) {
-  out[k] = last[k] && last[k].hash === now[k] ? last[k] : { hash: now[k], date: today };
+  if (last[k] && last[k].hash === now[k]) out[k] = last[k];
+  else out[k] = { hash: now[k], date: today, first: (last[k] && last[k].first) || today };
+  // a történetek slugját megőrizzük (a geo-build.js tölti ki)
+  const prevDb = fs.existsSync('content-dates.json') ? JSON.parse(fs.readFileSync('content-dates.json', 'utf8')) : {};
+  if (prevDb[k] && prevDb[k].slug) out[k].slug = prevDb[k].slug;
 }
 fs.writeFileSync('content-dates.json', JSON.stringify(out, null, 1) + '\n');
 const dates = Object.values(out).map((v) => v.date);

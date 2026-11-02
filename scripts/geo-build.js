@@ -4,7 +4,9 @@
  *
  * Inputs (repo root):
  *   - glossary-data.json   (array of { slug, title, category, sections:[{title,text}] })
- *   - data.json            (array of stories { story_id, title, category, story_text, takeaway, why_now, sent_at })
+ *   - data.json            (array of stories { story_id, slug, title, category, story_text, takeaway, why_now, sent_at })
+ *                          A slug fix: ha hiányzik, előbb a content-dates.json-ból állítjuk vissza
+ *                          (story_id szerint), csak új történetnél generáljuk a címből — és visszaírjuk.
  *
  * Outputs (repo root):
  *   - szotar/<slug>.html              (ONE INDEXABLE PAGE PER TERM — the SEO engine)
@@ -15,7 +17,8 @@
  *   - stories.html                    (JSON-LD Blog block + static story cards between PR:STORIES markers)
  *   - llms-full.txt                   (full machine-readable content)
  *   - sitemap-1.xml                   (static pages + category hubs + term pages + story pages)
- *   - content-dates.json              (content hash + last-change date per page → sitemap lastmod)
+ *   - content-dates.json              (per page: content hash, last change = lastmod/dateModified,
+ *                                      first appearance = datePublished; stories: slug too)
  *
  *   - index.html, glossary.html, stories.html, adatkezeles.html
  *                                     (cookie consent block between PR:CONSENT markers)
@@ -281,7 +284,12 @@ const stripGenerated = (html) =>
 function contentSources(glossary, stories, readPage) {
   const src = {};
   for (const e of glossary) if (e.slug) src[`szotar/${e.slug}`] = contentHash(e);
-  for (const st of stories) if (st.story_id) src[`tortenet/${st.story_id}`] = contentHash(st);
+  // A slug nem tartalom: a hozzáadása vagy visszaállítása nem számít módosításnak
+  for (const st of stories) {
+    if (!st.story_id) continue;
+    const { slug, ...content } = st; // eslint-disable-line no-unused-vars
+    src[`tortenet/${st.story_id}`] = contentHash(content);
+  }
   for (const p of ['index.html', 'adatkezeles.html']) {
     const html = readPage(p);
     if (html != null) src[`page/${p}`] = contentHash(stripGenerated(html));
@@ -289,38 +297,87 @@ function contentSources(glossary, stories, readPage) {
   return src;
 }
 
-function updateContentDates(glossary, stories) {
+const readDates = () => {
+  try {
+    return readJSON(DATES_FILE);
+  } catch (e) {
+    return {};
+  }
+};
+
+function updateContentDates(glossary, stories, slugs) {
   const today = new Date().toISOString().slice(0, 10);
-  let db = {};
-  try { db = readJSON(DATES_FILE); } catch (e) { db = {}; }
+  const db = readDates();
   const src = contentSources(glossary, stories, (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null));
   const out = {};
   let changed = 0;
   for (const k of Object.keys(src).sort()) {
-    if (db[k] && db[k].hash === src[k]) out[k] = db[k];
-    else { out[k] = { hash: src[k], date: today }; changed++; }
+    const prev = db[k];
+    const same = prev && prev.hash === src[k];
+    out[k] = {
+      hash: src[k],
+      date: same ? prev.date : today,
+      // első megjelenés: egyszer kerül be, utána nem változik
+      first: (prev && prev.first) || (same ? prev.date : today),
+    };
+    if (!same) changed++;
+  }
+  for (const st of stories) {
+    const k = `tortenet/${st.story_id}`;
+    if (out[k]) out[k].slug = slugs.get(st.story_id);
   }
   fs.writeFileSync(DATES_FILE, JSON.stringify(out, null, 1) + '\n');
   const dateOf = (k) => (out[k] ? out[k].date : null);
+  const firstOf = (k) => (out[k] ? out[k].first : null);
   const maxOf = (keys) => keys.map(dateOf).filter(Boolean).sort().pop() || null;
-  return { dateOf, maxOf, changed };
+  return { dateOf, firstOf, maxOf, changed };
 }
 
 // ---------- Történet-segédfüggvények ----------
-const storySlugs = (stories) => {
-  const used = new Map();
+/* Fix slug minden történetnek. Sorrend: a data.json "slug" mezője; ha hiányzik (pl. egy
+   feltöltött export nem tartalmazza), a content-dates.json-ban eltárolt korábbi slug story_id
+   szerint; végül új történetnél a címből generált slug. A hiányzó slugokat visszaírjuk a
+   data.json-ba, így a cím későbbi módosítása nem változtatja meg az URL-t. */
+function storySlugs(stories) {
+  const db = readDates();
+  const used = new Set();
   const out = new Map();
-  for (const st of stories) {
-    let base = slugify(st.title);
-    if (base.length > 80) base = base.slice(0, 80).replace(/-[^-]*$/, '');
+  const unique = (base) => {
     let slug = base;
     let i = 2;
     while (used.has(slug)) slug = `${base}-${i++}`;
-    used.set(slug, true);
-    out.set(st.story_id, slug);
+    return slug;
+  };
+  // előbb a már meglévő slugok, hogy egy új történet ne foglalhassa el őket
+  for (const st of stories) {
+    const known = st.slug || (db[`tortenet/${st.story_id}`] || {}).slug;
+    if (known && !used.has(known)) {
+      used.add(known);
+      out.set(st.story_id, known);
+    }
   }
-  return out;
-};
+  let added = 0;
+  for (const st of stories) {
+    if (!out.has(st.story_id)) {
+      let base = slugify(st.title);
+      if (base.length > 80) base = base.slice(0, 80).replace(/-[^-]*$/, '');
+      const slug = unique(base);
+      used.add(slug);
+      out.set(st.story_id, slug);
+    }
+    if (st.slug !== out.get(st.story_id)) added++;
+  }
+  if (added) {
+    // visszaírás a data.json-ba: a slug a story_id után kerül, a formázás marad (2 szóköz)
+    const raw = readJSON('data.json').map((st) => {
+      const { story_id, slug, ...rest } = st; // eslint-disable-line no-unused-vars
+      return { story_id, slug: out.get(story_id), ...rest };
+    });
+    fs.writeFileSync('data.json', JSON.stringify(raw, null, 2) + '\n');
+  }
+  return { slugs: out, added };
+}
+
 const storyUrl = (slug) => `${SITE}/${STORY_DIR}/${slug}.html`;
 const storyParas = (st) =>
   String(st.story_text || '')
@@ -642,7 +699,7 @@ ${CONSENT}
 }
 
 // ---------- Story pages ----------
-function storyPageHTML(st, slug, prev, next, slugs, modified) {
+function storyPageHTML(st, slug, prev, next, slugs, modified, published) {
   const url = storyUrl(slug);
   const cat = st.category || 'Pénzügytörténet';
   const desc = shorten(st.takeaway || st.story_text || '', 155);
@@ -658,7 +715,7 @@ function storyPageHTML(st, slug, prev, next, slugs, modified) {
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
         image: `${SITE}/og-image.jpg`,
         inLanguage: 'hu',
-        ...(st.sent_at && String(st.sent_at).toLowerCase() !== 'none' ? { datePublished: st.sent_at } : {}),
+        ...(published ? { datePublished: published } : {}),
         ...(modified ? { dateModified: modified } : {}),
         isPartOf: { '@type': 'Blog', name: 'Szombati Történetek', url: `${SITE}/stories.html` },
         author: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
@@ -755,7 +812,8 @@ function buildStoryPages(stories, slugs, dates) {
   const wanted = new Set();
   stories.forEach((st, i) => {
     const slug = slugs.get(st.story_id);
-    const html = storyPageHTML(st, slug, stories[i - 1] || null, stories[i + 1] || null, slugs, dates.dateOf(`tortenet/${st.story_id}`));
+    const k = `tortenet/${st.story_id}`;
+    const html = storyPageHTML(st, slug, stories[i - 1] || null, stories[i + 1] || null, slugs, dates.dateOf(k), dates.firstOf(k));
     fs.writeFileSync(path.join(STORY_DIR, `${slug}.html`), html);
     wanted.add(`${slug}.html`);
   });
@@ -878,7 +936,8 @@ function storiesLD(stories, slugs, dates) {
   // A hub oldalon BlogPosting-onként csak cím, URL és dátumok; a teljes adat az önálló oldalakon van.
   const posts = stories.map((st) => {
     const post = { '@type': 'BlogPosting', headline: st.title, url: storyUrl(slugs.get(st.story_id)) };
-    if (st.sent_at && String(st.sent_at).toLowerCase() !== 'none') post.datePublished = st.sent_at;
+    const pub = dates.firstOf(`tortenet/${st.story_id}`);
+    if (pub) post.datePublished = pub;
     const mod = dates.dateOf(`tortenet/${st.story_id}`);
     if (mod) post.dateModified = mod;
     return post;
@@ -1114,14 +1173,14 @@ function main() {
   const glossary = readJSON('glossary-data.json');
   const stories = readJSON('data.json');
 
-  const slugs = storySlugs(stories);
+  const { slugs, added: slugsAdded } = storySlugs(stories);
   const pages = buildPages(glossary);
   const gLen = embedLD('glossary.html', glossaryLD(glossary));
   const catLinks = embedCategoryLinks(glossary);
   const listed = embedGlossaryList(glossary);
   const consent = injectConsent();
   // A dátumokat a kézzel szerkesztett oldalak frissítése után számoljuk
-  const dates = updateContentDates(glossary, stories);
+  const dates = updateContentDates(glossary, stories, slugs);
   const sLen = embedLD('stories.html', storiesLD(stories, slugs, dates));
   const storyCards = embedStoryList(stories, slugs);
   const storyPages = buildStoryPages(stories, slugs, dates);
@@ -1137,6 +1196,7 @@ function main() {
   console.log(`stories.html: ${stories.length} tortenet JSON-LD (${sLen} bytes), ${storyCards} statikus kártya`);
   console.log(`${STORY_DIR}/: ${storyPages.written} történetoldal, ${storyPages.removed} elavult torolve`);
   console.log(`${DATES_FILE}: ${dates.changed} új/megváltozott tartalom`);
+  console.log(`data.json: ${slugsAdded} slug beírva/visszaállítva`);
   console.log(`llms-full.txt: ${full.length} bytes`);
   console.log(`sitemap-1.xml: ${smCount} URL`);
   console.log(`cookie consent: ${pages.terms + pages.cats} szótároldal + ${consent} statikus oldal`);
