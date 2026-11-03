@@ -22,6 +22,9 @@
  *
  *   - index.html, glossary.html, stories.html, adatkezeles.html
  *                                     (cookie consent block between PR:CONSENT markers)
+ *   - glossary.html                   (title + description with the current term count)
+ *   - index.html                      (FAQPage JSON-LD rebuilt from the visible FAQ list)
+ *   - 404.html                        (not-found page, noindex, not in the sitemap)
  *
  * llms.txt is intentionally NOT touched (it is hand-written, content-agnostic).
  *
@@ -1083,6 +1086,101 @@ ${groups}
   return n;
 }
 
+/* glossary.html title és leírás a fogalmak aktuális számával. */
+function setGlossaryMeta(glossary) {
+  const p = 'glossary.html';
+  const n = glossary.filter((e) => e.slug).length;
+  const title = `Pénzügyi szótár: ${n} tőzsdei fogalom magyarul | Piacradar`;
+  const desc = `${n} pénzügyi és tőzsdei fogalom érthetően, magyarul: CPI, GDP, VIX, EPS és a többi. Mit jelent, miért fontos, és hogyan hat a piacra.`;
+  let html = fs.readFileSync(p, 'utf8');
+  html = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`);
+  for (const attr of ['name="description"', 'property="og:description"', 'name="twitter:description"']) {
+    html = html.replace(new RegExp(`(<meta ${attr} content=")[^"]*(")`), (m, a, b) => a + esc(desc) + b);
+  }
+  fs.writeFileSync(p, html);
+  return n;
+}
+
+/* index.html: a FAQPage JSON-LD pontosan a látható GYIK kérdéseit és válaszait tartalmazza. */
+const decodeEntities = (t) =>
+  t.replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const stripTags = (t) => clean(decodeEntities(String(t).replace(/<svg[\s\S]*?<\/svg>/g, '').replace(/<[^>]+>/g, '')));
+
+function syncFaqLD() {
+  const p = 'index.html';
+  let html = fs.readFileSync(p, 'utf8');
+  const list = html.match(/<div class="faq-list" id="faqList">([\s\S]*?)<\/div>\s*<\/section>/);
+  const src = list ? list[1] : '';
+  const qa = [...src.matchAll(/<summary>([\s\S]*?)<\/summary>\s*<div class="faq-answer">([\s\S]*?)<\/div>/g)].map((m) => ({
+    '@type': 'Question',
+    name: stripTags(m[1]),
+    acceptedAnswer: { '@type': 'Answer', text: stripTags(m[2]) },
+  }));
+  if (!qa.length) throw new Error('index.html: nem találom a GYIK kérdéseket (#faqList)');
+  const re = /(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/g;
+  let done = false;
+  html = html.replace(re, (m, a, body, b) => {
+    let ld;
+    try {
+      ld = JSON.parse(body);
+    } catch (e) {
+      return m;
+    }
+    const graph = Array.isArray(ld['@graph']) ? ld['@graph'] : null;
+    const faq = graph && graph.find((x) => x['@type'] === 'FAQPage');
+    if (!faq) return m;
+    faq.mainEntity = qa;
+    done = true;
+    return `${a}\n${JSON.stringify(ld, null, 2)}\n  ${b}`;
+  });
+  if (!done) throw new Error('index.html: nem találom a FAQPage JSON-LD-t');
+  fs.writeFileSync(p, html);
+  return qa.length;
+}
+
+/* Saját 404-oldal (GitHub Pages ezt szolgálja ki minden nem létező címre). noindex, nincs a sitemapben. */
+function build404() {
+  const html = `<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Az oldal nem található | Piacradar</title>
+<meta name="robots" content="noindex,follow" />
+<meta name="theme-color" content="#0b1220" />
+${PAGE_HEAD_ICONS}
+<style>
+${PAGE_CSS}
+.nf{margin:40px 0 10px}
+.nf-code{font-size:64px;font-weight:900;line-height:1;color:var(--accent);margin:0 0 10px}
+.nf-links{display:grid;gap:10px;margin:22px 0 0}
+.nf-links a{display:block;border:1px solid var(--border);background:rgba(255,255,255,.04);border-radius:14px;padding:13px 16px;font-weight:700}
+.nf-links a:hover{border-color:rgba(94,234,212,.35)}
+.nf-links span{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nf">
+    <p class="nf-code">404</p>
+    <h1>Ez az oldal nem található</h1>
+    <p class="lead">Lehet, hogy elírás van a címben, vagy az oldal közben máshová került. Innen tovább tudsz menni:</p>
+  </div>
+  <nav class="nf-links" aria-label="Fő oldalak">
+    <a href="/">Főoldal<span>Napi tőzsdei és makrogazdasági elemzés Telegramon</span></a>
+    <a href="/glossary.html">Pénzügyi szótár<span>Tőzsdei és gazdasági fogalmak magyarázata</span></a>
+    <a href="/stories.html">Szombati Történetek<span>Piaci összeomlások, tőzsdei legendák és tanulságok</span></a>
+  </nav>
+
+${PAGE_FOOTER}
+</div>
+${CONSENT}
+</body>
+</html>
+`;
+  fs.writeFileSync('404.html', html);
+}
+
 // ---------- sitemap-1.xml ----------
 function buildSitemap(glossary, stories, slugs, dates) {
   const termKeys = glossary.filter((e) => e.slug).map((e) => `szotar/${e.slug}`);
@@ -1178,6 +1276,9 @@ function main() {
   const gLen = embedLD('glossary.html', glossaryLD(glossary));
   const catLinks = embedCategoryLinks(glossary);
   const listed = embedGlossaryList(glossary);
+  setGlossaryMeta(glossary);
+  const faqCount = syncFaqLD();
+  build404();
   const consent = injectConsent();
   // A dátumokat a kézzel szerkesztett oldalak frissítése után számoljuk
   const dates = updateContentDates(glossary, stories, slugs);
@@ -1192,7 +1293,8 @@ function main() {
 
   console.log(`${TERM_DIR}/: ${pages.terms} fogalomoldal + ${pages.cats} kategoria-oldal, ${pages.removed} elavult torolve`);
   console.log(`glossary.html: ${glossary.length} fogalom JSON-LD + ${catLinks} kategoria-link (${gLen} bytes)`);
-  console.log(`glossary.html: ${listed} statikus fogalomkártya`);
+  console.log(`glossary.html: ${listed} statikus fogalomkártya, title/description frissítve`);
+  console.log(`index.html: FAQPage JSON-LD ${faqCount} kérdéssel; 404.html kész`);
   console.log(`stories.html: ${stories.length} tortenet JSON-LD (${sLen} bytes), ${storyCards} statikus kártya`);
   console.log(`${STORY_DIR}/: ${storyPages.written} történetoldal, ${storyPages.removed} elavult torolve`);
   console.log(`${DATES_FILE}: ${dates.changed} új/megváltozott tartalom`);

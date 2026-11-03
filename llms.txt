@@ -23,8 +23,14 @@ A kiemelt szektorok és papírok teljesítményét időről időre nyilvánosan 
 ## Edukációs tartalmak
 - [Pénzügyi Szótár](https://piacradar.eu/glossary.html): 197 pénzügyi és tőzsdei fogalom magyarázata befektetői kontextussal (CPI, GDP, VIX, EPS és sok más). Minden fogalom önálló oldalon is elérhető: https://piacradar.eu/szotar/<slug>.html
   Minden fogalom azonos szerkezetű: „Mi ez?" (definíció) · „Miért fontos?" (piaci jelentőség) · „Piacradar értelmezés" (irányt mutató olvasat).
-  Hat kategória: Makró & jegybank (53) · Kereskedés & technikai (46) · Vállalati & értékelés (32) · Globális piacok (28) · Kripto (25) · Portfólió & pszichológia (13).
-- [Szombati Történetek](https://piacradar.eu/stories.html): heti történetek piaci összeomlásokról, tőzsdei legendákról és befektetői tanulságokról — minden szombaton új sztori.
+  Hat kategória, mindegyik saját gyűjtőoldallal:
+  - [Makró & jegybank](https://piacradar.eu/szotar/kategoria-makro-jegybank.html) (53)
+  - [Kereskedés & technikai](https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html) (46)
+  - [Vállalati & értékelés](https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html) (32)
+  - [Globális piacok](https://piacradar.eu/szotar/kategoria-globalis-piacok.html) (28)
+  - [Kripto](https://piacradar.eu/szotar/kategoria-kripto.html) (25)
+  - [Portfólió & pszichológia](https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html) (13)
+- [Szombati Történetek](https://piacradar.eu/stories.html): heti történetek piaci összeomlásokról, tőzsdei legendákról és befektetői tanulságokról — minden szombaton új sztori. Minden történet önálló oldalon is elérhető: https://piacradar.eu/tortenetek/<slug>.html
 
 ## Fontos / jogi
 A tartalmak kizárólag általános tájékoztatási célt szolgálnak, nem minősülnek befektetési tanácsadásnak.

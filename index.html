@@ -7,14 +7,14 @@
   <title>Piacradar — Ne csak kövesd a piacot, értsd is | Telegram</title>
 
   <!-- SEO -->
-  <meta name="description" content="Piacradar — prémium hír- és gazdasági adatelemzés Telegramon. EU/USA makró, top earnings és piacmozgató események: mi történt + miért számít, tömören, magyarul, forráslinkkel. Nem headline-feed." />
+  <meta name="description" content="Piacradar: napi 3 tőzsdei és makrogazdasági elemzés Telegramon, magyarul. EU/USA adatok, vállalati jelentések, Fed és EKB – mi történt és miért számít." />
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
   <meta name="theme-color" content="#0b1220" />
   <link rel="canonical" href="https://piacradar.eu/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Piacradar — Ne csak kövesd a piacot, értsd is" />
-  <meta property="og:description" content="Hír- és gazdasági adatok tényalapú elemzése: mi történt és miért számít. Piaci napokon 3 fix üzenet (07:00, 15:15, 21:00). Telegramon." />
+  <meta property="og:description" content="Piacradar: napi 3 tőzsdei és makrogazdasági elemzés Telegramon, magyarul. EU/USA adatok, vállalati jelentések, Fed és EKB – mi történt és miért számít." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://piacradar.eu/" />
   <meta property="og:image" content="https://piacradar.eu/og-image.jpg" />
@@ -24,7 +24,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Piacradar — Ne csak kövesd a piacot, értsd is" />
-  <meta name="twitter:description" content="Mi történt + miért számít. Piaci napokon 3 fix üzenet. Forráslinkekkel." />
+  <meta name="twitter:description" content="Piacradar: napi 3 tőzsdei és makrogazdasági elemzés Telegramon, magyarul. EU/USA adatok, vállalati jelentések, Fed és EKB – mi történt és miért számít." />
   <meta name="twitter:image" content="https://piacradar.eu/og-image.jpg" />
 
   <link rel="icon" href="/favicon.ico" />
@@ -407,6 +407,7 @@
       font-size:13px;
     }
     .consent input{ width:18px; height:18px; margin-top:2px; }
+    .consent label{ display:inline; margin:0; font-size:inherit; color:inherit; cursor:pointer; }
     .consent-actions{
       display:flex;
       flex-wrap:wrap;
@@ -520,128 +521,148 @@
 
   <!-- Structured Data (SEO) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "name": "Piacradar",
-        "url": "https://piacradar.eu",
-        "description": "Prémium hír- és gazdasági adatelemzés Telegramon. EU/USA makró, top earnings és piacmozgató események magyarul.",
-        "inLanguage": "hu"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Piacradar",
+      "url": "https://piacradar.eu",
+      "description": "Prémium hír- és gazdasági adatelemzés Telegramon. EU/USA makró, top earnings és piacmozgató események magyarul.",
+      "inLanguage": "hu"
+    },
+    {
+      "@type": "Organization",
+      "name": "Piacradar",
+      "url": "https://piacradar.eu/",
+      "logo": "https://piacradar.eu/apple-touch-icon.png",
+      "description": "Hír- és gazdasági adatok tényalapú elemzése: mi történt és miért számít. Piaci napokon 3 fix üzenet Telegramon.",
+      "founder": {
+        "@type": "Person",
+        "name": "Tamás Kovács",
+        "url": "https://tamaskovacs.eu",
+        "sameAs": [
+          "https://www.linkedin.com/in/kvcstms",
+          "https://x.com/kvcstms11"
+        ]
       },
-      {
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61560269362449",
+        "https://www.instagram.com/officialkovacstamas",
+        "https://www.tiktok.com/@officialkovacstamas",
+        "https://www.youtube.com/@officialkovacstamas",
+        "https://x.com/kvcstms11",
+        "https://www.linkedin.com/in/kvcstms",
+        "https://www.threads.com/@tamaskovacsofficial"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hogyan kapom meg a Telegram hozzáférést?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A weboldalon lévő gombra kattintva a meghívólinkkel beléphetsz. A csatorna zárt, de a csatlakozás jelenleg ingyenes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Milyen gyakran jönnek üzenetek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Piaci napokon 3 fix üzenet: 07:00 / 15:15 / 21:00 (magyar idő szerint)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Befektetési tanácsot ad a Piacradar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nem. A részletek a Jogi nyilatkozatban vannak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi van, ha \"nincs nagy hír\" aznap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ilyenkor rövidebb összefoglaló megy, vagy a fókusz a kontextusra és egy hasznos háttérelemzésre kerül."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A posztok mennyire \"kezdőbarátok\"?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Úgy van írva, hogy gyorsan érthető legyen, de közben tanít is: rövid fogalommagyarázat és \"miért számít\" keret."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Milyen gyorsan kerül ki egy fontos hír?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fix időpontok adják a ritmust, de ha nagy esemény van (Fed/ECB, CPI/NFP, kiemelt earnings), akkor a következő üzenetben prioritással szerepel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bármikor kiléphetek a csatornából?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen, a Telegramban bármikor elhagyhatod a csatornát, egyetlen kattintással."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Van ingyenes verzió?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jelenleg a teljes Telegram-csatorna ingyenesen elérhető. Emellett bárki számára nyitva áll a weboldalon a Pénzügyi Szótár és a Szombati Történetek, valamint a közösségi média csatornáink."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi a befektetési napló?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saját, valós pozícióink dokumentációja: miért léptünk be, mit figyelünk, és előre rögzítve, mi esetén szállunk ki. Edukációs céllal mutatjuk be — nem ajánlás, nem befektetési tanács."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Piacradar",
+      "url": "https://piacradar.eu/",
+      "provider": {
         "@type": "Organization",
         "name": "Piacradar",
-        "url": "https://piacradar.eu/",
-        "logo": "https://piacradar.eu/apple-touch-icon.png",
-        "description": "Hír- és gazdasági adatok tényalapú elemzése: mi történt és miért számít. Piaci napokon 3 fix üzenet Telegramon.",
-        "founder": {
-          "@type": "Person",
-          "name": "Tamás Kovács",
-          "url": "https://tamaskovacs.eu",
-          "sameAs": [
-            "https://www.linkedin.com/in/kvcstms",
-            "https://x.com/kvcstms11"
-          ]
-        },
-        "sameAs": [
-          "https://www.facebook.com/profile.php?id=61560269362449",
-          "https://www.instagram.com/officialkovacstamas",
-          "https://www.tiktok.com/@officialkovacstamas",
-          "https://www.youtube.com/@officialkovacstamas",
-          "https://x.com/kvcstms11",
-          "https://www.linkedin.com/in/kvcstms",
-          "https://www.threads.com/@tamaskovacsofficial"
-        ]
+        "url": "https://piacradar.eu/"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Hogyan kapom meg a Telegram hozzáférést?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A weboldalon lévő gombra kattintva a meghívólinkkel beléphetsz. A csatorna zárt, de a csatlakozás jelenleg ingyenes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Milyen gyakran jönnek üzenetek?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Piaci napokon 3 fix üzenet: 07:00, 15:15, 21:00 (magyar idő szerint)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Befektetési tanácsot ad a Piacradar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nem. A tartalmak kizárólag általános tájékoztatási célt szolgálnak, nem minősülnek befektetési tanácsadásnak."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "A posztok mennyire kezdőbarátok?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Úgy van írva, hogy gyorsan érthető legyen, de közben tanít is: rövid fogalommagyarázat és miért számít keret."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Bármikor kiléphetek a csatornából?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Igen, a Telegramban bármikor elhagyhatod a csatornát, egyetlen kattintással."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Van ingyenes verzió?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Jelenleg a teljes Telegram-csatorna ingyenesen elérhető. Emellett bárki számára nyitva áll a weboldalon a Pénzügyi Szótár és a Szombati Történetek, valamint a közösségi média csatornáink."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Mi a befektetési napló?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Saját, valós pozícióink dokumentációja: miért léptünk be, mit figyelünk, és előre rögzítve, mi esetén szállunk ki. Edukációs céllal mutatjuk be — nem ajánlás, nem befektetési tanács."
-            }
-          }
-        ]
-      },
-      {
-        "@type": "Service",
-        "name": "Piacradar",
-        "url": "https://piacradar.eu/",
-        "provider": { "@type": "Organization", "name": "Piacradar", "url": "https://piacradar.eu/" },
-        "areaServed": "HU",
-        "availableLanguage": "hu",
-        "serviceType": "Pénzügyi piaci hírelemzés és edukáció",
-        "description": "Piaci napokon napi 3 elemzés (07:00, 15:15, 21:00, magyar idő szerint) a piacmozgató hírekről: makró adatok (CPI, NFP, PMI, ISM, Fed/ECB), negyedéves vállalati jelentések, valamint iparági és vállalati elemzések — mi történt és miért számít, forráslinkkel."
-      },
-      {
-        "@type": "DefinedTermSet",
-        "name": "Piacradar Pénzügyi Szótár",
-        "url": "https://piacradar.eu/glossary.html",
-        "description": "197 pénzügyi és tőzsdei fogalom magyarázata befektetői kontextussal: CPI, GDP, VIX, EPS és sok más.",
-        "inLanguage": "hu"
-      },
-      {
-        "@type": "CreativeWorkSeries",
-        "name": "Szombati Történetek",
-        "url": "https://piacradar.eu/stories.html",
-        "description": "Heti történetek piaci összeomlásokról, tőzsdei legendákról és befektetői tanulságokról — minden szombaton új sztori, magyarul.",
-        "inLanguage": "hu"
-      }
-    ]
-  }
+      "areaServed": "HU",
+      "availableLanguage": "hu",
+      "serviceType": "Pénzügyi piaci hírelemzés és edukáció",
+      "description": "Piaci napokon napi 3 elemzés (07:00, 15:15, 21:00, magyar idő szerint) a piacmozgató hírekről: makró adatok (CPI, NFP, PMI, ISM, Fed/ECB), negyedéves vállalati jelentések, valamint iparági és vállalati elemzések — mi történt és miért számít, forráslinkkel."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "name": "Piacradar Pénzügyi Szótár",
+      "url": "https://piacradar.eu/glossary.html",
+      "description": "197 pénzügyi és tőzsdei fogalom magyarázata befektetői kontextussal: CPI, GDP, VIX, EPS és sok más.",
+      "inLanguage": "hu"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "name": "Szombati Történetek",
+      "url": "https://piacradar.eu/stories.html",
+      "description": "Heti történetek piaci összeomlásokról, tőzsdei legendákról és befektetői tanulságokról — minden szombaton új sztori, magyarul.",
+      "inLanguage": "hu"
+    }
+  ]
+}
   </script>
 </head>
 
@@ -1004,7 +1025,7 @@ Forrás: [tradingeconomics.com]
             <div class="consent">
               <input id="consent" name="consent" type="checkbox" required />
               <div>
-                Hozzájárulok, hogy a Piacradar az üzenetem megválaszolásához kezelje a megadott adatokat.
+                <label for="consent">Hozzájárulok, hogy a Piacradar az üzenetem megválaszolásához kezelje a megadott adatokat.</label>
                 <div class="consent-actions">
                   <a class="btn sm" href="./adatkezeles.html" target="_blank" rel="noopener">Adatkezelési tájékoztató →</a>
                 </div>
