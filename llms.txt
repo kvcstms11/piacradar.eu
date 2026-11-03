@@ -48,5 +48,6 @@ A Piacradar teljes Telegram-tartalma — napi elemzések, heti mélyelemzés, be
 
 ## Kapcsolat és hozzáférés
 - Weboldal: https://piacradar.eu/
+- Szerző: Kovács Tamás — https://piacradar.eu/szerzo.html (személyes oldal: https://tamaskovacs.eu)
 - Telegram csatorna: https://t.me/+Mk5bfbCfUf1lMGE0
 - Adatkezelés: https://piacradar.eu/adatkezeles.html

@@ -33,6 +33,9 @@ h1{font-size:30px;line-height:1.15;letter-spacing:-.4px;margin:0 0 6px}
 .kick{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid var(--border);background:rgba(255,255,255,.05);border-radius:999px;font-size:12.5px;color:var(--muted);margin-bottom:16px}
 .kick:hover{border-color:rgba(94,234,212,.35);color:var(--text)}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.byline{margin:-2px 0 18px;font-size:13px;color:var(--muted)}
+.byline a{color:var(--accent);text-decoration:none}
+.byline a:hover{text-decoration:underline}
 .lead{color:rgba(255,255,255,.78);font-size:15px;margin:0 0 20px;max-width:62ch}
 .sec{border:1px solid var(--border);background:rgba(255,255,255,.04);border-radius:var(--radius);padding:16px 18px;margin:14px 0}
 .sec h2{margin:0 0 8px;font-size:14px;font-weight:900;color:var(--accent);letter-spacing:.2px}
@@ -91,9 +94,9 @@ footer a:hover{text-decoration:underline}
         "url": "https://piacradar.eu/stories.html"
       },
       "author": {
-        "@type": "Organization",
-        "name": "Piacradar",
-        "url": "https://piacradar.eu/"
+        "@type": "Person",
+        "name": "Kovács Tamás",
+        "url": "https://piacradar.eu/szerzo.html"
       },
       "publisher": {
         "@type": "Organization",
@@ -136,6 +139,7 @@ footer a:hover{text-decoration:underline}
 
   <div class="kick"><span class="dot"></span> Jegybank</div>
   <h1>Az ember, aki megdöntötte a Bank of Englandet (Soros, 1992)</h1>
+  <p class="byline">Szerző: <a href="/szerzo.html" rel="author">Kovács Tamás</a></p>
 
   <article class="story">
       <p>1990-ben a font belépett az európai árfolyam-mechanizmusba (ERM), amely a fontot szűk sávban tartotta a német márkához kötve. A probléma az volt, hogy a font túl magas árfolyamon lépett be: a brit gazdaság gyengélkedett, az infláció magas volt, miközben a német újraegyesítés utáni magas német kamatok az egész rendszert feszítették. A piac tudta, hogy a font túlértékelt — és a kormány is tudta. A rögzítést egyedül az tartotta fenn, hogy a kormány ígérte: megvédi.</p>
@@ -165,7 +169,7 @@ footer a:hover{text-decoration:underline}
   </div>
 
   <footer>
-    <a href="/">Piacradar</a> · <a href="/glossary.html">Szótár</a> · <a href="/stories.html">Történetek</a> · <a href="/adatkezeles.html">Adatkezelés</a> · <a href="#suti-beallitasok" data-cookie-settings>Süti-beállítások</a>
+    <a href="/">Piacradar</a> · <a href="/glossary.html">Szótár</a> · <a href="/stories.html">Történetek</a> · <a href="/szerzo.html">Szerző</a> · <a href="/adatkezeles.html">Adatkezelés</a> · <a href="#suti-beallitasok" data-cookie-settings>Süti-beállítások</a>
     <div class="legal">A tartalom kizárólag általános tájékoztatási célt szolgál, nem minősül befektetési tanácsadásnak.</div>
   </footer>
 </div>

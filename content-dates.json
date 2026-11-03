@@ -5,9 +5,14 @@
   "first": "2026-02-11"
  },
  "page/index.html": {
-  "hash": "545a3633cd7a7a41",
+  "hash": "21632dd2e4f41131",
   "date": "2026-11-03",
   "first": "2026-02-10"
+ },
+ "page/szerzo.html": {
+  "hash": "f32da2550ff905ef",
+  "date": "2026-11-03",
+  "first": "2026-11-03"
  },
  "szotar/adp": {
   "hash": "191913f7d6524983",

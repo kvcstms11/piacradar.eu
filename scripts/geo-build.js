@@ -25,6 +25,7 @@
  *   - glossary.html                   (title + description with the current term count)
  *   - index.html                      (FAQPage JSON-LD rebuilt from the visible FAQ list)
  *   - 404.html                        (not-found page, noindex, not in the sitemap)
+ *   - szerzo.html                     (author page; Person sameAs = index.html founder sameAs)
  *
  * llms.txt is intentionally NOT touched (it is hand-written, content-agnostic).
  *
@@ -293,7 +294,7 @@ function contentSources(glossary, stories, readPage) {
     const { slug, ...content } = st; // eslint-disable-line no-unused-vars
     src[`tortenet/${st.story_id}`] = contentHash(content);
   }
-  for (const p of ['index.html', 'adatkezeles.html']) {
+  for (const p of ['index.html', 'adatkezeles.html', 'szerzo.html']) {
     const html = readPage(p);
     if (html != null) src[`page/${p}`] = contentHash(stripGenerated(html));
   }
@@ -401,6 +402,9 @@ h1{font-size:30px;line-height:1.15;letter-spacing:-.4px;margin:0 0 6px}
 .kick{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid var(--border);background:rgba(255,255,255,.05);border-radius:999px;font-size:12.5px;color:var(--muted);margin-bottom:16px}
 .kick:hover{border-color:rgba(94,234,212,.35);color:var(--text)}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.byline{margin:-2px 0 18px;font-size:13px;color:var(--muted)}
+.byline a{color:var(--accent);text-decoration:none}
+.byline a:hover{text-decoration:underline}
 .lead{color:rgba(255,255,255,.78);font-size:15px;margin:0 0 20px;max-width:62ch}
 .sec{border:1px solid var(--border);background:rgba(255,255,255,.04);border-radius:var(--radius);padding:16px 18px;margin:14px 0}
 .sec h2{margin:0 0 8px;font-size:14px;font-weight:900;color:var(--accent);letter-spacing:.2px}
@@ -438,8 +442,29 @@ const PAGE_HEAD_ICONS = `<link rel="icon" href="/favicon.ico" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />`;
 
+// ---------- Szerző ----------
+const AUTHOR_NAME = 'Kovács Tamás';
+const AUTHOR_URL = `${SITE}/szerzo.html`;
+const AUTHOR_LD = { '@type': 'Person', name: AUTHOR_NAME, url: AUTHOR_URL };
+// A bemutatkozás kizárólag a tamaskovacs.eu-n szereplő tényekre épül.
+const AUTHOR_BIO = [
+  'Kovács Tamás Ausztriában élő terméképítő és tartalomkészítő, a Piacradar készítője. Telekommunikációs mérnökként indult: 4G hálózati megoldások (segélyhívó rendszerek, NB-IoT) fejlesztésében vett részt. Később termékmenedzserként IoT smart parkingtól 5G magánhálózatokig és kiberbiztonsági portfóliókig vitt piacra termékeket, többek között a Vodafone Hungarynél és a Drei Austriánál.',
+  'Jelenleg Product Ownerként egy SaaS cégnél nemzetközi repülőterek légiforgalmi irányítási szoftverén dolgozik. Emellett saját termékeit fejleszti — a Piacradart és az Ausztria Radart —, és videókat készít többek között osztrák hírekről, kriptóról, befektetésről, gazdaságról és technológiáról. A célja, hogy érthetően és tömören adja át, ami számít.',
+];
+const AUTHOR_LINKS = [
+  ['tamaskovacs.eu', 'https://tamaskovacs.eu/'],
+  ['LinkedIn', 'https://www.linkedin.com/in/kvcstms'],
+  ['X', 'https://x.com/kvcstms11'],
+  ['Instagram', 'https://www.instagram.com/officialkovacstamas'],
+  ['TikTok', 'https://www.tiktok.com/@officialkovacstamas'],
+  ['YouTube', 'https://www.youtube.com/@officialkovacstamas'],
+  ['Threads', 'https://www.threads.com/@tamaskovacsofficial'],
+  ['Facebook', 'https://www.facebook.com/profile.php?id=61560269362449'],
+];
+const BYLINE = `<p class="byline">Szerző: <a href="/szerzo.html" rel="author">${AUTHOR_NAME}</a></p>`;
+
 const PAGE_FOOTER = `  <footer>
-    <a href="/">Piacradar</a> · <a href="/glossary.html">Szótár</a> · <a href="/stories.html">Történetek</a> · <a href="/adatkezeles.html">Adatkezelés</a> · <a href="#suti-beallitasok" data-cookie-settings>Süti-beállítások</a>
+    <a href="/">Piacradar</a> · <a href="/glossary.html">Szótár</a> · <a href="/stories.html">Történetek</a> · <a href="/szerzo.html">Szerző</a> · <a href="/adatkezeles.html">Adatkezelés</a> · <a href="#suti-beallitasok" data-cookie-settings>Süti-beállítások</a>
     <div class="legal">A tartalom kizárólag általános tájékoztatási célt szolgál, nem minősül befektetési tanácsadásnak.</div>
   </footer>`;
 
@@ -465,7 +490,17 @@ function termPageHTML(entry, prev, next, linkIndex, inCat) {
     '@context': 'https://schema.org',
     '@graph': [
       {
+        '@type': 'WebPage',
+        '@id': url,
+        url,
+        name: entry.title,
+        inLanguage: 'hu',
+        author: AUTHOR_LD,
+        mainEntity: { '@id': `${url}#term` },
+      },
+      {
         '@type': 'DefinedTerm',
+        '@id': `${url}#term`,
         name: entry.title,
         url,
         description: shorten(first, 300),
@@ -558,6 +593,7 @@ ${JSON.stringify(ld, null, 2)}
 
   ${catBadge}
   <h1>${esc(entry.title)}</h1>
+  ${BYLINE}
 
 ${body}
 ${relBlock}
@@ -721,7 +757,7 @@ function storyPageHTML(st, slug, prev, next, slugs, modified, published) {
         ...(published ? { datePublished: published } : {}),
         ...(modified ? { dateModified: modified } : {}),
         isPartOf: { '@type': 'Blog', name: 'Szombati Történetek', url: `${SITE}/stories.html` },
-        author: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
+        author: AUTHOR_LD,
         publisher: { '@type': 'Organization', name: 'Piacradar', url: `${SITE}/` },
       },
       {
@@ -785,6 +821,7 @@ ${JSON.stringify(ld, null, 2)}
 
   <div class="kick"><span class="dot"></span> ${esc(cat)}</div>
   <h1>${esc(st.title)}</h1>
+  ${BYLINE}
 
   <article class="story">
 ${body}
@@ -1138,6 +1175,127 @@ function syncFaqLD() {
   return qa.length;
 }
 
+/* Szerzői oldal. A Person sameAs listája az index.html founder-jéé, hogy a kettő ne térjen el. */
+function founderSameAs() {
+  const html = fs.readFileSync('index.html', 'utf8');
+  for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    let ld;
+    try {
+      ld = JSON.parse(m[1]);
+    } catch (e) {
+      continue;
+    }
+    const stack = [ld];
+    while (stack.length) {
+      const o = stack.pop();
+      if (o && typeof o === 'object') {
+        if (o.founder && Array.isArray(o.founder.sameAs)) return o.founder.sameAs;
+        stack.push(...Object.values(o));
+      }
+    }
+  }
+  return [];
+}
+
+function buildAuthorPage() {
+  const desc = shorten(AUTHOR_BIO.join(' '), 155);
+  const ld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'ProfilePage',
+        '@id': AUTHOR_URL,
+        url: AUTHOR_URL,
+        name: `${AUTHOR_NAME} – a Piacradar szerzője`,
+        inLanguage: 'hu',
+        mainEntity: { '@id': `${AUTHOR_URL}#person` },
+      },
+      {
+        '@type': 'Person',
+        '@id': `${AUTHOR_URL}#person`,
+        name: AUTHOR_NAME,
+        alternateName: 'Tamás Kovács',
+        url: AUTHOR_URL,
+        description: desc,
+        sameAs: founderSameAs(),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Piacradar', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Szerző', item: AUTHOR_URL },
+        ],
+      },
+    ],
+  };
+  const links = AUTHOR_LINKS.map(
+    ([label, href]) => `      <li><a href="${esc(href)}" target="_blank" rel="noopener me">${esc(label)}</a></li>`
+  ).join('\n');
+  const html = `<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>${AUTHOR_NAME} – a Piacradar szerzője</title>
+<meta name="description" content="${esc(desc)}" />
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+<meta name="theme-color" content="#0b1220" />
+<link rel="canonical" href="${AUTHOR_URL}" />
+<meta property="og:title" content="${AUTHOR_NAME} – a Piacradar szerzője" />
+<meta property="og:description" content="${esc(desc)}" />
+<meta property="og:type" content="profile" />
+<meta property="og:url" content="${AUTHOR_URL}" />
+<meta property="og:image" content="${SITE}/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${AUTHOR_NAME} – a Piacradar szerzője" />
+<meta name="twitter:description" content="${esc(desc)}" />
+<meta name="twitter:image" content="${SITE}/og-image.jpg" />
+${PAGE_HEAD_ICONS}
+<style>
+${PAGE_CSS}
+.bio p{margin:0 0 14px;font-size:16px;color:rgba(255,255,255,.86)}
+.profiles{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.profiles a{display:inline-block;font-size:13.5px;border:1px solid var(--border);background:rgba(255,255,255,.04);padding:8px 12px;border-radius:999px}
+.profiles a:hover{border-color:rgba(94,234,212,.35)}
+</style>
+<script type="application/ld+json">
+${JSON.stringify(ld, null, 2)}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <nav class="crumbs" aria-label="Morzsamenü">
+    <a href="/">Piacradar</a> › <span>Szerző</span>
+  </nav>
+
+  <h1>${AUTHOR_NAME} – a Piacradar szerzője</h1>
+
+  <section class="bio">
+${AUTHOR_BIO.map((p) => `    <p>${esc(p)}</p>`).join('\n')}
+  </section>
+
+  <section class="sec">
+    <h2>Elérhetőségek és profilok</h2>
+    <ul class="profiles">
+${links}
+    </ul>
+  </section>
+
+  <div class="cta">
+    <h3>Értsd meg, mi mozgatja a piacot</h3>
+    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
+  </div>
+
+${PAGE_FOOTER}
+</div>
+${CONSENT}
+</body>
+</html>
+`;
+  fs.writeFileSync('szerzo.html', html);
+}
+
 /* Saját 404-oldal (GitHub Pages ezt szolgálja ki minden nem létező címre). noindex, nincs a sitemapben. */
 function build404() {
   const html = `<!doctype html>
@@ -1190,6 +1348,7 @@ function buildSitemap(glossary, stories, slugs, dates) {
     { loc: `${SITE}/glossary.html`, freq: 'weekly', pri: '0.9', mod: dates.maxOf(termKeys) },
     { loc: `${SITE}/stories.html`, freq: 'weekly', pri: '0.8', mod: dates.maxOf(storyKeys) },
     { loc: `${SITE}/adatkezeles.html`, freq: 'yearly', pri: '0.2', mod: dates.dateOf('page/adatkezeles.html') },
+    { loc: AUTHOR_URL, freq: 'yearly', pri: '0.4', mod: dates.dateOf('page/szerzo.html') },
   ];
   // Kategória-hubok elöl: ezeken keresztül jut el a crawler a fogalmakhoz
   for (const c of orderedCategories(glossary)) {
@@ -1279,6 +1438,7 @@ function main() {
   setGlossaryMeta(glossary);
   const faqCount = syncFaqLD();
   build404();
+  buildAuthorPage();
   const consent = injectConsent();
   // A dátumokat a kézzel szerkesztett oldalak frissítése után számoljuk
   const dates = updateContentDates(glossary, stories, slugs);
