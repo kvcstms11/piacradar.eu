@@ -603,7 +603,7 @@ ${relBlock}
 
   <div class="cta">
     <h3>Értsd meg, mi mozgatja a piacot</h3>
-    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <p>Piaci napokon napi 3 hírösszefoglaló: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
     <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
     <a class="btn ghost" href="/glossary.html">Vissza a szótárhoz</a>
   </div>
@@ -724,7 +724,7 @@ ${listHtml}
 
   <div class="cta">
     <h3>Értsd meg, mi mozgatja a piacot</h3>
-    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <p>Piaci napokon napi 3 hírösszefoglaló: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
     <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
     <a class="btn ghost" href="/glossary.html">Teljes szótár →</a>
   </div>
@@ -834,7 +834,7 @@ ${extra}
 
   <div class="cta">
     <h3>Értsd meg, mi mozgatja a piacot</h3>
-    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <p>Piaci napokon napi 3 hírösszefoglaló: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
     <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
     <a class="btn ghost" href="/stories.html">Összes történet</a>
   </div>
@@ -1283,7 +1283,7 @@ ${links}
 
   <div class="cta">
     <h3>Értsd meg, mi mozgatja a piacot</h3>
-    <p>Piaci napokon napi 3 elemzés: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
+    <p>Piaci napokon napi 3 hírösszefoglaló: EU/USA makró, kiemelt vállalati jelentések, Fed és ECB — magyarul, forráslinkkel.</p>
     <a class="btn" href="${TG}" target="_blank" rel="noopener noreferrer">Csatlakozz a zárt közösséghez →</a>
   </div>
 

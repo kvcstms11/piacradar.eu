@@ -1,6 +1,6 @@
 # Piacradar
 
-> Prémium hír- és gazdasági adatelemzés Telegramon, magyarul. Már 200+ befektető a csatornán, 50k+ közösségi média követő. Piaci napokon napi 3 fix üzenet (07:00, 15:15, 21:00, magyar idő szerint): mi történt és miért számít — makró adatok, negyedéves vállalati jelentések, iparági és vállalati elemzések, forráslinkkel. Nem headline-feed, hanem esemény + értelmezés. Készítő: Tamás Kovács (https://tamaskovacs.eu).
+> Prémium hír- és gazdasági adatelemzés Telegramon, magyarul. Már közel 400 befektető a csatornán, 50k+ közösségi média követő. Piaci napokon napi 3 fix üzenet (07:00, 15:15, 21:00, magyar idő szerint): mi történt és miért számít — makró adatok, negyedéves vállalati jelentések, iparági és vállalati elemzések, forráslinkkel. Nem headline-feed, hanem esemény + értelmezés. Készítő: Tamás Kovács (https://tamaskovacs.eu).
 
 ## Mit nyújt a Piacradar
 - Napi 3 összefoglaló a piacmozgató hírekről piaci napokon: Reggeli Brief (07:00), US Open Pulse (15:15), Esti Összefoglaló (21:00) — minden időpont magyar idő szerint.
@@ -44,7 +44,7 @@ Strukturált (JSON) formátum programozott feldolgozáshoz:
 - https://piacradar.eu/sitemap-1.xml — az összes indexelhető oldal
 
 ## Hozzáférés
-A Piacradar teljes Telegram-tartalma — napi elemzések, heti mélyelemzés, befektetési napló — a zárt Telegram-csatornában érhető el; a csatlakozás jelenleg ingyenes. A weboldalon a Pénzügyi Szótár és a Szombati Történetek bárki számára nyitva áll.
+A Piacradar teljes Telegram-tartalma — napi hírösszefoglalók, heti mélyelemzés, befektetési napló — a zárt Telegram-csatornában érhető el; a csatlakozás jelenleg ingyenes. A weboldalon a Pénzügyi Szótár és a Szombati Történetek bárki számára nyitva áll.
 
 ## Kapcsolat és hozzáférés
 - Weboldal: https://piacradar.eu/
