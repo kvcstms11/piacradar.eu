@@ -595,7 +595,7 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Azt méri, mennyit változik az opció ára, ha az alaptermék ára 1 dollárral elmodul. Call delta: 0 és 1 között, put delta: 0 és -1 között. Egy 0.50-es delta call azt jelenti, hogy az alaptermék $1-os emelkedésekor az opció ~$0.50-t drágul."
+    "text": "Azt méri, mennyit változik az opció ára, ha az alaptermék ára 1 dollárral elmozdul. Call delta: 0 és 1 között, put delta: 0 és -1 között. Egy 0.50-es delta call azt jelenti, hogy az alaptermék $1-os emelkedésekor az opció ~$0.50-t drágul."
    },
    {
     "title": "Miért fontos?",

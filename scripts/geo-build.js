@@ -1117,6 +1117,7 @@ ${groups}
   const n = glossary.filter((e) => e.slug).length;
   html = html
     .replace(/(<span id="termCount">)[^<]*(<\/span>)/, `$1${n}$2`)
+    .replace(/(<span id="heroTermCount">)[^<]*(<\/span>)/, `$1${n}$2`)
     .replace(/(<strong id="statVisible">)[^<]*(<\/strong>)/, `$1${n}$2`)
     .replace(/(<strong id="statTotal">)[^<]*(<\/strong>)/, `$1${n}$2`);
   fs.writeFileSync(p, html);

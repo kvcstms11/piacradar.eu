@@ -650,7 +650,7 @@ Hivatkozás: https://piacradar.eu/szotar/defi.html
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
 Hivatkozás: https://piacradar.eu/szotar/delta.html
 
-**Mi ez?** Azt méri, mennyit változik az opció ára, ha az alaptermék ára 1 dollárral elmodul. Call delta: 0 és 1 között, put delta: 0 és -1 között. Egy 0.50-es delta call azt jelenti, hogy az alaptermék $1-os emelkedésekor az opció ~$0.50-t drágul.
+**Mi ez?** Azt méri, mennyit változik az opció ára, ha az alaptermék ára 1 dollárral elmozdul. Call delta: 0 és 1 között, put delta: 0 és -1 között. Egy 0.50-es delta call azt jelenti, hogy az alaptermék $1-os emelkedésekor az opció ~$0.50-t drágul.
 
 **Miért fontos?** A market makerek delta-neutralitásra törekszenek: ha call-t adnak el, részvényt vesznek hedgingre (és fordítva). Ez a delta-hedging mechanikusan erősíti a piaci mozgásokat. A „dealer gamma exposure" (GEX) a delta-hedging intenzitását méri — pozitív gamma tompítja, negatív gamma felerősíti a mozgásokat.
 
