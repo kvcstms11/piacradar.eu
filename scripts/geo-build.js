@@ -458,9 +458,12 @@ const PAGE_HEAD_ICONS = `<link rel="icon" href="/favicon.ico" />
 const AUTHOR_NAME = 'Kovács Tamás';
 const AUTHOR_URL = `${SITE}/szerzo.html`;
 const AUTHOR_LD = { '@type': 'Person', name: AUTHOR_NAME, url: AUTHOR_URL };
-// A bemutatkozás kizárólag a tamaskovacs.eu-n szereplő tényekre épül.
+// Az első mondatot a szerző adta meg; a többi a tamaskovacs.eu-n szereplő tényekre épül.
+const AUTHOR_LEAD =
+  'Kovács Tamás közgazdász (MSc), 2020 óta aktív befektető a részvény- és a kriptopiacon, a Piacradar készítője.';
+const AUTHOR_JOB_TITLE = 'Közgazdász (MSc), befektető';
 const AUTHOR_BIO = [
-  'Kovács Tamás Ausztriában élő terméképítő és tartalomkészítő, a Piacradar készítője. Telekommunikációs mérnökként indult: 4G hálózati megoldások (segélyhívó rendszerek, NB-IoT) fejlesztésében vett részt. Később termékmenedzserként IoT smart parkingtól 5G magánhálózatokig és kiberbiztonsági portfóliókig vitt piacra termékeket, többek között a Vodafone Hungarynél és a Drei Austriánál.',
+  `${AUTHOR_LEAD} Telekommunikációs mérnökként indult: 4G hálózati megoldások (segélyhívó rendszerek, NB-IoT) fejlesztésében vett részt. Később termékmenedzserként IoT smart parkingtól 5G magánhálózatokig és kiberbiztonsági portfóliókig vitt piacra termékeket, többek között a Vodafone Hungarynél és a Drei Austriánál.`,
   'Jelenleg Product Ownerként egy SaaS cégnél nemzetközi repülőterek légiforgalmi irányítási szoftverén dolgozik. Emellett saját termékeit fejleszti — a Piacradart és az Ausztria Radart —, és videókat készít többek között osztrák hírekről, kriptóról, befektetésről, gazdaságról és technológiáról. A célja, hogy érthetően és tömören adja át, ami számít.',
 ];
 const AUTHOR_LINKS = [
@@ -1229,7 +1232,7 @@ function founderSameAs() {
 }
 
 function buildAuthorPage() {
-  const desc = shorten(AUTHOR_BIO.join(' '), 155);
+  const desc = AUTHOR_LEAD;
   const ld = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -1247,7 +1250,8 @@ function buildAuthorPage() {
         name: AUTHOR_NAME,
         alternateName: 'Tamás Kovács',
         url: AUTHOR_URL,
-        description: desc,
+        jobTitle: AUTHOR_JOB_TITLE,
+        description: AUTHOR_LEAD,
         sameAs: founderSameAs(),
       },
       {
