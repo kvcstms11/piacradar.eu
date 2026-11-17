@@ -11,7 +11,7 @@ Forrás: https://piacradar.eu/glossary.html
 
 ## Tartalomjegyzék kategóriánként
 
-Minden fogalom szerkezete azonos: "Mi ez?" · "Miért fontos?" · "Piacradar értelmezés".
+A fogalmak szakaszokból állnak: "Mi ez?" · "Miért fontos?" · "Piacradar értelmezés"; egyes fogalmaknál "Valós példa" és "Gyakori tévhit" is szerepel. Ahol van, a források a fogalom végén.
 
 
 ### Makró & jegybank (53) — https://piacradar.eu/szotar/kategoria-makro-jegybank.html

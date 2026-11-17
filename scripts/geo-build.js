@@ -3,7 +3,8 @@
  * GEO build — regenerates AI/SEO-discoverable artifacts from the source JSON.
  *
  * Inputs (repo root):
- *   - glossary-data.json   (array of { slug, title, category, sections:[{title,text}] })
+ *   - glossary-data.json   (array of { slug, title, category, sections:[{title,text}], sources?:[{label,url}] })
+ *                          Format and example: scripts/README.md
  *   - data.json            (array of stories { story_id, slug, title, category, story_text, takeaway, why_now, sent_at })
  *                          A slug fix: ha hiányzik, előbb a content-dates.json-ból állítjuk vissza
  *                          (story_id szerint), csak új történetnél generáljuk a címből — és visszaírjuk.
@@ -164,6 +165,14 @@ const esc = (s) =>
     .replace(/"/g, '&quot;');
 
 const termUrl = (slug) => `${SITE}/${TERM_DIR}/${slug}.html`;
+
+// Opcionális források egy fogalomnál: csak a címkével és http(s) URL-lel rendelkezők számítanak
+const termSources = (e) =>
+  (Array.isArray(e.sources) ? e.sources : []).filter(
+    (x) => x && typeof x === 'object' && clean(x.label) && /^https?:\/\//i.test(String(x.url || '').trim())
+  );
+// ÉÉÉÉ-HH-NN -> ÉÉÉÉ.HH.NN.
+const huDate = (iso) => (iso ? `${iso.replace(/-/g, '.')}.` : '');
 
 // ---------- Kategória-segédfüggvények ----------
 const slugify = (s) =>
@@ -403,6 +412,9 @@ h1{font-size:30px;line-height:1.15;letter-spacing:-.4px;margin:0 0 6px}
 .kick:hover{border-color:rgba(94,234,212,.35);color:var(--text)}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
 .byline{margin:-2px 0 18px;font-size:13px;color:var(--muted)}
+.srcs ul{margin:0;padding-left:18px}
+.srcs li{margin:4px 0;font-size:14px}
+.srcs a{color:var(--accent);text-decoration:underline;word-break:break-word}
 .byline a{color:var(--accent);text-decoration:none}
 .byline a:hover{text-decoration:underline}
 .lead{color:rgba(255,255,255,.78);font-size:15px;margin:0 0 20px;max-width:62ch}
@@ -469,7 +481,7 @@ const PAGE_FOOTER = `  <footer>
   </footer>`;
 
 // ---------- Individual term pages ----------
-function termPageHTML(entry, prev, next, linkIndex, inCat) {
+function termPageHTML(entry, prev, next, linkIndex, inCat, modified) {
   const secs = Array.isArray(entry.sections) ? entry.sections : [];
   const first = secs.length && secs[0] && typeof secs[0] === 'object' ? secs[0].text : '';
   const desc = shorten(first, 155);
@@ -477,6 +489,7 @@ function termPageHTML(entry, prev, next, linkIndex, inCat) {
   const cat = catOf(entry);
   const hasCat = Boolean(entry.category);
 
+  const srcs = termSources(entry);
   const crumbItems = [
     { '@type': 'ListItem', position: 1, name: 'Piacradar', item: `${SITE}/` },
     { '@type': 'ListItem', position: 2, name: 'Pénzügyi Szótár', item: `${SITE}/glossary.html` },
@@ -496,6 +509,10 @@ function termPageHTML(entry, prev, next, linkIndex, inCat) {
         name: entry.title,
         inLanguage: 'hu',
         author: AUTHOR_LD,
+        ...(modified ? { dateModified: modified } : {}),
+        ...(srcs.length
+          ? { citation: srcs.map((x) => ({ '@type': 'CreativeWork', name: clean(x.label), url: String(x.url).trim() })) }
+          : {}),
         mainEntity: { '@id': `${url}#term` },
       },
       {
@@ -533,6 +550,19 @@ function termPageHTML(entry, prev, next, linkIndex, inCat) {
 
   // Kapcsolódó fogalmak ugyanebből a kategóriából
   const rel = relatedTerms(entry, inCat || [], 6);
+  // Források a szakaszok után (csak ha vannak)
+  const srcBlock = srcs.length
+    ? `        <section class="sec srcs">
+          <h2>Források</h2>
+          <ul>
+${srcs.map((x) => `            <li><a href="${esc(String(x.url).trim())}" target="_blank" rel="noopener">${esc(clean(x.label))}</a></li>`).join('\n')}
+          </ul>
+        </section>`
+    : '';
+  const byline = `<p class="byline">Szerző: <a href="/szerzo.html" rel="author">${AUTHOR_NAME}</a>${
+    modified ? ` · Frissítve: <time datetime="${modified}">${huDate(modified)}</time>` : ''
+  }</p>`;
+
   const relBlock = rel.length
     ? `
   <div class="rel">
@@ -593,9 +623,9 @@ ${JSON.stringify(ld, null, 2)}
 
   ${catBadge}
   <h1>${esc(entry.title)}</h1>
-  ${BYLINE}
+  ${byline}
 
-${body}
+${body}${srcBlock ? `\n${srcBlock}` : ''}
 ${relBlock}
   <div class="pn-row">
     ${nav.join('\n    ')}
@@ -911,7 +941,7 @@ ${cards}
 }
 
 // ---------- Page generation ----------
-function buildPages(glossary) {
+function buildPages(glossary, dates) {
   if (!fs.existsSync(TERM_DIR)) fs.mkdirSync(TERM_DIR, { recursive: true });
   const linkIndex = buildLinkIndex(glossary);
   const cats = orderedCategories(glossary);
@@ -929,7 +959,7 @@ function buildPages(glossary) {
   sorted.forEach((e, i) => {
     if (!e.slug) return;
     const inCat = byCat.get(catOf(e)) || [];
-    const html = termPageHTML(e, sorted[i - 1] || null, sorted[i + 1] || null, linkIndex, inCat);
+    const html = termPageHTML(e, sorted[i - 1] || null, sorted[i + 1] || null, linkIndex, inCat, dates.dateOf(`szotar/${e.slug}`));
     fs.writeFileSync(path.join(TERM_DIR, `${e.slug}.html`), html);
     wanted.add(`${e.slug}.html`);
   });
@@ -1390,7 +1420,7 @@ function buildLlmsFull(glossary, stories, slugs) {
   const cats = orderedCategories(glossary);
 
   out.push('## Tartalomjegyzék kategóriánként\n');
-  out.push('Minden fogalom szerkezete azonos: "Mi ez?" · "Miért fontos?" · "Piacradar értelmezés".\n');
+  out.push('A fogalmak szakaszokból állnak: "Mi ez?" · "Miért fontos?" · "Piacradar értelmezés"; egyes fogalmaknál "Valós példa" és "Gyakori tévhit" is szerepel. Ahol van, a források a fogalom végén.\n');
   for (const c of cats) {
     const inCat = sorted.filter((e) => catOf(e) === c);
     out.push(`\n### ${c} (${inCat.length}) — ${catUrl(c)}`);
@@ -1409,6 +1439,8 @@ function buildLlmsFull(glossary, stories, slugs) {
         else if (tx) out.push(`\n${tx}`);
       }
     }
+    const srcs = termSources(e);
+    if (srcs.length) out.push(`\n**Források:** ${srcs.map((x) => `${clean(x.label)} (${String(x.url).trim()})`).join(' · ')}`);
   }
 
   out.push(`\n\n# Szombati Történetek (${stories.length} történet)\n`);
@@ -1432,7 +1464,6 @@ function main() {
   const stories = readJSON('data.json');
 
   const { slugs, added: slugsAdded } = storySlugs(stories);
-  const pages = buildPages(glossary);
   const gLen = embedLD('glossary.html', glossaryLD(glossary));
   const catLinks = embedCategoryLinks(glossary);
   const listed = embedGlossaryList(glossary);
@@ -1443,6 +1474,7 @@ function main() {
   const consent = injectConsent();
   // A dátumokat a kézzel szerkesztett oldalak frissítése után számoljuk
   const dates = updateContentDates(glossary, stories, slugs);
+  const pages = buildPages(glossary, dates);
   const sLen = embedLD('stories.html', storiesLD(stories, slugs, dates));
   const storyCards = embedStoryList(stories, slugs);
   const storyPages = buildStoryPages(stories, slugs, dates);
