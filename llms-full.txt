@@ -240,11 +240,17 @@ Hivatkozás: https://piacradar.eu/szotar/ten-year-yield.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/adp.html
 
-**Mi ez?** Az ADP (Automatic Data Processing) bérszámfejtő cég havi jelentése a magánszektorbeli új munkahelyek számáról. A hivatalos NFP adat előtt 2 nappal jelenik meg, ezért gyakran előrejelzőként kezelik.
+**Mi ez?** Az ADP (Automatic Data Processing) amerikai bérszámfejtő cég havi jelentése arról, hány munkahely jött létre a magánszektorban. A cég a saját ügyfeleinek bérszámfejtési adataiból számol, és a jelentés általában szerdán jelenik meg, két nappal a hivatalos munkaerőpiaci adat (NFP) előtt.
 
-**Miért fontos?** Az ADP adat a munkaerőpiac állapotáról ad előzetes képet. Erős szám a kamatcsökkentési várakozásokat tompíthatja, gyenge szám lassulást jelezhet.
+**Miért fontos?** Ez az első kemény adat a hónap munkaerőpiacáról, ezért a piac az NFP előzeteseként kezeli. Csakhogy más a módszertana: nem a kormányzati statisztikai hivatal (BLS) felméréséből dolgozik, és az állami szektort sem tartalmazza. A két szám rendszeresen eltér, néha nagyon.
 
-**Piacradar értelmezés** A Piacradar az ADP-t az NFP összefüggésében értelmezi — önmagában nem megbízható előrejelző, de a trend iránya fontos kontextus.
+**Valós példa** 2023. július 6-án az ADP 497 ezer új magánszektorbeli munkahelyet jelentett júniusra. A tízéves amerikai hozam 4% fölé ugrott, a részvények esésben zártak, mert a piac túlfűtött munkaerőpiacra és további Fed-emelésekre következtetett. Másnap a hivatalos NFP mindössze 209 ezret mutatott, a Dow Jones-konszenzus szerinti 240 ezer alatt. Egy nap alatt kiderült, hogy az ADP-re épülő félelem túlzott volt.
+
+**Gyakori tévhit** Sokan úgy kezelik, mintha az ADP megjósolná az NFP-t. A két adatsor iránya hosszabb távon hasonló, de egy-egy hónapban akár több százezres különbség is lehet köztük. Önmagában nem érdemes rá pozíciót építeni.
+
+**Piacradar értelmezés** Hangulatjelzőként érdemes olvasni, nem előrejelzőként. Ha az ADP és a heti munkanélküli-segélykérelmek ugyanabba az irányba mutatnak, annak van súlya. Ha az ADP egyedül lóg ki, a piac reakciója gyakran túlzó, és az NFP másnap korrigálja.
+
+**Források:** ADP National Employment Report (https://adpemploymentreport.com/) · Axios – ADP redesigned its jobs report and it's moving markets (2023.07.06.) (https://www.axios.com/2023/07/06/adp-national-employment-report-june-2023) · National Mortgage Professional – Jobs increase by 209,000 in June (2023.07.07.) (https://nationalmortgageprofessional.com/news/jobs-increase-209000-june) · CNBC – June 2023 jobs report (2023.07.07.) (https://www.cnbc.com/2023/07/07/jobs-report-june-2023-.html)
 
 ## Altcoin
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -290,11 +296,17 @@ Hivatkozás: https://piacradar.eu/szotar/aum.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/average-hourly-earnings.html
 
-**Mi ez?** Az amerikai dolgozók átlagos órabérének havi változása. A bérinfláció egyik legfontosabb mutatója.
+**Mi ez?** Az amerikai magánszektorban dolgozók átlagos órabére (average hourly earnings, AHE). A havi munkaerőpiaci jelentés (NFP) része, és havi, valamint éves változásként közlik. A bérinfláció leggyorsabban elérhető mutatója.
 
-**Miért fontos?** Gyorsuló bérnövekedés inflációs nyomást jelez, lassuló bérnövekedés enyhülést. A Fed kiemelten figyeli.
+**Miért fontos?** A bérek a szolgáltatások árának legnagyobb költségelemei. Ha a bérek tartósan gyorsabban nőnek, mint a termelékenység, a cégek áthárítják a költséget, és az infláció beragad. A Fed ezért nemcsak a munkahelyek számát, hanem a bérek ütemét is figyeli. A piac különösen a havi változásra érzékeny, mert az gyorsabban jelzi a fordulatot, mint az éves szám.
 
-**Piacradar értelmezés** A Piacradar az órabéreket az NFP és a CPI összefüggéseiben értelmezi.
+**Valós példa** 2018. február 2-án a januári jelentés 2,9%-os éves bérnövekedést mutatott, a legnagyobbat 2009 óta. A befektetők gyorsabb Fed-emelésekre kezdtek számítani, a hozamok négyéves csúcsra mentek, a Dow Jones 666 pontot (2,5%-ot) esett, és két év legrosszabb hetét zárta. Egy önmagában jó hír, a magasabb fizetés, a tőzsdén rossz hírként csapódott le.
+
+**Gyakori tévhit** Az órabér-átlag nem azt mutatja, mennyit keres egy tipikus dolgozó. Ha főleg alacsony bérű állások szűnnek meg, az átlag nőhet, miközben senkinek nem emelkedett a fizetése. Ezt összetételhatásnak hívják, és válságos hónapokban erősen torzíthat.
+
+**Piacradar értelmezés** Az órabért mindig az inflációval együtt olvasd. Ha a bérnövekedés az infláció alatt van, a háztartások reálértékben szegényednek, és ez előbb-utóbb a fogyasztásban is megjelenik. Ha felette, és közben a munkahelyek száma is erős, a Fednek nincs oka lazítani.
+
+**Források:** BLS – Current Employment Statistics (https://www.bls.gov/ces/) · CNBC – Dow plummets 666 points, capping worst week in 2 years (2018.02.02.) (https://www.cnbc.com/2018/02/02/us-futures-move-lower-as-investors-worry-about-rising-yields.html)
 
 ## Bank of England (BoE)
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -490,11 +502,17 @@ Hivatkozás: https://piacradar.eu/szotar/call.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/capex.html
 
-**Mi ez?** A capex (capital expenditure) olyan tőkeberuházás, amely hosszabb távon termel értéket: gyár, gépek, adatközpont, hálózat, infrastruktúra, AI‑kapacitás stb. Nem azonnali költségként jelenik meg, hanem aktiválják, és évek alatt értékcsökkenésen keresztül fut át.
+**Mi ez?** A capex (capital expenditure) olyan kiadás, amellyel a cég hosszú távon használt eszközt vásárol vagy épít: gyárat, gépet, adatközpontot, hálózatot. Nem az adott év költségeként jelenik meg az eredménykimutatásban, hanem aktiválják, és évek alatt, értékcsökkenésként fut át rajta. A pénzforgalmi kimutatásban viszont azonnal látszik.
 
-**Miért fontos?** A magas capex lehet növekedési jel (kapacitásbővítés, új termék, AI‑beruházás), de lehet margin‑nyomás is, ha a megtérülés gyenge. A piac azt figyeli, hogy a beruházások hozama meghaladja‑e a tőkeköltséget (WACC). Ha igen, értékteremtő; ha nem, cash‑égetés.
+**Miért fontos?** A szabad cash flow (FCF) a működési cash flow és a capex különbsége. Ha a capex gyorsabban nő, mint a működésből befolyó pénz, az FCF csökken, és a cégnek hitelből vagy részvénykibocsátásból kell finanszíroznia a növekedést. A kérdés mindig az, hogy a beruházás hozama meghaladja-e a tőke költségét.
 
-**Piacradar értelmezés** A Piacradar a capexet a szabad cash flow tükrében olvassa: a beruházás növekedési sztorit építhet, de rövid távon rontja a készpénztermelést. Az earnings hívásokon elhangzó capex-előrejelzés a ciklusérzékenység egyik legjobb indikátora.
+**Valós példa** 2022. október 26-án a Meta a harmadik negyedéves jelentésében 34–39 milliárd dolláros capexet jelzett 2023-ra, a 2022-re várt 32–33 milliárd után. Közben a bevétel 4%-kal 27,7 milliárd dollárra csökkent, a nettó eredmény 52%-kal 4,4 milliárdra esett. A befektetők a csökkenő profit mellett növekvő beruházást nem díjazták: a részvény másnap 97,94 dolláron zárt, 24,5%-os eséssel.
+
+**Gyakori tévhit** A magas capex önmagában se nem jó, se nem rossz. Egy cég, amely azért nem költ, mert nincs hova növekednie, ugyanúgy figyelmeztető jel lehet, mint az, amelyik megtérülés nélkül költ.
+
+**Piacradar értelmezés** Mindig a cash flow-val együtt nézzük. Az a jó beruházó, aki a capexet a saját működéséből fizeti, és közben nő a ROIC. Ha a capex/működési cash flow arány tartósan 80% fölé megy, érdemes megnézni, honnan jön a pénz.
+
+**Források:** Meta – Third Quarter 2022 Results (SEC 8-K, 99.1) (https://www.sec.gov/Archives/edgar/data/1326801/000132680122000105/meta09302022-exhibit991.htm) · CNBC – Meta shares plunge 24% (2022.10.27.) (https://www.cnbc.com/2022/10/27/meta-stock-falls-23percent-on-earnings-miss-analyst-downgrades.html)
 
 ## Capitulation / Dead Cat Bounce
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -600,11 +618,17 @@ Hivatkozás: https://piacradar.eu/szotar/core-pce.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/cpi.html
 
-**Mi ez?** A CPI azt méri, mennyivel változtak a fogyasztói árak egy év alatt. A legszélesebb körben használt inflációs mutató, amely az élelmiszer-, energia- és szolgáltatásárakat is tartalmazza.
+**Mi ez?** A fogyasztói árindex (Consumer Price Index) egy tipikus amerikai háztartás kosarának árát követi: élelmiszer, energia, lakhatás, szolgáltatások. Havonta közli a statisztikai hivatal (BLS), és két számot szokás figyelni: a havi változást és az egy évvel korábbihoz mért változást. A maginfláció (core CPI) az élelmiszer és az energia nélkül számol.
 
-**Miért fontos?** A CPI közvetlenül befolyásolja a jegybanki kamatpolitikát. A 2% körüli érték dovish, a gyorsuló infláció hawkish irányba tolja a kamatpályát. A piac különösen figyeli a havi változást és a maginflációs komponenseket.
+**Miért fontos?** Ez a legismertebb inflációs adat, és ez jelenik meg először a hónapban, ezért a piac erre reagál a legerősebben. A kötvényhozamok és a kamatvárakozások percek alatt átárazódnak egy meglepetésre. A havi maginfláció különösen fontos, mert az mutatja, mennyire ragadós az árnyomás.
 
-**Piacradar értelmezés** A Piacradar a CPI-t a várakozásokhoz viszonyítja: a vártnál magasabb adat szigorúbb kamatpályát jelez (bearish kötvény, vegyes részvény), a vártnál alacsonyabb adat lazább monetáris környezetet vetít előre (bullish kötvény, vegyes részvény).
+**Valós példa** 2022. szeptember 13-án az augusztusi CPI 8,3%-os éves inflációt mutatott a várt 8,1% helyett, a maginfláció havonta 0,6%-kal nőtt, nagyjából kétszer annyival, mint amire számítottak. Aznap az S&P 500 4,3%-ot, a Nasdaq 5,2%-ot, a Dow Jones 1276 pontot esett. Ez volt az S&P 500 és a Nasdaq legrosszabb napja 2020 júniusa óta.
+
+**Gyakori tévhit** A Fed 2%-os célja nem a CPI-re, hanem a PCE-árindexre vonatkozik. A CPI általában magasabb, mert nagyobb súllyal szerepel benne a lakhatás. Egy 2% körüli CPI tehát önmagában nem jelenti, hogy a Fed elérte a célját.
+
+**Piacradar értelmezés** A szám önmagában keveset mond, a várakozáshoz képesti eltérés mozgatja a piacot. A főszám helyett nézd a havi maginflációt és a szolgáltatásokat: ha ezek nem lassulnak, a kamatpálya sem lesz lazább, akármit mutat az energiaárak miatt ingadozó főszám.
+
+**Források:** BLS – Consumer Price Index (https://www.bls.gov/cpi/) · Axios – Inflation rises in August as gas prices cool (2022.09.13.) (https://www.axios.com/2022/09/13/cpi-inflation-august) · UPI – Dow plunges 1,276 points in worst day since June 2020 (2022.09.13.) (https://www.upi.com/Top_News/US/2022/09/13/Dow-plunges-1276-points-in-worst-day-since-June-2020/1601663103235/)
 
 ## Current Account
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -870,11 +894,17 @@ Hivatkozás: https://piacradar.eu/szotar/fiskalis-politika.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/fomc-meeting.html
 
-**Mi ez?** A Federal Open Market Committee (FOMC) az amerikai jegybank döntéshozó testülete, amely évente 8 alkalommal ülésezik és meghatározza a monetáris politika irányát.
+**Mi ez?** A Federal Open Market Committee (FOMC) a Fed kamatdöntő testülete, amely évente nyolc rendes ülést tart. Az ülés végén közleményt adnak ki az irányadó kamatsávról, utána a Fed elnöke sajtótájékoztatót tart. Negyedévente a tagok kamat- és gazdasági előrejelzéseit is közlik (dot plot).
 
-**Miért fontos?** A FOMC döntései határozzák meg a kamatpályát, a likviditási környezetet és a gazdasági kilátásokat. A piac kiemelten figyeli a közleményt és a sajtótájékoztatót.
+**Miért fontos?** Az irányadó kamat határozza meg a dollár árát, és ezen keresztül a hiteleket, a kötvényhozamokat és a részvények értékelését. A piac legtöbbször előre beárazza a döntést, ezért a közlemény szóhasználata, a sajtótájékoztató hangneme és a dot plot változása mozgat többet, mint maga a kamatlépés.
 
-**Piacradar értelmezés** A Piacradar a FOMC üléseket a kamatvárakozások és a monetáris narratíva fő forrásaként kezeli.
+**Valós példa** 2022. június 15-én a Fed 75 bázisponttal, 1,50–1,75%-ra emelte a kamatsávot. Ez volt a legnagyobb emelés 1994 óta. A háttérben a májusi 8,6%-os infláció állt, négy évtizede nem látott szint. A dot plot az év végére 3,4%-os kamatot jelzett, másfél százalékponttal többet, mint márciusban, és egy szavazó (Esther George) csak fél pontot támogatott volna.
+
+**Gyakori tévhit** A kamatemelés nem feltétlenül rossz a tőzsdének aznap. Ha a piac nagyobb lépésre vagy keményebb hangra készült, egy emelés után is emelkedhetnek az árak. A meglepetés számít, nem az irány.
+
+**Piacradar értelmezés** A döntés előtt nézd meg, mit áraz a határidős piac (CME FedWatch), és a döntés után azt, hogy a közlemény és a dot plot ehhez képest szigorúbb vagy lazább. A sajtótájékoztató első percei gyakran megfordítják a közlemény utáni első reakciót.
+
+**Források:** Federal Reserve – FOMC (https://www.federalreserve.gov/monetarypolicy/fomc.htm) · NBC – Fed hikes its benchmark interest rate by three-quarters of a point (2022.06.15.) (https://www.nbcbayarea.com/news/business/money-report/fed-hikes-its-benchmark-interest-rate-by-three-quarters-of-a-point-the-biggest-increase-since-1994/2920212/?amp=1) · Investing.com – Key takeaways from the Fed's rate-hike decision (2022.06.15.) (https://www.investing.com/news/economy/key-takeaways-from-the-feds-ratehike-decision-and-forecasts-2837524)
 
 ## FOMO – Kimaradástól való félelem
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -980,11 +1010,17 @@ Hivatkozás: https://piacradar.eu/szotar/gas-fee.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/gdp.html
 
-**Mi ez?** A bruttó hazai termék egy adott időszakban megtermelt javak és szolgáltatások összértéke. Negyedévente, három egymást követő becslésben jelenik meg. Az inflációval kiigazított reál-GDP a mérvadó.
+**Mi ez?** A bruttó hazai termék (gross domestic product) egy ország adott időszakban megtermelt javainak és szolgáltatásainak összértéke. Az Egyesült Államokban a BEA negyedévente közli, három egymást követő becslésben, és a negyedéves változást évesített ütemként adja meg. Az inflációval kiigazított reál-GDP a mérvadó.
 
-**Miért fontos?** A GDP a gazdaság tényleges teljesítményét mutatja, és a jegybanki mérlegelés egyik pillére. Két egymást követő negatív negyedév a recesszió technikai definíciója, ami a vállalati eredményvárakozások átárazását indítja el.
+**Miért fontos?** Ez a gazdaság legátfogóbb teljesítménymutatója, a vállalati eredmények közvetett alapja. Az összetétele legalább annyira fontos, mint a főszám: a fogyasztás és a beruházás tartós keresletet jelez, a készletek és a külkereskedelem viszont negyedévről negyedévre nagyot ingadozhat.
 
-**Piacradar értelmezés** A Piacradar a főszám mögötti összetételt nézi: a fogyasztás és a beruházás tartós növekedést jelez, míg a készletfelhalmozásból vagy külkereskedelmi eltolódásból származó ugrás átmeneti lehet. Az erős GDP magasabb kamatpályát, a gyenge risk-off hangulatot vetít előre.
+**Valós példa** 2022. július 28-án a BEA első becslése szerint a reál-GDP a második negyedévben évesítve 0,9%-kal csökkent, miután az első negyedévben 1,6%-kal esett. Ez két egymást követő negatív negyedév volt, amit sokan a recesszió definíciójának tekintenek. Hivatalos recessziót mégsem hirdettek ki.
+
+**Gyakori tévhit** Az Egyesült Államokban a recessziót nem két negatív negyedév határozza meg, hanem a független NBER bizottsága, amely a foglalkoztatást, a jövedelmeket és a fogyasztást is vizsgálja. A 2022-es két negatív negyedévet a bizottság nem minősítette recessziónak.
+
+**Piacradar értelmezés** Az első becslést kezeld óvatosan, mert a későbbi revíziók jelentősen módosíthatják. A főszám mögött nézd meg a magánszektor végső keresletét (fogyasztás és beruházás): ha ez erős, egy negatív főszám is lehet átmeneti zaj.
+
+**Források:** BEA – Gross Domestic Product, Second Quarter 2022 (Advance Estimate) (https://bea.gov/news/2022/gross-domestic-product-second-quarter-2022-advance-estimate) · NBER – Business Cycle Dating (https://www.nber.org/research/business-cycle-dating) · CNBC – The economy may look like it's in a recession, but we still don't know for sure (2022.07.28.) (https://www.cnbc.com/2022/07/28/the-economy-may-look-like-its-in-recession-but-we-still-dont-know-for-sure.html)
 
 ## GENIUS Act
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -1050,11 +1086,17 @@ Hivatkozás: https://piacradar.eu/szotar/hashrate.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/hawkish.html
 
-**Mi ez?** Jegybanki kommunikációs stílus, amely szigorítási szándékot jelez: kamatemelést, a kamatok tartósan magasan tartását vagy a likviditás szűkítését. Ellentéte a dovish (galamb) hangvétel.
+**Mi ez?** Héja hangvétel: így nevezik a jegybanki kommunikációt, amely szigorítást jelez, vagyis kamatemelést, a kamatok tartósan magasan tartását vagy a likviditás szűkítését. Az ellentéte a galamb (dovish) hangvétel. Nem egy adatra vagy döntésre, hanem a jegybank szándékára utal.
 
-**Miért fontos?** A hawkish fordulat emeli a kötvényhozamokat és általában erősíti a devizát, mert szigorúbb pénzügyi környezetet vetít előre. A piac gyakran már a szóhasználatra reagál, jóval a tényleges kamatdöntés előtt.
+**Miért fontos?** A piac a jövőt árazza, ezért egy szigorúbb mondat a sajtótájékoztatón azonnal emelheti a kötvényhozamokat és erősítheti a devizát, még a tényleges kamatdöntés előtt. A legérzékenyebbek a távoli jövőbeli nyereségre árazott növekedési részvények, mert náluk a magasabb diszkontráta erősen csökkenti a mai értéket.
 
-**Piacradar értelmezés** A Piacradar a hawkish jelzést a várakozásokhoz méri: ha a jegybank a vártnál szigorúbb hangot üt meg, az jellemzően bearish a hosszú kötvényekre és a növekedési részvényekre, miközben a devizát erősíti. A hangnem változása gyakran többet mozdít a piacon, mint maga a döntés.
+**Valós példa** 2022. augusztus 26-án Jerome Powell a Jackson Hole-i konferencián rövid, határozott beszédet tartott: a kamatokat egy ideig a gazdaságot lassító szinten kell tartani, és addig folytatják, amíg a munka nincs elvégezve. A piac addig a lazítás közelségében reménykedett. A Dow Jones 1008 pontot (kb. 3%-ot), az S&P 500 3,4%-ot, a Nasdaq 3,9%-ot esett.
+
+**Gyakori tévhit** A hawkish nem egyenlő a kamatemeléssel. Egy kamattartás is lehet hawkish, ha a jegybank további emeléseket jelez, egy emelés pedig galambnak hathat, ha kisebb, mint amire a piac készült.
+
+**Piacradar értelmezés** Mindig a beárazott várakozáshoz mérj. Ha a hangnem szigorúbb annál, amit a határidős piac áraz, az a hosszú kötvényekre és a növekedési részvényekre rossz, a devizának jó. A változás iránya többet számít, mint a szint.
+
+**Források:** Arkansas Democrat-Gazette (AP) – Dow Jones falls 1,008 as interest rates stay high (2022.08.26.) (https://www.arkansasonline.com/news/2022/aug/26/dow-jones-falls-1008-as-interest-rates-stay-high/) · MarketBeat (AP) – S&P 500 drops after Fed chief says more rate hikes coming (2022.08.26.) (https://www.marketbeat.com/articles/sp-500-drops-3-after-fed-chief-says-more-rate-hikes-coming-2022-08-26)
 
 ## Hedge – Fedezeti ügylet
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1430,21 +1472,33 @@ Hivatkozás: https://piacradar.eu/szotar/move-index.html
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
 Hivatkozás: https://piacradar.eu/szotar/mozgoatlag.html
 
-**Mi ez?** Egy adott időszak záróárainak átlaga, amely naponta gördül előre. Angolul moving average (MA). Az egyszerű változat minden napot azonos súllyal vesz figyelembe, az exponenciális (EMA) a frissebb adatokat nagyobb súllyal.
+**Mi ez?** Egy adott számú időszak záróárainak átlaga, amely minden nappal egyet előre gördül (moving average, MA). Az egyszerű mozgóátlag (SMA) minden napot azonos súllyal számol, az exponenciális (EMA) a frissebb árakat nagyobb súllyal. A leggyakrabban figyelt szintek az 50, a 100 és a 200 napos átlag.
 
-**Miért fontos?** A mozgóátlag kisimítja a napi zajt és a trend irányát mutatja. A leggyakrabban figyelt szintek az 50, a 100 és a 200 napos átlag; ezek gyakran dinamikus támaszként vagy ellenállásként viselkednek, mert sok piaci szereplő ugyanazt a vonalat nézi.
+**Miért fontos?** Kisimítja a napi zajt, és megmutatja a trend irányát. Mivel sok piaci szereplő ugyanazt a vonalat nézi, a nagy átlagok gyakran támaszként vagy ellenállásként viselkednek. Két átlag keresztezése külön nevet is kapott: ha az 50 napos átlag a 200 napos alá megy, az a halálkereszt (death cross), fordítva aranykereszt (golden cross).
 
-**Piacradar értelmezés** A Piacradar a 200 napos és a 200 hetes átlagot hosszú távú trendhatárként kezeli: a fölötte tartózkodás emelkedő szerkezetet jelez, az alatta ragadás gyengülő trendet. Az átlag átlépése önmagában nem fordulat — a megerősítést a szint megtartása adja.
+**Valós példa** Az S&P 500 2022. március 14-én rajzolt halálkeresztet, és a lejtmenet folytatódott: a 2022. január 3-án kezdődött medvepiac október 12-ig tartott, ezalatt az index 25,4%-ot esett. A jelzés mégsem megbízható jóslat. A Bank of America közel százéves adatai szerint a halálkereszt után 20 nappal az index csak az esetek 52%-ában volt lejjebb, átlagosan mindössze 0,5%-kal. A Reuters adatai szerint az elmúlt nagyjából ötven év 24 halálkeresztjéből 46%-nál mélyült tovább az esés.
+
+**Gyakori tévhit** A keresztezés nem jóslat. A mozgóátlag késik, mert múltbeli árakból számol, így a jelzés gyakran akkor jön, amikor a mozgás nagy része már lezajlott.
+
+**Piacradar értelmezés** Trendszűrőként használjuk, nem belépési jelként. A 200 napos és a 200 hetes átlag fölött tartózkodó piac emelkedő szerkezetű, alatta gyengülő. Egy átlag átlépése önmagában kevés: a szint megtartása vagy visszaszerzése adja a megerősítést.
+
+**Források:** Reuters (Kitco) – S&P 500's looming 'death cross' may not be as ominous as it sounds (2025.04.14.) (https://www.kitco.com/news/off-the-wire/2025-04-14/sp-500s-looming-death-cross-may-not-be-ominous-it-sounds-analysts-say) · Yardeni QuickTakes – S&P 500's comeback kids (https://www.yardeniquicktakes.com/s-p-500s-comeback-kids/)
 
 ## NFP – Nem mezőgazdasági foglalkoztatás
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/nfp.html
 
-**Mi ez?** Az NFP az USA havi foglalkoztatási adatainak legfontosabb mutatója, amely azt méri, hány munkahely jött létre vagy szűnt meg a mezőgazdaságon kívüli szektorokban.
+**Mi ez?** A nonfarm payrolls (NFP) azt mutatja, hány munkahely jött létre vagy szűnt meg az Egyesült Államokban a mezőgazdaságon kívül az előző hónapban. A statisztikai hivatal (BLS) havi munkaerőpiaci jelentésének (Employment Situation) része, általában a hónap első péntekén jelenik meg, a munkanélküliségi rátával és az órabérekkel együtt.
 
-**Miért fontos?** 200k felett erős, 100k alatt gyenge munkaerőpiacot jelez. Az NFP közvetlenül befolyásolja a Fed kamatpályáját: erős adat hawkish, gyenge adat dovish irányba tolja a várakozásokat.
+**Miért fontos?** A Fed kettős mandátumának egyik fele a foglalkoztatás, ezért ez az adat közvetlenül befolyásolja a kamatpályát. Az erős szám szigorúbb, a gyenge lazább monetáris politikát vetít előre. A korábbi hónapok revíziói gyakran ugyanannyit mozgatnak, mint maga az új szám.
 
-**Piacradar értelmezés** A Piacradar az NFP-t mindig az előrejelzéshez és az előző havi értékhez viszonyítja. A vártnál magasabb adat szigorúbb kamatpályát jelez (bearish kötvény, vegyes részvény), a vártnál gyengébb adat lazább monetáris környezetet vetít előre (bullish kötvény, vegyes részvény).
+**Valós példa** 2024. augusztus 2-án a júliusi jelentés mindössze 114 ezer új munkahelyet mutatott a várt 185 ezer helyett, a munkanélküliségi ráta 4,3%-ra nőtt, a legmagasabbra 2021 óta. A recessziótól való félelem eladási hullámot indított: a Dow Jones 610 pontot (1,5%-ot), az S&P 500 1,8%-ot esett, a Nasdaq 2,4%-kal korrekciós zónába került.
+
+**Gyakori tévhit** Az erős NFP nem mindig jó hír a tőzsdének. Magas infláció mellett az erős munkaerőpiac több kamatemelést jelent, és a részvények eshetnek rá. A gyenge szám pedig egyszerre jelenthet lazítást és recessziós kockázatot, attól függően, mitől fél éppen a piac.
+
+**Piacradar értelmezés** Három dolgot nézz egyszerre: a meglepetést a várakozáshoz képest, az előző két hónap revízióját és a munkanélküliségi ráta irányát. Ha mindhárom ugyanarra mutat, a jelzés erős. Ha ellentmondanak egymásnak, a piac első reakciója gyakran megfordul.
+
+**Források:** BLS – The Employment Situation (https://www.bls.gov/news.release/empsit.toc.htm) · ABC11 – Recession fears grow after jobs report falls short of expectations (2024.08.02.) (https://abc11.com/post/economy-recession-fears-grow-after-jobs-report-falls-short-expectations-stocks-plummet/15137866/)
 
 ## NII – Nettó kamatbevétel (Net Interest Income)
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1580,11 +1634,17 @@ Hivatkozás: https://piacradar.eu/szotar/participation-rate.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/pce.html
 
-**Mi ez?** A PCE a személyes fogyasztási kiadások árindexe, a Fed hivatalos inflációs célmutatója.
+**Mi ez?** A személyes fogyasztási kiadások árindexe (Personal Consumption Expenditures Price Index), amelyet a gazdasági elemzési hivatal (BEA) közöl havonta, általában néhány héttel a CPI után. Szélesebb kört fed le, mint a CPI, mert azt is tartalmazza, amit a háztartások helyett más fizet, például a munkáltató által fizetett egészségügyi kiadásokat.
 
-**Miért fontos?** A Fed a 2%-os inflációs célját a PCE-ben méri, nem a CPI-ben. A PCE szélesebb kosarat fed le és a fogyasztói helyettesítést is figyelembe veszi.
+**Miért fontos?** A Fed 2%-os inflációs célja hivatalosan a PCE-re vonatkozik. A jegybank ezért ezt, és különösen a maginflációs változatát (core PCE) tekinti a legfontosabb árnyomás-mutatónak. Mivel a súlyozás havonta igazodik ahhoz, mire költenek ténylegesen az emberek, a PCE általában alacsonyabb, mint a CPI.
 
-**Piacradar értelmezés** A Piacradar a PCE-t a Fed-kamatpálya szempontjából legfontosabb inflációs adatként kezeli.
+**Valós példa** 2023. február 24-én a januári adat szerint a maginfláció (core PCE) havi 0,6%-kal nőtt a várt 0,5% helyett, és a teljes index is 0,6%-ot emelkedett. A piac további kamatemelésekre számított: aznap a Dow Jones és az S&P 500 1%-ot, a Nasdaq 1,7%-ot esett, és a fő indexek az év addigi legrosszabb hetét zárták.
+
+**Gyakori tévhit** Sokan azt hiszik, a PCE csak a CPI késve érkező másolata. A CPI-ből és a termelői árakból valóban jól becsülhető, ezért ritkán okoz nagy meglepetést, de ha mégis eltér, az közvetlenül a Fed céljáról szól.
+
+**Piacradar értelmezés** A core PCE havi üteme a legjobb tájékozódási pont a Fed következő lépéséhez. Évesítve a 2%-os célnak havi nagyjából 0,17% felel meg; ha a havi ütem tartósan e fölött marad, a jegybanknak nincs oka lazítani.
+
+**Források:** Federal Reserve – Statement on Longer-Run Goals and Monetary Policy Strategy (https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf) · BEA – Personal Income and Outlays (https://www.bea.gov/data/personal-consumption-expenditures-price-index) · CNBC – Key Fed inflation measure rose 0.6% in January, more than expected (2023.02.24.) (https://www.cnbc.com/2023/02/24/key-fed-inflation-measure-rose-0point6percent-in-january-more-than-expected.html) · Reuters (Kitco) – Wall St closes sharply down, biggest weekly drop of 2023 (2023.02.24.) (https://www.kitco.com/news/off-the-wire/2023-02-24/us-stocks-wall-st-closes-sharply-down-biggest-weekly-drop-2023)
 
 ## PEG ráta
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)

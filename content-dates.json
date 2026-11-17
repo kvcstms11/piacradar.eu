@@ -15,8 +15,8 @@
   "first": "2026-11-03"
  },
  "szotar/adp": {
-  "hash": "191913f7d6524983",
-  "date": "2026-08-24",
+  "hash": "910172e3a0ccb7a4",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/altcoin": {
@@ -40,8 +40,8 @@
   "first": "2026-07-15"
  },
  "szotar/average-hourly-earnings": {
-  "hash": "2af6b293fc97d9d4",
-  "date": "2026-08-24",
+  "hash": "45190e79759cf405",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/beige-book": {
@@ -135,8 +135,8 @@
   "first": "2026-03-14"
  },
  "szotar/capex": {
-  "hash": "1b19c931e3b87caf",
-  "date": "2026-08-24",
+  "hash": "4298cd2a4c67ea59",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/capitulation": {
@@ -185,8 +185,8 @@
   "first": "2026-03-14"
  },
  "szotar/cpi": {
-  "hash": "17e27e989317c0ac",
-  "date": "2026-08-24",
+  "hash": "4e064fd20ec39067",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/cta": {
@@ -325,8 +325,8 @@
   "first": "2026-03-14"
  },
  "szotar/fomc-meeting": {
-  "hash": "3110aca1c0cffb0d",
-  "date": "2026-08-24",
+  "hash": "0d9b2a7db5a8be7a",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/fomo": {
@@ -380,8 +380,8 @@
   "first": "2026-08-23"
  },
  "szotar/gdp": {
-  "hash": "abbab1f4329619c8",
-  "date": "2026-08-24",
+  "hash": "b49d25405bde9b1f",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/genius-act": {
@@ -420,8 +420,8 @@
   "first": "2026-03-14"
  },
  "szotar/hawkish": {
-  "hash": "5d077f45cb87cd3d",
-  "date": "2026-08-24",
+  "hash": "d56b437fa99c9a3a",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/hedge": {
@@ -610,13 +610,13 @@
   "first": "2026-03-14"
  },
  "szotar/mozgoatlag": {
-  "hash": "946eafe6cbbc3a07",
-  "date": "2026-08-24",
+  "hash": "745770d073774972",
+  "date": "2026-11-17",
   "first": "2026-08-23"
  },
  "szotar/nfp": {
-  "hash": "6fc35b7dd3452eb4",
-  "date": "2026-08-24",
+  "hash": "61518a6cb1a0d472",
+  "date": "2026-11-17",
   "first": "2026-03-14"
  },
  "szotar/nii": {
@@ -680,8 +680,8 @@
   "first": "2026-03-14"
  },
  "szotar/pce": {
-  "hash": "37c0e658674705af",
-  "date": "2026-08-24",
+  "hash": "1b31dc74f66bb07d",
+  "date": "2026-11-17",
   "first": "2026-07-15"
  },
  "szotar/pe-ratio": {
