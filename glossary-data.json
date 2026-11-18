@@ -51,15 +51,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A „zárás után” rövidítése: az amerikai tőzsdezárást követően, 16:00 ET után (magyar idő szerint 22:00 után) közzétett vállalati gyorsjelentés. Ellentéte a BMO, vagyis a nyitás előtti közlés."
+    "text": "A „zárás után” (After Market Close) rövidítése: a vállalat a gyorsjelentését az amerikai tőzsdezárást követően, 16:00 ET után teszi közzé, ami magyar időben jellemzően 22:00 utánra esik. Ellentéte a BMO, vagyis a nyitás előtti közlés."
    },
    {
     "title": "Miért fontos?",
-    "text": "A kezdeti reakció az after-hours kereskedésben látszik, ahol alacsony a likviditás, ezért a mozgás gyakran túlzó. A tényleges árazás a következő napi nyitáskor alakul ki. A nagy technológiai vállalatok jellemzően ebben az ablakban jelentenek."
+    "text": "Az első reakció a zárás utáni (after-hours) kereskedésben látszik, ahol alacsony a forgalom és széles a vételi-eladási különbözet, ezért a mozgás gyakran túlzó. A tényleges árazás a következő napi nyitáskor alakul ki, amikor a teljes piac belép. A nagy technológiai vállalatok jellemzően ebben az ablakban jelentenek."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az after-hours reakciót előzetes jelzésként kezeli, nem végleges árazásként: a nyitás utáni első óra gyakran érdemben korrigálja az első mozgást, különösen ha a konferenciahíváson újabb információ hangzik el."
+    "text": "Előzetes jelzés, nem végleges ítélet: a zárás utáni árfolyam a kis forgalom miatt könnyen túllő. A konferenciahívás (earnings call) gyakran felülírja az első benyomást, mert ott derül ki a cégvezetés várakozása (guidance) és a számok mögötti részletek. A nyitás utáni első óra mutatja meg, mennyi marad meg a mozgásból."
    }
   ]
  },
@@ -145,15 +145,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Egy eszköz piaci mozgásokra való érzékenységét méri a piaci átlaghoz (jellemzően S&P 500) képest. Béta 1 = a piaccal együtt mozog; 1 felett = nagyobb kilengés (volatilisabb); 1 alatt = csillapítottabb mozgás; negatív béta = ellentétes irányú mozgás."
+    "text": "Egy eszköz piaci mozgásokra való érzékenységét méri egy referenciaindexhez, jellemzően az S&P 500-hoz képest. Az 1-es béta azt jelenti, hogy az eszköz átlagosan a piaccal együtt mozog, az 1 feletti nagyobb, az 1 alatti kisebb kilengést jelez, a negatív béta pedig ellentétes irányú mozgásra utal. Múltbeli árfolyamadatokból, regresszióval számolják."
    },
    {
     "title": "Miért fontos?",
-    "text": "A magas béta részvények (pl. tech, growth) risk-on környezetben felülteljesítenek, esésben nagyobbat zuhannak. Az alacsony béta, defenzív nevek (közüzem, fogyasztási alap) stabilabbak stresszben. A portfólió bétája a piaci kitettség mértékét mutatja."
+    "text": "A magas bétájú részvények, például a növekedési és technológiai papírok, emelkedő piacon jellemzően felülteljesítenek, esésben viszont nagyobbat zuhannak. Az alacsony bétájú, defenzív nevek, például a közművek és az alapvető fogyasztási cikkek gyártói, stresszhelyzetben stabilabbak. A portfólió súlyozott bétája a teljes piaci kitettséget mutatja."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a bétát a szektorrotáció és a kockázati étvágy kontextusában használja — risk-on idején a magas béta, risk-off idején az alacsony béta nevek vannak előtérben."
+    "text": "Múltbeli adatból számolt mutató, ezért nem garancia: egy cég bétája megváltozhat, ha átalakul az üzleti modellje vagy a tőkeszerkezete. Kockázatvállalási hullámban a magas béta, kockázatkerülésben az alacsony béta kerül előtérbe. A béta csak a piaccal közös kockázatot méri, a vállalatspecifikus kockázatot nem."
    }
   ]
  },
@@ -164,15 +164,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A legjobb vételi ár (bid) és a legjobb eladási ár (ask) közötti különbség. A likviditás és a kereskedési költség közvetlen mérőszáma: szűk spread = likvid piac, széles spread = illikvid vagy stresszes piac."
+    "text": "A legjobb vételi ár (bid) és a legjobb eladási ár (ask) közötti különbség. A likviditás és a kereskedési költség közvetlen mérőszáma: a szűk spread likvid piacot, a széles spread illikvid vagy stresszes piacot jelez. Nagy forgalmú részvényeknél és indexeknél jellemzően szűk, kis cégeknél és ritkán kereskedett eszközöknél széles."
    },
    {
     "title": "Miért fontos?",
-    "text": "A spread hirtelen kiszélesedése likviditás-elapadást jelez — pánikban, hírre, vagy alacsony forgalmú időszakban (pl. pre-market, after-hours). A nagyobb spread drágítja a be- és kilépést, és felerősítheti az ármozgásokat."
+    "text": "Minden be- és kilépés a spread egy részébe kerül, ezért gyakori kereskedésnél jelentős rejtett költség. A spread hirtelen kiszélesedése likviditáselapadást jelez: pánikban, fontos hírek környékén vagy alacsony forgalmú időszakban, például nyitás előtt és zárás után. Ilyenkor a piaci megbízás a vártnál rosszabb áron teljesülhet."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a spread kiszélesedését a likviditási stressz jeleként kezeli — ilyenkor az árfolyam kevésbé megbízható, és az illikviditás torzíthatja a mozgást."
+    "text": "Stresszjelzőként is működik: ha a szokásosan szűk spread kitágul, az árjegyzők visszahúzódnak, és az árfolyam kevésbé megbízható. Illikvid papírnál limitáras megbízással lehet elkerülni a rossz teljesülést. A kereskedési költségek számításakor a spreadet ugyanúgy figyelembe kell venni, mint a jutalékot."
    }
   ]
  },
@@ -183,15 +183,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A „nyitás előtt” rövidítése: az amerikai tőzsdenyitás előtt, jellemzően 6:00 és 9:30 ET között (magyar idő szerint 12:00–15:30) közzétett vállalati gyorsjelentés. Ellentéte az AMC, vagyis a zárás utáni közlés."
+    "text": "A „nyitás előtt” (Before Market Open) rövidítése: a vállalat a gyorsjelentését az amerikai tőzsdenyitás előtt teszi közzé, jellemzően 6:00 és 9:30 ET között, ami magyar időben nagyjából 12:00 és 15:30 közé esik. Ellentéte az AMC, vagyis a zárás utáni közlés."
    },
    {
     "title": "Miért fontos?",
-    "text": "A pre-market kereskedés vékony likviditású, így a kezdeti reakció kilengő lehet, a nyitás pedig gyakran árréssel indul. A BMO-jelentés jellemzően meghatározza az adott papír teljes napi irányát."
+    "text": "A nyitás előtti (pre-market) kereskedés vékony likviditású, így a kezdeti reakció kilengő lehet, a nyitás pedig gyakran árréssel (gap) indul. A BMO-jelentés jellemzően meghatározza az adott papír egész napi irányát, mert a teljes kereskedési nap rendelkezésre áll a feldolgozására. Bankok, fogyasztási és ipari nagyvállalatok gyakran ebben az ablakban jelentenek."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a nyitás utáni első fél óra stabilizálódását tekinti mérvadónak, mert a pre-market ár gyakran nem tükrözi a valós keresletet. Bankok, fogyasztási és ipari nagyvállalatok jellemzően ebben az ablakban jelentenek."
+    "text": "Nyitás előtti árfolyamból még nem érdemes messzemenő következtetést levonni, mert kevés szereplő kereskedik. A nyitás utáni első fél óra stabilizálódása mérvadóbb: ilyenkor derül ki, hogy a nagy intézményi szereplők megerősítik-e az első reakciót. A konferenciahívás itt jellemzően a kereskedés közben zajlik, és napon belül is átírhatja az árazást."
    }
   ]
  },
@@ -316,15 +316,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Bull market: tartós emelkedő piaci trend. Bear market: a csúcstól mért 20%-ot meghaladó esés. Korrekció: 10% és 20% közötti visszaesés. Ezek a küszöbök a piaci szakaszt írják le — szemben a bullish/bearish kifejezésekkel, amelyek rövid távú hangulatra utalnak."
+    "text": "A bikapiac (bull market) tartósan emelkedő piaci szakasz, a medvepiac (bear market) a csúcstól mért legalább 20%-os esés. A korrekció a 10% és 20% közötti visszaesés. Ezek a küszöbök piaci szakaszokat írnak le, szemben a bullish és bearish kifejezésekkel, amelyek hangulatra vagy egy hír hatására utalnak."
    },
    {
     "title": "Miért fontos?",
-    "text": "A -10%-os (korrekció) és -20%-os (medvepiac) határ átlépése médianarratívát és befektetői pszichológiát mozgat. A medvepiac gyakran recesszióval, likviditásszűküléssel vagy kamatemelési ciklussal jár együtt, a korrekció viszont egészséges bull marketben is előfordul."
+    "text": "A -10%-os és -20%-os határ átlépése a médianarratívát és a befektetői pszichológiát is mozgatja, mert sokan ehhez kötik a döntéseiket. A medvepiac gyakran recesszióval, likviditásszűküléssel vagy kamatemelési ciklussal jár együtt, a korrekció viszont egészséges bikapiacban is rendszeresen előfordul."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar ezeket a küszöböket a gazdasági ciklus kontextusában értelmezi. A -10%/-20% technikai határ, nem önmagában fordulópont: a kérdés mindig az, hogy fundamentális ok (lassulás, kamat) vagy átmeneti pánik áll mögötte."
+    "text": "Technikai határ, nem fordulópont: egy 20%-os esés nem jelenti automatikusan, hogy a mélypont még messze van, és azt sem, hogy közel. A döntő kérdés, hogy fundamentális ok, például lassulás vagy kamatemelés, vagy átmeneti pánik áll a mozgás mögött. Utóbbi esetben a visszarendeződés jellemzően gyorsabb."
    }
   ]
  },
@@ -335,15 +335,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Bullish (bikás): emelkedő árfolyamra számító, optimista piaci hozzáállás. Bearish (medvés): csökkenő árfolyamra számító, pesszimista piaci hozzáállás. A bika felfelé öklel, a medve lefelé csap — innen az elnevezés."
+    "text": "A bullish (bikás) emelkedő árfolyamra számító, optimista hozzáállás, a bearish (medvés) csökkenő árfolyamra számító, pesszimista hozzáállás. Az elnevezés az állatok támadási mozdulatából ered: a bika felfelé öklel, a medve lefelé csap."
    },
    {
     "title": "Miért fontos?",
-    "text": "Egy elemző, egy adat vagy egy hír lehet bullish vagy bearish egy eszközre. Például jó earnings = bullish a részvényre, magas infláció = bearish a kötvényekre."
+    "text": "Egy elemző, egy adat vagy egy hír is lehet bikás vagy medvés egy adott eszközre nézve, és ugyanaz a hír két eszközre ellentétes hatású lehet. A vártnál jobb gyorsjelentés bikás a részvényre, a vártnál magasabb infláció medvés a kötvényekre, mert emelkedő hozamokat vetít előre. A minősítés mindig a várakozásokhoz képest értendő."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar emoji rendszere erre épül: 🟢 = bullish (pozitív piaci hatás), 🔴 = bearish (negatív piaci hatás), 🟡 = semleges/vegyes."
+    "text": "Három színnel jelöljük a hatás irányát: 🟢 bullish, vagyis pozitív piaci hatás, 🔴 bearish, vagyis negatív piaci hatás, 🟡 semleges vagy vegyes. A besorolás az adott eszközre vonatkozik, így egy hír kaphat zöldet az egyik és pirosat a másik piacon. A vegyes jelzés azt mutatja, hogy a hatás iránya értelmezésfüggő."
    }
   ]
  },
@@ -373,15 +373,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Olyan opciós szerződés, amely jogot ad a tulajdonosnak, hogy egy adott eszközt meghatározott áron (strike price) megvegyen egy adott lejáratig. A call vásárlója az árfolyam emelkedéséből profitál. A covered call stratégiában a részvénytulajdonos call-t ad el prémiumért."
+    "text": "Olyan opciós szerződés, amely jogot, de nem kötelezettséget ad a tulajdonosnak arra, hogy egy adott eszközt meghatározott áron (strike price) megvegyen egy adott lejáratig. A vásárló ezért prémiumot fizet, és az árfolyam emelkedéséből profitál. A fedezett call (covered call) stratégiában a részvénytulajdonos call-t ad el prémiumért, cserébe lemond a strike feletti emelkedésről."
    },
    {
     "title": "Miért fontos?",
-    "text": "Magas call-volumen bullish hangulatot jelezhet. Az opciós market makerek delta-hedging-je (call eladás → részvényvásárlás) erősítheti a piaci mozgásokat. A 0DTE (zero days to expiration) call-ok napi szinten növelik a volatilitást."
+    "text": "A szokatlanul magas call-forgalom bikás pozicionálást jelezhet. Az opciókat kiíró árjegyzők (market maker) jellemzően részvényvásárlással fedezik az eladott call-okat, ami felfelé erősítheti a mozgást. A rövid lejáratú, akár aznap lejáró (0DTE) opciók népszerűsége a napon belüli volatilitást is növelheti."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a call aktivitást a piaci pozícionálás részeként kezeli — szokatlan call-vásárlás earnings előtt vagy szektor-szinten releváns jelzés."
+    "text": "Pozicionálási jelzésként hasznos, de nem mindig irányfogadás: egy nagy call-vásárlás lehet fedezet egy short pozícióra vagy egy összetett stratégia része. Gyorsjelentés előtt vagy szektorszinten koncentrálódó, szokatlan call-aktivitás többet mond, mint egy elszigetelt nagy ügylet."
    }
   ]
  },
@@ -429,15 +429,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Capitulation (kapituláció): a befektetők tömeges, pánikszerű feladása az esés végső szakaszában, gyakran kiugró forgalommal — sokszor a mélypont közelében. Dead cat bounce (döglött macska pattanás): rövid, megtévesztő felpattanás egy tartós lejtmenetben, amelyet újabb esés követ."
+    "text": "A kapituláció (capitulation) a befektetők tömeges, pánikszerű feladása egy esés végső szakaszában, jellemzően kiugró forgalommal. A döglött macska pattanás (dead cat bounce) rövid, megtévesztő felpattanás egy tartós lejtmenetben, amelyet újabb esés követ."
    },
    {
     "title": "Miért fontos?",
-    "text": "A kapituláció gyakran (de nem mindig) közel van a piaci aljhoz, mert a „gyenge kezek” kiszálltak. A dead cat bounce viszont csapda: a felpattanást tévesen fordulatnak nézik, miközben a trend lefelé tart."
+    "text": "A kapituláció gyakran, de nem mindig a piaci mélypont közelében történik, mert a kényszereladók és a pánikolók ilyenkor már kiszálltak, és elfogy az eladói nyomás. A döglött macska pattanás viszont csapda: a felpattanást sokan fordulatnak nézik, és túl korán vásárolnak, miközben a trend lefelé tart."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar e fogalmakat óvatosan, megerősítő jelek mellett használja — sem a pánik, sem egy felpattanás önmagában nem fordulópont; a forgalom és a piaci szélesség (breadth) adja a kontextust."
+    "text": "Mindkét fogalmat csak utólag lehet biztosan azonosítani, ezért valós időben óvatos megerősítést igényelnek. Sem a pánik, sem egy felpattanás nem fordulópont önmagában: a forgalom, a piaci szélesség (breadth), vagyis hogy hány papír vesz részt a mozgásban, és a magasabb mélypontok kialakulása adja a kontextust."
    }
   ]
  },
@@ -486,15 +486,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Automatikus szabály, amely átmenetileg leállítja a kereskedést, ha egy index vagy részvény túl gyorsan, túl nagyot esik. Az S&P 500-nál három szint van: -7%, -13% (rövid szünet) és -20% (a napi kereskedés leállítása). Egyedi részvényeknél is van hasonló (LULD) mechanizmus."
+    "text": "Automatikus szabály, amely átmenetileg leállítja a kereskedést, ha egy index vagy részvény túl gyorsan, túl nagyot esik. Az amerikai piacon az S&P 500 előző záróárához mért három szint van: -7% és -13% esetén 15 perces szünet (ha 15:25 ET előtt következik be), -20%-nál a napi kereskedés leáll. Egyedi részvényeknél hasonló szerepet tölt be a LULD (Limit Up-Limit Down) mechanizmus."
    },
    {
     "title": "Miért fontos?",
-    "text": "A circuit breaker célja a pánikeladások megfékezése és a rendezett árazás helyreállítása. Aktiválása rendkívüli piaci stresszt jelez — ritka, de erős figyelmeztető jel."
+    "text": "A megszakító célja a pánikeladások megfékezése és a rendezett árazás helyreállítása: a szünet időt ad a szereplőknek az információ feldolgozására és a likviditás visszatérésére. Aktiválása rendkívüli piaci stresszt jelez, ritka, de erős figyelmeztető jel."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a circuit breaker aktiválását kivételes eseményként kezeli, amely flash crash-t vagy rendszerszintű pánikot jelez — a mozgás ilyenkor technikai és érzelmi, nem fundamentális."
+    "text": "Kivételes esemény, amely rendszerszintű pánikra vagy villámösszeomlásra (flash crash) utal. Ilyenkor a mozgás jelentős része technikai és érzelmi, nem fundamentális, ezért a szünet utáni árazás gyakran eltér a leállás pillanatától. A kényszerlikvidálások és a tőkeáttét leépülése jellemzően felerősítik az ilyen napokat."
    }
   ]
  },
@@ -640,15 +640,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Szabályalapú, jellemzően trendkövető stratégiát futtató alapkezelők, amelyek határidős piacokon kereskednek részvényindexeket, kötvényeket, devizákat és nyersanyagokat. A döntéseket modellek hozzák, emberi mérlegelés nélkül, gyakran mozgóátlagokra vagy momentumjelzésekre építve."
+    "text": "Szabályalapú, jellemzően trendkövető stratégiát futtató alapkezelők, amelyek határidős piacokon kereskednek részvényindexekkel, kötvényekkel, devizákkal és nyersanyagokkal. A döntéseket modellek hozzák, emberi mérlegelés nélkül, gyakran mozgóátlagokra, momentumjelzésekre és volatilitásalapú pozícióméretezésre építve."
    },
    {
     "title": "Miért fontos?",
-    "text": "A CTA-k együttes pozicionáltsága nagy volumenű, mechanikus vételt vagy eladást generál, amikor az árfolyam átlép egy trendküszöböt. Ez felerősítheti a mozgásokat, különösen vékony likviditású időszakokban."
+    "text": "A CTA-k együttes pozicionáltsága nagy volumenű, mechanikus vételt vagy eladást generál, amikor az árfolyam átlép egy trendküszöböt. Mivel sok modell hasonló jelzésekre épül, a döntések egy időben születnek, ami felerősítheti a mozgásokat, különösen vékony likviditású időszakokban. A volatilitás emelkedésekor a modellek automatikusan csökkentik a kitettséget, ami újabb eladást jelent."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a CTA-pozicionáltságot a technikai szintek melletti kiegészítő kockázatként kezeli: egy kulcs mozgóátlag letörése nem csak technikai jelzés, hanem automatikus eladási hullám kiváltója is lehet, ami magyarázhatja a szokatlanul gyors elmozdulásokat."
+    "text": "Ha egy kulcsfontosságú mozgóátlag letörik, az nemcsak technikai jelzés, hanem automatikus eladási hullám kiváltója is lehet, ami magyarázhatja a szokatlanul gyors elmozdulásokat. Fordítva is igaz: egy hosszabb esés után a trendkövetők visszavásárlása támogathatja az emelkedést. A pozicionáltságot csak becsülni lehet, mert nem nyilvános."
    }
   ]
  },
@@ -697,15 +697,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Azt méri, mennyit változik az opció ára, ha az alaptermék ára 1 dollárral elmozdul. Call delta: 0 és 1 között, put delta: 0 és -1 között. Egy 0.50-es delta call azt jelenti, hogy az alaptermék $1-os emelkedésekor az opció ~$0.50-t drágul."
+    "text": "Azt méri, mennyit változik az opció ára, ha az alaptermék ára egy egységgel elmozdul. A call delta 0 és 1, a put delta 0 és -1 között mozog. Egy 0,50-es deltájú call azt jelenti, hogy az alaptermék 1 dolláros emelkedésekor az opció ára nagyjából 0,50 dollárral nő. A pénzen lévő (at-the-money) opciók deltája 0,5 körül van."
    },
    {
     "title": "Miért fontos?",
-    "text": "A market makerek delta-neutralitásra törekszenek: ha call-t adnak el, részvényt vesznek hedgingre (és fordítva). Ez a delta-hedging mechanikusan erősíti a piaci mozgásokat. A „dealer gamma exposure\" (GEX) a delta-hedging intenzitását méri — pozitív gamma tompítja, negatív gamma felerősíti a mozgásokat."
+    "text": "Az árjegyzők (market maker) delta-semlegességre törekszenek: ha call-t adnak el, részvényt vesznek a fedezéshez, ha put-ot, részvényt adnak el. Ez a delta-fedezés (delta hedging) mechanikusan befolyásolja a piaci mozgásokat. A delta durva közelítésként azt is jelzi, mekkora eséllyel jár le az opció pénzben."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a delta-t a dealer-hedging kontextusában kezeli — a GEX (gamma exposure) és a nettó delta pozícionálás piaci hatása releváns."
+    "text": "Önmagában egy opció kockázatát írja le, piaci szinten viszont az árjegyzők összesített pozíciója számít. A delta folyamatosan változik az árfolyammal, ezt a változást a gamma méri, ezért a fedezést újra és újra igazítani kell. Nagy opciós lejáratok előtt a delta-fedezés áramlása rövid távon felülírhatja a fundamentális hatásokat."
    }
   ]
  },
@@ -824,15 +824,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Egy eszköz vagy portfólió csúcsról mért százalékos esése a legutóbbi mélypontig. A maximális drawdown (max DD) a teljes időszak legnagyobb, csúcstól aljáig tartó esését mutatja."
+    "text": "Egy eszköz vagy portfólió értékének százalékos esése egy korábbi csúcstól a csúcsot követő mélypontig. A maximális visszaesés (maximum drawdown, max DD) egy teljes időszak legnagyobb, csúcstól aljáig tartó esését mutatja. A visszaesés addig tart, amíg az érték újra el nem éri a korábbi csúcsot."
    },
    {
     "title": "Miért fontos?",
-    "text": "A drawdown a kockázat és a fájdalom valós mérőszáma: nem csak a hozam, hanem a megtett út számít. Egy -50%-os drawdownból +100% hozam kell a visszatéréshez. A track record megítélésében a max drawdown legalább annyira fontos, mint a hozam."
+    "text": "A drawdown a kockázat valós, megélt mérőszáma: nemcsak a végső hozam, hanem a megtett út is számít. Az esés és a visszaépülés aszimmetrikus: egy -50%-os visszaesésből +100%-os hozam kell a csúcs visszaszerzéséhez. Egy befektetési stratégia vagy alapkezelő megítélésében a max drawdown legalább annyira fontos, mint a hozam, mert megmutatja, mekkora veszteséget kellett elviselni."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a drawdownt a kockázat és a teljesítmény őszinte mérőszámaként kezeli — a hozam mellett a megtett út mélysége adja a teljes képet."
+    "text": "Hozam és visszaesés együtt adja a teljes képet: két azonos hozamú stratégia közül az alacsonyabb max drawdownú a fenntarthatóbb, mert kisebb az esélye, hogy a befektető a mélyponton feladja. A visszaépülés ideje is fontos mutató. A tőkeáttét a drawdownt arányosan felnagyítja, és kényszerlikvidáláshoz is vezethet."
    }
   ]
  },
@@ -995,15 +995,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az ETF-ekbe be- és kiáramló tőke mennyisége, amelyet napi bontásban publikálnak. A spot kripto ETF-ek esetében az áramlás mögött valós eszközvásárlás vagy -eladás áll a mögöttes piacon."
+    "text": "Az ETF-ekbe be- és kiáramló tőke mennyisége, amelyet napi bontásban publikálnak. Az áramlás a kibocsátás és visszaváltás (creation/redemption) mechanizmusán keresztül valósul meg: beáramláskor új jegyek jönnek létre, kiáramláskor jegyek szűnnek meg. A fizikai alapú, például spot kripto ETF-ek esetében az áramlás mögött valós vétel vagy eladás áll a mögöttes piacon."
    },
    {
     "title": "Miért fontos?",
-    "text": "A flow-adatok az intézményi kereslet közvetlen mérőszámai. A tartós beáramlás strukturális vételi nyomást jelent, a kiáramlás profitrealizálást vagy csökkenő érdeklődést tükröz."
+    "text": "Az áramlási adatok a befektetői kereslet egyik közvetlen mérőszámai. A tartós beáramlás strukturális vételi nyomást jelent, a kiáramlás profitrealizálást, átcsoportosítást vagy csökkenő érdeklődést tükröz. Szektor- és tematikus ETF-eknél az áramlás a befektetői rotációt is megmutatja."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar nem az egynapos számot, hanem a többhetes tendenciát nézi, és azt is, mely alapok mozgatják. Ha a kiáramlás néhány kisebb alapra koncentrálódik, miközben a legnagyobbak készlete stabil marad, az árnyalja a széles eladási narratívát."
+    "text": "Egynapos számból kevés következtetés vonható le, a többhetes tendencia és az áramlás szerkezete beszédesebb. Ha a kiáramlás néhány kisebb alapra koncentrálódik, miközben a legnagyobbak állománya stabil marad, az árnyalja a széles eladási narratívát. Az árfolyam és az áramlás eltérése is jelzés: esés melletti beáramlás vételi érdeklődésre utal."
    }
   ]
  },
@@ -1112,15 +1112,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A futures egy tőzsdén kereskedett határidős szerződés, amelyben a felek egy jövőbeli időpontban előre meghatározott áron vállalják egy eszköz (pl. index, kötvény, nyersanyag, deviza) adásvételét."
+    "text": "Tőzsdén kereskedett, szabványosított határidős szerződés, amelyben a felek egy jövőbeli időpontban előre meghatározott áron vállalják egy eszköz, például index, kötvény, nyersanyag vagy deviza adásvételét. A pozíciót nem kell teljes értékben kifizetni, csak letétet (margin) kell elhelyezni, és a nyereség-veszteséget naponta elszámolják."
    },
    {
     "title": "Miért fontos?",
-    "text": "A futures piac határozza meg a rövid távú piaci várakozásokat, a nyitás előtti hangulatot és a kockázatkezelést. A részvénypiac nyitása előtt az S&P 500, Nasdaq és Dow futures mutatja a várható irányt."
+    "text": "A határidős piac a kockázatkezelés és az árfeltárás fő terepe. A részvényindex-határidősök szinte a nap 24 órájában kereskednek, ezért a nyitás előtti hangulatot és a makroadatokra adott első reakciót is mutatják. A letéti rendszer miatt beépített tőkeáttétet hordoznak, ami a nyereséget és a veszteséget egyaránt felnagyítja."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a futures árfolyamokat a piaci hangulat gyors jelzőjeként használja, különösen makroadatok és nyitás előtti kereskedés idején."
+    "text": "Gyors hangulatjelző, főleg az amerikai nyitás előtt és makroadatok közlésekor. A határidős és az azonnali ár közötti különbség, a bázis is informatív: nyersanyagoknál a contango (drágább későbbi lejárat) bőséges, a backwardation (olcsóbb későbbi lejárat) szűkös kínálatra utalhat. A lejárat előtti görgetés (rollover) is mozgathatja a forgalmat."
    }
   ]
  },
@@ -1131,15 +1131,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Opciós mutató, amely azt méri, mennyit változik az opció deltája az alaptermék árának elmozdulásakor. Piaci szinten az árjegyzők összesített gamma-pozíciója a meghatározó."
+    "text": "Opciós mutató, amely azt méri, mennyit változik az opció deltája, ha az alaptermék ára egy egységgel elmozdul. A pénzen lévő (at-the-money), közeli lejáratú opciók gammája a legnagyobb. Piaci szinten az árjegyzők összesített gamma-pozíciója (dealer gamma exposure, GEX) a meghatározó."
    },
    {
     "title": "Miért fontos?",
-    "text": "Pozitív gamma mellett az árjegyzők a mozgással szemben kereskednek, ami csillapítja a kilengéseket. Negatív gamma esetén a mozgás irányába kényszerülnek, ami felerősíti a trendet és a volatilitást."
+    "text": "Pozitív gamma mellett az árjegyzők a mozgással szemben kereskednek, emelkedéskor eladnak, eséskor vesznek, ami csillapítja a kilengéseket. Negatív gamma esetén a mozgás irányába kényszerülnek, ami felerősíti a trendet és a volatilitást. A gamma-pozíció így a piaci viselkedés egyik rejtett szabályozója."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a gamma-pozicionáltságot volatilitási előrejelzőként olvassa: a nagy pozitív gamma szűk sávú, oldalazó kereskedést valószínűsít, míg a negatív tartományba fordulás gyorsuló, egyirányú mozgás kockázatát jelzi. A nagy opciós lejáratok környékén ez különösen meghatározó."
+    "text": "Volatilitási előrejelzőként hasznos: a nagy pozitív gamma szűk sávú, oldalazó kereskedést valószínűsít, míg a negatív tartományba fordulás gyorsuló, egyirányú mozgás kockázatát jelzi. Nagy opciós lejáratok környékén ez különösen meghatározó, mert a lejárat után a pozíció hirtelen megváltozhat. A GEX becsült érték, mert a valódi pozíciók nem nyilvánosak."
    }
   ]
  },
@@ -1342,15 +1342,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Olyan befektetési pozíció, amelynek célja egy másik pozíció kockázatának csökkentése. Például ha valaki részvényeket tart, vehet VIX-et vagy put opciókat, hogy védje a portfólióját egy esés ellen."
+    "text": "Olyan pozíció, amelynek célja egy másik pozíció kockázatának csökkentése. Részvényportfólió esetén például put opció, VIX-alapú termék vagy indexhatáridős short pozíció védhet egy esés ellen. Devizakockázatnál határidős devizaügylet, nyersanyag-felhasználó cégeknél nyersanyag-határidős ügylet a jellemző fedezet."
    },
    {
     "title": "Miért fontos?",
-    "text": "A hedge-elés költségének változása (pl. opciós prémiumok emelkedése) jelzi, mennyire tartanak a befektetők egy piaci fordulattól. Ha a hedging drága, az növekvő bizonytalanságot mutat."
+    "text": "A fedezés költsége, például az opciós prémiumok emelkedése jelzi, mennyire tartanak a befektetők egy piaci fordulattól. Ha a védelem drága, az növekvő bizonytalanságot mutat. A fedezés soha nem ingyenes: vagy közvetlen költsége van, vagy a felfelé mozgás egy részéről kell lemondani."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar akkor használja a kifejezést, ha egy eszköz (arany, VIX, dollár, BTC) fedezeti szerepe kerül előtérbe — pl. geopolitikai kockázat esetén."
+    "text": "Menedékszerepben akkor kerül előtérbe egy eszköz, például az arany, a dollár vagy az állampapír, ha geopolitikai vagy pénzügyi stressz nő. Egy fedezet csak akkor működik, ha a korreláció a válság idején is kitart, és ez nem mindig teljesül: szélsőséges helyzetben sok eszköz egyszerre esik. A tökéletes fedezet a hozamot is semlegesíti."
    }
   ]
  },
@@ -1399,15 +1399,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A piac által várt jövőbeli volatilitás, amelyet az opciók aktuális árából számítanak vissza. Minél magasabb az IV, annál drágábbak az opciók, mert a piac nagyobb mozgást vár. A VIX index az S&P 500 opciók IV-jéből számított piaci félelemmutató."
+    "text": "A piac által várt jövőbeli volatilitás, amelyet az opciók piaci árából számítanak vissza egy árazási modell segítségével. Minél magasabb az IV, annál drágábbak az opciók, mert a piac nagyobb mozgást vár. A VIX index az S&P 500 opcióiból számított, 30 napra előretekintő implikált volatilitás."
    },
    {
     "title": "Miért fontos?",
-    "text": "IV crush: earnings vagy makroadat után az IV gyakran összeesik, ami az opciók értékét csökkenti — még akkor is, ha az irány helyes volt. Magas IV = drága biztosítás. Az IV rank és IV percentile jelzi, hogy a jelenlegi volatilitás mennyire extrém a múlthoz képest."
+    "text": "Gyorsjelentés vagy fontos makroadat után az IV gyakran összeesik (IV crush), ami az opciók értékét csökkenti, még akkor is, ha az árfolyam a várt irányba mozdult. A magas IV drága védelmet jelent. Az IV rank és az IV percentile azt mutatja, hogy az implikált volatilitás mennyire szélsőséges a saját múltbeli tartományához képest."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az IV-t a VIX kontextusában és earnings-szezon idején emeli ki — az IV szint jelzi, mekkora mozgást áraz a piac."
+    "text": "Mekkora mozgást áraz a piac? Ezt az IV közvetlenül megmutatja, például egy gyorsjelentés előtt a várt napi elmozdulás nagyságát. Ha a tényleges mozgás kisebb a beárazottnál, az opcióvásárló veszít, akkor is, ha az irányt eltalálta. Az implikált és a ténylegesen megvalósult volatilitás közötti rés a kockázati prémiumot jelzi."
    }
   ]
  },
@@ -1819,15 +1819,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Amikor egy befektető hitelre (tőkeáttétellel) kereskedik és a pozíciója veszteségbe fordul, a brókere további fedezetet kér. Ha nem tudja befizetni, a pozícióját kényszerlikvidálják."
+    "text": "Ha egy befektető tőkeáttétellel, hitelből kereskedik, és a pozíciója veszteségbe fordul, a számláján lévő fedezet a fenntartási szint (maintenance margin) alá eshet. Ilyenkor a bróker vagy az elszámolóház további fedezetet kér. Ha a befektető nem pótolja, a pozícióját kényszerlikvidálják, jellemzően a lehető leggyorsabban, piaci áron."
    },
    {
     "title": "Miért fontos?",
-    "text": "Tömeges margin call-ok láncreakciót indíthatnak: a kényszerlikvidálások további eladást generálnak, ami tovább nyomja az árakat. Ez történt pl. az aranypiacon 2026 márciusában, amikor a CME emelte a margin követelményeket."
+    "text": "Tömeges fedezeti felhívások láncreakciót indíthatnak: a kényszerlikvidálások újabb eladást generálnak, ami tovább nyomja az árakat, és újabb felhívásokat vált ki. A folyamatot az is felgyorsíthatja, ha a tőzsde vagy az elszámolóház a megnövekedett volatilitás miatt megemeli a letéti követelményeket, így a szereplőknek változatlan pozíció mellett is több fedezetet kell elhelyezniük."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar margin call-t akkor említ, ha kényszerlikvidálás okoz szokatlan piaci mozgást — ilyenkor a mozgás nem fundamentális, hanem technikai/likviditási okokra vezethető vissza."
+    "text": "Kényszereladás idején a mozgás nem fundamentális, hanem technikai és likviditási okokra vezethető vissza. Ilyenkor nem az eszköz értéke változott meg, hanem a tőkeáttétes szereplők kénytelenek eladni. A letétemelések és a szokatlanul gyors, széles körű esések együttállása erre utal, és a leépülés végén gyakran gyors visszapattanás következik."
    }
   ]
  },
@@ -3812,15 +3812,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Három vonalból álló indikátor, angolul Bollinger Bands: egy középső mozgóátlag, valamint fölötte és alatta egy-egy szalag, amelyet a szórás alapján számítanak. A szalagok szélessége az aktuális volatilitást mutatja."
+    "text": "Három vonalból álló technikai indikátor, angolul Bollinger Bands. A középső vonal egy mozgóátlag, jellemzően 20 periódusos, felette és alatta pedig egy-egy szalag fut, alapbeállításban két szórásnyi távolságban. A szalagok szélessége az adott időszak volatilitását mutatja: nagyobb ingadozásnál tágulnak, nyugodt piacon szűkülnek."
    },
    {
     "title": "Miért fontos?",
-    "text": "A szalagok szűkülése alacsony volatilitást jelez, amit jellemzően kitágulás követ — ezt nevezik squeeze-nek. A jelenség azt vetíti előre, hogy erősebb mozgás jöhet, az irányát azonban nem határozza meg."
+    "text": "A szalagok összeszűkülése alacsony volatilitást jelez, amelyet jellemzően kitágulás követ, ezt nevezik squeeze-nek. A jelenség azt vetíti előre, hogy erősebb mozgás jöhet, az irányát azonban nem határozza meg. A felső vagy alsó szalag érintése önmagában nem túlvett vagy túladott jelzés, erős trendben az árfolyam hosszan haladhat a szalag mentén."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a szalagszűkülést volatilitási előjelzésként olvassa, nem iránymutatásként: a kitörés utáni irány előre nem ismert, ezért az ilyen helyzet önmagában nem alapoz meg irányfogadást. A középvonal visszaszerzése gyakran trendfordulós megerősítés."
+    "text": "Volatilitási előjelzés, nem iránymutatás: a szűkülés utáni kitörés iránya előre nem ismert, ezért önmagában nem alapoz meg irányfogadást. A forgalommal megerősített kitörés megbízhatóbb. A középvonal visszaszerzése egy esés után gyakran a lendület fordulásának első jele."
    }
   ]
  },
@@ -3850,15 +3850,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Két kereskedési nap között keletkező árrés, amikor a nyitóár érdemben eltér az előző záróártól, és a köztes tartományban nem történt üzletkötés. Angolul gap, jellemzően hírre, gyorsjelentésre vagy zárás utáni eseményre alakul ki."
+    "text": "Két kereskedési időszak között keletkező árrés, amikor a nyitóár érdemben eltér az előző záróártól, és a köztes tartományban nem történt üzletkötés. Angolul gap. Jellemzően hírre, gyorsjelentésre vagy zárás utáni eseményre alakul ki, felfelé (gap up) és lefelé (gap down) is."
    },
    {
     "title": "Miért fontos?",
-    "text": "A résben nincs kialakult ár, ezért ott hiányzik a megbízásállomány. Az árfolyam gyakran visszatér és „betölti” a rést, mert a szereplők ezen a tartományon belül keresik az egyensúlyi árat."
+    "text": "A résben nem alakult ki ár, ezért ott hiányzik a megbízásállomány. Az árfolyam gyakran visszatér és betölti a rést, mert a szereplők ebben a tartományban keresik az egyensúlyi árat. Nem minden rés töltődik be: a trend elején keletkező kitörési rés (breakaway gap) erős fordulatot jelezhet."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a betöltetlen rést nyitott kérdésként tartja számon a charton: a visszateszt gyakori, de az időzítése nem jelezhető előre. A gappel induló nyitás egyben azt is jelenti, hogy a stop megbízások az eltervezett szint helyett rosszabb áron teljesülhetnek."
+    "text": "Betöltetlen rés nyitott kérdés a charton: a visszateszt gyakori, de az időzítése nem jelezhető előre. Számít a rés típusa és a forgalom is: nagy forgalmú kitörési rés tartósabb, mint egy vékony forgalmú, hírre kialakult ugrás. Kockázatkezelési szempontból is fontos, mert résnél a stop megbízás az eltervezett szint helyett rosszabb áron teljesülhet."
    }
   ]
  },
@@ -3869,15 +3869,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az adott időszakban gazdát cserélt darabszám vagy kontraktusmennyiség. Angolul volume. Nem az árat mutatja, hanem azt, mekkora tényleges tőke állt a mozgás mögött."
+    "text": "Egy adott időszakban gazdát cserélt részvények vagy kontraktusok mennyisége, angolul volume. Nem az árat mutatja, hanem azt, mekkora tényleges kereskedési aktivitás állt egy mozgás mögött. Gyakran az átlagos napi forgalomhoz viszonyítják, hogy kiderüljön, szokatlan-e az aktivitás."
    },
    {
     "title": "Miért fontos?",
-    "text": "A forgalom a mozgás hitelességét méri: nagy volumen mellett kialakult áttörés több szereplő egyetértését tükrözi, míg a vékony forgalmú mozgás könnyebben visszafordul. Ünnepnapok és nyári időszakok körül a alacsony likviditás felnagyíthatja a kilengéseket."
+    "text": "A forgalom a mozgás hitelességét méri: nagy forgalom mellett kialakult áttörés sok szereplő részvételét tükrözi, míg a vékony forgalmú mozgás könnyebben visszafordul. Ünnepnapok és nyári időszakok körül az alacsony likviditás felnagyíthatja a kilengéseket. A kiugró forgalom gyakran fordulópontok vagy fontos hírek kísérője."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a forgalmat megerősítő adatként használja a technikai szintek mellett: a kulcsszint áttörése alacsony forgalommal gyakran téves kitörés. A magas forgalmú árzónák később támaszként vagy ellenállásként viselkednek."
+    "text": "Megerősítő adat a technikai szintek mellett: ha egy kulcsszint áttörése alacsony forgalommal történik, gyakran téves kitörésről van szó. A magas forgalmú árzónák később támaszként vagy ellenállásként viselkednek, mert ott sok pozíció nyílt. Emelkedő árfolyam csökkenő forgalommal a lendület gyengülésére utalhat, eső árfolyam növekvő forgalommal pedig erősödő eladói nyomásra."
    }
   ]
  },
