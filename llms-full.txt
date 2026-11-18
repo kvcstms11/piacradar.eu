@@ -318,31 +318,31 @@ Hivatkozás: https://piacradar.eu/szotar/average-hourly-earnings.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/boe.html
 
-**Mi ez?** Az Egyesült Királyság jegybankja, amely az irányadó kamatot és a mérlegpolitikát határozza meg. Célja a 2%-os infláció. A monetáris tanács évente nyolc alkalommal ül össze kamatdöntésre.
+**Mi ez?** Az Egyesült Királyság jegybankja. Kamatdöntő testülete, a Monetáris Politikai Bizottság (Monetary Policy Committee, MPC) évente nyolc alkalommal határoz az irányadó kamatról (Bank Rate). Inflációs célját, a fogyasztói árindexre (CPI) vonatkozó 2%-ot, a brit kormány jelöli ki. A kamat mellett a mérlegpolitikáról, vagyis az állampapír-állomány (gilt) alakításáról is dönt.
 
-**Miért fontos?** A BoE döntései mozgatják a font árfolyamát és a brit államkötvény-hozamokat. A brit gazdaság sajátosságai — feszes munkaerőpiac, ragadós szolgáltatási infláció — miatt a BoE gyakran más pályán jár, mint a Fed vagy az EKB.
+**Miért fontos?** A döntések a font árfolyamát és a brit állampapírhozamokat mozgatják. A szavazatok megoszlása is nyilvános, így a piac abból is következtet, merre billen a bizottság. A brit gazdaság sajátosságai, például a bérdinamika és a szolgáltatási infláció, miatt a BoE pályája gyakran eltér a Fedétől és az EKB-étól.
 
-**Piacradar értelmezés** A Piacradar a BoE-t a bérdinamika és a szolgáltatási infláció felől olvassa, mert ez a két tényező határozza meg a kamatpályát. A vártnál szigorúbb hangvétel jellemzően erősíti a fontot és nyomás alá helyezi a brit államkötvényeket.
+**Piacradar értelmezés** Bérekből és szolgáltatási árakból érdemes kiindulni, mert ez a két tényező mutatja, mennyire beágyazott az infláció. Ha a döntés vagy a szavazatarány a vártnál szigorúbb, az jellemzően a fontot erősíti és a giltek árát nyomja. A meglepetés mindig a beárazott pályához képest értelmezhető.
 
 ## Bank of Japan (BoJ)
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/boj.html
 
-**Mi ez?** Japán jegybankja, amely évtizedeken át nulla közeli vagy negatív kamatot és hozamgörbe-kontrollt alkalmazott. A normalizáció felé fordulása a globális pénzügyi rendszer egyik legjelentősebb szerkezeti változása.
+**Mi ez?** Japán jegybankja, amely évtizedeken át nulla közeli, egy ideig negatív kamattal és hozamgörbe-kontrollal (yield curve control) próbálta kimozdítani a gazdaságot a deflációból. A rendkívül laza politikából a normalizálás felé fordulás a globális pénzügyi rendszer egyik jelentős szerkezeti változása.
 
-**Miért fontos?** A BoJ politikája a jenen és a carry trade-en keresztül globális hatású. A japán kamatemelés szűkíti a kamatkülönbözetet, ami tőkét vonhat vissza Japánba, és nyomás alá helyezheti a kockázatos eszközöket világszerte.
+**Miért fontos?** A japán kamatszint a jenen és a carry trade-en keresztül világszerte hat. A carry trade lényege, hogy a befektetők olcsó jenben vesznek fel forrást, és magasabb hozamú eszközökbe fektetik. Ha a BoJ szigorít, a kamatkülönbözet szűkül, a jen erősödik, és ezek a pozíciók gyorsan leépülhetnek, ami más piacokon is eladási hullámot indíthat.
 
-**Piacradar értelmezés** A Piacradar a BoJ döntéseit a japán állampapírhozamok és az USDJPY együttmozgásában követi: az emelkedő JGB-hozam és az erősödő jen a carry pozíciók leépítésének kockázatát jelzi, ami a globális likviditásra is kihat.
+**Piacradar értelmezés** Japán állampapírhozamokat (JGB) és a USDJPY árfolyamot együtt érdemes figyelni. Ha a hozamok emelkednek és a jen erősödik, az a carry pozíciók leépülésének kockázatát jelzi. A BoJ kommunikációja jellemzően óvatos és fokozatos, ezért a hangsúlyok finom eltolódása is jelentős piaci reakciót válthat ki.
 
 ## Beige Book – Fed Beige Book
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/beige-book.html
 
-**Mi ez?** A Fed 12 regionális bankjának gazdasági helyzetet összefoglaló jelentése, amely évente 8 alkalommal jelenik meg, az FOMC-ülések előtt 2 héttel. Kvalitatív adatokra épül (vállalati interjúk, helyi gazdasági jelentések).
+**Mi ez?** A Fed 12 regionális tartalékbankjának összesítő jelentése a saját körzetük gazdasági helyzetéről. Évente nyolc alkalommal jelenik meg, nagyjából két héttel az FOMC-ülések előtt. Nem statisztikai adatsor, hanem kvalitatív összefoglaló: vállalatvezetőkkel, bankárokkal, közgazdászokkal és helyi szervezetekkel folytatott beszélgetésekre épül.
 
-**Miért fontos?** A Beige Book jelzi, hogyan látja a Fed a gazdaság állapotát a kemény adatokon túl. Ha a szöveges hangnem romlik ("lassulás", "bizonytalanság"), az lazítási várakozásokat erősíthet.
+**Miért fontos?** Olyan információt ad, amely a kemény adatokban csak később jelenik meg: hogyan látják a cégek a keresletet, a béreket, az árazási mozgásteret és a munkaerő-felvételt. A körzetek közötti különbségek azt is megmutatják, hogy egy lassulás széles körű vagy csak egyes régiókra, ágazatokra korlátozódik.
 
-**Piacradar értelmezés** A Piacradar a Beige Book kulcsmondatait emeli ki, amelyek a kamatpálya-várakozásokat mozgathatják.
+**Piacradar értelmezés** Hangulatjelentésként érdemes olvasni, nem előrejelzésként. A szóhasználat változása többet mond, mint egy-egy kiragadott mondat: ha egyre több körzet ír stagnálásról, óvatosabb munkaerő-felvételről vagy mérséklődő áremelési szándékról, az a döntéshozók gondolkodására is hat. Önmagában ritkán mozgatja a piacot, inkább a kemény adatok értelmezéséhez ad kontextust.
 
 ## Beta – Béta
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -458,11 +458,11 @@ Hivatkozás: https://piacradar.eu/szotar/brent.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/building-permits.html
 
-**Mi ez?** Az új építési engedélyek száma, amely előre jelzi a jövőbeli lakásépítési aktivitást.
+**Mi ez?** A kiadott új lakásépítési engedélyek havi száma az USA-ban. Az amerikai népszámlálási hivatal (Census Bureau) közli a lakásépítési adatokkal (Housing Starts) együtt, évesített, szezonálisan kiigazított formában. Külön látszik a családi házak és a többlakásos épületek engedélyezése.
 
-**Miért fontos?** A Building Permits vezető indikátor: ha csökken, a lakáspiac lassul; ha nő, élénkülés várható.
+**Miért fontos?** Az engedély megelőzi az építkezést, ezért a lakáspiac egyik legkorábbi, előretekintő mutatója. A lakásépítés kamatérzékeny ágazat: a jelzáloghitel-kamatok változása itt jelenik meg leggyorsabban. A mutató az építőanyag-gyártók, a lakásépítők és a bútor- vagy háztartásigép-kereskedők kilátásait is jelzi.
 
-**Piacradar értelmezés** A Piacradar a Building Permits adatot a lakáspiaci ciklus korai jelzőjeként használja.
+**Piacradar értelmezés** Trendként informatív, havi szinten zajos. A többlakásos szegmens nagyot ingadozhat egy-egy nagyobb projekt miatt, ezért a családi házas engedélyek tisztább képet adnak a kereslet alakulásáról. Ha az engedélyek tartósan csökkennek, miközben a kamatok magasak, az a lakáspiac és a kapcsolódó ágazatok lassulását vetíti előre. A fordulat is itt látszik meg először, amikor a kamatok csökkenni kezdenek.
 
 ## Bull Market / Bear Market – Bika- és medvepiac
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -596,21 +596,21 @@ Hivatkozás: https://piacradar.eu/szotar/cta.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/consumer-confidence.html
 
-**Mi ez?** A fogyasztói bizalmi index azt méri, mennyire optimisták vagy pesszimisták a háztartások a gazdaság jövőjével kapcsolatban.
+**Mi ez?** A háztartások gazdasági hangulatát mérő felmérésalapú index. Az USA-ban a két legismertebb a Conference Board fogyasztói bizalmi indexe (Consumer Confidence Index) és a Michigani Egyetem fogyasztói hangulatindexe (Consumer Sentiment). Mindkettő külön méri a helyzetértékelést és a jövőbeli várakozásokat.
 
-**Miért fontos?** Magas bizalom → erős fogyasztás, alacsony bizalom → visszafogott költés. A fogyasztás az USA GDP legnagyobb komponense.
+**Miért fontos?** A fogyasztás az amerikai GDP legnagyobb összetevője, ezért a háztartások hangulata a növekedés szempontjából kulcskérdés. A felmérések inflációs várakozásokat is mérnek, ezeket a jegybank is figyeli. A munkaerőpiac megítélése, például hogy könnyű vagy nehéz munkát találni, a foglalkoztatási adatokkal is összevethető.
 
-**Piacradar értelmezés** A Piacradar a bizalmi indexet a fogyasztási ciklus előrejelzőjeként használja: tartós csökkenés recessziós kockázatot jelez.
+**Piacradar értelmezés** Óvatosan érdemes kezelni, mert a hangulat és a tényleges költés gyakran elválik egymástól. A háztartások lehetnek borúlátók, miközben továbbra is költenek, főleg ha a munkaerőpiac erős. A várakozási komponens tartós romlása és a kiskereskedelmi adatok gyengülése együtt már komolyabb, a fogyasztás lassulására utaló jelzés.
 
 ## Core Infláció – Maginfláció
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/core-inflacio.html
 
-**Mi ez?** A maginfláció az infláció élelmiszer- és energiaárak nélküli változása.
+**Mi ez?** Az infláció a volatilis élelmiszer- és energiaárak nélkül. Az USA-ban két fő változata van: a maginflációs CPI (core CPI), amelyet a munkaügyi statisztikai hivatal (BLS) közöl, és a Core PCE, amelyet a gazdasági elemzési hivatal (BEA) közöl. Magyarországon a KSH és az MNB is közöl maginflációs mutatót.
 
-**Miért fontos?** A Core infláció stabilabb képet ad a gazdaság árdinamikájáról, ezért a jegybankok ezt figyelik leginkább.
+**Miért fontos?** Az élelmiszer és az energia ára gyakran a gazdaságon kívüli sokkok miatt mozog, például időjárás vagy geopolitika hatására, ezért a maginfláció jobban mutatja a tartós, belső árnyomást. A Fed 2%-os inflációs célja a PCE-re vonatkozik, a döntéseknél pedig a Core PCE trendjét figyeli kiemelten, nem a CPI-t.
 
-**Piacradar értelmezés** A Piacradar a Core inflációt a monetáris politika egyik legfontosabb indikátoraként kezeli.
+**Piacradar értelmezés** Összetevőkre bontva árul el igazán sokat. Az áruk, a lakhatás és a lakhatás nélküli szolgáltatások más-más okból drágulnak, és eltérő ütemben lassulnak. Egyetlen havi adat önmagában nem szigorú vagy laza jelzés: a hatása attól függ, mennyire tér el a várakozásoktól és a háromhavi trendtől.
 
 ## Core PCE – Maginfláció
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -648,11 +648,11 @@ Hivatkozás: https://piacradar.eu/szotar/cpi.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/current-account.html
 
-**Mi ez?** A folyó fizetési mérleg egy ország külfölddel szembeni áru-, szolgáltatás-, jövedelem- és transzferforgalmának egyenlege. Negyedévente publikálják, és jellemzően a GDP százalékában értelmezik, mert így nemzetközileg összehasonlítható.
+**Mi ez?** Folyó fizetési mérleg: egy ország és a külföld közötti áru- és szolgáltatásforgalom, valamint az elsődleges és másodlagos jövedelmek, például a kamat- és osztalékfizetések vagy hazautalások egyenlege. Jellemzően negyedévente közlik, és a GDP százalékában értelmezik, mert így összehasonlítható országok között.
 
-**Miért fontos?** A tartós többlet nettó tőkekivitelt és jellemzően stabil devizát jelent, míg a tartós hiányt külső finanszírozásból kell fedezni. Ez sérülékennyé teszi az országot a globális kamatkörnyezet változásaira.
+**Miért fontos?** A tartós többlet azt jelzi, hogy az ország többet termel, mint amennyit elkölt, és nettó tőkét exportál, ami jellemzően stabilizálja a devizát. A tartós hiányt külföldi forrásból kell finanszírozni, ez sérülékennyé teszi az országot, ha a globális kamatkörnyezet szigorodik vagy a befektetők kockázatkerülővé válnak.
 
-**Piacradar értelmezés** A Piacradar a folyó mérleget devizakockázati mérőszámként olvassa: a magas hiánnyal működő gazdaságok devizája szigorodó globális kondíciók idején jellemzően gyengébben teljesít. A feltörekvő piacok megítélésében ez az egyik legfontosabb szűrő.
+**Piacradar értelmezés** Devizakockázati szűrőként hasznos. Szigorodó globális pénzügyi feltételek mellett a nagy hiánnyal működő gazdaságok devizája jellemzően gyengébben teljesít, mert a finanszírozás drágul vagy elapad. Számít a hiány finanszírozásának szerkezete is: a tartós működőtőke-beáramlás stabilabb, mint a gyorsan kivonható portfólióbefektetés.
 
 ## DCA – Költségátlagolás
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -780,11 +780,11 @@ Hivatkozás: https://piacradar.eu/szotar/drawdown.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/durable-goods.html
 
-**Mi ez?** A tartós fogyasztási és tőkejavak (gépek, járművek, repülőgépek, berendezések) új rendeléseinek havi változása az USA-ban. Gyakran közlik a volatilis szállítási és repülőgép-tételek nélküli „core” verziót is.
+**Mi ez?** A legalább három évig használható termékek, például gépek, járművek, repülőgépek és berendezések új megrendeléseinek havi változása az USA-ban. Az amerikai népszámlálási hivatal (Census Bureau) közli. A főszám mellett megjelenik a szállítóeszközök nélküli változat és a polgári, repülőgép nélküli tőkejószág-rendelés (core capital goods) is.
 
-**Miért fontos?** Vezető indikátor a vállalati beruházási kedvről és az ipari ciklusról. Erős core durable goods → bővülő beruházás és bizalom; gyengülő adat → óvatosság, lassuló capex.
+**Miért fontos?** A vállalati beruházási kedv egyik legközvetlenebb mutatója. A rendelések megelőzik a termelést és a beruházási kiadásokat, ezért a gyártók és a beszállítók kilátásairól is korán jeleznek. A főszám a repülőgép-rendelések miatt havonta nagyot ingadozhat, ami félrevezető lehet.
 
-**Piacradar értelmezés** A Piacradar a core (repülőgép nélküli, nem védelmi) tőkejószág-rendeléseket figyeli, mert ez a vállalati beruházás (capex) egyik legjobb előrejelzője.
+**Piacradar értelmezés** Core tőkejószág-rendelésekből érdemes kiindulni, mert ez szűri ki a repülőgépek és a védelmi megrendelések torzítását, így a vállalati beruházás (capex) tisztább előjelzője. A háromhavi trend fontosabb a havi változásnál. Ha a rendelések tartósan csökkennek, az a beruházási ciklus és az ipari részvények lassulását vetíti előre.
 
 ## Duration – Duráció
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -880,11 +880,11 @@ Hivatkozás: https://piacradar.eu/szotar/etf-flows.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/ecb.html
 
-**Mi ez?** Az eurózóna közös jegybankja, amely az irányadó kamatot és a kötvényvásárlási programokat határozza meg. Elsődleges célja a 2% körüli árstabilitás. Hathetente ül össze kamatdöntésre.
+**Mi ez?** Az eurózóna közös jegybankja (Európai Központi Bank, EKB), amely az irányadó kamatokról és az eszközvásárlási programokról dönt. Árstabilitási célja középtávon szimmetrikus 2%-os infláció, vagyis a cél alatti és feletti eltérést egyformán nemkívánatosnak tekinti. A Kormányzótanács nagyjából hathetente hoz monetáris politikai döntést.
 
-**Miért fontos?** Az EKB döntései mozgatják az eurózóna államkötvény-hozamait, az EURUSD árfolyamot és az európai bankszektor eredményességét. A Fed pályájától eltérő kamatszint kamatkülönbözetet nyit, ami közvetlenül hat a devizapiacra.
+**Miért fontos?** Az EKB döntései az eurózóna állampapírhozamait, az EURUSD árfolyamot és az európai bankok jövedelmezőségét mozgatják. Különleges feladata, hogy egyetlen kamattal kell kezelnie eltérő helyzetű tagállamokat, ezért a déli országok kötvényfelárai is fontos jelzések.
 
-**Piacradar értelmezés** A Piacradar az EKB-t mindig a Fed pályájához viszonyítva olvassa: ha az EKB szigorúbb az amerikai jegybanknál, az az eurót erősíti, fordított esetben gyengíti. A német infláció és üzleti hangulat a döntések egyik legfontosabb inputja.
+**Piacradar értelmezés** Fed-pályához viszonyítva érdemes olvasni: ha az EKB a vártnál szigorúbb az amerikai jegybanknál, az jellemzően az eurót erősíti, fordított esetben gyengíti. A döntés mellett a sajtótájékoztató hangvétele és a stábelőrejelzések módosítása számít. A tagállami kötvényfelárak tágulása jelzi, ha a szigorítás feszültséget okoz, mert ilyenkor a jegybank mozgástere is szűkül.
 
 ## EURUSD
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -910,11 +910,11 @@ Hivatkozás: https://piacradar.eu/szotar/ev-ebitda.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/fiskalis-politika.html
 
-**Mi ez?** A kormány adózási és költekezési döntéseinek összessége, amely befolyásolja a gazdasági aktivitást.
+**Mi ez?** A kormány adózási és kiadási döntéseinek összessége, amellyel a gazdasági aktivitást befolyásolja. Expanzív (laza) a fiskális politika, ha a kormány adót csökkent vagy kiadást növel, restriktív (szigorú), ha fordítva. A költségvetési hiány és az államadósság a fiskális politika mérlege.
 
-**Miért fontos?** Expanzív fiskális politika élénkíti a gazdaságot, restriktív lassítja. A költségvetési hiány és az államadósság kulcstényezők.
+**Miért fontos?** A fiskális és a monetáris politika együtt alakítja a ciklust. Ha a kormány lazít, miközben a jegybank szigorít, a két politika ellentétes irányba húz, ami tartósabb inflációt és magasabb kamatokat eredményezhet. A tartós hiány növeli az állampapír-kínálatot, ez a hosszú hozamokra is felfelé ható nyomást gyakorol.
 
-**Piacradar értelmezés** A Piacradar a fiskális politikát a monetáris politikával együtt értelmezi, mert a kettő együttesen határozza meg a ciklust.
+**Piacradar értelmezés** Kötvénypiaci szemmel érdemes figyelni: a növekvő hiány és a gyengülő aukciós kereslet együtt a hosszú hozamok emelkedésén keresztül hat a részvényekre is. Ágazati szinten a költségvetési döntések nyertes és vesztes szektorokat jelölnek ki, például az infrastruktúra, a védelmi ipar vagy az energetika területén.
 
 ## FOMC Meeting – Fed ülés
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1092,11 +1092,11 @@ Hivatkozás: https://piacradar.eu/szotar/guidance.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/hard-landing.html
 
-**Mi ez?** Az a forgatókönyv, amelyben a monetáris szigorítás vagy egy külső sokk hatására a gazdaság gyorsan lassul és recesszióba fordul. A fogyasztás visszaesik, a vállalati beruházások csökkennek, a munkanélküliség emelkedik.
+**Mi ez?** Kemény landolás: az a forgatókönyv, amelyben a monetáris szigorítás vagy egy külső sokk hatására a gazdaság gyorsan lassul és recesszióba fordul. Ellentéte a soft landing, amikor az infláció úgy csökken, hogy közben nem nő meredeken a munkanélküliség.
 
-**Miért fontos?** Hard landing esetén a vállalati eredményvárakozásokat lefelé módosítják, a részvénypiac risk-off üzemmódba vált. A kötvényhozamok jellemzően esnek, mert a piac gyors és mély kamatcsökkentést kezd árazni.
+**Miért fontos?** Hard landing esetén a vállalati eredményvárakozásokat lefelé módosítják, a részvénypiac kockázatkerülő (risk-off) üzemmódba vált, a hitelfelárak tágulnak. A kötvényhozamok jellemzően esnek, mert a piac gyors és mély kamatcsökkentést kezd árazni. A ciklikus ágazatok és a kis cégek a legérzékenyebbek.
 
-**Piacradar értelmezés** A Piacradar a hard landing kockázatát a hitelpiaci feszültségen és a munkaerőpiac fordulatán méri: a táguló vállalati kötvényfelárak és a gyorsuló elbocsátások erősítik a forgatókönyvet. Ilyen környezetben a defenzív szektorok és a hosszú államkötvények jellemzően felülteljesítenek.
+**Piacradar értelmezés** Hitelpiaci feszültség és munkaerőpiaci fordulat együtt jelzi a kockázat növekedését: a táguló vállalati kötvényfelárak és a gyorsuló elbocsátások erősítik a forgatókönyvet. Ilyen környezetben a defenzív szektorok és a hosszú lejáratú állampapírok jellemzően jobban teljesítenek. A piac ezt gyakran előre árazza, mielőtt a kemény adatok igazolnák.
 
 ## Hashrate
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -1148,21 +1148,21 @@ Hivatkozás: https://piacradar.eu/szotar/horgonyzas.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/housing-starts.html
 
-**Mi ez?** A megkezdett lakásépítések száma az USA-ban. A lakáspiac aktivitásának egyik legfontosabb mutatója.
+**Mi ez?** A megkezdett új lakásépítések havi száma az USA-ban, évesített, szezonálisan kiigazított formában. Az amerikai népszámlálási hivatal (Census Bureau) közli az építési engedélyekkel együtt. Külön mutatja a családi házak és a többlakásos épületek építésének kezdetét.
 
-**Miért fontos?** Erős lakásépítési aktivitás élénk gazdaságot jelez, gyenge aktivitás lassulást. A lakáspiac érzékeny a kamatokra.
+**Miért fontos?** A lakásépítés a gazdaság egyik leginkább kamatérzékeny része, ezért itt látszik meg korán a monetáris politika hatása. Egy új lakás építése sok kapcsolódó keresletet indít el, az építőanyagoktól a berendezésekig, így a mutató tágabb gazdasági hatással bír, mint amit súlya sugall.
 
-**Piacradar értelmezés** A Piacradar a Housing Starts adatot a kamatkörnyezet és a lakáspiaci ciklus összefüggéseiben értelmezi.
+**Piacradar értelmezés** Kamatkörnyezettel együtt értelmezendő: magas jelzáloghitel-kamatok mellett a kezdések csökkenése várható, a meglepetés az, ha ennek ellenére erősek. Az időjárás havi szinten erősen torzíthat, ezért a többhavi átlag megbízhatóbb. A Building Permits adattal összevetve az is látszik, mennyire tart ki a tervezett építkezések sora, és mennyi munka vár még a kivitelezőkre.
 
 ## IFO Index
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/ifo.html
 
-**Mi ez?** Német üzleti klímaindex, amelyet a müncheni IFO Intézet állít össze több ezer vállalat megkérdezésével. Két komponensből áll: a jelenlegi helyzet megítéléséből és a következő hat hónapra vonatkozó várakozásokból.
+**Mi ez?** Német üzleti klímaindex (ifo Geschäftsklimaindex), amelyet a müncheni ifo Intézet havonta állít össze több ezer vállalat megkérdezésével. Két komponensből áll: a fennálló üzleti helyzet megítéléséből és a következő hat hónapra vonatkozó várakozásokból. Ágazatonként is közlik, az ipartól a szolgáltatásokig.
 
-**Miért fontos?** A német ipar az eurózóna gerince, ezért az IFO a régió konjunktúrájának egyik legjobb indikátora. A vállalati megítélés változása jellemzően megelőzi a beruházási és foglalkoztatási döntéseket.
+**Miért fontos?** Németország az eurózóna legnagyobb gazdasága, és ipara erősen exportfüggő, ezért az IFO a régió konjunktúrájának egyik legfontosabb előjelzője. A vállalati hangulat változása jellemzően megelőzi a beruházási és foglalkoztatási döntéseket, így az EKB és a devizapiac is figyeli.
 
-**Piacradar értelmezés** A Piacradar a két alkomponens szétválását figyeli: ha a várakozások javulnak, miközben a jelenlegi helyzet még gyenge, az fordulópontot jelezhet. A tartósan romló IFO növekvő recessziós kockázatot és az euróra nehezedő nyomást vetít előre.
+**Piacradar értelmezés** Két alkomponens szétválása a legérdekesebb jel: ha a várakozások javulnak, miközben a helyzetértékelés még gyenge, az fordulópontot jelezhet. A tartósan romló index növekvő recessziós kockázatot és az euróra nehezedő nyomást vetít előre. Az ágazati bontás megmutatja, hogy a gyengülés exportból vagy belső keresletből ered.
 
 ## Implied Volatility (IV) – Implikált volatilitás
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1178,11 +1178,11 @@ Hivatkozás: https://piacradar.eu/szotar/implied-volatility.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/industrial-production.html
 
-**Mi ez?** Az ipar (feldolgozóipar, bányászat, közüzemek) tényleges kibocsátásának havi változása. A kapacitáskihasználtsággal (capacity utilization) együtt közlik.
+**Mi ez?** Az ipar, vagyis a feldolgozóipar, a bányászat és a közüzemek tényleges kibocsátásának havi változása. Az USA-ban a Fed közli a kapacitáskihasználtsággal (capacity utilization) együtt, amely azt mutatja, a meglévő termelési kapacitások mekkora részét használják ki.
 
-**Miért fontos?** A reálgazdasági aktivitás kemény (hard) adata, szemben a felmérés-alapú PMI-vel. Tartós csökkenés ipari recessziót jelez; a magas kapacitáskihasználtság inflációs nyomásra utalhat.
+**Miért fontos?** A reálgazdasági aktivitás kemény (hard) adata, szemben a felmérésalapú PMI-vel, amely puha (soft) adat. A tartós csökkenés ipari recesszióra utal. A magas kapacitáskihasználtság inflációs nyomást jelezhet, mert a vállalatok kapacitáskorlátba ütköznek, az alacsony pedig gyenge keresletet.
 
-**Piacradar értelmezés** A Piacradar az ipari termelést a PMI puha adatának megerősítésére vagy cáfolatára használja — ha a kettő szétválik, az fordulópontot jelezhet.
+**Piacradar értelmezés** Puha és kemény adat összevetésére a legjobb: ha a PMI javul, de az ipari termelés nem követi, a felmérések túl optimisták lehetnek, és fordítva. A közüzemi termelés az időjárás miatt erősen ingadozik, ezért a feldolgozóipari összetevő tisztább kép a ciklusról. A kapacitáskihasználtság emelkedése pedig azt jelzi, hogy a kereslet kezdi elérni a termelési korlátokat, ami árnyomással járhat.
 
 ## Infláció – Áremelkedés
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1214,11 +1214,11 @@ Hivatkozás: https://piacradar.eu/szotar/installed-base.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/interest-rate.html
 
-**Mi ez?** A kamatláb az a százalékos díj, amelyet a hitelfelvevő fizet a hitelért, vagy amelyet a megtakarító kap a betétért.
+**Mi ez?** A pénz ára: az a százalékos díj, amelyet a hitelfelvevő fizet a kölcsönért, vagy amelyet a megtakarító kap a betétjéért. A jegybanki alapkamat a rendszer kiindulópontja, ehhez igazodnak a bankközi kamatok, majd a hitel- és betéti kamatok. A nominális kamatból az inflációt levonva kapjuk a reálkamatot.
 
-**Miért fontos?** A kamatlábak meghatározzák a hitelköltségeket, a beruházási kedvet és a gazdasági aktivitást. A jegybanki kamat a pénzügyi rendszer alapja.
+**Miért fontos?** A kamat határozza meg a hitelek költségét, a beruházások megtérülési küszöbét és a megtakarítás vonzerejét. Az eszközárazásban a diszkontráta alapja: magasabb kamat mellett a jövőbeli pénzáramok jelenértéke kisebb, ezért a távoli növekedésre épülő részvények különösen érzékenyek rá.
 
-**Piacradar értelmezés** A Piacradar a kamatlábat a monetáris politika és a hozamgörbe kontextusában értelmezi.
+**Piacradar értelmezés** Reálkamatként érdemes gondolkodni róla: nem a nominális szint, hanem az infláció feletti rész mutatja, mennyire szigorú a monetáris környezet. A jegybank a rövid kamatot irányítja, a hosszú kamatokat a piac a várható inflációból, növekedésből és kockázati prémiumból árazza, ezért a kettő eltérő irányba is mozoghat.
 
 ## Inverted Yield Curve
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1272,11 +1272,11 @@ Hivatkozás: https://piacradar.eu/szotar/ism-manufacturing-pmi.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/ism-service-pmi.html
 
-**Mi ez?** Az amerikai szolgáltatási szektor havi aktivitási indexe, amely a gazdaság nagyjából 70%-át fedi le. Az üzleti aktivitást, az új rendeléseket, a foglalkoztatást és az árakat méri, néhány nappal a feldolgozóipari index után.
+**Mi ez?** Az amerikai szolgáltatószektor havi aktivitási indexe, amelyet az Institute for Supply Management (ISM) számít beszerzési vezetők felméréséből. Az üzleti aktivitást, az új rendeléseket, a foglalkoztatást és az árakat méri, néhány munkanappal a feldolgozóipari index után jelenik meg. Az 50-es szint a választóvonal bővülés és zsugorodás között.
 
-**Miért fontos?** Mivel az amerikai gazdaság döntően szolgáltatásalapú, ez a mutató jobban leképezi a teljes konjunktúrát, mint a feldolgozóipari PMI. Az árkomponens a szolgáltatási infláció alakulásáról ad korai jelzést.
+**Miért fontos?** Mivel az amerikai gazdaság nagyobbik része szolgáltatás, ez a mutató szélesebben képezi le a konjunktúrát, mint a feldolgozóipari PMI. Az árkomponens a szolgáltatási infláció alakulásáról ad korai jelzést, amely a jegybank számára a legmakacsabb inflációs tényező.
 
-**Piacradar értelmezés** A Piacradar az 50-es szinthez és az árkomponenshez méri: a bővülő aktivitás emelkedő árnyomással hawkish kombináció, a lassuló aktivitás enyhülő árakkal dovish. A foglalkoztatási alindex a munkaerőpiaci adatok előjelzője lehet.
+**Piacradar értelmezés** Aktivitást és árakat együtt kell nézni. A bővülő aktivitás emelkedő árnyomással a szigorúbb kamatpálya felé tolhatja a várakozásokat, a lassuló aktivitás enyhülő árakkal a lazítás felé, de egyetlen adat önmagában egyiket sem dönti el. A foglalkoztatási alindex a munkaerőpiaci jelentés előjelzője lehet.
 
 ## Japanese Government Bond (JGB)
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1308,11 +1308,11 @@ Hivatkozás: https://piacradar.eu/szotar/jobless-claims.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/jolts.html
 
-**Mi ez?** A JOLTS a betöltetlen állások számát méri az USA-ban. A munkaerőpiaci kereslet egyik legfontosabb mutatója.
+**Mi ez?** A JOLTS (Job Openings and Labor Turnover Survey) az amerikai munkaügyi statisztikai hivatal (BLS) havi felmérése a betöltetlen állásokról és a munkaerő-forgalomról. A nyitott pozíciók mellett a felvételeket (hires), a felmondásokat (quits) és az elbocsátásokat (layoffs) is méri, egy hónappal később, mint a foglalkoztatási jelentés.
 
-**Miért fontos?** Magas állásszám → erős munkaerőpiac, alacsony → lassulás. A Fed külön figyeli a „quits rate” mutatót is.
+**Miért fontos?** A munkaerő-kereslet egyik legfontosabb mutatója. A betöltetlen állások és a munkanélküliek aránya megmutatja, mennyire feszes a munkaerőpiac. A felmondási ráta (quits rate) a munkavállalók magabiztosságát jelzi: aki könnyen talál új állást, gyakrabban mond fel, ez pedig béremelési nyomással jár.
 
-**Piacradar értelmezés** A Piacradar a JOLTS adatot a munkaerőpiaci túlhevülés vagy lehűlés jelzőjeként használja.
+**Piacradar értelmezés** Felmondásokból és felvételekből érdemes kiindulni, nem csak a nyitott állásokból, mert a hirdetések száma nem mindig jelent tényleges felvételt. Ha a felmondási ráta csökken és a felvételek lassulnak, a munkaerőpiac hűl, ami a bérinflációt is mérsékli. A felmérés válaszadási aránya alacsony, ezért gyakoriak a jelentős revíziók.
 
 ## Kamatparitás – Interest Rate Parity
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1370,11 +1370,11 @@ Hivatkozás: https://piacradar.eu/szotar/leverage.html
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
 Hivatkozás: https://piacradar.eu/szotar/likviditas.html
 
-**Mi ez?** Azt fejezi ki, milyen könnyen és mekkora árfolyamhatás nélkül lehet egy eszközt megvenni vagy eladni. Likvid piacon nagy a forgalom és szűk a bid-ask spread; illikvid piacon már közepes megbízás is elmozdítja az árat. Tágabb értelemben a pénzügyi rendszerben elérhető szabad pénz mennyiségét is jelenti.
+**Mi ez?** Azt fejezi ki, milyen könnyen és mekkora árfolyamhatás nélkül lehet egy eszközt megvenni vagy eladni. Likvid piacon nagy a forgalom és szűk a vételi-eladási árkülönbözet (bid-ask spread), illikvid piacon már egy közepes megbízás is elmozdítja az árat. Tágabb értelemben a pénzügyi rendszerben elérhető pénz mennyiségét is jelenti.
 
-**Miért fontos?** A likviditás elapadása felerősíti az ármozgásokat: stresszhelyzetben, alacsony forgalmú időszakban (pre-market, after-hours, ünnepnapok) a mozgások túlzóak lehetnek. Rendszerszinten a jegybanki likviditás (QE/QT) a kockázati étvágy egyik fő hajtóereje.
+**Miért fontos?** A likviditás elapadása felerősíti az ármozgásokat: stresszhelyzetben vagy alacsony forgalmú időszakban, például tőzsdenyitás előtt, zárás után vagy ünnepnapokon, a mozgások túlzóak lehetnek. Rendszerszinten a jegybanki eszközvásárlás (QE) bővíti, a mérlegleépítés (QT) szűkíti a likviditást, ami a kockázati étvágy egyik fő hajtóereje.
 
-**Piacradar értelmezés** A Piacradar a likviditást a mozgások megbízhatóságának szűrőjeként használja: vékony likviditás mellett az árfolyamreakció kevésbé informatív, és gyakran másnapra korrigálódik.
+**Piacradar értelmezés** Szűrőként érdemes használni a mozgások megbízhatóságának megítéléséhez: vékony likviditás mellett az árfolyamreakció kevésbé informatív, és gyakran a következő napokban korrigálódik. Pozíciónyitásnál a spread és a forgalom is számít, mert illikvid papírnál a ki- és belépés költsége jelentősen ronthatja a hozamot.
 
 ## Liquidation – Likvidálás
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)

@@ -45,8 +45,8 @@
   "first": "2026-03-14"
  },
  "szotar/beige-book": {
-  "hash": "b632f29502fb6bcb",
-  "date": "2026-08-24",
+  "hash": "6150a1601b7f1593",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/beta": {
@@ -80,13 +80,13 @@
   "first": "2026-04-30"
  },
  "szotar/boe": {
-  "hash": "8cb203b189d840dd",
-  "date": "2026-08-24",
+  "hash": "7358485c49d79542",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/boj": {
-  "hash": "92950de639b85ed9",
-  "date": "2026-08-24",
+  "hash": "f909e62dc20b3938",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/bollinger-szalag": {
@@ -110,8 +110,8 @@
   "first": "2026-03-14"
  },
  "szotar/building-permits": {
-  "hash": "91bde1b82f7772a4",
-  "date": "2026-08-24",
+  "hash": "9d033a465526837b",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/bull-bear-market": {
@@ -170,13 +170,13 @@
   "first": "2026-03-14"
  },
  "szotar/consumer-confidence": {
-  "hash": "3d7dccc28cd9c99b",
-  "date": "2026-08-24",
+  "hash": "c3de6208a426e1b9",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/core-inflacio": {
-  "hash": "df206db607ca0489",
-  "date": "2026-08-24",
+  "hash": "c1aca936363b8cb1",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/core-pce": {
@@ -195,8 +195,8 @@
   "first": "2026-03-14"
  },
  "szotar/current-account": {
-  "hash": "6c67d62450a75adc",
-  "date": "2026-08-24",
+  "hash": "942cd66e845d5276",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/dca": {
@@ -255,8 +255,8 @@
   "first": "2026-06-27"
  },
  "szotar/durable-goods": {
-  "hash": "a9e106b5d8f050fb",
-  "date": "2026-08-24",
+  "hash": "80453c5745301f1d",
+  "date": "2026-11-18",
   "first": "2026-06-27"
  },
  "szotar/duration": {
@@ -280,8 +280,8 @@
   "first": "2026-03-14"
  },
  "szotar/ecb": {
-  "hash": "d50413284aaad44d",
-  "date": "2026-08-24",
+  "hash": "86cbe2ad6f909c17",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/eladosodottsag": {
@@ -320,8 +320,8 @@
   "first": "2026-08-23"
  },
  "szotar/fiskalis-politika": {
-  "hash": "092ba12b7961d9ba",
-  "date": "2026-08-24",
+  "hash": "65593a6c611fa0a8",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/fomc-meeting": {
@@ -410,8 +410,8 @@
   "first": "2026-03-14"
  },
  "szotar/hard-landing": {
-  "hash": "d73a1446abe7ba09",
-  "date": "2026-08-24",
+  "hash": "295a1f3715d415d2",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/hashrate": {
@@ -435,13 +435,13 @@
   "first": "2026-08-23"
  },
  "szotar/housing-starts": {
-  "hash": "9d750d49ceb53de9",
-  "date": "2026-08-24",
+  "hash": "7b41b67e4ea67e6f",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/ifo": {
-  "hash": "a7ea11486f4965a5",
-  "date": "2026-08-24",
+  "hash": "757aea091e41242d",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/implied-volatility": {
@@ -450,8 +450,8 @@
   "first": "2026-03-14"
  },
  "szotar/industrial-production": {
-  "hash": "8472a169a294f676",
-  "date": "2026-08-24",
+  "hash": "2492c1efd049a500",
+  "date": "2026-11-18",
   "first": "2026-06-27"
  },
  "szotar/inflacio": {
@@ -465,8 +465,8 @@
   "first": "2026-07-15"
  },
  "szotar/interest-rate": {
-  "hash": "873a622bca66f9db",
-  "date": "2026-08-24",
+  "hash": "1a8dfff4c083f29f",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/inverted-yield-curve": {
@@ -485,8 +485,8 @@
   "first": "2026-03-14"
  },
  "szotar/ism-service-pmi": {
-  "hash": "d7a03f520accee3e",
-  "date": "2026-08-24",
+  "hash": "c2dc34e255ff689b",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/jgb": {
@@ -500,8 +500,8 @@
   "first": "2026-03-14"
  },
  "szotar/jolts": {
-  "hash": "9ca118b0dd63eb2b",
-  "date": "2026-08-24",
+  "hash": "22915cd32305907d",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/kamatparitas": {
@@ -525,8 +525,8 @@
   "first": "2026-06-27"
  },
  "szotar/likviditas": {
-  "hash": "0bec1248eb06a976",
-  "date": "2026-08-24",
+  "hash": "c3c9e5999fbf6129",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/liquidation": {
