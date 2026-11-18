@@ -4,18 +4,18 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Theta – Időérték-vesztés — mit jelent? | Piacradar Pénzügyi Szótár</title>
-<meta name="description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár mellett. Az opció vevője számára negatív,…" />
+<meta name="description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár és volatilitás mellett. Az opció vevője…" />
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
 <meta name="theme-color" content="#0b1220" />
 <link rel="canonical" href="https://piacradar.eu/szotar/theta.html" />
 <meta property="og:title" content="Theta – Időérték-vesztés — Piacradar Pénzügyi Szótár" />
-<meta property="og:description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár mellett. Az opció vevője számára negatív,…" />
+<meta property="og:description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár és volatilitás mellett. Az opció vevője…" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://piacradar.eu/szotar/theta.html" />
 <meta property="og:image" content="https://piacradar.eu/og-image.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Theta – Időérték-vesztés — Piacradar Pénzügyi Szótár" />
-<meta name="twitter:description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár mellett. Az opció vevője számára negatív,…" />
+<meta name="twitter:description" content="Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár és volatilitás mellett. Az opció vevője…" />
 <meta name="twitter:image" content="https://piacradar.eu/og-image.jpg" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -87,7 +87,7 @@ footer a:hover{text-decoration:underline}
         "name": "Kovács Tamás",
         "url": "https://piacradar.eu/szerzo.html"
       },
-      "dateModified": "2026-08-24",
+      "dateModified": "2026-11-18",
       "mainEntity": {
         "@id": "https://piacradar.eu/szotar/theta.html#term"
       }
@@ -97,7 +97,7 @@ footer a:hover{text-decoration:underline}
       "@id": "https://piacradar.eu/szotar/theta.html#term",
       "name": "Theta – Időérték-vesztés",
       "url": "https://piacradar.eu/szotar/theta.html",
-      "description": "Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár mellett. Az opció vevője számára negatív, az eladója számára pozitív tényező.",
+      "description": "Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár és volatilitás mellett. Az opció vevője számára negatív, az eladója (kiírója) számára pozitív tényező. A théta az opció időértékét fogyasztja, a belső értéket nem érinti.",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Piacradar Pénzügyi Szótár",
@@ -147,19 +147,19 @@ footer a:hover{text-decoration:underline}
 
   <a class="kick" href="kategoria-kereskedes-technikai.html"><span class="dot"></span> Kereskedés &amp; technikai</a>
   <h1>Theta – Időérték-vesztés</h1>
-  <p class="byline">Szerző: <a href="/szerzo.html" rel="author">Kovács Tamás</a> · Frissítve: <time datetime="2026-08-24">2026.08.24.</time></p>
+  <p class="byline">Szerző: <a href="/szerzo.html" rel="author">Kovács Tamás</a> · Frissítve: <time datetime="2026-11-18">2026.11.18.</time></p>
 
         <section class="sec">
           <h2>Mi ez?</h2>
-          <p>Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár mellett. Az opció vevője számára negatív, az eladója számára pozitív tényező.</p>
+          <p>Opciós mutató, amely azt méri, mennyit veszít az opció az értékéből egy nap múlásával, változatlan alaptermékár és <a class="xref" href="/szotar/volatilitas.html">volatilitás</a> mellett. Az opció vevője számára negatív, az eladója (kiírója) számára pozitív tényező. A théta az opció időértékét fogyasztja, a belső értéket nem érinti.</p>
         </section>
         <section class="sec">
           <h2>Miért fontos?</h2>
-          <p>Az időérték-vesztés a lejárat közeledtével gyorsul, és az utolsó hetekben a legerősebb. Ezért veszíthet értékéből egy opció akkor is, ha az irány helyes volt, de a mozgás túl lassan következett be. Az opciós stratégiák jelentős része lényegében a théta begyűjtésére épül.</p>
+          <p>Az időérték-vesztés nem egyenletes: a lejárat közeledtével gyorsul, és az utolsó hetekben a legerősebb, különösen a pénzen lévő (at the money) opcióknál. Ezért veszíthet értékéből egy opció akkor is, ha az irány helyes volt, de a mozgás túl lassan következett be. Az opciós stratégiák jelentős része, például az opciókiírás, lényegében a théta begyűjtésére épül.</p>
         </section>
         <section class="sec">
           <h2>Piacradar értelmezés</h2>
-          <p>A Piacradar a thétát az opciós pozicionáltság magyarázatánál említi — a lejárat közeli időszakban ez az egyik oka annak, hogy az opciós piac nyomása felerősödik.</p>
+          <p>Opcióvásárlónak az idő az ellenfele, kiírónak a szövetségese. Rövid lejáratú opcióknál a théta hatása a lejárati napokon koncentrálódik, ami a pozicionáltság gyors átrendeződéséhez vezethet. A théta és a <a class="xref" href="/szotar/gamma.html">gamma</a> együtt mozog: ahol nagy a gamma, ott jellemzően gyors az időérték-vesztés is.</p>
         </section>
 
   <div class="rel">

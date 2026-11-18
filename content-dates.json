@@ -595,8 +595,8 @@
   "first": "2026-08-23"
  },
  "szotar/momentum": {
-  "hash": "38f9f3bae2af980f",
-  "date": "2026-08-24",
+  "hash": "51f8094d1d59b2bd",
+  "date": "2026-11-18",
   "first": "2026-03-23"
  },
  "szotar/monetaris-politika": {
@@ -645,8 +645,8 @@
   "first": "2026-03-14"
  },
  "szotar/open-interest": {
-  "hash": "2fc5fac1b5cafc4b",
-  "date": "2026-08-24",
+  "hash": "04f35809d1489106",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/operating-margin": {
@@ -655,13 +655,13 @@
   "first": "2026-03-14"
  },
  "szotar/options": {
-  "hash": "2b057674aca6b822",
-  "date": "2026-08-24",
+  "hash": "0de81cc87c0ce0bf",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/options-expiration": {
-  "hash": "6f8e63f4caf64e33",
-  "date": "2026-08-24",
+  "hash": "0676b9cfe64dbc8b",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/osztalekhozam": {
@@ -715,8 +715,8 @@
   "first": "2026-03-14"
  },
  "szotar/pre-market": {
-  "hash": "485ad327eec0feed",
-  "date": "2026-08-24",
+  "hash": "969cf038932ac8c8",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/price-to-book": {
@@ -730,13 +730,13 @@
   "first": "2026-03-14"
  },
  "szotar/put": {
-  "hash": "1dec18eb53942693",
-  "date": "2026-08-24",
+  "hash": "e4cfd544c3388a3d",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/put-call-ratio": {
-  "hash": "e3c89c328bce63e8",
-  "date": "2026-08-24",
+  "hash": "0e553cd1ea8f1bba",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/qe": {
@@ -750,8 +750,8 @@
   "first": "2026-03-14"
  },
  "szotar/quadruple-witching": {
-  "hash": "2d49f8c9a3f4b45f",
-  "date": "2026-08-24",
+  "hash": "bac486a7c455c303",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/rate-cut": {
@@ -775,8 +775,8 @@
   "first": "2026-03-14"
  },
  "szotar/risk-on-off": {
-  "hash": "34d8c39e064bb85d",
-  "date": "2026-08-24",
+  "hash": "0655808cfdd0305d",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/roe": {
@@ -810,13 +810,13 @@
   "first": "2026-07-15"
  },
  "szotar/sell-off": {
-  "hash": "10c4661dbcbb3a59",
-  "date": "2026-08-24",
+  "hash": "606eb318d28e9e5e",
+  "date": "2026-11-18",
   "first": "2026-03-23"
  },
  "szotar/sell-the-news": {
-  "hash": "53d191d90c926af0",
-  "date": "2026-08-24",
+  "hash": "dbdcf0d8ca78c1c9",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/sep": {
@@ -825,18 +825,18 @@
   "first": "2026-03-15"
  },
  "szotar/short-covering": {
-  "hash": "5b96a1ea1f16112a",
-  "date": "2026-08-24",
+  "hash": "77ccd5c7109aa0d6",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/short-interest": {
-  "hash": "27b8308f6b8d6924",
-  "date": "2026-08-24",
+  "hash": "4ecc9380be573187",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/short-squeeze": {
-  "hash": "00f2c02d4ba7fdee",
-  "date": "2026-08-24",
+  "hash": "d5d2701fdbebc7ee",
+  "date": "2026-11-18",
   "first": "2026-06-27"
  },
  "szotar/smart-contract": {
@@ -875,18 +875,18 @@
   "first": "2026-08-23"
  },
  "szotar/strike-price": {
-  "hash": "b11621eb0aa656ce",
-  "date": "2026-08-24",
+  "hash": "b2d19f169626051e",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/swap": {
-  "hash": "7c3dd86ce842f952",
-  "date": "2026-08-24",
+  "hash": "d8911b323109431a",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/tamasz-ellenallas": {
-  "hash": "7bfd7bc33e3eaf5f",
-  "date": "2026-08-24",
+  "hash": "0f5ccfafbfbac014",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/tariff": {
@@ -905,8 +905,8 @@
   "first": "2026-03-23"
  },
  "szotar/theta": {
-  "hash": "0b17304563b9795b",
-  "date": "2026-08-24",
+  "hash": "2fa6002da07f2562",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/token-taxonomia": {
@@ -935,8 +935,8 @@
   "first": "2026-03-14"
  },
  "szotar/trendvonal": {
-  "hash": "41030420862b7b24",
-  "date": "2026-08-24",
+  "hash": "85a676a6e0de108d",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/tvl": {
@@ -965,8 +965,8 @@
   "first": "2026-03-14"
  },
  "szotar/volatilitas": {
-  "hash": "4d4acba320677654",
-  "date": "2026-08-24",
+  "hash": "9a4ac137270a0478",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/wallet": {
