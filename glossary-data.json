@@ -221,7 +221,7 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Japán jegybankja, amely évtizedeken át nulla közeli, egy ideig negatív kamattal és hozamgörbe-kontrollal (yield curve control) próbálta kimozdítani a gazdaságot a deflációból. A rendkívül laza politikából a normalizálás felé fordulás a globális pénzügyi rendszer egyik jelentős szerkezeti változása."
+    "text": "Japán jegybankja, amely évtizedeken át nulla közeli, egy ideig negatív kamattal és hozamgörbe-kontrollal (yield curve control) próbálta kimozdítani a gazdaságot a deflációból. A rendkívül laza politikából a normalizálás felé fordulás a globális pénzügyi rendszer szempontjából jelentős szerkezeti változás."
    },
    {
     "title": "Miért fontos?",
@@ -1781,15 +1781,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az M2 a gazdaságban lévő pénzmennyiség egyik legfontosabb mutatója: készpénz, látra szóló betétek és rövid lejáratú megtakarítások összege."
+    "text": "Az M2 a tágabb pénzmennyiség mutatója. Tartalmazza a szűkebb M1-et, vagyis a készpénzt és a látra szóló betéteket, valamint a megtakarítási betéteket, a kisösszegű lekötött betéteket és a lakossági pénzpiaci alapokat. Az USA-ban a Fed közli havonta."
    },
    {
     "title": "Miért fontos?",
-    "text": "Gyorsuló pénzmennyiség inflációs nyomást jelezhet, csökkenő pénzmennyiség szigorodó pénzügyi feltételeket."
+    "text": "A pénzmennyiség a gazdaságban elérhető vásárlóerőt és a pénzügyi rendszer likviditását tükrözi. Gyors bővülése a kereslet és az eszközárak felé nyomhatja a pénzt, zsugorodása szigorodó pénzügyi feltételekre utal. A kapcsolat az inflációval laza és késleltetett: a pénz forgási sebessége (velocity) is változik, így ugyanakkora pénzmennyiség eltérő hatással járhat."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az M2 változását a likviditási ciklus egyik legjobb mutatójaként használja."
+    "text": "Egymagában ritkán ad pontos jelzést, a hatás a változás ütemében és tartósságában rejlik. Ha az M2 éves növekedése a jegybanki szigorítás ellenére gyorsul, a pénzügyi feltételek lazábbak, mint amit a kamatszint sugall. Likviditásérzékeny eszközöknél, például növekedési részvényeknél és kriptónál a jegybanki mérleggel együtt adja a teljes képet."
    }
   ]
  },
@@ -1857,15 +1857,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A Michigan Egyetem havi felmérése a fogyasztók gazdasági hangulatáról, inflációs várakozásairól és pénzügyi helyzetéről."
+    "text": "A Michigani Egyetem havi fogyasztói felmérése (University of Michigan Consumer Sentiment). A háztartások pénzügyi helyzetének és a gazdasági kilátásoknak a megítélését méri, emellett egyéves és öt-tízéves inflációs várakozásokat is közöl. Havonta kétszer jelenik meg: egy előzetes és egy végleges adattal."
    },
    {
     "title": "Miért fontos?",
-    "text": "A rövid távú inflációs várakozások komponense különösen fontos a Fed számára. A hangulat gyorsan reagál a gazdasági változásokra."
+    "text": "Az inflációs várakozások a jegybank számára kiemelten fontosak, mert ha a háztartások tartósan magas inflációra számítanak, az a bérkövetelésekbe és az árazásba is beépülhet. A hosszabb távú várakozás azt mutatja, mennyire hisznek a fogyasztók abban, hogy a jegybank eléri a célját."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a Michigan-indexet a fogyasztói inflációs várakozások egyik legjobb jelzőjeként használja."
+    "text": "Hangulat és költés nem ugyanaz: a felmérés gyakran pesszimistább, mint amit a kiskereskedelmi adatok mutatnak, és erősen reagál a benzinárakra vagy a politikai hírekre. Az előzetes és a végleges adat között jelentős eltérés is lehet. Ha a hosszú távú inflációs várakozás elmozdul, az többet nyom a latba, mint a főszám változása."
    }
   ]
  },
@@ -1914,15 +1914,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A jegybank által alkalmazott eszközök összessége, amelyekkel szabályozza a pénzkínálatot és a kamatkörnyezetet."
+    "text": "A jegybank eszközeinek összessége, amelyekkel a kamatkörnyezetet, a pénzkínálatot és a pénzügyi feltételeket alakítja. Fő eszköze az irányadó kamat, emellett a mérlegpolitika (eszközvásárlás vagy -leépítés), a kötelező tartalékráta és a kommunikáció (forward guidance). Célja jellemzően az árstabilitás, a Fed esetében a teljes foglalkoztatás is."
    },
    {
     "title": "Miért fontos?",
-    "text": "A monetáris politika határozza meg a finanszírozási költségeket, a likviditást és a gazdasági ciklus alakulását."
+    "text": "A monetáris politika határozza meg a hitelek árát, a pénzügyi rendszer likviditását és ezen keresztül a gazdasági ciklus alakulását. Hatása késleltetett: a kamatváltozás hónapok alatt gyűrűzik be a beruházásokba, a fogyasztásba és az árakba, ezért a jegybank előrejelzésekre támaszkodva dönt."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a monetáris politikát a kamatpálya és a likviditási ciklus fő meghatározójaként kezeli."
+    "text": "Számít, hogy a lépés meglepetés-e: a piac a várakozásokat előre beárazza, így egy várt kamatcsökkentés alig mozdít, egy váratlan irányváltás viszont az egész hozamgörbét átírja. A kamatszint mellett a mérlegpolitika és a kommunikáció is szigoríthat vagy lazíthat, ezért a három együtt adja a valódi irányt."
    }
   ]
  },
@@ -2124,15 +2124,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A PMI a vállalati beszerzési vezetők körében készült felmérés, amely a gazdasági aktivitás egyik leggyorsabb ütemű előrejelzője. 50 pont felett bővülést, 50 alatt zsugorodást jelez."
+    "text": "A PMI (Purchasing Managers' Index) vállalati beszerzési vezetők körében készült havi felmérés, amely az új rendelések, a termelés, a foglalkoztatás, a szállítási idők és a készletek alakulását összegzi. Az 50-es szint a választóvonal: felette bővülést, alatta zsugorodást jelez. Külön készül feldolgozóipari és szolgáltatási index, a kettő súlyozott kombinációja a kompozit (Composite) PMI."
    },
    {
     "title": "Miért fontos?",
-    "text": "A PMI hamarabb jelez fordulatot, mint a kemény adatok (GDP, ipari termelés). A feldolgozóipari és szolgáltatási PMI külön-külön is fontos, a Composite a kettő súlyozott átlaga."
+    "text": "A PMI hamarabb jelez fordulatot, mint a kemény adatok, például a GDP vagy az ipari termelés, mert a tárgyhónapot követő első napokban már elérhető. Országonként összehasonlítható, így a globális ciklus helyzetét is gyorsan mutatja."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a PMI-t a gazdasági ciklus korai jelzőjeként használja, kiemelt figyelemmel az 50-es határ átlépéseire és a trendfordulókra."
+    "text": "Mi számít jobban, a szint vagy az irány? Többnyire az irány: egy 48-ról 49-re javuló érték még zsugorodás, mégis fordulatot jelezhet. Az új rendelések és a készletek különbsége előre mutat, mert a rendelésállomány bővülése a következő hónapok termelését húzza. A felmérés hangulatot is tükröz, ezért kemény adatokkal érdemes megerősíteni."
    }
   ]
  },
@@ -2222,15 +2222,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Mennyiségi szigorítás: a jegybank csökkenti a mérlegfőösszegét, jellemzően úgy, hogy a lejáró állampapírokat nem fekteti újra. Ezzel likviditást von ki a bankrendszerből. A QE (mennyiségi lazítás) ellentéte."
+    "text": "Mennyiségi szigorítás: a jegybank csökkenti a mérlegfőösszegét, jellemzően úgy, hogy a lejáró kötvényeket nem fekteti újra, ritkábban aktív eladással. Ezzel tartalékot von ki a bankrendszerből. A QE (mennyiségi lazítás) ellentéte."
    },
    {
     "title": "Miért fontos?",
-    "text": "A QT emeli a hosszú hozamokat és szűkíti a pénzügyi kondíciókat anélkül, hogy az irányadó kamathoz hozzányúlnának. A likviditásérzékeny eszközök — növekedési részvények, kripto — jellemzően ellenszélbe kerülnek."
+    "text": "A QT felfelé nyomhatja a hosszú hozamokat és szűkíti a pénzügyi feltételeket anélkül, hogy az irányadó kamathoz hozzányúlnának. A piacnak több állampapírt kell felszívnia, a banki tartalékok csökkennek. Ha a tartalékok túl alacsonyra esnek, a pénzpiaci kamatok kiugorhatnak, ami a jegybankot a program lassítására késztetheti."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a QT ütemének változását figyeli: a program gyorsítása szigorítás, a lassítása vagy leállítása dovish jelzés. A mérlegpolitikára tett utalások gyakran nagyobb piaci hatást váltanak ki, mint maga a kamatdöntés."
+    "text": "Lassítás vagy leállítás a szigorítás enyhítését jelenti, gyorsítás a szigorúbb irányt, de egy bejelentés önmagában nem laza vagy szigorú: a hatás a várakozásokhoz képest dől el. A pénzpiaci feszültség jelei, például a repokamatok kiugrása, előre jelezhetik a program végét. A likviditásérzékeny eszközök, mint a növekedési részvények és a kripto, a QT alatt jellemzően ellenszélben vannak."
    }
   ]
  },
@@ -2260,15 +2260,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A jegybank csökkenti az irányadó kamatot, olcsóbbá téve a hitelt és növelve a likviditást."
+    "text": "A jegybank csökkenti az irányadó kamatot. A Fed esetében ez a szövetségi alapkamat (federal funds rate) célsávjának csökkentése, jellemzően negyed százalékpontos lépésekben. Ezzel olcsóbbá válik a hitel, és lazulnak a pénzügyi feltételek."
    },
    {
     "title": "Miért fontos?",
-    "text": "A kamatvágás élénkíti a gazdaságot és általában támogatja a részvénypiacokat — de ha a vágás oka recessziós félelem, a piac negatívan is reagálhat."
+    "text": "A kamatvágás élénkíti a gazdaságot, csökkenti a hitelfelvevők terheit, és általában támogatja a részvény- és kötvénypiacot. A hatás azonban az okától függ: a csökkenő inflációra adott normalizáló vágás más, mint a gyorsan romló gazdaságra adott válságkezelő lépés, amely mellett a piac eshet is."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a kamatvágási várakozásokat a piaci árazás (Fed funds futures) tükrében követi — a „miért vág” kérdés fontosabb, mint a „mennyit”."
+    "text": "Miért vág a jegybank? Ez a kérdés fontosabb, mint a lépés mérete. Ha a csökkentés megelőző jellegű, és a munkaerőpiac stabil, a részvények jellemzően jól teljesítenek. Ha viszont a vágás a recesszió elismerése, az eredményvárakozások romlása felülírja a kamathatást. A piac a kamatvárakozásokat a határidős kamatpiacon (fed funds futures) árazza, a meglepetés ehhez képest mérhető."
    }
   ]
  },
@@ -2320,15 +2320,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A kiskereskedelmi értékesítések havi változása az USA-ban. A fogyasztói költekezés legfontosabb kemény adata."
+    "text": "A kiskereskedelmi értékesítések havi változása az USA-ban, amelyet az amerikai népszámlálási hivatal (Census Bureau) közöl. Nominális adat, vagyis az áremelkedést is tartalmazza. A főszám mellett megjelenik az autók nélküli változat és a kontrollcsoport (control group), amely kiveszi az autókat, az üzemanyagot, az építőanyagot és a vendéglátást."
    },
    {
     "title": "Miért fontos?",
-    "text": "A fogyasztás az amerikai GDP kb. kétharmada. Erős retail sales = ellenálló gazdaság; gyenge adat = lassuló kereslet."
+    "text": "A fogyasztás az amerikai GDP legnagyobb összetevője, és a Retail Sales az egyik leggyorsabb kemény adat róla. A kontrollcsoport közvetlenül bekerül a GDP fogyasztási becslésébe, ezért a piac gyakran erre reagál a legerősebben."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a Retail Sales-t a fogyasztó erejének fő mérőszámaként kezeli, a „control group” komponensre külön figyelve."
+    "text": "Ha az árak gyorsan nőnek, a nominális forgalom akkor is emelkedhet, ha a vásárolt mennyiség csökken, ezért az inflációval korrigált kép a mérvadó. A benzinárak és az autóeladások havi szinten nagyot torzíthatnak. A revíziók is számítanak: egy erős hónap mellé jelentős lefelé módosított előző havi adat gyengébb összképet ad."
    }
   ]
  },
@@ -2377,15 +2377,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A Fed negyedéves gazdasági előrejelzés-csomagja: GDP, munkanélküliség, infláció (PCE) és kamatpálya (dot plot) prognózisok, FOMC-tagonként."
+    "text": "A Fed negyedévente közölt gazdasági előrejelzés-csomagja (Summary of Economic Projections). Az FOMC résztvevői a GDP-növekedésre, a munkanélküliségre, a PCE- és a Core PCE-inflációra, valamint a kamatpályára adnak becslést. Utóbbi a dot plot. A táblázat mediánt, sávot és tartományt is közöl."
    },
    {
     "title": "Miért fontos?",
-    "text": "A SEP mutatja meg, hogyan látja a Fed a gazdaság pályáját — a piac a dot plottal együtt olvassa, és az előrejelzések revíziói (pl. magasabb inflációs pálya) azonnal átárazzák a kamatvárakozásokat."
+    "text": "A SEP mutatja meg, hogyan látja a Fed a gazdaság és a kamatok pályáját. A piac a dot plottal együtt olvassa, és az előrejelzések revíziói, például egy magasabb inflációs pálya, azonnal átárazhatják a kamatvárakozásokat."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a SEP-revíziókat a Fed-narratíva változásának legkonkrétabb jeleként kezeli — a szavaknál (sajtótájékoztató) megbízhatóbb, mert számszerű."
+    "text": "Számszerű, ezért konkrétabb a sajtótájékoztató szavainál, de nem kötelezettségvállalás. Az előző SEP-hez mért elmozdulás a lényeg: ha az inflációs becslés nő, miközben a kamatpálya nem emelkedik, a bizottság nagyobb toleranciát jelez. A becslések közötti szórás a döntéshozók bizonytalanságát és megosztottságát mutatja. A hosszú távú kamatbecslés a bizottság semleges kamatról alkotott képét tükrözi."
    }
   ]
  },
@@ -2434,15 +2434,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az a forgatókönyv, amelyben a jegybank visszaszorítja az inflációt anélkül, hogy a gazdaság recesszióba fordulna: a növekedés lassul, de pozitív marad, a munkanélküliség csak mérsékelten emelkedik."
+    "text": "Puha landolás: az a forgatókönyv, amelyben a jegybank visszaszorítja az inflációt anélkül, hogy a gazdaság recesszióba fordulna. A növekedés lassul, de pozitív marad, a munkanélküliség csak mérsékelten emelkedik. Ellentéte a hard landing."
    },
    {
     "title": "Miért fontos?",
-    "text": "A piac számára ez a legkedvezőbb kimenet, mert a kamatok csökkenhetnek anélkül, hogy a vállalati eredmények összeomlanának. Ritka egyensúly, amelyet a részvénypiac gyakran jóval előre beáraz."
+    "text": "A piac számára ez a legkedvezőbb kimenet, mert a kamatok csökkenhetnek anélkül, hogy a vállalati eredmények összeomlanának. Ritka egyensúly, mert a szigorítás hatása késleltetett, és a jegybanknak a túlszigorítás és a túl korai lazítás között kell egyensúlyoznia. A részvénypiac gyakran jóval előre beárazza."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a soft landing forgatókönyvet a munkaerőpiaci és inflációs adatok együttállásán méri: lassuló bérdinamika stabil foglalkoztatás mellett támogatja, míg a gyorsuló elbocsátás vagy a ragadós maginfláció gyengíti. A konszenzus túlsúlya ilyenkor sérülékennyé teszi a pozicionáltságot."
+    "text": "Munkaerőpiac és infláció együttállása dönti el: a lassuló bérdinamika stabil foglalkoztatás mellett támogatja, a gyorsuló elbocsátás vagy a makacs maginfláció gyengíti. Ha szinte mindenki erre a forgatókönyvre számít, a pozicionáltság egyoldalúvá és sérülékennyé válik, így egy gyenge adat is nagyobb esést válthat ki. A forgatókönyv sikere általában csak utólag, hónapok múltán igazolható."
    }
   ]
  },
@@ -2547,15 +2547,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az export és az import különbsége. Többlet: az ország többet ad el külföldre, mint amennyit vásárol; hiány: fordítva."
+    "text": "Az áru- és szolgáltatásexport, valamint -import különbsége egy adott időszakban. Többlet esetén az ország többet ad el külföldre, mint amennyit vásárol, hiány esetén fordítva. A folyó fizetési mérleg (current account) legnagyobb összetevője, az USA-ban havonta közlik."
    },
    {
     "title": "Miért fontos?",
-    "text": "A tartós hiány a devizát gyengítheti és külső finanszírozási igényt jelez; a többlet erősíti a fizetési mérleget. A vámpolitika és az árfolyam közvetlenül hat rá."
+    "text": "A nettó export a GDP része, ezért a külkereskedelmi adat a növekedési becsléseket is módosítja. A tartós hiány külső finanszírozási igényt jelez és gyengítheti a devizát, a többlet a fizetési mérleget erősíti. A vámpolitika és az árfolyam közvetlenül hat rá: vámok előtt az import gyakran előre hozott, utánuk visszaesik."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a külkereskedelmi adatokat a deviza-mozgások és a vámpolitikai hatások kontextusában értelmezi."
+    "text": "Havi szinten zajos, mert egy-egy nagy szállítmány vagy az előrehozott beszerzés is torzíthat. Vámbejelentések környékén a kilengések az időzítésről szólnak, nem a kereslet tartós változásáról. Devizapiaci hatása lassú és közvetett, a GDP-becslésekre viszont rövid távon is jelentősen kihathat."
    }
   ]
  },
@@ -2697,15 +2697,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Német gazdasági hangulatindex, amely pénzügyi elemzők és intézményi befektetők várakozásait méri a következő hat hónapra. Havonta jelenik meg; a nulla feletti érték a javulást várók többségét jelzi."
+    "text": "Német gazdasági hangulatindex, amelyet a mannheimi ZEW intézet havonta tesz közzé pénzügyi elemzők és intézményi befektetők megkérdezésével. Két fő része a következő hat hónapra vonatkozó várakozások és a helyzetértékelés. A várakozási mutató egyenleg: a javulást és a romlást várók aránya közötti különbség, a nulla feletti érték az optimisták többségét jelzi."
    },
    {
     "title": "Miért fontos?",
-    "text": "Előretekintő, felmérésen alapuló mutató, ezért gyakran hamarabb fordul, mint a kemény gazdasági adatok. Németország az eurózóna legnagyobb gazdasága, így a ZEW az egész régió kilátásaira ad jelzést."
+    "text": "Előretekintő, felmérésen alapuló mutató, ezért gyakran hamarabb fordul, mint a kemény gazdasági adatok, és a hónapban az IFO előtt jelenik meg. Németország az eurózóna legnagyobb gazdasága, így a ZEW az egész régió kilátásairól ad jelzést."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a ZEW-t fordulópont-jelzőként olvassa: a mélypontról induló emelkedés gyakran megelőzi az európai részvények felülteljesítését, míg a tartós romlás gyengülő növekedési kilátásokat és az euróra nehezedő nyomást vetít előre."
+    "text": "Elemzők várakozásait méri, nem vállalatokét, így a pénzügyi piacok hangulatához áll közel, és a tőzsdei mozgásokat is visszatükrözheti. A mélypontról induló emelkedés gyakran megelőzi a kemény adatok javulását. Ha a várakozások javulnak, de a helyzetértékelés romlik, az inkább remény, mint fordulat."
    }
   ]
  },
@@ -2906,15 +2906,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az egy ledolgozott munkaórára jutó kibocsátás változása a mezőgazdaságon kívüli üzleti szektorban. Negyedévente jelenik meg, a fajlagos munkaerőköltséggel (unit labor cost) együtt."
+    "text": "Az egy ledolgozott munkaórára jutó kibocsátás változása az amerikai mezőgazdaságon kívüli üzleti szektorban (nonfarm business). A munkaügyi statisztikai hivatal (BLS) negyedévente közli, egy előzetes és egy felülvizsgált adattal, a fajlagos munkaerőköltséggel (unit labor cost) együtt."
    },
    {
     "title": "Miért fontos?",
-    "text": "A termelékenység növekedése lehetővé teszi, hogy a bérek emelkedjenek anélkül, hogy az inflációt hajtanák — ez a jegybank szempontjából a legkedvezőbb kombináció. Ha viszont a bérek gyorsabban nőnek, mint a termelékenység, a fajlagos munkaerőköltség emelkedik, ami közvetlen inflációs nyomás."
+    "text": "A termelékenység növekedése lehetővé teszi, hogy a bérek emelkedjenek anélkül, hogy az inflációt hajtanák, ez a jegybank szempontjából a legkedvezőbb kombináció. Ha viszont a bérek gyorsabban nőnek, mint a termelékenység, a fajlagos munkaerőköltség emelkedik, ami közvetlen inflációs nyomás. Hosszú távon a termelékenység határozza meg az életszínvonal és a vállalati profitok növekedési potenciálját."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a termelékenységet a bérdinamikával együtt olvassa: a gyorsuló termelékenység tompítja a béremelések inflációs hatását, míg a stagnáló termelékenység melletti bérnövekedés szigorúbb kamatpálya felé mutat."
+    "text": "Negyedéves szinten zajos, gyakran revideálják, ezért a többnegyedéves trend többet ér. A gyorsuló termelékenység tompítja a béremelések inflációs hatását, a stagnáló termelékenység melletti bérnövekedés viszont szigorúbb kamatpálya felé mutat. Technológiai beruházási hullámok idején ez a mutató jelzi, hogy a ráfordítás valóban hatékonyságban térül-e meg."
    }
   ]
  },
@@ -2982,15 +2982,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A munkaerőpiacon aktív — dolgozó vagy állást kereső — népesség aránya a munkaképes korú lakosságon belül. Az NFP-jelentés részeként havonta jelenik meg."
+    "text": "A munkaerőpiacon aktív, vagyis dolgozó vagy aktívan állást kereső népesség aránya a 16 év feletti, intézményen kívüli lakosságon belül. Az USA-ban a havi foglalkoztatási jelentés háztartási felméréséből számolják, a munkanélküliségi rátával együtt jelenik meg."
    },
    {
     "title": "Miért fontos?",
-    "text": "A munkanélküliségi ráta önmagában félrevezető lehet: ha az emberek feladják az álláskeresést, kikerülnek a statisztikából, és a ráta javul anélkül, hogy a munkaerőpiac erősödne. A részvételi ráta ezért adja meg a valódi kontextust. Emelkedése bővülő munkakínálatot jelent, ami tompítja a bérinflációt."
+    "text": "A munkanélküliségi ráta önmagában félrevezető lehet: aki feladja az álláskeresést, kikerül a statisztikából, és a ráta javul anélkül, hogy a munkaerőpiac erősödne. A részvételi ráta ezt a torzítást mutatja meg. Emelkedése bővülő munkakínálatot jelent, ami tompítja a bérinflációt, csökkenése szűkösebb munkaerőt."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a munkanélküliségi rátát mindig a részvételi rátával együtt olvassa — a kettő ellentétes irányú mozgása gyakran átírja a főszám üzenetét."
+    "text": "Ha a munkanélküliségi ráta nő, miközben a részvétel is emelkedik, az lehet egészséges jel: többen keresnek munkát, mert bíznak a lehetőségekben. A demográfia, főleg az idősödés, lefelé húzza a mutatót, ezért a 25–54 éves korosztály (prime-age) részvétele tisztább kép a ciklusról. Ebben a korcsoportban a változás inkább a munkaerőpiac vonzerejét tükrözi, mint a népesség korösszetételét."
    }
   ]
  },
@@ -3001,15 +3001,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Kína jegybankja, amely az irányadó kamatokat, a bankok kötelező tartalékrátáját és a jüan árfolyamsávját határozza meg. A nyugati jegybankoktól eltérően eszköztára erősen adminisztratív jellegű, és a monetáris politika a kormányzati gazdaságpolitika alárendeltje."
+    "text": "Kína jegybankja, amely az irányadó kamatokat, a bankok kötelező tartalékrátáját (reserve requirement ratio, RRR) és a jüan napi középárfolyamát (fixing) határozza meg. A nyugati jegybankoktól eltérően nem független, eszköztára erősen adminisztratív, és a monetáris politika a kormányzati gazdaságpolitika része."
    },
    {
     "title": "Miért fontos?",
-    "text": "Kína a globális nyersanyagkereslet és az ellátási láncok meghatározó szereplője, ezért a PBoC lazítása vagy szigorítása közvetlenül hat az ipari fémek árára, a feltörekvő piacokra és az európai exportőrökre. A jüan árfolyamának irányított gyengítése globális dezinflációs nyomást is közvetíthet."
+    "text": "Kína a globális nyersanyagkereslet és az ellátási láncok meghatározó szereplője, ezért a PBoC lazítása vagy szigorítása az ipari fémek árára, a feltörekvő piacokra és az európai exportőrökre is hat. A jüan irányított gyengítése olcsóbb kínai exportot és globális dezinflációs nyomást közvetíthet."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a PBoC lépéseit a kínai konjunktúra és a nyersanyagpiac felől olvassa: az élénkítő csomagok jellemzően a rézre, az ipari fémekre és a Kínára kitett európai nevekre hatnak először."
+    "text": "Nyersanyagpiacon és Kínára kitett vállalatokon látszik meg először a hatás: az élénkítő lépések jellemzően a rézre, az ipari fémekre és az európai luxus- vagy autóipari nevekre hatnak. Önmagában egy tartalékráta-csökkentés ritkán fordít trendet, ha a hitelkereslet gyenge, a fiskális csomag nélküli monetáris lazítás hatása korlátozott."
    }
   ]
  },
@@ -3058,15 +3058,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A jegybank eszközvásárlási programja, amelynek során állampapírt és egyéb kötvényt vásárol a piacról, ezzel likviditást juttat a bankrendszerbe és lenyomja a hosszú hozamokat. Akkor alkalmazzák, amikor az irányadó kamat már nulla közelében van, és további élénkítésre van szükség. A QT (mennyiségi szigorítás) ellentéte."
+    "text": "A jegybank eszközvásárlási programja, amelynek során állampapírt és más kötvényt, például jelzálog-fedezetű értékpapírt vásárol a piacról. Ezzel tartalékot juttat a bankrendszerbe, és lenyomja a hosszú hozamokat. Jellemzően akkor alkalmazzák, ha az irányadó kamat már nulla közelében van. Ellentéte a QT (mennyiségi szigorítás)."
    },
    {
     "title": "Miért fontos?",
-    "text": "A QE a kockázatos eszközök egyik legerősebb hajtóereje: a lenyomott hozamok mellett a befektetők magasabb hozamú eszközök felé fordulnak. A programok bejelentése és leépítése egyaránt jelentős piaci átárazást okoz — a 2013-as taper tantrum klasszikus példa."
+    "text": "A QE a kockázatos eszközök egyik legerősebb hajtóereje: a lenyomott hozamok miatt a befektetők magasabb hozamú eszközök felé fordulnak (portfolio rebalancing). A program bejelentése, lassítása (tapering) és leállítása egyaránt jelentős átárazást okozhat, mert a piac a jövőbeli kamatpályára is következtet belőle."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a mérlegpolitika irányát a kamatdöntéssel egyenrangú jelzésként kezeli: a vásárlások újraindítása vagy leállítása gyakran nagyobb hatású, mint egy kamatlépés."
+    "text": "Mérlegpolitikai irányváltás néha nagyobb hatású, mint egy kamatlépés, mert a hosszú hozamokat közvetlenül érinti. Ha a vásárlások ütemének lassítását a piac korainak érzi, a hozamok hirtelen emelkedhetnek. A program mérete mellett az összetétele is számít: a jelzálogpapír-vásárlás a lakáspiacra, az állampapír-vásárlás a teljes hozamgörbére hat."
    }
   ]
  },
@@ -3191,15 +3191,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az a gazdasági állapot, amelyben a növekedés lassul vagy leáll, miközben az infláció magas marad. A hetvenes évek olajválsága a klasszikus példa."
+    "text": "Az a gazdasági állapot, amelyben a növekedés lassul vagy leáll, a munkanélküliség emelkedik, miközben az infláció magas marad. Jellemzően kínálati sokk, például energiaár-emelkedés vagy ellátási zavar váltja ki, amely egyszerre emeli az árakat és fogja vissza a termelést."
    },
    {
     "title": "Miért fontos?",
-    "text": "A stagfláció a jegybank számára a legkényelmetlenebb helyzet, mert a két mandátum ellentétes irányba húz: az infláció letöréséhez szigorítani kellene, a gyengülő növekedés viszont lazítást kívánna. A részvénypiac számára a legrosszabb kombináció, mert a vállalati eredmények romlanak, miközben a diszkontráta magas marad."
+    "text": "A stagfláció a jegybank számára a legkényelmetlenebb helyzet, mert a két cél ellentétes irányba húz: az infláció letöréséhez szigorítani kellene, a gyengülő növekedés viszont lazítást kívánna. A részvénypiacnak az egyik legrosszabb kombináció, mert a vállalati eredmények romlanak, miközben a diszkontráta magas marad."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a stagflációs kockázatot az inflációs és növekedési adatok szétválásán méri: a lassuló GDP ragadós maginflációval együtt erősíti a forgatókönyvet, és jellemzően a nyersanyagoknak, a menedékeszközöknek kedvez a növekedési részvényekkel szemben."
+    "text": "Növekedési és inflációs adatok szétválása jelzi a kockázatot: a lassuló GDP és a makacs maginfláció együtt erősíti a forgatókönyvet. Ilyen környezetben jellemzően a nyersanyagok, az inflációkövető kötvények és a defenzív szektorok teljesítenek jobban, a hosszú futamidejű kötvények és a növekedési részvények nehezebb helyzetben vannak."
    }
   ]
  },
@@ -3248,15 +3248,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az a kamatszint, amelyen a piac várakozása szerint a jegybank befejezi az aktuális emelési vagy csökkentési ciklust. Nem hivatalos jegybanki közlés, hanem a határidős kamatpiacokból visszaszámított érték."
+    "text": "Az a kamatszint, amelyen a jegybank egy emelési vagy csökkentési ciklust várhatóan befejez. A piaci várakozást a határidős kamatpiacokból (például fed funds futures, OIS) lehet visszaszámolni, a jegybank saját elképzelését pedig a Fed esetében a dot plot mutatja."
    },
    {
     "title": "Miért fontos?",
-    "text": "A terminális kamat a kötvényhozamok és a részvényértékeltség egyik legfontosabb rögzítő pontja. Elmozdulása az egész hozamgörbét átárazza — a piac gyakran erősebben reagál a terminális szint módosulására, mint magára az aktuális kamatdöntésre."
+    "text": "A terminális kamat a kötvényhozamok és a részvényértékeltség egyik legfontosabb rögzítő pontja. Elmozdulása az egész hozamgörbét átárazza, és a piac gyakran erősebben reagál a végpont módosulására, mint az adott ülés kamatdöntésére. Az is számít, mennyi ideig marad a kamat a csúcson."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a terminális kamat piaci árazását a jegybanki kommunikáció mércéjeként használja: az a kérdés, mennyivel tér el a jegybank üzenete attól, amit a piac már beárazott."
+    "text": "Kétféle végpont létezik: amit a piac áraz, és amit a jegybank kommunikál. A kettő közötti rés mutatja, hol lehet meglepetés. Ha egy beszéd vagy előrejelzés a beárazottnál magasabb végpontot jelez, a rövid hozamok emelkednek, ha alacsonyabbat, csökkennek. A végpont és a semleges kamat (neutral rate) távolsága pedig azt jelzi, mennyire szigorú a politika."
    }
   ]
  },
@@ -3305,15 +3305,15 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Olyan jegybanki politika, amelyben a jegybank nem a mennyiséget, hanem közvetlenül egy adott futamidő hozamszintjét célozza meg, és annyi kötvényt vásárol, amennyi a célszint tartásához szükséges. Legismertebb alkalmazója a Japán Jegybank volt."
+    "text": "Olyan jegybanki politika, amelyben a jegybank nem a vásárolt mennyiséget, hanem közvetlenül egy adott futamidő hozamszintjét célozza meg, és annyi kötvényt vásárol, amennyi a célszint vagy célsáv tartásához szükséges. Legismertebb alkalmazója a Japán Jegybank (BoJ) volt."
    },
    {
     "title": "Miért fontos?",
-    "text": "A YCC a jegybank mérlegét korlátlan kockázatnak teszi ki, mert a célszint védelme piaci nyomás alatt egyre nagyobb vásárlást igényelhet. A politika lazítása vagy feladása globális hatású: a hazaáramló japán tőke világszerte emelheti a hosszú hozamokat."
+    "text": "A YCC a jegybank mérlegét nyitott kockázatnak teszi ki, mert piaci nyomás alatt a célszint védelme egyre nagyobb vásárlást igényelhet. A sáv tágítása vagy a politika feladása globális hatású lehet: ha a hazai hozamok vonzóbbá válnak, a külföldön befektetett tőke egy része hazaáramolhat, ami más piacokon is emelheti a hosszú hozamokat."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a hozamgörbe-kontroll módosításait a globális likviditás szempontjából kiemelt eseményként kezeli — a japán hozamok emelkedése a carry pozíciók leépítésének kockázatát hordozza."
+    "text": "Hitelesség kérdése az egész: amíg a piac elhiszi, hogy a jegybank megvédi a szintet, kevés vásárlás is elég. Ha kételkedni kezd, a nyomás gyorsan nő. Bármilyen módosítás a carry pozíciókon és a devizaárfolyamon keresztül a globális likviditásra is kihat."
    }
   ]
  },

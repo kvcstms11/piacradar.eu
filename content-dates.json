@@ -85,7 +85,7 @@
   "first": "2026-03-14"
  },
  "szotar/boj": {
-  "hash": "f909e62dc20b3938",
+  "hash": "f3516606183c274a",
   "date": "2026-11-18",
   "first": "2026-03-14"
  },
@@ -545,8 +545,8 @@
   "first": "2026-03-23"
  },
  "szotar/m2-money-supply": {
-  "hash": "3878a05cc1caedb8",
-  "date": "2026-08-24",
+  "hash": "0c0c507977ff0553",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/macd": {
@@ -580,8 +580,8 @@
   "first": "2026-08-23"
  },
  "szotar/michigan-sentiment": {
-  "hash": "e07c15c0e4aea6f4",
-  "date": "2026-08-24",
+  "hash": "ab4907cc648503d6",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/mining": {
@@ -600,8 +600,8 @@
   "first": "2026-03-23"
  },
  "szotar/monetaris-politika": {
-  "hash": "6d4b70767d3d3327",
-  "date": "2026-08-24",
+  "hash": "89e530297f3be2c7",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/move-index": {
@@ -625,8 +625,8 @@
   "first": "2026-07-15"
  },
  "szotar/nonfarm-productivity": {
-  "hash": "980fe11e17cd3154",
-  "date": "2026-08-24",
+  "hash": "efd38f3fa76448f5",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/oil-inventories": {
@@ -670,13 +670,13 @@
   "first": "2026-08-23"
  },
  "szotar/participation-rate": {
-  "hash": "48695c321b9b8209",
-  "date": "2026-08-24",
+  "hash": "a149c52129885e83",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/pboc": {
-  "hash": "f5618bb9882f5104",
-  "date": "2026-08-24",
+  "hash": "ee4726fc0059c137",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/pce": {
@@ -700,8 +700,8 @@
   "first": "2026-08-23"
  },
  "szotar/pmi": {
-  "hash": "d5393572ffb72813",
-  "date": "2026-08-24",
+  "hash": "ad72b9e0009d0bbf",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/poziciomeretezes": {
@@ -740,13 +740,13 @@
   "first": "2026-03-14"
  },
  "szotar/qe": {
-  "hash": "138d980a3f3f411a",
-  "date": "2026-08-24",
+  "hash": "bcb5f06d8bd7fa26",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/qt": {
-  "hash": "f7dafd82facfaecf",
-  "date": "2026-08-24",
+  "hash": "d54160eeb54cee0d",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/quadruple-witching": {
@@ -755,8 +755,8 @@
   "first": "2026-07-15"
  },
  "szotar/rate-cut": {
-  "hash": "00c74af2954baf08",
-  "date": "2026-08-24",
+  "hash": "ad550482f489f396",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/recesszio": {
@@ -765,8 +765,8 @@
   "first": "2026-07-15"
  },
  "szotar/retail-sales": {
-  "hash": "d9a69cfbe2fedcc4",
-  "date": "2026-08-24",
+  "hash": "c2a5044bac7b36ea",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/revenue": {
@@ -820,8 +820,8 @@
   "first": "2026-07-15"
  },
  "szotar/sep": {
-  "hash": "6a0bbf7b1bdce7a0",
-  "date": "2026-08-24",
+  "hash": "adea97aed447dbb8",
+  "date": "2026-11-18",
   "first": "2026-03-15"
  },
  "szotar/short-covering": {
@@ -845,8 +845,8 @@
   "first": "2026-08-23"
  },
  "szotar/soft-landing": {
-  "hash": "647e9d2ee9dc761a",
-  "date": "2026-08-24",
+  "hash": "fbe8d28556462a7c",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/spread": {
@@ -860,8 +860,8 @@
   "first": "2026-03-14"
  },
  "szotar/stagflation": {
-  "hash": "ab1f0bf58e355095",
-  "date": "2026-08-24",
+  "hash": "da4d87e06a20bfa3",
+  "date": "2026-11-18",
   "first": "2026-03-23"
  },
  "szotar/staking": {
@@ -900,8 +900,8 @@
   "first": "2026-07-15"
  },
  "szotar/terminal-rate": {
-  "hash": "8d654690fa9a9075",
-  "date": "2026-08-24",
+  "hash": "90bf8864c8f8b472",
+  "date": "2026-11-18",
   "first": "2026-03-23"
  },
  "szotar/theta": {
@@ -920,8 +920,8 @@
   "first": "2026-08-23"
  },
  "szotar/trade-balance": {
-  "hash": "a68290e982f6dcda",
-  "date": "2026-08-24",
+  "hash": "1c3d3ad10d57e11a",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/trailing-stop": {
@@ -985,8 +985,8 @@
   "first": "2026-03-14"
  },
  "szotar/ycc": {
-  "hash": "4db213231f269134",
-  "date": "2026-08-24",
+  "hash": "9ac838e833165d2b",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/yield-curve": {
@@ -995,8 +995,8 @@
   "first": "2026-03-14"
  },
  "szotar/zew": {
-  "hash": "3f638f1df13c4059",
-  "date": "2026-08-24",
+  "hash": "144656b13778a44a",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "tortenet/PR_001": {
