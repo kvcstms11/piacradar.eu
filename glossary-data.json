@@ -562,15 +562,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A Core PCE a személyes fogyasztási kiadások változását méri, az élelmiszer- és energiaárak nélkül. A Fed elsődleges inflációs mutatója."
+    "text": "A személyes fogyasztási kiadások árindexe (Personal Consumption Expenditures Price Index) az élelmiszer- és energiaárak nélkül. Az amerikai Bureau of Economic Analysis (BEA) havonta közli. A Fed 2%-os inflációs célja a PCE-re vonatkozik, nem a CPI-re."
    },
    {
     "title": "Miért fontos?",
-    "text": "A Core PCE közvetlenül meghatározza a Fed kamatpolitikáját. A 2% körüli érték dovish, a gyorsuló maginfláció hawkish irányba tolja a várakozásokat. A piac különösen figyeli a havi változást."
+    "text": "A maginfláció kiszűri a volatilis tételeket, ezért jobban mutatja a tartós árnyomást. A Fed kamatpályáját közvetlenül befolyásolja, a piac pedig az éves ütem mellett a havi változást is figyeli, mert az mutatja a friss lendületet."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2026. október 29-én a BEA közölte, hogy a Core PCE szeptemberben 3,1%-kal emelkedett éves alapon, augusztusban még 3,0% volt. Havi alapon 0,3% volt a növekedés. A teljes PCE éves üteme 3,4%-ról 3,6%-ra gyorsult. Az adat egy nappal azután jött, hogy a Fed 10–2 arányú szavazással 3,75–4,00%-on tartotta a kamatsávot."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan a CPI-t tartják a Fed fő mutatójának, mert az a látványosabb hír. A Fed célja azonban a PCE-n alapul, amelynek más a súlyozása és szélesebb a lefedettsége. A két mutató jellemzően eltér egymástól."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a Core PCE-t a CPI mellett a monetáris politika legfontosabb indikátoraként kezeli. A vártnál magasabb adat szigorítást, a vártnál alacsonyabb lazítást jelez."
+    "text": "Itt a cél és a tény távolsága a lényeg. A 3% feletti, gyorsuló maginfláció mellett a kamatcsökkentés nehezebben indokolható, ezért a hosszú hozamok és a növekedési részvények érzékenyen reagálnak. A havi ütemet mindig a megjelenés előtti konszenzushoz érdemes mérni, mert a meglepetés mozgatja a piacot."
+   }
+  ],
+  "sources": [
+   {
+    "label": "StockTitan – PCE Inflation Report: Core Inflation Rose to 3.1% a Day After the Fed Held Rates (2026.10.29.)",
+    "url": "https://www.stocktitan.net/articles/september-2026-pce-inflation-data"
    }
   ]
  },
@@ -755,15 +769,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Jegybanki hangvétel, amely lazítási szándékot jelez: kamatcsökkentést, a kamatok alacsonyan tartását vagy a likviditás bővítését. A hawkish (héja) kommunikáció ellentéte."
+    "text": "Jegybanki hangvétel, amely lazítási szándékot jelez: kamatcsökkentést, a kamatok alacsonyan tartását vagy a likviditás bővítését. Magyarul galambnak is nevezik, a hawkish (héja) kommunikáció ellentéte."
    },
    {
     "title": "Miért fontos?",
-    "text": "A dovish fordulat csökkenti a kötvényhozamokat, jellemzően gyengíti a devizát, és emeli a kockázatvállalási kedvet. A távoli jövőbeli eredményekre árazott növekedési sztorik különösen érzékenyek rá, mert alacsonyabb diszkontrátával számolnak."
+    "text": "A dovish fordulat csökkenti a kötvényhozamokat, jellemzően gyengíti a devizát, és emeli a kockázatvállalási kedvet. A távoli jövőbeli eredményekre árazott növekedési történetek különösen érzékenyek rá, mert alacsonyabb diszkontrátával számolnak."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2025. augusztus 22-én a Wall Street Jerome Powell Jackson Hole-i beszédét ünnepelte, mert a piac lazítási jelzést olvasott ki belőle. A Dow Jones 846,24 ponttal, 1,89%-kal 45 631,74 pontra emelkedett, ami új záró rekord volt. Az S&P 500 1,52%-kal 6466,91-re, a Nasdaq 1,88%-kal 21 496,54-re nőtt. A szeptemberi vágás piaci valószínűsége a korábbi nagyjából 75%-ról közel 90%-ra ugrott."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Gyakori tévedés, hogy minden kamatcsökkentés dovish meglepetés. Ha a lépés már be volt árazva, a piac reakciója tompa lehet, sőt a vártnál óvatosabb kommunikáció héjaként hathat. A változás a várakozásokhoz képest számít, nem önmagában."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a dovish jelzést a már beárazott kamatpályához méri: ha a jegybank a vártnál lazább hangot üt meg, az jellemzően bullish a kötvényekre, a növekedési részvényekre és a kriptóra, miközben a devizát gyengíti."
+    "text": "Minden jegybanki megszólalást a beárazott kamatpályához érdemes mérni. Ha a hangvétel a vártnál lazább, az jellemzően támogatja a kötvényeket, a növekedési részvényeket és a kriptót, miközben a devizát gyengíti. Ha viszont a lazítás a gazdaság gyengülésére adott válasz, a kezdeti öröm gyorsan átfordulhat recessziós félelembe."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Kitco / Xinhua – Dow notches record high as Wall Street cheers Powell's speech (2025.08.22.)",
+    "url": "https://www.kitco.com/news/off-the-wire/2025-08-22/dow-notches-record-high-wall-street-cheers-powells-speech"
    }
   ]
  },
@@ -1387,15 +1415,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az infláció azt mutatja meg, hogy mennyivel emelkedtek az árak egy adott időszak alatt."
+    "text": "Az infláció azt mutatja meg, hogy mennyivel emelkedett az árszínvonal egy adott időszak alatt, jellemzően egy évvel korábbihoz képest. Magyarországon a KSH, az USA-ban a fogyasztói árindexet (CPI) a BLS, a PCE-árindexet a BEA közli."
    },
    {
     "title": "Miért fontos?",
-    "text": "Magas infláció szigorítást, alacsony infláció lazítást vetít előre. A jegybankok 2% körüli célt követnek."
+    "text": "Az infláció rombolja a pénz vásárlóerejét, és közvetlenül alakítja a jegybanki kamatdöntéseket. Gyorsuló infláció szigorítást, lassuló lazítást vetít előre, ez pedig a kötvényhozamokon és a devizán keresztül minden eszközosztályt érint."
+   },
+   {
+    "title": "Valós példa",
+    "text": "A KSH adatai szerint 2023 januárjában Magyarországon 25,7%-kal voltak magasabbak az árak, mint egy évvel korábban, decemberben még 24,5% volt a mutató. Az élelmiszerek 44%-kal, a háztartási energia 52,4%-kal drágult. A fogyasztói kosár legfontosabb elemei tehát jóval gyorsabban drágultak, mint a fő mutató."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, hogy a csökkenő infláció csökkenő árakat jelent. Nem: csak lassabb drágulást. Az árszint ilyenkor is emelkedik, csak kisebb ütemben, a korábbi drágulás pedig beépül az árakba."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az inflációs adatokat a CPI, Core CPI és PCE mutatókkal együtt értelmezi."
+    "text": "Önmagában a fő szám keveset mond, a szerkezete többet. Ha az élelmiszer és az energia húzza fel, az átmenetibb lehet, ha a szolgáltatások és a maginfláció is gyorsul, az tartósabb nyomást jelez. Az USA-ban a CPI, a maginfláció és a PCE együtt adja ki a képet."
+   }
+  ],
+  "sources": [
+   {
+    "label": "444.hu – 2023-ban sincs megállás, már 26 százalék az infláció (2023.02.10.)",
+    "url": "https://444.hu/2023/02/10/2023-ban-sincs-megallas-mar-26-szazalek-az-inflacio"
    }
   ]
  },
@@ -2077,15 +2119,37 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Tartós gazdasági visszaesés — technikai definíció szerint két egymást követő negyedév GDP-csökkenése. Az USA-ban hivatalosan az NBER datálja, több mutató (foglalkoztatás, jövedelem, termelés) alapján."
+    "text": "Tartós gazdasági visszaesés. A közkeletű technikai definíció két egymást követő negyedév GDP-csökkenése, az USA-ban azonban hivatalosan az NBER (National Bureau of Economic Research) datálja. Meghatározása szerint a gazdasági aktivitás jelentős, a gazdaság egészére kiterjedő visszaesése, amely jellemzően a termelésben, a foglalkoztatásban és más mutatókban is látszik."
    },
    {
     "title": "Miért fontos?",
-    "text": "Recesszióban a vállalati profitok esnek, a munkanélküliség nő, a jegybank lazít. A részvénypiac jellemzően a recesszió ELŐTT esik nagyot, és még a recesszió alatt kezd emelkedni — a piac előre áraz."
+    "text": "Recesszióban a vállalati profitok esnek, a munkanélküliség nő, a jegybank lazít. A részvénypiac jellemzően előre áraz: gyakran a hivatalos kimondás előtt esik, és még a visszaesés alatt fordul felfelé."
+   },
+   {
+    "title": "Valós példa",
+    "text": "Az NBER 2020. június 8-án jelentette be, hogy az amerikai gazdaság 2020 februárjában tetőzött, és recesszió kezdődött. Az azt megelőző expanzió 128 hónapig tartott, ez volt a leghosszabb az 1854-ig visszamenő adatsorban. 2021. július 19-én a bizottság kimondta: a mélypont 2020 áprilisa volt, így a recesszió mindössze két hónapig tartott. Ez lett a legrövidebb az USA történetében, a korábbi rekord az 1980 első felében lezajlott, hathónapos visszaesés volt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, recesszió csak két negatív GDP-negyedévvel létezik. Az NBER nem ezt a szabályt követi: havi mutatók széles körét nézi, és a 2020-as bejelentésében külön kiemelte, hogy a visszaesés mélysége és kiterjedtsége akkor is recessziót indokol, ha az rövidebbnek bizonyul a korábbiaknál."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a recessziós kockázatot indikátor-kombinációval követi (hozamgörbe, munkaerőpiac, PMI, fogyasztás) — egyetlen adat sosem elég a kimondásához."
+    "text": "Érdemes a datálás késésével számolni: a hivatalos bejelentés hónapokkal az esemény után jön, addigra a piac rég továbblépett. Ezért a recessziós kockázatot indikátor-kombinációval érdemes követni (hozamgörbe, munkaerőpiac, PMI, fogyasztás); egyetlen adat sosem elég."
+   }
+  ],
+  "sources": [
+   {
+    "label": "NBER – Determination of the February 2020 Peak (2020.06.08.)",
+    "url": "https://nber.org/cycles/june2020.html"
+   },
+   {
+    "label": "NBER – Business Cycle Dating Committee Announcement (2021.07.19.)",
+    "url": "https://www.nber.org/news/business-cycle-dating-committee-announcement-july-19-2021"
+   },
+   {
+    "label": "CNBC – It's official: The Covid recession lasted just two months (2021.07.19.)",
+    "url": "https://www.cnbc.com/2021/07/19/its-official-the-covid-recession-lasted-just-two-months-the-shortest-in-us-history.html"
    }
   ]
  },
@@ -2362,15 +2426,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A VIX az S&P 500 opcióiból számított, a következő 30 napra várt volatilitást mérő index — a piac „félelem-indexe”. 15 alatt nyugalom, 20 felett emelkedett feszültség, 30 felett stressz/pánik."
+    "text": "A VIX az S&P 500 opcióinak áraiból számított index, amely a következő 30 napra várt volatilitást méri. A köznyelv a piac félelemindexének (fear index) hívja, mert esésekkor jellemzően meredeken emelkedik."
    },
    {
     "title": "Miért fontos?",
-    "text": "A VIX kiugrása kockázatkerülést, hedge-keresletet és gyakran kényszerlikvidálásokat jelez. A tartósan alacsony VIX elkényelmesedésre utalhat — a nyugalom maga is kockázati tényező lehet."
+    "text": "A VIX kiugrása kockázatkerülést, fedezeti keresletet és gyakran kényszerlikvidálásokat jelez. A tartósan alacsony érték elkényelmesedésre utalhat, vagyis a nyugalom maga is kockázati tényező lehet."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2024. augusztus 5-én, hétfőn a VIX záróértéke 23,39-ről 38,57-re ugrott, ami 15,18 pontos napi emelkedés. Napon belül 65,73-ig is felszökött. 2025. április 4-én, pénteken, a vámbejelentések utáni eladási hullámban 30,02-ről 45,31-re emelkedett. Történelmi csúcsa záróárfolyamon 82,69 (2020. március 16.), napon belül 89,53 (2008. október 24.)."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Gyakori félreértés, hogy a VIX az esés mértékét méri. Valójában az opciókba árazott várható ingadozást mutatja mindkét irányba. Az is tévhit, hogy a VIX-hez kötött termékek követik az indexet: a határidős görbe miatt hosszabb tartásnál jelentősen eltérhetnek tőle."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a VIX-et a piaci hangulat gyors hőmérőjeként használja, a szint mellett a változás sebességére figyelve — egy hirtelen VIX-ugrás akkor is jelzés, ha az indexek még nyugodtak."
+    "text": "A szintnél többet mond a változás sebessége. A 2024 augusztusi eset jól mutatja: a napon belüli csúcs és a záróérték közötti óriási különbség likviditási sokkra utalt, nem tartós pánikra. Egy hirtelen VIX-ugrás akkor is figyelmeztetés, ha az indexek még nyugodtnak tűnnek. Pánikcsúcson eladni ritkán jó döntés, mert a félelem ilyenkor már nagyrészt be van árazva."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Macroption – VIX All Time High and Biggest Moves",
+    "url": "https://www.macroption.com/vix-all-time-high/"
    }
   ]
  },
@@ -3236,15 +3314,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól."
+    "text": "Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól. Szabálytalan működés esetén a lekötött tőke egy része elveszhet (slashing)."
    },
    {
     "title": "Miért fontos?",
-    "text": "A staking két irányból hat: hozamot termel a birtokosnak, és csökkenti a szabadon forgó kínálatot, mert a zárolt érme átmenetileg nem eladható. A feloldás sok hálózatnál várakozási időhöz kötött."
+    "text": "A staking két irányból hat: hozamot termel a birtokosnak, és csökkenti a szabadon forgó kínálatot, mert a zárolt érme átmenetileg nem eladható. A feloldás sok hálózatnál várakozási időhöz kötött, ami likviditási kockázatot jelent."
+   },
+   {
+    "title": "Valós példa",
+    "text": "Az Ethereum Beacon Chain 2020 decemberében indult, a stakelt ETH azonban sokáig egyáltalán nem volt kivehető. 2023. április 12-én, 22:27 UTC-kor élesedett a Shanghai (Shapella) frissítés, amely lehetővé tette a részleges és a teljes kivételt. Addigra több mint 18 millió ETH-t stakeltek, ami a teljes kínálat nagyjából 15%-a volt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan kockázatmentes kamatnak tekintik a staking-hozamot. A jutalom a token árfolyamában jár, tehát árfolyamesésnél a hozam semmit nem véd. Ha pedig új kibocsátásból származik, a nem stakelő tulajdonosok részesedése hígul."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a staking arányát kínálati mutatóként olvassa: a növekvő zárolt mennyiség szűkíti a piacon elérhető készletet. A hozam forrása ugyanakkor számít — ha az új kibocsátásból származik, a hozam részben önmagát hígítja."
+    "text": "Kínálati mutatóként érdemes olvasni a stakelt arányt: a növekvő zárolt mennyiség szűkíti a piacon elérhető készletet. A Shanghai előtti félelem, hogy a kivételek tömeges eladást hoznak, jó lecke: a feloldhatóság a staking kockázatát is csökkenti, ezért nem feltétlenül negatív esemény."
+   }
+  ],
+  "sources": [
+   {
+    "label": "CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.)",
+    "url": "https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals"
    }
   ]
  },
@@ -3444,15 +3536,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Lendületet mérő indikátor, angolul Relative Strength Index. Nulla és száz közötti értéket vesz fel, és azt mutatja, milyen arányban voltak emelkedő és csökkenő napok az adott időszakban. Alapbeállítása jellemzően 14 periódus."
+    "text": "Lendületet mérő indikátor, angolul Relative Strength Index. Nulla és száz közötti értéket vesz fel, és azt mutatja, milyen arányban voltak emelkedő és csökkenő napok az adott időszakban. Alapbeállítása jellemzően 14 periódus, ezt gyakran RSI14-ként jelölik."
    },
    {
     "title": "Miért fontos?",
-    "text": "A 70 feletti érték túlvett, a 30 alatti túladott állapotot jelez. Ez azonban nem vételi vagy eladási jelzés: erős trendben az RSI hosszan a szélsőértékek közelében maradhat, miközben az árfolyam tovább mozog."
+    "text": "A 70 feletti érték túlvett (overbought), a 30 alatti túladott (oversold) állapotot jelez. Egyetlen részvénynél ez csak a lendület szélsőségét mutatja, de ha egyszerre sok papír kerül túladott zónába, az már a teljes piac kapitulációjára utal."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2025. április elején, a vámpánik mélypontja körül Herb Greenberg elemzése szerint az S&P 500 részvényeinek több mint 50%-a túladott állapotba került, vagyis napi RSI14-e 30 alá esett. Ilyen mértékű túladottságot a 2020-as piaci összeomlás óta nem mértek. Az elemzés hozzáteszi: hasonló helyzetek után a piac egy évvel később átlagosan több mint 30%-kal állt magasabban."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan automatikus vételi jelzésnek veszik a 30 alatti RSI-t. Erős esésben az indikátor napokig vagy hetekig a túladott zónában maradhat, miközben az árfolyam tovább csúszik. A túladottság azt jelzi, hogy az eladói nyomás szélsőséges, nem azt, hogy véget ért."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az RSI-t elsősorban a divergencia miatt figyeli: ha az árfolyam új csúcsot üt, de az indikátor nem követi, az gyengülő lendületre utal. A hosszabb időtávú, heti nézetű RSI és annak mozgóátlaga megbízhatóbb, mint a napi érték."
+    "text": "Egyedi papírnál a divergencia az érdekesebb jel: ha az árfolyam új csúcsot üt, de az RSI nem követi, gyengül a lendület. Piaci szinten a túladott részvények aránya hasznosabb, mint egyetlen index RSI-je, mert a szélesség mutatja meg, mennyire általános az eladás."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Herb Greenberg – Majority of stocks are oversold (2025.04.09.)",
+    "url": "https://www.herbgreenberg.com/daily-number/2025-04-09/majority-stocks-are-oversold"
    }
   ]
  },
@@ -3467,11 +3573,25 @@
    },
    {
     "title": "Miért fontos?",
-    "text": "A vonalak keresztezése irányváltásra utalhat: a jelzővonal fölé emelkedés emelkedő, alá süllyedés csökkenő lendületet jelez. A hisztogram szűkülése a mozgás kifulladását mutatja még azelőtt, hogy az árfolyam fordulna."
+    "text": "A vonalak keresztezése irányváltásra utalhat: a jelzővonal fölé emelkedés erősödő, alá süllyedés gyengülő lendületet jelez. A hisztogram szűkülése a mozgás kifulladását mutatja még azelőtt, hogy az árfolyam fordulna."
+   },
+   {
+    "title": "Valós példa",
+    "text": "A Cointelegraph 2026. április 6-i elemzése szerint a bitcoin heti MACD-je bikás keresztezés küszöbén állt, ami a csökkenő trend fordulására utalt. A cikk felidézte az előző ilyen heti fordulót: 2025 májusában, nagyjából egy hónappal a 74 500 dollár körüli 2025-ös mélypont után. Az azt követő két hónapban az árfolyam 94 000 dollárról 119 000 dollárra emelkedett, új történelmi csúcsokkal."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan a keresztezést önálló belépési jelzésnek veszik. A MACD mozgóátlagokra épül, ezért késik: a jelzés gyakran akkor érkezik, amikor a mozgás jelentős része már lezajlott. Oldalazó piacon ráadásul sorozatban ad téves jelzéseket."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a MACD-t megerősítő eszközként használja, nem önálló jelzésként: oldalazó piacon sok téves keresztezést ad. A hosszabb, havi vagy heti időtávon adott fordulós jelzés lényegesen ritkább, ezért informatívabb."
+    "text": "Megerősítő eszközként érdemes használni, nem önálló jelzésként. A heti vagy havi időtávon adott fordulós jelzés lényegesen ritkább, ezért informatívabb a napinál. A még be nem következett, csak közelgő keresztezés pedig várakozás, nem jelzés. Akkor van igazán súlya, ha az árfolyam szerkezete, például egy fontos szint visszafoglalása, ugyanabba az irányba mutat."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Cointelegraph – First bull signal since 2025: Five things to know in Bitcoin this week (2026.04.06.)",
+    "url": "https://cointelegraph.com/news/first-bull-signal-since-2025-five-things-bitcoin-this-week"
    }
   ]
  },
@@ -3596,15 +3716,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Előre megadott árszinthez kötött megbízás, amely automatikusan zárja a pozíciót, ha az árfolyam ellenkező irányba mozdul. Angolul stop loss. Célja a veszteség előre meghatározott szinten tartása."
+    "text": "Előre megadott árszinthez kötött megbízás, amely automatikusan zárja a pozíciót, ha az árfolyam ellenkező irányba mozdul. Célja a veszteség előre meghatározott szinten tartása. A szint elérésekor jellemzően piaci megbízássá alakul, tehát a következő elérhető áron teljesül."
    },
    {
     "title": "Miért fontos?",
-    "text": "A stop a döntést a kereskedés megnyitásának pillanatára helyezi, amikor még nincs érzelmi nyomás. Gappel induló nyitásnál viszont a teljesülés a megadottnál rosszabb áron történhet, mert a köztes tartományban nincs ár."
+    "text": "A stop a döntést a kereskedés megnyitásának pillanatára helyezi, amikor még nincs érzelmi nyomás. Gappel induló nyitásnál vagy hirtelen likviditáshiánynál viszont a teljesülés a megadottnál jóval rosszabb áron történhet."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2010. május 6-án, a flash crash idején az SEC és a CFTC közös jelentése szerint az árfolyamesés sok lakossági stop-loss megbízást is aktivált, ezek csökkenő vételi kereslettel találkoztak, és tovább mélyítették az esést. Több mint 300 értékpapírban, köztük sok ETF-ben több mint 20 000 ügylet teljesült legalább 60%-kal eltérő áron, sok közülük egy centen vagy az alatt. Az Accenture részvénye egy perc alatt 40 dollár fölötti szintről 0,01 dollárra esett."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, a stop garantálja a kilépési árat. Nem garantálja: csak a kilépés tényét biztosítja. Ha ezt az árat kell garantálni, arra a stop-limit szolgál, cserébe ott a teljesülés marad el."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a stop utólagos módosítását külön kockázatként tartja számon: a szint kitolása a veszteség realizálásának halasztása, ami a kis veszteséget naggyá növelheti. Befektetési logikánál a stop szerepét gyakran a tézis érvénytelenné válása veszi át."
+    "text": "Utólagos kitolása külön kockázat, mert a veszteség realizálásának halasztása kis veszteségből nagyot csinálhat. Befektetési logikánál a stop szerepét gyakran a tézis írásban rögzített érvénytelenítése veszi át, kereskedésnél viszont nélkülözhetetlen."
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC–CFTC – Findings Regarding the Market Events of May 6, 2010",
+    "url": "https://www.sec.gov/files/marketevents-report.pdf"
+   },
+   {
+    "label": "Consumerist – May's Stock Market Flash Crash Caused By Single $4.1B Sale (2010.10.01.)",
+    "url": "https://consumerist.com/2010/10/01/mays-stock-market-flash-crash-caused-by-single-41b-sale"
    }
   ]
  },
@@ -3805,15 +3943,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Hitelviszonyt megtestesítő értékpapír: a kibocsátó — állam vagy vállalat — kamatot fizet a futamidő alatt, és lejáratkor visszafizeti a névértéket. Angolul bond."
+    "text": "Hitelviszonyt megtestesítő értékpapír: a kibocsátó, állam vagy vállalat, kamatot (kupont) fizet a futamidő alatt, és lejáratkor visszafizeti a névértéket. Az állampapírokat az amerikai pénzügyminisztérium (Treasury) aukciókon értékesíti."
    },
    {
     "title": "Miért fontos?",
-    "text": "A kötvény ára és hozama ellentétesen mozog: emelkedő piaci kamatszint mellett a már kibocsátott, alacsonyabb kamatozású papírok ára esik. Az árfolyam kamatérzékenységét a hátralévő futamidő, pontosabban a duráció határozza meg."
+    "text": "A kötvény ára és hozama ellentétesen mozog: emelkedő piaci kamatszint mellett a már kibocsátott, alacsonyabb kamatozású papírok ára esik. Az árfolyam kamatérzékenységét a duráció határozza meg. A kockázatmentes hozam minden más eszköz árazásának alapja."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2026. november 10-én az amerikai pénzügyminisztérium 42 milliárd dollár értékben adott el tízéves papírt, 5,020%-os legmagasabb hozamon. A túljegyzési arány (bid-to-cover) 2,46-ra esett az október 7-i aukció 2,77-éről, és elmaradt a megelőző tíz aukció 2,54-es átlagától is. A jellemzően külföldi kereslethez kötött indirekt ajánlattevők 61,2%-ot kaptak, szemben az előző 80,3%-kal."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan kockázatmentesnek tekintik az állampapírt. A nemfizetés kockázata a fejlett államoknál alacsony, de árfolyamkockázat van: aki lejárat előtt ad el emelkedő hozamkörnyezetben, veszteséget realizálhat. A hosszú futamidő ezt felnagyítja."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a kötvénypiacot vezető jelzésként olvassa: a hozamok elmozdulása gyakran megelőzi a részvénypiaci reakciót, mert a globális árazás alapja a kockázatmentes hozam. A vállalati és állampapír-hozam közötti felár a kockázati étvágyat méri."
+    "text": "Az aukciós kereslet gyakran többet mond a hozamszintnél. A gyengülő bid-to-cover és az indirekt részarány visszaesése azt jelzi, hogy a piac magasabb hozamot kér a növekvő kínálat finanszírozásáért, ez pedig a részvények értékeltségére is nyomást gyakorol. Egyetlen gyenge aukció még nem trend, de ha a minta több egymást követő aukción ismétlődik, azt érdemes komolyan venni."
+   }
+  ],
+  "sources": [
+   {
+    "label": "BigGo Finance – US 10-Year Treasury Coupon Returns to 5% as Auction Demand Cools (2026.11.10.)",
+    "url": "https://finance.biggo.com/news/71f956cf-515e-4e0f-8010-c000dd0c1c03"
+   },
+   {
+    "label": "Bloomingbit – U.S. 10-Year Treasury Auction Shows Weaker Demand as High Yield Hits 5.02% (2026.11.10.)",
+    "url": "https://en.bloomingbit.io/feed/news/124134"
    }
   ]
  },

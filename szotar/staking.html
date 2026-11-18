@@ -87,7 +87,14 @@ footer a:hover{text-decoration:underline}
         "name": "Kovács Tamás",
         "url": "https://piacradar.eu/szerzo.html"
       },
-      "dateModified": "2026-08-24",
+      "dateModified": "2026-11-18",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.)",
+          "url": "https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals"
+        }
+      ],
       "mainEntity": {
         "@id": "https://piacradar.eu/szotar/staking.html#term"
       }
@@ -97,7 +104,7 @@ footer a:hover{text-decoration:underline}
       "@id": "https://piacradar.eu/szotar/staking.html#term",
       "name": "Staking – Zárolás",
       "url": "https://piacradar.eu/szotar/staking.html",
-      "description": "Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól.",
+      "description": "Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól. Szabálytalan működés esetén a lekötött tőke egy része elveszhet (slashing).",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Piacradar Pénzügyi Szótár",
@@ -147,19 +154,33 @@ footer a:hover{text-decoration:underline}
 
   <a class="kick" href="kategoria-kripto.html"><span class="dot"></span> Kripto</a>
   <h1>Staking – Zárolás</h1>
-  <p class="byline">Szerző: <a href="/szerzo.html" rel="author">Kovács Tamás</a> · Frissítve: <time datetime="2026-08-24">2026.08.24.</time></p>
+  <p class="byline">Szerző: <a href="/szerzo.html" rel="author">Kovács Tamás</a> · Frissítve: <time datetime="2026-11-18">2026.11.18.</time></p>
 
         <section class="sec">
           <h2>Mi ez?</h2>
-          <p>Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól.</p>
+          <p>Érmék zárolása a proof-of-stake típusú hálózatok működésének biztosítására. A résztvevő a lekötött tőkéjével garantálja a tranzakciók helyes validálását, és ezért jutalmat kap a hálózattól. Szabálytalan működés esetén a lekötött tőke egy része elveszhet (slashing).</p>
         </section>
         <section class="sec">
           <h2>Miért fontos?</h2>
-          <p>A staking két irányból hat: hozamot termel a birtokosnak, és csökkenti a szabadon forgó kínálatot, mert a zárolt érme átmenetileg nem eladható. A feloldás sok hálózatnál várakozási időhöz kötött.</p>
+          <p>A staking két irányból hat: hozamot termel a birtokosnak, és csökkenti a szabadon forgó kínálatot, mert a zárolt érme átmenetileg nem eladható. A feloldás sok hálózatnál várakozási időhöz kötött, ami <a class="xref" href="/szotar/likviditas.html">likviditási</a> kockázatot jelent.</p>
+        </section>
+        <section class="sec">
+          <h2>Valós példa</h2>
+          <p>Az Ethereum Beacon Chain 2020 decemberében indult, a stakelt ETH azonban sokáig egyáltalán nem volt kivehető. 2023. április 12-én, 22:27 UTC-kor élesedett a Shanghai (Shapella) frissítés, amely lehetővé tette a részleges és a teljes kivételt. Addigra több mint 18 millió ETH-t stakeltek, ami a teljes kínálat nagyjából 15%-a volt.</p>
+        </section>
+        <section class="sec">
+          <h2>Gyakori tévhit</h2>
+          <p>Sokan kockázatmentes kamatnak tekintik a staking-hozamot. A jutalom a token árfolyamában jár, tehát árfolyamesésnél a hozam semmit nem véd. Ha pedig új kibocsátásból származik, a nem stakelő tulajdonosok részesedése hígul.</p>
         </section>
         <section class="sec">
           <h2>Piacradar értelmezés</h2>
-          <p>A Piacradar a staking arányát kínálati mutatóként olvassa: a növekvő zárolt mennyiség szűkíti a piacon elérhető készletet. A hozam forrása ugyanakkor számít — ha az új kibocsátásból származik, a hozam részben önmagát hígítja.</p>
+          <p>Kínálati mutatóként érdemes olvasni a stakelt arányt: a növekvő zárolt mennyiség szűkíti a piacon elérhető készletet. A Shanghai előtti félelem, hogy a kivételek tömeges eladást hoznak, jó lecke: a feloldhatóság a staking kockázatát is csökkenti, ezért nem feltétlenül negatív esemény.</p>
+        </section>
+        <section class="sec srcs">
+          <h2>Források</h2>
+          <ul>
+            <li><a href="https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals" target="_blank" rel="noopener">CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.)</a></li>
+          </ul>
         </section>
 
   <div class="rel">

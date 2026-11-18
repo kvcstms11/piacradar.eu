@@ -180,8 +180,8 @@
   "first": "2026-03-14"
  },
  "szotar/core-pce": {
-  "hash": "9a732c653bee6529",
-  "date": "2026-08-24",
+  "hash": "233c31780878e178",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/cpi": {
@@ -245,8 +245,8 @@
   "first": "2026-03-15"
  },
  "szotar/dovish": {
-  "hash": "168d78fa0864968a",
-  "date": "2026-08-24",
+  "hash": "abff8dcf1f43b7fb",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/drawdown": {
@@ -455,8 +455,8 @@
   "first": "2026-06-27"
  },
  "szotar/inflacio": {
-  "hash": "07a9da9d8c5377fd",
-  "date": "2026-08-24",
+  "hash": "c245bc278b45bcda",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/installed-base": {
@@ -515,8 +515,8 @@
   "first": "2026-08-23"
  },
  "szotar/kotveny": {
-  "hash": "5280fe6aeeeb18dc",
-  "date": "2026-08-24",
+  "hash": "5d00d9e23671f289",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/leverage": {
@@ -550,8 +550,8 @@
   "first": "2026-03-14"
  },
  "szotar/macd": {
-  "hash": "c3eb2074fd90a9cb",
-  "date": "2026-08-24",
+  "hash": "a1277ad3c6d528d4",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/magnificent-seven": {
@@ -760,8 +760,8 @@
   "first": "2026-07-15"
  },
  "szotar/recesszio": {
-  "hash": "927a8f06fe3931a8",
-  "date": "2026-08-24",
+  "hash": "4da21d44fdb346d8",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/retail-sales": {
@@ -790,8 +790,8 @@
   "first": "2026-08-23"
  },
  "szotar/rsi": {
-  "hash": "ce08f74ad6cb1aee",
-  "date": "2026-08-24",
+  "hash": "b05293f6f3dae4cf",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/safe-haven": {
@@ -865,13 +865,13 @@
   "first": "2026-03-23"
  },
  "szotar/staking": {
-  "hash": "a47d0c5f27b8200e",
-  "date": "2026-08-24",
+  "hash": "6c9577f70ef3756a",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/stop-loss": {
-  "hash": "343719ee796de59c",
-  "date": "2026-08-24",
+  "hash": "5f837f2c13e54621",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/strike-price": {
@@ -960,8 +960,8 @@
   "first": "2026-08-23"
  },
  "szotar/vix": {
-  "hash": "ea23cdebff45b03c",
-  "date": "2026-08-24",
+  "hash": "91e86c47e3fb3f05",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/volatilitas": {
