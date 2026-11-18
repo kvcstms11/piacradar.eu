@@ -750,15 +750,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A Fed döntéshozóinak névtelen kamatvárakozás-előrejelzése. Minden FOMC-tag bejelöli, hol látja a kamatszintet az elkövetkező években és hosszú távon. A „pontok” eloszlásából látható, mennyire egységes vagy megosztott a bizottság."
+    "text": "A Fed döntéshozóinak névtelen kamatelőrejelzése, amely a negyedéves gazdasági előrejelzéssel (Summary of Economic Projections, SEP) együtt jelenik meg. Minden FOMC-résztvevő egy ponttal jelöli, hol látja a kamatszintet az adott év végén, a következő években és hosszú távon."
    },
    {
     "title": "Miért fontos?",
-    "text": "A dot plot a kamatpálya-várakozások leghitelesebb forrása. Ha a mediánpont elmozdul (pl. 3 vágásról 2-re), az azonnali piaci reakciót vált ki: kötvényhozamok emelkednek, részvények esnek. A piac a dot plot-ot előrejelzésként kezeli, nem kötelezettségvállalásként."
+    "text": "A pontok mediánja a kamatpálya-várakozások legközvetlenebb jegybanki forrása. Ha a medián elmozdul, a piac azonnal átárazza a kötvényhozamokat és a részvényeket. A pontok szórása azt is megmutatja, mennyire egységes vagy megosztott a bizottság."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2024. december 18-án a Fed az év harmadik kamatcsökkentésével 4,25–4,50%-ra vitte le a kamatsávot, a dot plot viszont fordulatot hozott. A 2025 végére várt medián kamatszint 3,9% lett a szeptemberi 3,4% helyett, vagyis négy helyett csak két csökkentést jeleztek. Az AP tudósítása szerint a Dow Jones 1123 ponttal, 2,6%-kal zuhant, az S&P 500 2,9%-kal, a Nasdaq 3,6%-kal esett, a tízéves hozam 4,40%-ról 4,50%-ra nőtt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan ígéretnek tekintik a dot plotot. Valójában egyéni előrejelzések gyűjteménye, amely a beérkező adatokkal együtt változik, és a Fed vezetése rendszeresen hangsúlyozza, hogy nem előre rögzített pálya."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a dot plot-ot mindig a SEP-pel együtt értelmezi — a medián pont változása és a szórás (konszenzus vs. megosztottság) egyaránt releváns. Március, június, szeptember és december FOMC-üléseken jelenik meg."
+    "text": "Érdemes a változást nézni, nem az abszolút pontokat. A 2024 decemberi eset jól mutatja: a kamatcsökkentés be volt árazva, a meglepetést a jövő évi pálya módosulása okozta. A medián mellett a szórás is fontos, mert a megosztott bizottság nagyobb kamatbizonytalanságot jelent."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Federal Reserve – Summary of Economic Projections, December 18, 2024",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20241218.htm"
+   },
+   {
+    "label": "Boston.com / AP – US stocks fall sharply and Dow loses 1,100 points after the Fed hints at just 2 rate cuts for 2025 (2024.12.18.)",
+    "url": "https://www.boston.com/news/business/2024/12/18/us-stocks-fall-sharply-and-dow-loses-1100-points-after-the-fed-hints-at-just-2-rate-cuts-for-2025/"
    }
   ]
  },
@@ -1467,15 +1485,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Olyan piaci állapot, amelyben a rövid lejáratú állampapírok hozama magasabb a hosszú lejáratúaknál. A leggyakrabban figyelt párok a 2 és 10 éves, valamint a 3 hónapos és 10 éves hozam különbsége."
+    "text": "Fordított hozamgörbe: olyan állapot, amelyben a rövid lejáratú állampapírok hozama magasabb a hosszú lejáratúakénál. A leggyakrabban figyelt párok a kétéves és tízéves, valamint a háromhavi és tízéves hozam különbsége. A St. Louis-i Fed FRED adatbázisa a tízéves és kétéves különbséget T10Y2Y néven közli."
    },
    {
     "title": "Miért fontos?",
-    "text": "Történelmileg az egyik legmegbízhatóbb recessziós előjelző, bár a jelzés és a tényleges visszaesés között jellemzően 6–18 hónap telik el. Az invertálás azt árazza, hogy a jegybank a jövőben kamatot lesz kénytelen csökkenteni."
+    "text": "Történelmileg az egyik legismertebb recessziós előjelző. Az inverzió azt árazza, hogy a jegybanknak a jövőben kamatot kell csökkentenie, mert lassul a gazdaság. A bankoknak szűkülő kamatmarzsot jelent, mert rövid távon drágán forrásolnak, hosszú távon olcsóbban hiteleznek."
+   },
+   {
+    "title": "Valós példa",
+    "text": "A Motley Fool összefoglalója szerint a kétéves és tízéves hozamgörbe 2022 júliusában fordult meg, és 793 napig, több mint 26 hónapig maradt invertált. Ez minden idők leghosszabb inverziója volt, megelőzve az 1978-as, 624 napos rekordot. A görbe 2024 szeptemberének elején fordult vissza. A Barron's adatai alapján az 1990-es, 2001-es, 2007-es és 2020-as recesszió nagyjából három-hat hónappal a görbe normalizálódása után kezdődött."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, a recesszió az inverzió pillanatában jön. Az utóbbi évtizedek tapasztalata szerint inkább a visszafordulás körül, és az sem biztos, hogy egyáltalán bekövetkezik."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar nem csak az invertálást, hanem a visszameredekedést is figyeli: a görbe normalizálódása gyakran közelebb esik a recesszió tényleges kezdetéhez, mint maga az inverzió. A bankszektor számára az invertált görbe szűkülő kamatmarzsot jelent."
+    "text": "Nemcsak az inverzió, hanem a visszameredekedés módja is beszédes. Ha a rövid hozamok esnek, mert a jegybank vág, az lassulásra utal. Ha a hosszú hozamok emelkednek, az inkább inflációs vagy fiskális aggodalmat tükröz."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FRED – 10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity (T10Y2Y)",
+    "url": "https://fred.stlouisfed.org/series/T10Y2Y"
+   },
+   {
+    "label": "The Motley Fool – A recession indicator just changed (2024.10.17.)",
+    "url": "https://www.fool.com/investing/2024/10/17/recession-indicator-change-move-stock-market"
    }
   ]
  },
@@ -1486,15 +1522,37 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az IPO során egy vállalat először bocsát ki részvényeket a nyilvános piacra."
+    "text": "Az IPO (Initial Public Offering) során egy vállalat először kínálja részvényeit nyilvános vásárlásra, és bevezetik a tőzsdére. Az USA-ban a kibocsátás feltételeit a SEC-hez benyújtott tájékoztató (prospectus) rögzíti, a jegyzési árat a bevezetés előtti estén határozzák meg."
    },
    {
     "title": "Miért fontos?",
-    "text": "Az IPO-aktivitás a befektetői kockázatvállalási kedv egyik legjobb mutatója: élénk IPO-piac → risk-on, gyenge IPO-piac → risk-off."
+    "text": "Az IPO-aktivitás a befektetői kockázatvállalási kedv egyik jó mutatója: élénk kibocsátási piac jellemzően risk-on, gyenge risk-off hangulatot jelez. A nagy kibocsátások ráadásul indexeket és portfóliósúlyokat is átrendezhetnek."
+   },
+   {
+    "title": "Valós példa",
+    "text": "A SpaceX 2026. június 11-i tájékoztatója szerint 555 555 555 A sorozatú részvényt kínált részvényenként 135 dolláros áron, SPCX jellel a Nasdaqon. A CBS News szerint a 75 milliárd dolláros kibocsátás minden idők legnagyobbja lett, messze megelőzve a Saudi Aramco 2019-es, közel 26 milliárdos IPO-ját. Az első kereskedési napon, június 12-én a részvény 150 dolláron nyitott, napon belül 176,52-ig emelkedett, és 160,95 dolláron, 19%-os pluszban zárt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, az első napi árfolyamugrás a befektetők nyeresége. A jegyzési áron jellemzően intézményi befektetők jutnak részvényhez, a lakossági vevők sokszor már a nyitóáron vagy afölött vásárolnak."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar az IPO-k számát és méretét a piaci hangulat indikátoraként használja."
+    "text": "Hangulatjelzőként és értékeltségi tesztként egyaránt érdemes olvasni. Ha a rekordkibocsátások sorban erős első nappal zárulnak, az bőséges likviditásra utal. A tartós eredmény azonban a lock-up lejártakor és az első gyorsjelentéseknél dől el."
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC EDGAR – Space Exploration Technologies Corp., Prospectus 424(b)(4) (2026.06.11.)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+   },
+   {
+    "label": "CBS News – SpaceX stock soars 19% on first day of trading following record-breaking $75 billion IPO (2026.06.12.)",
+    "url": "https://www.cbsnews.com/news/spacex-stock-price-ipo-spcx-initial-public-offering/"
+   },
+   {
+    "label": "SpaceX – Pricing announcement (2026.06.)",
+    "url": "https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX_PricingAnnouncement.pdf"
    }
   ]
  },
@@ -1505,15 +1563,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Az amerikai feldolgozóipar havi aktivitási indexe, beszerzési vezetők körében végzett felmérésből számítva. Öt komponensből áll: új rendelések, termelés, foglalkoztatás, szállítási idők és készletek. Minden hónap első munkanapján jelenik meg."
+    "text": "Az amerikai feldolgozóipar havi aktivitási indexe, amelyet az Institute for Supply Management (ISM) számít beszerzési vezetők körében végzett felmérésből. Fő komponensei az új rendelések, a termelés, a foglalkoztatás, a szállítási idők és a készletek, külön közlik az árindexet is."
    },
    {
     "title": "Miért fontos?",
     "text": "Az 50-es szint a választóvonal: felette bővülés, alatta zsugorodás. Előretekintő mutató, mert a feldolgozóipar hamarabb reagál a ciklusfordulóra, mint a foglalkoztatási vagy inflációs adatok."
    },
    {
+    "title": "Valós példa",
+    "text": "2024. augusztus 1-jén az ISM jelentése szerint a feldolgozóipari PMI júliusban 46,8-ra esett a júniusi 48,5-ről, és a szektor egymást követő negyedik hónapban, az utolsó 21 hónapból 20-szor zsugorodott. Az új rendelések indexe 47,4-re, a foglalkoztatási index 49,3-ról 43,4-re zuhant. Az árindex közben 52,9-re emelkedett. Másnap jött a gyenge júliusi munkaerőpiaci jelentés, a két adat együtt erősítette a lassulási félelmeket."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan az 50 alatti értéket automatikusan recessziónak veszik. A feldolgozóipar az amerikai gazdaságnak csak egy szelete, a szolgáltatószektor akkor is tarthatja a növekedést, ha az ipar hónapokon át zsugorodik. A 2024. júliusi jelentés szerint az utolsó 21 hónapból 20-ban 50 alatt volt a mutató."
+   },
+   {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a főszám mellett az alkomponenseket is nézi: az új rendelések a jövőbeli aktivitást, az árkomponens az inflációs nyomást vetíti előre. A tartósan 50 alatti érték lassulást jelez, a mélypontról induló gyors emelkedés ciklusfordulót."
+    "text": "A főszám mögött az alkomponensek mesélnek. Az új rendelések a következő hónapok aktivitását, a foglalkoztatás a munkaerőpiacot, az árindex az inflációs nyomást vetíti előre. Ha az aktivitás zsugorodik, de az árak emelkednek, az a jegybank számára kellemetlen kombináció."
+   }
+  ],
+  "sources": [
+   {
+    "label": "ISM / PR Newswire – Manufacturing PMI at 46.8%; July 2024 Manufacturing ISM Report On Business (2024.08.01.)",
+    "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-46-8-july-2024-manufacturing-ism-report-on-business-302211321.html"
+   },
+   {
+    "label": "BLS – The Employment Situation, July 2024 (2024.08.02.)",
+    "url": "https://www.bls.gov/news.release/archives/empsit_08022024.htm"
    }
   ]
  },
@@ -1562,15 +1638,37 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A heti új munkanélküli segélykérelmek száma. A munkaerőpiac egyik leggyorsabb, legfrissebb mutatója."
+    "text": "Az új munkanélküli-segélykérelmek (initial jobless claims) heti száma, amelyet az amerikai munkaügyi minisztérium foglalkoztatási hivatala tesz közzé csütörtökönként. Mellette a folyamatos kérelmek (continuing claims) azt mutatják, hányan maradnak tartósan segélyen."
    },
    {
     "title": "Miért fontos?",
-    "text": "Emelkedő kérelmek gyengülő munkaerőpiacot jeleznek, csökkenő kérelmek erős munkaerőpiacot. A Fed szorosan figyeli."
+    "text": "Ez a munkaerőpiac leggyorsabb, heti frissítésű mutatója, ezért gyakran előbb jelez fordulót, mint a havi foglalkoztatási jelentés. A Fed és a piac is figyeli, mert az elbocsátások hirtelen növekedése itt látszik meg először."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2020. március 26-án a munkaügyi minisztérium jelentése szerint az előző héten 3,28 millió amerikai nyújtott be új segélykérelmet a koronavírus miatti leállások nyomán. Az addigi rekord 695 ezer volt, 1982 októberéből. A négyhetes mozgóátlag 998 250-re nőtt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan egyetlen heti adatból vonnak le következtetést. A heti szám ünnepek, időjárás vagy egy-egy állam adminisztratív csúszása miatt nagyot ugorhat, ezért a négyhetes mozgóátlag megbízhatóbb kép."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a Jobless Claims adatot a munkaerőpiaci fordulópontok korai jelzőjeként használja."
+    "text": "Korai riasztóként működik, de csak tartós mozgásnál ad jelzést. Ha a négyhetes átlag több héten át emelkedik, és a folyamatos kérelmek is nőnek, az már a munkaerőpiac valódi lazulását mutatja. Önmagában egy kiugró hét inkább zaj. A 2020-as ugrás azért volt egyedi, mert egyetlen hét alatt a korábbi rekord sokszorosára nőtt a szám, ilyen sokk ritkán fordul elő."
+   }
+  ],
+  "sources": [
+   {
+    "label": "U.S. Department of Labor – Unemployment Insurance Weekly Claims (2020.03.26.)",
+    "url": "https://www.dol.gov/newsroom/releases/eta/eta20200326"
+   },
+   {
+    "label": "FRED – Initial Claims (ICSA), forrás: U.S. Employment and Training Administration",
+    "url": "https://fred.stlouisfed.org/series/ICSA"
+   },
+   {
+    "label": "Fox Business – US unemployment claims shatter record as coronavirus hammers economy (2020.03.26.)",
+    "url": "https://foxbusiness.com/economy/us-unemployment-claims-shatter-record-as-coronavirus-hammers-economy"
    }
   ]
  },
@@ -1600,15 +1698,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Idegen (kölcsön) tőke bevonása a pozíció méretének felnagyítására. Megjelenhet margin-kereskedésként, derivatívákon (opció, futures, swap) keresztül, vagy tőkeáttételes ETF-ekben. A tőkeáttét a nyereséget és a veszteséget egyaránt felnagyítja."
+    "text": "Idegen tőke bevonása a pozíció méretének felnagyítására. Megjelenhet margin-kereskedésként, derivatívákon (opció, határidős ügylet, swap) keresztül vagy tőkeáttételes ETF-ekben. A tőkeáttét a nyereséget és a veszteséget egyaránt felnagyítja."
    },
    {
     "title": "Miért fontos?",
-    "text": "A tőkeáttét felgyorsítja a piaci mozgásokat: amikor egy ár ellene fordul, margin call-ok és kényszerlikvidálások indulnak, amelyek további eladást generálnak — ez láncreakcióvá válhat. A túlzott, rendszerszintű tőkeáttét a legtöbb nagy pénzügyi válság közös eleme."
+    "text": "Felgyorsítja a piaci mozgásokat: ha az ár a pozíció ellen fordul, pótfedezeti felhívások (margin call) és kényszerlikvidálások indulnak, amelyek további eladást generálnak. A túlzott, rendszerszintű tőkeáttét a legtöbb nagy pénzügyi válság közös eleme."
+   },
+   {
+    "title": "Valós példa",
+    "text": "Az SEC 2022. április 27-i, vádemelésről szóló közleménye szerint a Bill Hwang vezette Archegos Capital Management portfóliója 2020 márciusában nagyjából 1,5 milliárd dolláros értéket és 10 milliárdos kitettséget jelentett. 2021 márciusára, a csúcson több mint 36 milliárdos érték mellett 160 milliárd dolláros kitettségre nőtt, nagyrészt teljes hozamcsere-ügyleteken (total return swap) keresztül. Amikor a koncentrált pozíciók árfolyama esni kezdett, pótfedezeti felhívások indultak, és az alap összeomlott. A Fortune összesítése szerint a bankok vesztesége nagyjából 10 milliárd dollár volt, ebből a Credit Suisse 5 milliárd frankos (5,5 milliárd dolláros) veszteséggel számolt, a Nomura 2,3 milliárd dolláros veszteséget jelentett."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, a tőkeáttétet csak a kis számlás spekulánsok használják. Az Archegos esete megmutatta, hogy a swapokba rejtett kitettség a bankok számára is láthatatlan maradhat."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a tőkeáttételt akkor emeli ki, ha kényszerlikvidálás vagy túlzott pozícionáltság technikai (nem fundamentális) mozgást okoz. Ilyenkor az árváltozás nem új információt tükröz, hanem a tőkeáttét leépülését."
+    "text": "Kényszereladásnál az árfolyam nem új információt tükröz, hanem a tőkeáttét leépülését. Ilyenkor érdemes különválasztani a technikai és a fundamentális mozgást. A koncentráció és az áttét együtt a legveszélyesebb kombináció."
+   }
+  ],
+  "sources": [
+   {
+    "label": "SEC – SEC Charges Archegos and its Founder with Massive Market Manipulation Scheme (2022.04.27.)",
+    "url": "https://www.sec.gov/news/press-release/2022-70"
+   },
+   {
+    "label": "Fortune – Here's how much the big banks have lost so far from the Archegos collapse (2021.04.27.)",
+    "url": "https://fortune.com/2021/04/27/heres-how-much-big-banks-have-lost-so-far-from-the-archegos-collapse/"
    }
   ]
  },
@@ -1967,15 +2083,29 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A P/E azt mutatja, hányszorosát fizeti a piac a vállalat egy részvényre jutó éves nyereségének. Forward P/E: a várt jövőbeli nyereséggel számol."
+    "text": "A P/E (price-to-earnings) azt mutatja, hányszorosát fizeti a piac a vállalat egy részvényre jutó éves nyereségének. A trailing P/E a múltbeli, a forward P/E a következő 12 hónapra várt nyereséggel számol."
    },
    {
     "title": "Miért fontos?",
-    "text": "A P/E az értékeltség leggyorsabb mutatója: magas P/E növekedési várakozásokat (vagy túlárazottságot), alacsony P/E olcsóságot (vagy problémákat) jelezhet. Önmagában keveset mond — szektoron belül és a historikus átlaghoz képest érdemes nézni."
+    "text": "Az értékeltség leggyorsabb mutatója: a magas P/E növekedési várakozást vagy túlárazottságot, az alacsony olcsóságot vagy problémát jelezhet. Önmagában keveset mond, szektoron belül és a saját történelmi átlagához képest érdemes nézni."
+   },
+   {
+    "title": "Valós példa",
+    "text": "A FactSet 2026. november 6-i elemzése szerint az S&P 500 előretekintő 12 havi P/E-je 17,7 volt, ami elmarad az ötéves (19,8) és a tízéves (19,1) átlagtól is. Mindez úgy, hogy az index vállalatainak harmadik negyedéves összesített eredménynövekedése 31,4% volt, és a már jelentett cégek 84%-a a vártnál jobb egy részvényre jutó eredményt mutatott."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan az átlag alatti P/E-t automatikusan vételi lehetőségnek tartják. Az alacsony mutató azt is jelezheti, hogy a piac nem hisz a nyereségbecslések tartósságában, vagy magasabb kamatkörnyezetben kisebb szorzót hajlandó fizetni."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a P/E-t mindig kontextusban használja: a historikus sávhoz és a növekedési ütemhez viszonyítva — a „drága” vagy „olcsó” címke önmagában félrevezető."
+    "text": "Kontextus nélkül félrevezető. Erős eredménynövekedés mellett a csökkenő P/E jelentheti, hogy a nyereség gyorsabban nő, mint az árfolyam, de azt is, hogy a piac a csúcs közelében lévő profitot áraz. Érdemes a nyereségbecslések irányát és a kamatszintet is mellé tenni."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FactSet – S&P 500 Earnings Season Update: November 6, 2026",
+    "url": "https://insight.factset.com/sp-500-earnings-season-update-november-6-2026"
    }
   ]
  },
@@ -2005,15 +2135,37 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A PPI a termelői árak változását méri — azt, hogy a vállalatok mennyiért adják el termékeiket és szolgáltatásaikat egymásnak."
+    "text": "A PPI (Producer Price Index) a termelői árak változását méri, vagyis azt, hogy a vállalatok mennyiért adják el termékeiket és szolgáltatásaikat. Az USA-ban a munkaügyi statisztikai hivatal (BLS) közli havonta. A főszám a végső kereslet (final demand) indexe, emellett külön látszik az áruk, a szolgáltatások és a köztes kereslet árváltozása."
    },
    {
     "title": "Miért fontos?",
-    "text": "A PPI a fogyasztói infláció (CPI) előfutára: a termelői áremelkedés idővel begyűrűzik a fogyasztói árakba."
+    "text": "A termelői áremelkedés idővel begyűrűzhet a fogyasztói árakba, ezért a PPI a CPI egyik korai jelzője. A köztes kereslet (intermediate demand) a termelési lánc korábbi szakaszait mutatja, így azt is jelzi, mekkora költségnyomás vár még átadásra."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2026. november 13-án a BLS közölte, hogy a végső kereslet termelői árindexe októberben 0,3%-kal nőtt, szeptemberben még 1,4%-kal. Éves alapon 6,5% volt az emelkedés, ez 2022 novembere óta a legmagasabb. A Dow Jones-konszenzus havi 0,4%-ot várt. A végső keresleti áruk ára 12 hónap alatt 10,2%-kal, a köztes keresletben a feldolgozott áruké 14,6%-kal emelkedett."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan úgy olvassák, hogy a vártnál kisebb havi szám már dezinfláció. Egyetlen lassabb hónap nem fordítja meg a trendet: októberben is 6,5% volt az éves ütem, és a köztes kereslet árai jóval gyorsabban nőttek a végső keresletnél."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a PPI-t a jövőbeli CPI-pálya előrejelzőjeként használja, különös figyelemmel a pipeline-inflációra."
+    "text": "Csővezetékként érdemes ránézni: ami ma a köztes keresletben drágul, az hónapokkal később jelenhet meg a boltokban. Ha a feldolgozott áruk ára gyorsabban nő, mint a végső kereslet, a vállalatok vagy továbbadják a költséget, vagy a marzsukból fizetik meg. Mindkettő számít: az egyik az inflációt, a másik az eredményeket nyomja."
+   }
+  ],
+  "sources": [
+   {
+    "label": "BLS – Producer Price Indexes, October 2026 (2026.11.13.)",
+    "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+   },
+   {
+    "label": "StockTitan – PPI Report Shows Producer Prices Rose Only 0.3%, Less Than Expected, and 6.5% Over a Year (2026.11.13.)",
+    "url": "https://www.stocktitan.net/articles/october-2026-ppi-report"
+   },
+   {
+    "label": "PYMNTS – 12-Month Wholesale Inflation Reaches 4-Year High Despite October Slowdown (2026.11.13.)",
+    "url": "https://www.pymnts.com/economy/2026/12-month-wholesale-inflation-reaches-4-year-high-despite-october-slowdown/"
    }
   ]
  },
@@ -2350,15 +2502,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A 10 éves amerikai állampapír hozama — a globális pénzügyi rendszer legfontosabb referencia-kamata. Ehhez árazódik a jelzálog, a vállalati hitel és a részvények értékeltsége."
+    "text": "A tízéves amerikai állampapír hozama, a globális pénzügyi rendszer legfontosabb referenciakamata. Ehhez igazodik a jelzáloghitelek és a vállalati hitelek árazása, és a részvények értékeltségében is ez adja a kockázatmentes hozam alapját."
    },
    {
     "title": "Miért fontos?",
-    "text": "Emelkedő 10 éves hozam nyomás alá helyezi a növekedési részvényeket (magasabb diszkontráta), drágítja a hiteleket és erősíti a dollárt. A gyors hozamemelkedés önmagában piaci stresszt okozhat."
+    "text": "Az emelkedő tízéves hozam nyomás alá helyezi a növekedési részvényeket, mert magasabb diszkontrátával kell számolni, drágítja a hiteleket, és jellemzően erősíti a dollárt. A gyors hozamemelkedés önmagában is piaci stresszt okozhat."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2023. október 23-án a tízéves amerikai hozam napon belül átlépte az 5%-ot, 2007 óta először. A küszöb átlépése jól mutatta, mennyire megváltozott a kamatkörnyezet a Fed 2022-ben kezdett kamatemelései után: a korábbi években megszokott alacsony hozamok helyett a befektetők ismét jelentős kockázatmentes hozamot kaptak, ami a részvények értékeltségére is nyomást gyakorolt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan azt hiszik, a tízéves hozamot a Fed határozza meg. A Fed a rövid lejáratú irányadó kamatot szabja meg, a tízéves hozam a piacon alakul ki: a növekedési és inflációs várakozások, a jövőbeli kamatpálya és a kötvénykínálat együtt mozgatja. Ezért fordulhat elő, hogy a Fed kamatot csökkent, a tízéves hozam mégis emelkedik."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a 10 éves hozamot a részvénypiaci értékeltség és a kockázati étvágy egyik fő magyarázó változójaként követi — a szint mellett a változás sebessége is számít."
+    "text": "Kétféle emelkedést érdemes megkülönböztetni: ha a növekedési várakozások miatt nő a hozam, a részvények elbírják, ha az infláció vagy az állami kínálat miatt, az már értékeltségi nyomás. A szint mellett a változás sebessége számít, mert a gyors ugrás pozícióleépítéseket kényszeríthet ki."
+   }
+  ],
+  "sources": [
+   {
+    "label": "ThinkAdvisor – Treasury 10-Year Yield Tops 5% for First Time Since 2007 (2023.10.23.)",
+    "url": "https://thinkadvisor.com/2023/10/23/treasury-10-year-yield-tops-5-for-first-time-since-2007"
+   },
+   {
+    "label": "U.S. Treasury – Daily Treasury Par Yield Curve Rates",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
    }
   ]
  },
@@ -2407,15 +2577,33 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "A munkanélküliek aránya az aktív munkaerőn belül. Az NFP-jelentés része, havonta jelenik meg."
+    "text": "A munkanélküliek aránya a munkaerőpiacon aktív népességen belül. Az USA-ban a BLS havi foglalkoztatási jelentésének (Employment Situation) része, a háztartási felmérésből számolják, míg az NFP a vállalati felmérésből jön."
    },
    {
     "title": "Miért fontos?",
-    "text": "A Fed kettős mandátumának egyik fele (a stabil árak mellett). Emelkedő ráta lazítást sürget, a nagyon alacsony ráta bérinflációs kockázatot jelez. A Sahm-szabály szerint a ráta gyors emelkedése recesszió-jelző."
+    "text": "A teljes foglalkoztatás a Fed kettős mandátumának egyik fele az árstabilitás mellett. Emelkedő ráta lazítást sürget, a nagyon alacsony ráta bérinflációs kockázatot jelez. A Sahm-szabály (Sahm rule) szerint ha a háromhavi átlag legalább fél százalékponttal az előző 12 hónap mélypontja fölé emelkedik, az recesszió kezdetére utalhat."
+   },
+   {
+    "title": "Valós példa",
+    "text": "2024. augusztus 2-án a BLS jelentése szerint a munkanélküliségi ráta júliusban 4,3%-ra nőtt, miközben a nem mezőgazdasági foglalkoztatás mindössze 114 ezerrel bővült. A júniusi ráta még 4,1% volt. A Fortune szerint a Sahm-szabály mutatója ezzel 0,53 százalékpontra emelkedett a júniusi 0,43-ról, vagyis átlépte a jelzési küszöböt. A munkanélküliek száma 352 ezerrel 7,2 millióra nőtt."
+   },
+   {
+    "title": "Gyakori tévhit",
+    "text": "Sokan a Sahm-szabály jelzését a recesszió bizonyítékának veszik. A szabály egy empirikus összefüggés, nem törvény: ha a ráta azért nő, mert több ember lép be a munkaerőpiacra, és nem az elbocsátások miatt, a jelzés túlozhat."
    },
    {
     "title": "Piacradar értelmezés",
-    "text": "A Piacradar a munkanélküliségi rátát az NFP-vel és a bérdinamikával együtt értelmezi — a trendforduló fontosabb, mint az abszolút szint."
+    "text": "Irányváltásként érdemes olvasni, nem szintként: a 4,3% önmagában nem magas, de a gyors emelkedés a trend fordulását jelzi. A ráta mellett az ideiglenesen elbocsátottak és a tartós munkanélküliek aránya mutatja meg, hogy átmeneti zökkenőről vagy valódi gyengülésről van szó."
+   }
+  ],
+  "sources": [
+   {
+    "label": "BLS – The Employment Situation, July 2024 (2024.08.02.)",
+    "url": "https://www.bls.gov/news.release/archives/empsit_08022024.htm"
+   },
+   {
+    "label": "Fortune – A recession indicator with a perfect track record just triggered (2024.08.02.)",
+    "url": "https://fortune.com/2024/08/02/recession-indicator-claudia-sahm-rule-trigger-unemployment-rate-jobs-report/"
    }
   ]
  },

@@ -240,8 +240,8 @@
   "first": "2026-03-14"
  },
  "szotar/dot-plot": {
-  "hash": "c74581b11235bb7d",
-  "date": "2026-08-24",
+  "hash": "84627947a206f1d4",
+  "date": "2026-11-18",
   "first": "2026-03-15"
  },
  "szotar/dovish": {
@@ -470,18 +470,18 @@
   "first": "2026-03-14"
  },
  "szotar/inverted-yield-curve": {
-  "hash": "af516d8df4ffd86a",
-  "date": "2026-08-24",
+  "hash": "0b8e32aff9c0dcd8",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/ipo": {
-  "hash": "ca537bc827bb5bcc",
-  "date": "2026-08-24",
+  "hash": "3f8ac95a18aeb094",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/ism-manufacturing-pmi": {
-  "hash": "e49d0a27f2817529",
-  "date": "2026-08-24",
+  "hash": "8cb40ee004bdd899",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/ism-service-pmi": {
@@ -495,8 +495,8 @@
   "first": "2026-03-14"
  },
  "szotar/jobless-claims": {
-  "hash": "36913a1e6e38ea06",
-  "date": "2026-08-24",
+  "hash": "70bc0931e2cc5ccf",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/jolts": {
@@ -520,8 +520,8 @@
   "first": "2026-08-23"
  },
  "szotar/leverage": {
-  "hash": "6b4402621374e1c3",
-  "date": "2026-08-24",
+  "hash": "94e3f288d8a9abf0",
+  "date": "2026-11-18",
   "first": "2026-06-27"
  },
  "szotar/likviditas": {
@@ -685,8 +685,8 @@
   "first": "2026-07-15"
  },
  "szotar/pe-ratio": {
-  "hash": "c98a02eb4fdc04b9",
-  "date": "2026-08-24",
+  "hash": "0f7e2c247a7670fb",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/peg-ratio": {
@@ -710,8 +710,8 @@
   "first": "2026-08-23"
  },
  "szotar/ppi": {
-  "hash": "50899e1385f0efe0",
-  "date": "2026-08-24",
+  "hash": "723cbc996a16b30b",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/pre-market": {
@@ -895,8 +895,8 @@
   "first": "2026-03-14"
  },
  "szotar/ten-year-yield": {
-  "hash": "db3127f22426ba90",
-  "date": "2026-08-24",
+  "hash": "af2f05eefa6e3ae7",
+  "date": "2026-11-18",
   "first": "2026-07-15"
  },
  "szotar/terminal-rate": {
@@ -950,8 +950,8 @@
   "first": "2026-08-23"
  },
  "szotar/unemployment-rate": {
-  "hash": "e56fc3d78f3a3713",
-  "date": "2026-08-24",
+  "hash": "7d03be7873f8ebe1",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/veszteseg-kerules": {
