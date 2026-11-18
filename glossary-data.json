@@ -1460,6 +1460,10 @@
    {
     "label": "444.hu – 2023-ban sincs megállás, már 26 százalék az infláció (2023.02.10.)",
     "url": "https://444.hu/2023/02/10/2023-ban-sincs-megallas-mar-26-szazalek-az-inflacio"
+   },
+   {
+    "label": "KSH – Fogyasztóiár-index, módszertan",
+    "url": "https://www.ksh.hu/gyorstajekoztatok/modszertan/farmodsz24.html"
    }
   ]
  },
@@ -4176,6 +4180,10 @@
    {
     "label": "Bloomingbit – U.S. 10-Year Treasury Auction Shows Weaker Demand as High Yield Hits 5.02% (2026.11.10.)",
     "url": "https://en.bloomingbit.io/feed/news/124134"
+   },
+   {
+    "label": "U.S. Treasury Fiscal Data – Treasury Securities Auctions Data",
+    "url": "https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/"
    }
   ]
  },

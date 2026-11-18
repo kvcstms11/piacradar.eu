@@ -1198,7 +1198,7 @@ Hivatkozás: https://piacradar.eu/szotar/inflacio.html
 
 **Piacradar értelmezés** Önmagában a fő szám keveset mond, a szerkezete többet. Ha az élelmiszer és az energia húzza fel, az átmenetibb lehet, ha a szolgáltatások és a maginfláció is gyorsul, az tartósabb nyomást jelez. Az USA-ban a CPI, a maginfláció és a PCE együtt adja ki a képet.
 
-**Források:** 444.hu – 2023-ban sincs megállás, már 26 százalék az infláció (2023.02.10.) (https://444.hu/2023/02/10/2023-ban-sincs-megallas-mar-26-szazalek-az-inflacio)
+**Források:** 444.hu – 2023-ban sincs megállás, már 26 százalék az infláció (2023.02.10.) (https://444.hu/2023/02/10/2023-ban-sincs-megallas-mar-26-szazalek-az-inflacio) · KSH – Fogyasztóiár-index, módszertan (https://www.ksh.hu/gyorstajekoztatok/modszertan/farmodsz24.html)
 
 ## Installed Base – Telepített géppark üzletág
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1348,7 +1348,7 @@ Hivatkozás: https://piacradar.eu/szotar/kotveny.html
 
 **Piacradar értelmezés** Az aukciós kereslet gyakran többet mond a hozamszintnél. A gyengülő bid-to-cover és az indirekt részarány visszaesése azt jelzi, hogy a piac magasabb hozamot kér a növekvő kínálat finanszírozásáért, ez pedig a részvények értékeltségére is nyomást gyakorol. Egyetlen gyenge aukció még nem trend, de ha a minta több egymást követő aukción ismétlődik, azt érdemes komolyan venni.
 
-**Források:** BigGo Finance – US 10-Year Treasury Coupon Returns to 5% as Auction Demand Cools (2026.11.10.) (https://finance.biggo.com/news/71f956cf-515e-4e0f-8010-c000dd0c1c03) · Bloomingbit – U.S. 10-Year Treasury Auction Shows Weaker Demand as High Yield Hits 5.02% (2026.11.10.) (https://en.bloomingbit.io/feed/news/124134)
+**Források:** BigGo Finance – US 10-Year Treasury Coupon Returns to 5% as Auction Demand Cools (2026.11.10.) (https://finance.biggo.com/news/71f956cf-515e-4e0f-8010-c000dd0c1c03) · Bloomingbit – U.S. 10-Year Treasury Auction Shows Weaker Demand as High Yield Hits 5.02% (2026.11.10.) (https://en.bloomingbit.io/feed/news/124134) · U.S. Treasury Fiscal Data – Treasury Securities Auctions Data (https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/)
 
 ## Leverage – Tőkeáttét
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
