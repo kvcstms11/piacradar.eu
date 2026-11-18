@@ -160,8 +160,8 @@
   "first": "2026-06-27"
  },
  "szotar/clarity-act": {
-  "hash": "a83bd65f2f1dd16d",
-  "date": "2026-08-24",
+  "hash": "bf37afcd3ea2fe38",
+  "date": "2026-11-18",
   "first": "2026-08-23"
  },
  "szotar/commodity": {
@@ -180,7 +180,7 @@
   "first": "2026-03-14"
  },
  "szotar/core-pce": {
-  "hash": "233c31780878e178",
+  "hash": "25c303d1b4d46ea8",
   "date": "2026-11-18",
   "first": "2026-03-14"
  },
@@ -405,8 +405,8 @@
   "first": "2026-03-14"
  },
  "szotar/halving": {
-  "hash": "6a3efbf5a78b4684",
-  "date": "2026-08-24",
+  "hash": "69f80c22a6170436",
+  "date": "2026-11-18",
   "first": "2026-03-14"
  },
  "szotar/hard-landing": {
@@ -865,7 +865,7 @@
   "first": "2026-03-23"
  },
  "szotar/staking": {
-  "hash": "6c9577f70ef3756a",
+  "hash": "c0f7a49cba3551ed",
   "date": "2026-11-18",
   "first": "2026-08-23"
  },
@@ -960,7 +960,7 @@
   "first": "2026-08-23"
  },
  "szotar/vix": {
-  "hash": "91e86c47e3fb3f05",
+  "hash": "09e6730875f70795",
   "date": "2026-11-18",
   "first": "2026-03-14"
  },
@@ -1114,8 +1114,8 @@
   "slug": "a-65-milliardos-hazugsag-ami-tul-tokeletes-volt-madoff-2008"
  },
  "tortenet/PR_020": {
-  "hash": "51ff38b2460766b7",
-  "date": "2026-06-27",
+  "hash": "464d6cf6c7d0f8e4",
+  "date": "2026-11-18",
   "first": "2026-06-27",
   "slug": "a-stabil-erme-ami-par-nap-alatt-nullara-esett-terra-luna-2022"
  },
@@ -1192,8 +1192,8 @@
   "slug": "a-11-milliardos-konyvelesi-trukk-worldcom-2002"
  },
  "tortenet/PR_033": {
-  "hash": "ed101a9bca86795f",
-  "date": "2026-06-27",
+  "hash": "7d945ba9ee4552ce",
+  "date": "2026-11-18",
   "first": "2026-06-27",
   "slug": "a-szam-ami-300-billio-dollart-mozgatott-es-hamis-volt-libor-2012"
  },
@@ -1210,8 +1210,8 @@
   "slug": "ket-milliardos-akik-majdnem-megvettek-az-ezustot-hunt-fiverek-1980"
  },
  "tortenet/PR_036": {
-  "hash": "af9c8935ca3399c4",
-  "date": "2026-06-27",
+  "hash": "74a7c796eccfda1a",
+  "date": "2026-11-18",
   "first": "2026-06-27",
   "slug": "a-delutan-ami-feltalalta-a-kiegyenlitesi-kockazatot-herstatt-1974"
  },

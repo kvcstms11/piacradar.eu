@@ -585,6 +585,10 @@
    {
     "label": "StockTitan – PCE Inflation Report: Core Inflation Rose to 3.1% a Day After the Fed Held Rates (2026.10.29.)",
     "url": "https://www.stocktitan.net/articles/september-2026-pce-inflation-data"
+   },
+   {
+    "label": "BEA – Personal Consumption Expenditures Price Index",
+    "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
    }
   ]
  },
@@ -1244,7 +1248,7 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Kb. 4 évente a Bitcoin bányászok jutalma megfeleződik. Ez csökkenti az új BTC kibocsátási ütemét, szűkítve a kínálatot. A legutóbbi halving 2024 áprilisában volt."
+    "text": "Kb. 4 évente a Bitcoin bányászok jutalma megfeleződik. Ez csökkenti az új BTC kibocsátási ütemét, szűkítve a kínálatot. A negyedik halving 2024 áprilisában volt."
    },
    {
     "title": "Miért fontos?",
@@ -2637,6 +2641,10 @@
    {
     "label": "Macroption – VIX All Time High and Biggest Moves",
     "url": "https://www.macroption.com/vix-all-time-high/"
+   },
+   {
+    "label": "Cboe – VIX Index",
+    "url": "https://www.cboe.com/tradable_products/vix/"
    }
   ]
  },
@@ -3525,6 +3533,10 @@
    {
     "label": "CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.)",
     "url": "https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals"
+   },
+   {
+    "label": "ethereum.org – Staking",
+    "url": "https://ethereum.org/en/staking/"
    }
   ]
  },
@@ -3573,7 +3585,7 @@
   "sections": [
    {
     "title": "Mi ez?",
-    "text": "Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci struktúráját szabályozó amerikai törvényjavaslat. Jelenleg még nem hatályos törvény, a jogalkotási folyamat tart."
+    "text": "Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci struktúráját szabályozó amerikai törvényjavaslat. 2026 szeptemberéig nem lett belőle törvény: a képviselőház 2025. július 17-én elfogadta, a szenátusban azonban 2026. szeptember 15-én elbukott az eljárási szavazás."
    },
    {
     "title": "Miért fontos?",
@@ -3582,6 +3594,12 @@
    {
     "title": "Piacradar értelmezés",
     "text": "A Piacradar a jogalkotási folyamat tényleges állását követi, nem az egyes nyilatkozatokat: a Képviselőház 2025 júliusában elfogadta, a szenátusi bankbizottság 2026 májusában megszavazta, a végszavazás azonban még nem történt meg. Vitatott pont az összeférhetetlenség és a stablecoin-hozam kérdése."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FinTech Weekly – CLARITY Act Tracker (2026.09.26.)",
+    "url": "https://www.fintechweekly.com/news/what-is-the-clarity-act-digital-asset-market-structure-explained-2026"
    }
   ]
  },

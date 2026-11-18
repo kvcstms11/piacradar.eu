@@ -398,7 +398,7 @@ Hivatkozás: https://piacradar.eu/szotar/btc-etf.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/halving.html
 
-**Mi ez?** Kb. 4 évente a Bitcoin bányászok jutalma megfeleződik. Ez csökkenti az új BTC kibocsátási ütemét, szűkítve a kínálatot. A legutóbbi halving 2024 áprilisában volt.
+**Mi ez?** Kb. 4 évente a Bitcoin bányászok jutalma megfeleződik. Ez csökkenti az új BTC kibocsátási ütemét, szűkítve a kínálatot. A negyedik halving 2024 áprilisában volt.
 
 **Miért fontos?** Történelmileg a halving utáni 12-18 hónapban a BTC árfolyama emelkedett, bár ez nem garancia. A kínálatcsökkenés mellett a bányászok jövedelmezősége is változik, ami a hashrate-re és a hálózat biztonságára hat.
 
@@ -564,11 +564,13 @@ Hivatkozás: https://piacradar.eu/szotar/circuit-breaker.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/clarity-act.html
 
-**Mi ez?** Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci struktúráját szabályozó amerikai törvényjavaslat. Jelenleg még nem hatályos törvény, a jogalkotási folyamat tart.
+**Mi ez?** Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci struktúráját szabályozó amerikai törvényjavaslat. 2026 szeptemberéig nem lett belőle törvény: a képviselőház 2025. július 17-én elfogadta, a szenátusban azonban 2026. szeptember 15-én elbukott az eljárási szavazás.
 
 **Miért fontos?** A javaslat a CFTC-hez rendelné a digitális nyersanyagok azonnali piacának felügyeletét, míg a tőkebevonás és a befektetési szerződések a SEC hatáskörében maradnának. Ez oldaná fel azt a hatásköri bizonytalanságot, amely évek óta akadályozza az amerikai piac fejlődését.
 
 **Piacradar értelmezés** A Piacradar a jogalkotási folyamat tényleges állását követi, nem az egyes nyilatkozatokat: a Képviselőház 2025 júliusában elfogadta, a szenátusi bankbizottság 2026 májusában megszavazta, a végszavazás azonban még nem történt meg. Vitatott pont az összeférhetetlenség és a stablecoin-hozam kérdése.
+
+**Források:** FinTech Weekly – CLARITY Act Tracker (2026.09.26.) (https://www.fintechweekly.com/news/what-is-the-clarity-act-digital-asset-market-structure-explained-2026)
 
 ## Commodities
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -624,7 +626,7 @@ Hivatkozás: https://piacradar.eu/szotar/core-pce.html
 
 **Piacradar értelmezés** Itt a cél és a tény távolsága a lényeg. A 3% feletti, gyorsuló maginfláció mellett a kamatcsökkentés nehezebben indokolható, ezért a hosszú hozamok és a növekedési részvények érzékenyen reagálnak. A havi ütemet mindig a megjelenés előtti konszenzushoz érdemes mérni, mert a meglepetés mozgatja a piacot.
 
-**Források:** StockTitan – PCE Inflation Report: Core Inflation Rose to 3.1% a Day After the Fed Held Rates (2026.10.29.) (https://www.stocktitan.net/articles/september-2026-pce-inflation-data)
+**Források:** StockTitan – PCE Inflation Report: Core Inflation Rose to 3.1% a Day After the Fed Held Rates (2026.10.29.) (https://www.stocktitan.net/articles/september-2026-pce-inflation-data) · BEA – Personal Consumption Expenditures Price Index (https://www.bea.gov/data/personal-consumption-expenditures-price-index)
 
 ## CPI – Fogyasztói árindex
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2106,7 +2108,7 @@ Hivatkozás: https://piacradar.eu/szotar/staking.html
 
 **Piacradar értelmezés** Kínálati mutatóként érdemes olvasni a stakelt arányt: a növekvő zárolt mennyiség szűkíti a piacon elérhető készletet. A Shanghai előtti félelem, hogy a kivételek tömeges eladást hoznak, jó lecke: a feloldhatóság a staking kockázatát is csökkenti, ezért nem feltétlenül negatív esemény.
 
-**Források:** CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.) (https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals)
+**Források:** CoinDesk – Ethereum's Shanghai Upgrade Activates (2023.04.12.) (https://hotfix.coindesk.com/tech/2023/04/12/ethereums-shanghai-upgrade-activates-starting-new-era-of-staking-withdrawals) · ethereum.org – Staking (https://ethereum.org/en/staking/)
 
 ## Stop loss – Veszteségvágó megbízás
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -2304,7 +2306,7 @@ Hivatkozás: https://piacradar.eu/szotar/vix.html
 
 **Piacradar értelmezés** A szintnél többet mond a változás sebessége. A 2024 augusztusi eset jól mutatja: a napon belüli csúcs és a záróérték közötti óriási különbség likviditási sokkra utalt, nem tartós pánikra. Egy hirtelen VIX-ugrás akkor is figyelmeztetés, ha az indexek még nyugodtnak tűnnek. Pánikcsúcson eladni ritkán jó döntés, mert a félelem ilyenkor már nagyrészt be van árazva.
 
-**Források:** Macroption – VIX All Time High and Biggest Moves (https://www.macroption.com/vix-all-time-high/)
+**Források:** Macroption – VIX All Time High and Biggest Moves (https://www.macroption.com/vix-all-time-high/) · Cboe – VIX Index (https://www.cboe.com/tradable_products/vix/)
 
 ## Volatilitás
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -2690,7 +2692,7 @@ Egy hét alatt ~40-45 milliárd dollár tűnt el, és a sokk az egész kriptopia
 
 **Tanulság:** A valódi fedezet nélküli, kizárólag bizalomra és fenntarthatatlan hozamra épülő rendszer látszólag elegánsan működik — egészen addig, amíg a bizalom megfordul, és akkor a spirál megállíthatatlan.
 
-**Miért aktuális:** A stablecoinok és a magas hozamú DeFi-protokollok kockázata ma is forró téma, a szabályozás épp formálódik — közvetlenül érinti a kripto iránt érdeklődő olvasót.
+**Miért aktuális:** A stablecoinok és a magas hozamú DeFi-protokollok kockázata ma is forró téma, és közvetlenül érinti a kripto iránt érdeklődő olvasót; az USA 2025 júliusában elfogadta az első szövetségi stablecoin-törvényt (GENIUS Act).
 
 ## A tőzsde, ami eljátszotta az ügyfelek pénzét (FTX, 2022)
 Kategória: Kripto · Hivatkozás: https://piacradar.eu/tortenetek/a-tozsde-ami-eljatszotta-az-ugyfelek-penzet-ftx-2022.html
@@ -2867,11 +2869,11 @@ A LIBOR (London Interbank Offered Rate) talán a világ legfontosabb száma volt
 
 2012-ben kiderült, hogy a bankok évek óta manipulálták ezt a számot. Két okból. Egyrészt a kereskedők rendszeresen kérték, hogy a beadott kamatot finoman tolják el oda, ahol az ő derivatíva-pozícióik nyernek — egyetlen bázispont elmozdulás is „pár millió dollárt" hozhatott. Másrészt a 2008-as válság idején a bankok szándékosan alacsonyabb kamatot adtak be, hogy egészségesebbnek tűnjenek, mint amilyenek valójában voltak.
 
-A botrány hatalmas volt. A Barclays elsőként egyezett ki, ~453 millió dolláros bírsággal; a vezérigazgatója és az elnöke is lemondott. A bankok (Barclays, UBS, RBS, Deutsche Bank, Rabobank) összesen több mint 9 milliárd dollár bírságot fizettek, a Deutsche Bank egymaga 2,5 milliárdot. Tom Hayes kereskedő elsőként került börtönbe. A LIBOR-t azóta megbízhatóbb, tényleges tranzakciókra épülő referenciákra cserélik.
+A botrány hatalmas volt. A Barclays elsőként egyezett ki, ~453 millió dolláros bírsággal; a vezérigazgatója és az elnöke is lemondott. A bankok (Barclays, UBS, RBS, Deutsche Bank, Rabobank) összesen több mint 9 milliárd dollár bírságot fizettek, a Deutsche Bank egymaga 2,5 milliárdot. Tom Hayes kereskedő elsőként került börtönbe. A LIBOR-t azóta megbízhatóbb, tényleges tranzakciókra épülő referenciákra cserélték: az utolsó LIBOR-jegyzéseket 2024. szeptember 30-án tették közzé.
 
 **Tanulság:** A pénzügyi rendszer egyik legfontosabb száma valójában csak önbevallott becslés volt, amit néhány kereskedő a saját profitjáért elmozdíthatott. A referenciaértékek integritása és az összeférhetetlenség kulcskérdés.
 
-**Miért aktuális:** A benchmarkok megbízhatósága és a banki magatartási (conduct) kockázat máig forró téma; a LIBOR kivezetése is ezért zajlik.
+**Miért aktuális:** A benchmarkok megbízhatósága és a banki magatartási (conduct) kockázat máig fontos téma; a botrány vezetett a LIBOR 2024-ben lezárult kivezetéséhez.
 
 ## Az aranybánya, amiben nem volt arany (Bre-X, 1997)
 Kategória: Csalás · Hivatkozás: https://piacradar.eu/tortenetek/az-aranybanya-amiben-nem-volt-arany-bre-x-1997.html
@@ -2910,7 +2912,7 @@ Ez a Herstatt-kockázat: az egyik fél már fizetett, de a partner csődbe megy,
 
 **Tanulság:** A kiegyenlítési (settlement) kockázat láthatatlan, de valós: a pénz nem mozog azonnal, és a fizetés meg a kézhezvétel közötti résben a partner becsődölhet. A pénzügy „vízvezetéke" ugyanúgy kockázat, mint a piac.
 
-**Miért aktuális:** A határokon átnyúló fizetések és a deviza-elszámolás infrastruktúrája ma is kritikus; épp ma, 52 évvel ezelőtt történt a kölni délután, ami ezt megtanította.
+**Miért aktuális:** A határokon átnyúló fizetések és a deviza-elszámolás infrastruktúrája ma is kritikus; 1974. június 26-án történt a kölni délután, ami ezt megtanította.
 
 ## A tőzsde, ahol elloptak 850 ezer bitcoint (Mt. Gox, 2014)
 Kategória: Kripto · Hivatkozás: https://piacradar.eu/tortenetek/a-tozsde-ahol-elloptak-850-ezer-bitcoint-mt-gox-2014.html
