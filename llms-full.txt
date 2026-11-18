@@ -1226,7 +1226,7 @@ Hivatkozás: https://piacradar.eu/szotar/inverted-yield-curve.html
 
 **Miért fontos?** Történelmileg az egyik legismertebb recessziós előjelző. Az inverzió azt árazza, hogy a jegybanknak a jövőben kamatot kell csökkentenie, mert lassul a gazdaság. A bankoknak szűkülő kamatmarzsot jelent, mert rövid távon drágán forrásolnak, hosszú távon olcsóbban hiteleznek.
 
-**Valós példa** A Motley Fool összefoglalója szerint a kétéves és tízéves hozamgörbe 2022 júliusában fordult meg, és 793 napig, több mint 26 hónapig maradt invertált. Ez minden idők leghosszabb inverziója volt, megelőzve az 1978-as, 624 napos rekordot. A görbe 2024 szeptemberének elején fordult vissza. A Barron's adatai alapján az 1990-es, 2001-es, 2007-es és 2020-as recesszió nagyjából három-hat hónappal a görbe normalizálódása után kezdődött.
+**Valós példa** A Motley Fool összefoglalója szerint a kétéves és tízéves hozamgörbe 2022 júliusában fordult meg, és 793 napig, több mint 26 hónapig maradt invertált. Ez minden idők leghosszabb inverziója volt, megelőzve az 1978-as, 624 napos rekordot. A görbe 2024 szeptemberének elején fordult vissza. A Motley Fool a Barron's adataira hivatkozva azt írja, hogy az 1990-es, 2001-es, 2007-es és 2020-as recesszió nagyjából három-hat hónappal a görbe normalizálódása után kezdődött.
 
 **Gyakori tévhit** Sokan azt hiszik, a recesszió az inverzió pillanatában jön. Az utóbbi évtizedek tapasztalata szerint inkább a visszafordulás körül, és az sem biztos, hogy egyáltalán bekövetkezik.
 
@@ -1788,7 +1788,7 @@ Hivatkozás: https://piacradar.eu/szotar/ppi.html
 
 **Piacradar értelmezés** Csővezetékként érdemes ránézni: ami ma a köztes keresletben drágul, az hónapokkal később jelenhet meg a boltokban. Ha a feldolgozott áruk ára gyorsabban nő, mint a végső kereslet, a vállalatok vagy továbbadják a költséget, vagy a marzsukból fizetik meg. Mindkettő számít: az egyik az inflációt, a másik az eredményeket nyomja.
 
-**Források:** BLS – Producer Price Indexes, October 2026 (2026.11.13.) (https://www.bls.gov/news.release/ppi.nr0.htm) · StockTitan – PPI Report Shows Producer Prices Rose Only 0.3%, Less Than Expected, and 6.5% Over a Year (2026.11.13.) (https://www.stocktitan.net/articles/october-2026-ppi-report) · PYMNTS – 12-Month Wholesale Inflation Reaches 4-Year High Despite October Slowdown (2026.11.13.) (https://www.pymnts.com/economy/2026/12-month-wholesale-inflation-reaches-4-year-high-despite-october-slowdown/)
+**Források:** BLS – Producer Price Indexes, October 2026 (2026.11.13.) (https://www.bls.gov/news.release/archives/ppi_11132026.htm) · StockTitan – PPI Report Shows Producer Prices Rose Only 0.3%, Less Than Expected, and 6.5% Over a Year (2026.11.13.) (https://www.stocktitan.net/articles/october-2026-ppi-report) · PYMNTS – 12-Month Wholesale Inflation Reaches 4-Year High Despite October Slowdown (2026.11.13.) (https://www.pymnts.com/economy/2026/12-month-wholesale-inflation-reaches-4-year-high-despite-october-slowdown/)
 
 ## Pre-market / After-hours kereskedés
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
