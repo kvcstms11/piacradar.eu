@@ -262,11 +262,11 @@ Hivatkozás: https://piacradar.eu/szotar/adp.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/altcoin.html
 
-**Mi ez?** Minden kriptoeszköz a Bitcoinon kívül. A kategória rendkívül heterogén: ide tartoznak az önálló alaphálózatok tokenjei, a rájuk épülő alkalmazások eszközei és a stablecoinok is.
+**Mi ez?** Minden kriptoeszköz a Bitcoinon kívül, az alternatív coin rövidítéséből. A kategória rendkívül heterogén: ide tartoznak az önálló alaphálózatok natív tokenjei, a rájuk épülő alkalmazások tokenjei, a mémtokenek és a stablecoinok is. Kockázati profiljuk, felhasználási céljuk és likviditásuk között nagyságrendi különbségek vannak.
 
-**Miért fontos?** Az altcoinok jellemzően magasabb bétájú eszközök: a piaci emelkedésben nagyobbat mozdulnak felfelé, az esésben pedig aránytalanul többet veszítenek. Likviditásuk is szűkebb, ami tovább erősíti a kilengéseket.
+**Miért fontos?** Az altcoinok jellemzően magasabb bétájú eszközök: emelkedő piacon nagyobbat mozdulnak felfelé, esésben pedig aránytalanul többet veszítenek. Likviditásuk szűkebb, a kínálatuk gyakran koncentrált, és sok projektnél jelentős tokenfeloldások (unlock) hígítják a meglévő tulajdonosokat. Ezek a tényezők tovább erősítik a kilengéseket.
 
-**Piacradar értelmezés** A Piacradar az altpiacot a BTC-dominancia felől olvassa: a csökkenő dominancia jellemzően az altok felé áramló tőkét jelez, az emelkedő dominancia pedig a Bitcoinba történő visszahúzódást. Kockázatkerülő környezetben az altok szenvedik el először a likviditás elpárolgását.
+**Piacradar értelmezés** Tőkeáramlás iránya a BTC-dominancia felől olvasható: a csökkenő dominancia jellemzően az altok felé áramló tőkét jelez, az emelkedő pedig a Bitcoinba történő visszahúzódást. Kockázatkerülő környezetben az altokból párolog el először a likviditás. Egy-egy token értékelésénél a tényleges használat és a kibocsátási ütemterv többet számít a narratívánál.
 
 ## AMC (After Market Close)
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -378,41 +378,41 @@ Hivatkozás: https://piacradar.eu/szotar/biosimilar.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/btc-dominance.html
 
-**Mi ez?** A Bitcoin piaci kapitalizációjának aránya a teljes kriptopiac kapitalizációjához képest, százalékban. Azt mutatja, a tőke mennyire koncentrálódik a BTC-ben az altcoinokkal szemben.
+**Mi ez?** A Bitcoin piaci kapitalizációjának aránya a teljes kriptopiac kapitalizációjához képest, százalékban. Azt mutatja, a tőke mennyire koncentrálódik a Bitcoinban az altcoinokkal szemben. Számítása függ attól, mely eszközök szerepelnek a teljes piacban, ezért az adatszolgáltatók értékei eltérhetnek.
 
-**Miért fontos?** Emelkedő dominancia gyakran kockázatkerülést jelez a kriptón belül (a tőke a BTC „biztonságába” menekül); csökkenő dominancia („alt szezon”) nagyobb kockázati étvágyat, az altcoinok felülteljesítését. A ciklus-pozíció egyik jelzője.
+**Miért fontos?** Emelkedő dominancia gyakran kockázatkerülést jelez a kriptón belül, mert a tőke a likvidebb, intézményileg elfogadottabb Bitcoinba húzódik. Csökkenő dominancia, az úgynevezett altszezon (alt season), nagyobb kockázati étvágyat és az altcoinok felülteljesítését mutatja. A stablecoinok növekvő súlya torzíthatja a mutatót, mert eséskor a stablecoinba menekülő tőke a dominanciát is mozgatja.
 
-**Piacradar értelmezés** A Piacradar a BTC-dominanciát a kriptón belüli kockázati rotáció jelzőjeként használja — a BTC és az altcoinok relatív erejének kontextusát adja.
+**Piacradar értelmezés** Kockázati rotációt mutat a kriptón belül, és a ciklusban elfoglalt hely egyik jelzője. Önmagában nem irányjelző: a dominancia emelkedhet úgy is, hogy a Bitcoin esik, csak az altok még jobban. Ezért mindig a Bitcoin árfolyamának irányával együtt értelmezhető.
 
 ## Bitcoin ETF – Spot BTC ETF
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/btc-etf.html
 
-**Mi ez?** Olyan tőzsdén kereskedett alap (ETF), amely közvetlenül Bitcoint tart. A spot BTC ETF-ek 2024 januárjában indultak az USA-ban (BlackRock IBIT, Fidelity FBTC, stb.), lehetővé téve, hogy hagyományos brókerszámlán is legyen BTC-kitettség.
+**Mi ez?** Tőzsdén kereskedett alap (ETF), amely közvetlenül Bitcoint tart letétkezelőnél, így hagyományos brókerszámlán, saját tárca nélkül is szerezhető Bitcoin-kitettség. A jegyek létrehozása (creation) és visszaváltása (redemption) a felhatalmazott szereplőkön (authorized participant) keresztül történik: beáramláskor új jegyek keletkeznek, amelyek fedezetére az alap Bitcoint vásárol, kiáramláskor jegyek szűnnek meg, és az alap Bitcoint ad el.
 
-**Miért fontos?** A BTC ETF-ek napi beáramlása (inflow) és kiáramlása (outflow) a legfontosabb rövid távú keresleti jelző a Bitcoin piacán. Nagy inflow = intézményi vásárlás, nagy outflow = profit-realizálás.
+**Miért fontos?** Mivel az áramlás mögött valós Bitcoin-vétel vagy -eladás áll a mögöttes piacon, a napi beáramlás (inflow) és kiáramlás (outflow) a Bitcoin-piac egyik fontos keresleti jelzője. Az ETF-ek megnyitották az utat az intézményi és lakossági tőke előtt, amely korábban szabályozási vagy technikai okból nem fért hozzá.
 
-**Piacradar értelmezés** A Piacradar az ETF flow adatokat a BTC árfolyam-mozgások kontextusában használja — ez az intézményi kereslet legközvetlenebb mérőszáma.
+**Piacradar értelmezés** Intézményi kereslet közvetlen mérőszámaként szolgál, de az áramlás egy része fedezeti ügylet, például határidős és azonnali piac közötti arbitrázs, nem irányfogadás. A többhetes trend és a kibocsátók közötti megoszlás többet mond egyetlen nap számánál.
 
 ## Bitcoin Halving – Felezés
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/halving.html
 
-**Mi ez?** Kb. 4 évente a Bitcoin bányászok jutalma megfeleződik. Ez csökkenti az új BTC kibocsátási ütemét, szűkítve a kínálatot. A negyedik halving 2024 áprilisában volt.
+**Mi ez?** A Bitcoin protokollba épített szabály, amely 210 000 blokkonként, nagyjából négyévente megfelezi a bányászoknak blokkonként járó új bitcoin jutalmat. Így csökken az újonnan kibocsátott bitcoin mennyisége, és a teljes kínálat aszimptotikusan közelít a 21 milliós felső határhoz. A tranzakciós díjak nem feleződnek.
 
-**Miért fontos?** Történelmileg a halving utáni 12-18 hónapban a BTC árfolyama emelkedett, bár ez nem garancia. A kínálatcsökkenés mellett a bányászok jövedelmezősége is változik, ami a hashrate-re és a hálózat biztonságára hat.
+**Miért fontos?** A felezés csökkenti az új kínálat ütemét, és egyúttal a bányászok bevételét is. A kevésbé hatékony bányászok kieshetnek, ami a hashrate-re és a hálózat biztonságára hat, a bányászok eladási nyomása pedig mérséklődhet. A korábbi ciklusokban a felezést emelkedő szakasz követte, ez azonban kevés megfigyelésen alapul, és nem garancia.
 
-**Piacradar értelmezés** A Piacradar a halving ciklust a BTC piaci narratíva részeként kezeli — az aktuális ciklus-pozíció kontextust ad a BTC mozgásokhoz.
+**Piacradar értelmezés** Ciklusban elfoglalt hely kontextust adhat a Bitcoin mozgásaihoz, de a kínálati hatás minden felezéssel kisebb, mert a már forgalomban lévő mennyiséghez képest egyre kevesebb új bitcoin keletkezik. Az ETF-ek és az intézményi kereslet megjelenésével a keresleti oldal szerepe nőtt.
 
 ## Blockchain
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/blockchain.html
 
-**Mi ez?** Elosztott főkönyv, amelyben a tranzakciókat blokkokba rendezve, kriptográfiai láncolattal rögzítik. A hálózat résztvevői közösen tárolják és ellenőrzik az adatokat, így utólagos módosításhoz a hálózat többségének egyetértése kellene.
+**Mi ez?** Elosztott főkönyv (distributed ledger), amelyben a tranzakciókat blokkokba rendezve, kriptográfiai láncolattal rögzítik: minden blokk tartalmazza az előző blokk lenyomatát (hash). A hálózat résztvevői közösen tárolják és ellenőrzik az adatokat, a konszenzusmechanizmus, például a munkabizonyíték (proof of work) vagy a letétbizonyíték (proof of stake) dönti el, melyik blokk kerül a láncba.
 
-**Miért fontos?** A bizalom nem egy központi szereplőtől, hanem a rendszer felépítéséből ered: bárki ellenőrizheti a tranzakciótörténetet, és senki nem írhatja át egyoldalúan. Ez teszi lehetővé az értékátvitelt bank vagy elszámolóház közbeiktatása nélkül.
+**Miért fontos?** A bizalom nem egy központi szereplőtől, hanem a rendszer felépítéséből ered: bárki ellenőrizheti a tranzakciótörténetet, és senki nem írhatja át egyoldalúan. Ez teszi lehetővé az értékátvitelt bank vagy elszámolóház közbeiktatása nélkül. A decentralizáció, a biztonság és a skálázhatóság között azonban kompromisszumot kell kötni.
 
-**Piacradar értelmezés** A Piacradar a blokkláncot infrastruktúraként kezeli, nem befektetési eszközként: az adott hálózat értékét a rajta zajló tényleges gazdasági aktivitás, a fejlesztői jelenlét és a díjbevétel mutatja. A technológiai újdonság önmagában nem árazza a hozzá tartozó tokent.
+**Piacradar értelmezés** Infrastruktúra, nem befektetési eszköz: egy hálózat értékét a rajta zajló tényleges gazdasági aktivitás, a fejlesztői jelenlét és a díjbevétel mutatja. A technológiai újdonság önmagában nem árazza a hozzá tartozó tokent.
 
 ## Blue Chip
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -658,11 +658,11 @@ Hivatkozás: https://piacradar.eu/szotar/current-account.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/dca.html
 
-**Mi ez?** Rendszeres időközönként, azonos összegben történő vásárlás, függetlenül az aktuális ártól. Angolul dollar cost averaging. Alacsonyabb áron automatikusan több, magasabb áron kevesebb egységet vásárol a befektető.
+**Mi ez?** Rendszeres időközönként, azonos összegben történő vásárlás, függetlenül az adott piaci ártól, angolul dollar cost averaging. Alacsonyabb áron automatikusan több, magasabb áron kevesebb egységet vásárol a befektető, így az átlagos bekerülési ár a vásárlások időszakára simul ki. Tipikus formája a havi rendszeres ETF-vásárlás vagy a megtakarítási terv.
 
-**Miért fontos?** A módszer kiiktatja az időzítés kérdését, és csökkenti annak kockázatát, hogy a teljes tőke egyetlen kedvezőtlen ponton kerüljön befektetésre. Cserébe emelkedő piacon jellemzően alacsonyabb hozamot ad, mint az egyösszegű befektetés.
+**Miért fontos?** A módszer kiiktatja az időzítés kérdését, és csökkenti annak kockázatát, hogy a teljes tőke egyetlen kedvezőtlen ponton kerüljön befektetésre. Pszichológiailag is könnyebb tartani, mert az esés nem kudarc, hanem olcsóbb vásárlási lehetőség. Cserébe tartósan emelkedő piacon jellemzően alacsonyabb hozamot ad, mint az egyösszegű befektetés, mert a tőke egy része később kerül piacra.
 
-**Piacradar értelmezés** A Piacradar megkülönbözteti a tervezett költségátlagolást a veszteséges pozícióra történő átlagolástól: az előbbi előre rögzített ütemterv, az utóbbi menet közbeni döntés egy romló helyzetben. A kettő pszichológiai háttere ellentétes.
+**Piacradar értelmezés** Tervezett költségátlagolás és veszteséges pozícióra történő utólagos átlagolás két külön dolog: az előbbi előre rögzített ütemterv, az utóbbi menet közbeni döntés egy romló helyzetben. A kettő pszichológiai háttere ellentétes, és csak az első fegyelmezett módszer.
 
 ## Defenzív / Ciklikus szektorok
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -678,11 +678,11 @@ Hivatkozás: https://piacradar.eu/szotar/defenziv-ciklikus.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/defi.html
 
-**Mi ez?** Decentralizált pénzügyi szolgáltatások összessége, amelyek blokkláncon működnek, hagyományos közvetítők (bankok, brókerek) nélkül. Ide tartozik a kölcsönzés, kereskedés, hozamgazdálkodás és biztosítás.
+**Mi ez?** Decentralizált pénzügyi szolgáltatások összessége, amelyek blokkláncon, okosszerződésekkel (smart contract) működnek, hagyományos közvetítők, például bankok vagy brókerek nélkül. Ide tartozik a hitelezés és kölcsönzés, a decentralizált tőzsdék (DEX), a likviditásnyújtás, a hozamgazdálkodás és a derivatívák. A szolgáltatások egymásra építhetők, mint az építőkockák.
 
-**Miért fontos?** A DeFi protokollok teljes lezárt értéke (TVL) jelzi a szektor egészségét. Governance viták, hack-ek vagy szabályozási lépések gyorsan átterjedhetnek más tokenekre és a kriptopiac egészére.
+**Miért fontos?** A protokollokban lekötött teljes érték (total value locked, TVL) a szektor méretének és a felhasználói bizalomnak a mérőszáma. Az egymásra épülés kockázatot is hordoz: egy okosszerződés-hiba, egy orákulum-manipuláció vagy egy feltört protokoll gyorsan átterjedhet más protokollokra. A szabályozási lépések az egész szektort érinthetik.
 
-**Piacradar értelmezés** A Piacradar a DeFi híreket akkor emeli ki, ha intézményi hatásuk van (likviditás, bizalom, szabályozás) — nem minden protokoll-frissítés releváns.
+**Piacradar értelmezés** Valódi használat és ösztönzők különválasztása a kulcs: a tokenkibocsátással felpumpált hozam és lekötött érték az ösztönzők megszűnésével gyorsan elillanhat. A protokoll díjbevétele és annak a lekötött értékhez mért aránya a fenntarthatóság jobb mérője. Biztonsági incidensek idején a kitettség a döntő kérdés.
 
 ## Delta – Opciós görög mutató
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -698,11 +698,11 @@ Hivatkozás: https://piacradar.eu/szotar/delta.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/depeg.html
 
-**Mi ez?** Amikor egy stablecoin vagy rögzített árfolyamú eszköz elveszíti a célértékét (pl. egy USD-stablecoin nem 1 dollárt ér). Lehet átmeneti (likviditási stressz) vagy végzetes (a fedezet vagy a mechanizmus összeomlása).
+**Mi ez?** Amikor egy stablecoin vagy más rögzített árfolyamú kriptoeszköz elszakad a célértékétől, például egy dollárhoz kötött stablecoin érezhetően egy dollár alatt forog. Lehet átmeneti, likviditási stressz vagy beváltási torlódás miatt, vagy tartós, ha a fedezet vagy a stabilizáló mechanizmus sérül.
 
-**Miért fontos?** Egy stablecoin depegje bizalmi válságot és tovagyűrűző likvidálásokat indíthat a teljes kriptopiacon. A Terra/UST 2022-es depegje ~60 milliárd dollárt törölt el és láncreakciót okozott (Celsius, 3AC).
+**Miért fontos?** A fedezett és az algoritmikus stablecoin depegje eltérő. Valós eszközökkel fedezett stablecoinnál a kérdés a tartalék minősége és elérhetősége: ha a fedezet megvan, a beváltás jellemzően visszaállítja az árfolyamot. Az algoritmikus stablecoint csak egy piaci mechanizmus tartja, így a bizalomvesztés halálspirált indíthat, ahol a menekülés tovább gyengíti a fedezetet. Egy nagy stablecoin depegje tovagyűrűző likvidálásokat indíthat.
 
-**Piacradar értelmezés** A Piacradar a depeget rendszerszintű kockázati jelzésként kezeli — egy nagy stablecoin tartós eltérése a fedezet minőségéről és a piaci likviditásról árulkodik.
+**Piacradar értelmezés** Rendszerszintű kockázati jelzés: egy nagy stablecoin tartós eltérése a fedezet minőségéről és a piac likviditásáról árulkodik. A depeg mértéke mellett az számít, mennyi idő alatt áll helyre, és hogy a beváltás folyamatosan működik-e.
 
 ## Devizaintervenció
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -718,11 +718,11 @@ Hivatkozás: https://piacradar.eu/szotar/devizaintervencio.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/diverzifikacio.html
 
-**Mi ez?** A tőke megosztása több eszköz, szektor, régió vagy eszközosztály között, hogy egyetlen pozíció kimenetele ne határozza meg a teljes portfólió sorsát. Angolul diversification.
+**Mi ez?** A tőke megosztása több eszköz, szektor, régió vagy eszközosztály között, hogy egyetlen pozíció kimenetele ne határozza meg a teljes portfólió sorsát, angolul diversification. A diverzifikáció történhet egyedi papírokkal vagy széles indexet követő alapokkal, és kiterjedhet devizára és időre is.
 
-**Miért fontos?** A diverzifikáció az egyedi kockázatot csökkenti, a piac egészét érintő rendszerkockázatot nem. Akkor hatékony, ha a pozíciók valóban eltérő tényezőkre reagálnak — több hasonló papír egy szektorból nem jelent tényleges szórást.
+**Miért fontos?** Az egyedi, vállalatspecifikus kockázatot csökkenti, a piac egészét érintő rendszerkockázatot nem. Akkor hatékony, ha a pozíciók valóban eltérő tényezőkre reagálnak: több hasonló papír egy szektorból nem jelent tényleges szórást. Válsághelyzetben a korrelációk megugranak, ezért a diverzifikáció védőhatása éppen akkor gyengülhet, amikor a legnagyobb szükség lenne rá.
 
-**Piacradar értelmezés** A Piacradar a diverzifikációt a korreláció felől nézi, nem a darabszám alapján: öt technológiai részvény együtt mozog, tehát egyetlen kitettséget jelent. A valódi szórás akkor jön létre, ha az egyes pozíciókat más gazdasági erők mozgatják.
+**Piacradar értelmezés** Korreláció számít, nem a darabszám: öt technológiai részvény együtt mozog, tehát lényegében egyetlen kitettséget jelent. Valódi szórás akkor jön létre, ha az egyes pozíciókat más gazdasági erők mozgatják. A túlzott diverzifikáció viszont felhígíthatja a legjobb ötletek hatását, és indexkövetéshez közelít.
 
 ## Dividend – Osztalék
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -860,11 +860,11 @@ Hivatkozás: https://piacradar.eu/szotar/eps.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/etf.html
 
-**Mi ez?** Angolul exchange traded fund: tőzsdén, részvényként kereskedhető befektetési alap, amely jellemzően egy indexet, szektort vagy nyersanyagot követ. Egyetlen tranzakcióval sok mögöttes eszközre ad kitettséget.
+**Mi ez?** Angolul exchange traded fund: tőzsdén, részvényként kereskedhető befektetési alap, amely jellemzően egy indexet, szektort, kötvénykosarat vagy nyersanyagot követ. Egyetlen tranzakcióval sok mögöttes eszközre ad kitettséget. A hozamot kifizető (distributing) változat osztalékot fizet, a felhalmozó (accumulating) változat újrabefekteti azt.
 
-**Miért fontos?** Az ETF-ek alacsony költséggel és azonnali diverzifikációval kínálnak hozzáférést egész piacokhoz. A napon belüli kereskedhetőség megkülönbözteti őket a hagyományos befektetési alapoktól, amelyek naponta egyszer árazódnak.
+**Miért fontos?** Az ETF-ek alacsony költséggel és azonnali diverzifikációval kínálnak hozzáférést egész piacokhoz. A napon belüli kereskedhetőség megkülönbözteti őket a hagyományos befektetési alapoktól, amelyek naponta egyszer árazódnak. A teljes költségmutató (total expense ratio, TER) hosszú távon jelentősen befolyásolja a hozamot.
 
-**Piacradar értelmezés** A Piacradar az ETF-nél a követett indexet és a mögöttes szerkezetet nézi, nem csak a nevét: a fizikai és a szintetikus replikáció eltérő partnerkockázatot hordoz. Az alap mérete és napi forgalma a kereskedhetőséget és a vételi-eladási különbözetet határozza meg.
+**Piacradar értelmezés** Követett index és szerkezet többet számít a névnél: a fizikai és a szintetikus replikáció eltérő partnerkockázatot hordoz. Az alap mérete és napi forgalma a kereskedhetőséget és a vételi-eladási különbözetet határozza meg. Eurós befektetőnek az alap devizája, a devizafedezés és az adózási kezelés, például a felhalmozó alapok bevallása, szintén lényeges szempont.
 
 ## ETF Flows
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -936,11 +936,11 @@ Hivatkozás: https://piacradar.eu/szotar/fomc-meeting.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/fomo.html
 
-**Mi ez?** Angolul fear of missing out: az a késztetés, hogy a befektető egy már elszaladt mozgásba is beszálljon, nehogy kimaradjon belőle. Jellemzően nem új információ, hanem az emelkedés látványa váltja ki.
+**Mi ez?** Angolul fear of missing out: az a késztetés, hogy a befektető egy már elszaladt mozgásba is beszálljon, nehogy kimaradjon belőle. Jellemzően nem új információ, hanem az emelkedés látványa, a közösségi média vagy mások nyereségéről szóló hírek váltják ki. A buborékok egyik fő hajtóereje.
 
-**Miért fontos?** A FOMO a legrosszabb kockázat/hozam arányú pontokon vezet belépéshez: a mozgás nagy része már megtörtént, a stop pedig messzebb kerül. Emiatt a belépés mérete és időzítése is jellemzően eltér az eredeti tervtől.
+**Miért fontos?** A FOMO a legrosszabb kockázat/hozam arányú pontokon vezet belépéshez: a mozgás nagy része már megtörtént, a logikus stopszint pedig messzebb kerül. Emiatt a belépés mérete és időzítése is jellemzően eltér az eredeti tervtől, és gyakran a csúcs közelében történik. A kényszerből nyitott pozíciót az első visszaesésnél könnyű pánikban zárni.
 
-**Piacradar értelmezés** A Piacradar figyelmeztető jelzésként kezeli, ha a belépés indoka egy korábbi mozgásból való kimaradás, nem pedig önálló tézis. Az elszalasztott nyereség nem valós veszteség — az elmulasztott lehetőség és a rossz belépő között lényeges a különbség.
+**Piacradar értelmezés** Figyelmeztető jel, ha a belépés indoka egy korábbi mozgásból való kimaradás, nem pedig önálló tézis. Az elszalasztott nyereség nem valós veszteség: az elmulasztott lehetőség és a rossz belépő között lényeges a különbség. Egy előre rögzített vételi szint vagy a visszahúzódás kivárása segít elkerülni.
 
 ## Forex – Devizapiac
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -976,11 +976,11 @@ Hivatkozás: https://piacradar.eu/szotar/free-cash-flow.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/funding-rate.html
 
-**Mi ez?** A perpetual kontraktusok long és short pozíciói között rendszeres időközönként átutalt kifizetés. Ha az ár a spot fölé kerül, a longok fizetnek a shortoknak, fordított esetben a shortok a longoknak.
+**Mi ez?** Az örökös határidős szerződések (perpetual futures) long és short pozíciói között rendszeres időközönként, jellemzően néhány óránként átutalt kifizetés. Ha a szerződés ára az azonnali (spot) ár fölé kerül, a longok fizetnek a shortoknak, fordított esetben a shortok a longoknak. A mértéket a tőzsde számítja a két ár eltéréséből.
 
-**Miért fontos?** A mechanizmus az árat a spot piachoz köti, emellett a piaci pozicionáltság egyik legpontosabb mérőszáma. A tartósan magas pozitív ráta azt jelzi, hogy a long oldal túlsúlyba került és a tőkeáttétel felhalmozódott.
+**Miért fontos?** A mechanizmus az örökös szerződés árát a spot piachoz köti, emellett a pozicionáltság egyik legpontosabb mérőszáma. A tartósan magas pozitív ráta azt jelzi, hogy a long oldal túlsúlyba került, és a tőkeáttét felhalmozódott. A longoknak ilyenkor a tartás is drága, ami egy esésnél gyorsíthatja a kiszállást.
 
-**Piacradar értelmezés** A Piacradar a finanszírozási rátát kontraindikátorként is olvassa: a szélsőségesen pozitív érték túlfűtött long pozicionáltságra utal, ami sérülékennyé teszi a piacot egy korrekcióval szemben. A negatív tartomány short dominanciát jelez, ami squeeze alapját adhatja.
+**Piacradar értelmezés** Kontraindikátorként is működik: a szélsőségesen pozitív érték túlfűtött long pozicionáltságra utal, ami sérülékennyé teszi a piacot egy korrekcióval szemben. A negatív tartomány short dominanciát jelez, ami short squeeze alapját adhatja. A nyitott kötésállománnyal együtt olvasva mutatja meg a tőkeáttét valódi méretét.
 
 ## Futures – Határidős ügyletek
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1026,11 +1026,11 @@ Hivatkozás: https://piacradar.eu/szotar/gap.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/gas-fee.html
 
-**Mi ez?** A blokklánc használatáért fizetett díj, amely a hálózat számítási kapacitásának igénybevételét fedezi. Jellemzően az adott hálózat natív tokenjében kell megfizetni, és a validátorokat díjazza.
+**Mi ez?** A blokklánc használatáért fizetett díj, amely a hálózat számítási és tárolási kapacitásának igénybevételét fedezi. Jellemzően az adott hálózat natív tokenjében kell megfizetni, és a blokkot előállító validátorokat vagy bányászokat díjazza. Mértéke a művelet összetettségétől és a hálózati terheléstől függ.
 
-**Miért fontos?** A díj a hálózati terheléssel változik: nagy forgalom idején megugorhat, ami a kisebb összegű tranzakciókat gazdaságtalanná teszi. Ez közvetlenül befolyásolja a hálózat használhatóságát és versenyképességét a többi blokklánccal szemben.
+**Miért fontos?** A díj a kereslettel változik: nagy forgalom idején megugorhat, ami a kisebb összegű tranzakciókat gazdaságtalanná teszi. Ez közvetlenül befolyásolja a hálózat használhatóságát és versenyképességét a többi blokklánccal szemben. A második rétegű megoldások (layer 2) éppen a díjak csökkentésére jöttek létre.
 
-**Piacradar értelmezés** A Piacradar a díjbevételt a hálózat tényleges keresletének mérőszámaként olvassa: a tartósan magas díjbevétel valós használatra utal, míg a nulla közeli díj alacsony aktivitásra. Egyes hálózatoknál a díjak egy részét elégetik, ami a kínálati oldalra is hat.
+**Piacradar értelmezés** Díjbevétel a hálózat tényleges keresletének mérőszáma: a tartósan magas díjbevétel valós használatra utal, a nulla közeli díj alacsony aktivitásra. Egyes hálózatoknál a díjak egy részét elégetik (burn), ami a kínálati oldalra is hat. A nagyon alacsony díj kedvez a felhasználóknak, de csökkenti a validátorok és a token tulajdonosainak bevételét.
 
 ## GDP
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1072,11 +1072,11 @@ Hivatkozás: https://piacradar.eu/szotar/gold.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/governance-token.html
 
-**Mi ez?** Olyan kriptovaluta, amely szavazati jogot ad a tulajdonosnak egy protokoll döntéseiben (pl. díjstruktúra, fejlesztési irány, treasury felhasználása). Példák: AAVE, MKR (MakerDAO), UNI (Uniswap).
+**Mi ez?** Olyan kriptotoken, amely szavazati jogot ad a tulajdonosnak egy protokoll döntéseiben, például a díjszerkezetről, a fejlesztési irányról, a kockázati paraméterekről vagy a közös kassza (treasury) felhasználásáról. A szavazati súly jellemzően a birtokolt tokenek számával arányos, a döntéseket gyakran decentralizált autonóm szervezet (DAO) formájában hozzák.
 
-**Miért fontos?** Governance szavazások közvetlenül befolyásolják a protokoll értékét. Egy rossz döntés (pl. treasury kiürítése) tömeges eladást indíthat, míg egy jó irányváltás bizalmat épít.
+**Miért fontos?** A szavazások közvetlenül befolyásolhatják a protokoll értékét: egy díjmegosztásról szóló döntés bevételt juttathat a tulajdonosoknak, egy rossz döntés pedig tömeges eladást indíthat. A tokenek gyakran koncentráltan oszlanak meg, ezért néhány nagy tulajdonos dönthet. Az alacsony szavazási részvétel szintén gyengíti a decentralizációt. A jogi besorolás is kockázat, mert a szabályozók értékpapírnak tekinthetik.
 
-**Piacradar értelmezés** A Piacradar governance híreket akkor hozza, ha a szavazás a protokoll likviditását, biztonságát vagy a token kínálatát érinti — nem minden technikai javaslatnál.
+**Piacradar értelmezés** Tokenérték szempontjából az a döntő, kap-e a tulajdonos gazdasági részesedést a protokoll bevételéből, vagy csak szavazati jogot. A likviditást, a biztonságot vagy a tokenkínálatot érintő szavazások számítanak, a technikai javaslatok többsége nem mozgatja az árat.
 
 ## Guidance – Vállalati előrejelzés
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1102,11 +1102,11 @@ Hivatkozás: https://piacradar.eu/szotar/hard-landing.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/hashrate.html
 
-**Mi ez?** A Bitcoin-hálózat összesített számítási kapacitása, hash per másodpercben mérve. Azt mutatja, mekkora erőforrás dolgozik a blokkok validálásán, és ezzel a hálózat biztonságának mértékét is jelzi.
+**Mi ez?** A Bitcoin-hálózat összesített számítási kapacitása, hash per másodpercben mérve, amelyet a bányászok a blokkok előállításához fordítanak. Nem mérhető közvetlenül, a blokkok előállításának üteméből és a nehézségi szintből (difficulty) becsülik. A nehézséget a protokoll nagyjából kéthetente igazítja, hogy a blokkidő átlagosan tíz perc körül maradjon.
 
-**Miért fontos?** Az emelkedő hashrate növekvő bányászati beruházást és erősödő hálózati biztonságot tükröz. A hirtelen esés jellemzően azt jelenti, hogy a bányászok egy része a magas energiaárak vagy az alacsony árfolyam miatt leállította a gépeit.
+**Miért fontos?** A magas hashrate erősebb hálózatbiztonságot jelent, mert egy támadónak a teljes számítási kapacitás többségét kellene megszereznie. A hashrate a bányászok bizalmát is tükrözi: tartós emelkedése azt mutatja, hogy a bányászok hosszú távra fektetnek be hardverbe és energiába. A hirtelen esés bányászati kapacitás kiesésére vagy jövedelmezőségi gondra utalhat.
 
-**Piacradar értelmezés** A Piacradar a hashrate-et a bányászati jövedelmezőséggel együtt olvassa: a tartósan emelkedő kapacitás hosszú távú elköteleződést jelez, míg a gyors visszaesés rövid távú kínálati nyomásra és a szektor stresszére utalhat.
+**Piacradar értelmezés** Bányászati stresszt jelezhet, ha a hashrate csökken, miközben az árfolyam is esik: a kevésbé hatékony bányászok kiszállnak, és készleteik eladására kényszerülhetnek. A bányászok jövedelmezőségét az árfolyam, az energiaár és a nehézség együtt határozza meg.
 
 ## Hawkish
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1138,11 +1138,11 @@ Hivatkozás: https://piacradar.eu/szotar/hedge.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/horgonyzas.html
 
-**Mi ez?** Angolul anchoring: az a torzítás, amelyben egy önkényes referenciapont — jellemzően a saját belépési vagy kilépési ár — aránytalanul befolyásolja a későbbi döntéseket.
+**Mi ez?** Angolul anchoring: az a kognitív torzítás, amelyben egy önkényes referenciapont aránytalanul befolyásolja a későbbi döntéseket. A befektetésben jellemzően a saját belépési vagy kilépési ár, egy korábbi csúcs vagy egy kerek szám válik horgonnyá.
 
-**Miért fontos?** A piac nem ismeri a befektető bekerülési árát, mégis sokan ehhez viszonyítva ítélik meg, hogy egy papír olcsó vagy drága. Ez akadályozza a helyzet újraértékelését a jelenlegi információk alapján.
+**Miért fontos?** A piac nem ismeri a befektető bekerülési árát, mégis sokan ehhez viszonyítva ítélik meg, hogy egy papír olcsó vagy drága. Ez akadályozza a helyzet újraértékelését az új információk fényében. A korábbi csúcshoz való horgonyzás ahhoz vezethet, hogy egy jelentősen esett papír olcsónak tűnik, miközben a fundamentumai is romlottak.
 
-**Piacradar értelmezés** A Piacradar a horgonyzás jelének tekinti, ha egy korábban eladott eszköz minden magasabb ára automatikusan drágának tűnik. A releváns kérdés nem az, hol szállt ki korábban a befektető, hanem hogy a jelenlegi szinten mit árazna a fundamentum.
+**Piacradar értelmezés** Árszint helyett az számít, mit árazna a fundamentum: a releváns kérdés nem az, hol szállt ki vagy be korábban a befektető, hanem hogy a kialakult helyzetben újonnan megvenné-e a papírt. Horgonyzásra utal, ha egy korábban eladott eszköz minden magasabb ára automatikusan drágának tűnik.
 
 ## Housing Starts – Lakásépítések
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1328,11 +1328,11 @@ Hivatkozás: https://piacradar.eu/szotar/kamatparitas.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/kockazat-hozam-arany.html
 
-**Mi ez?** A vállalt maximális veszteség és a megcélzott nyereség aránya egy adott pozícióban. Angolul risk/reward ratio. Egy 1:3 arány azt jelenti, hogy a kockáztatott összeg háromszorosa a célzott hozam.
+**Mi ez?** A vállalt maximális veszteség és a megcélzott nyereség aránya egy adott pozícióban, angolul risk/reward ratio. A kockázat a belépő és a stopszint, a hozam a belépő és a célár távolságából adódik. Szemléltetésként egy 1:3 arány azt jelenti, hogy a célzott nyereség a kockáztatott összeg háromszorosa.
 
-**Miért fontos?** Az arány dönti el, milyen találati arány mellett nyereséges egy rendszer. Kedvező kockázat/hozam mellett akár 40 százalék alatti találati arány is nyereséges lehet, míg szűk aránnyal a magas találati arány sem elegendő.
+**Miért fontos?** Az arány dönti el, milyen találati arány mellett nyereséges egy stratégia. Egy 1:3 arányú rendszer elméletileg 25%-os találati aránynál nullszaldós, minden ennél jobb eredmény nyereséget termel, a jutalékokat leszámítva. Szűk aránnyal viszont a magas találati arány sem elegendő, mert néhány nagyobb veszteség elviszi a sok kis nyereséget.
 
-**Piacradar értelmezés** A Piacradar a belépő értékelésekor a stop és a célár távolságát együtt nézi: ugyanaz a tézis kedvezőtlen aránnyal rossz kereskedéssé válik. A már elszaladt árfolyamnál a kockázat/hozam romlik, még ha az eredeti olvasat helyes volt is.
+**Piacradar értelmezés** Stop és célár együtt adja a belépő minőségét: ugyanaz a tézis kedvezőtlen aránnyal rossz kereskedéssé válik. Elszaladt árfolyamnál az arány romlik, még ha az eredeti olvasat helyes volt is. A célárnak reálisnak kell lennie, mert egy irreális célár papíron szép arányt mutat, a valóságban viszont ritkán teljesül.
 
 ## Kötvény – Bond
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1380,11 +1380,11 @@ Hivatkozás: https://piacradar.eu/szotar/likviditas.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/liquidation.html
 
-**Mi ez?** Tőkeáttételes pozíció automatikus, kényszerű zárása, amikor a fedezet a szükséges szint alá csökken. A margin callal ellentétben itt nincs felszólítás és nincs mérlegelési idő: a rendszer a pozíciót magától zárja.
+**Mi ez?** Tőkeáttételes pozíció automatikus, kényszerű zárása, amikor a fedezet a fenntartási szint alá csökken. A hagyományos fedezeti felhívással (margin call) ellentétben a kriptotőzsdéken jellemzően nincs felszólítás és nincs mérlegelési idő: a rendszer a likvidálási árat elérve magától zárja a pozíciót. Minél nagyobb a tőkeáttét, annál közelebb van a likvidálási ár a belépéshez.
 
-**Miért fontos?** A kényszerzárás piaci megbízásként érkezik az ajánlati könyvbe, tehát maga is nyomja az árat. Sűrűn elhelyezkedő likvidálási szintek esetén ez láncreakciót indíthat, amelyben minden zárás újabb zárásokat vált ki.
+**Miért fontos?** A kényszerzárás piaci megbízásként érkezik az ajánlati könyvbe, tehát maga is nyomja az árat. Sűrűn elhelyezkedő likvidálási szintek esetén ez láncreakciót indíthat, amelyben minden zárás újabb zárásokat vált ki. Ez a likvidálási kaszkád felelős a kriptopiac sok hirtelen, néhány perc alatt lezajló kilengéséért, mindkét irányban.
 
-**Piacradar értelmezés** A Piacradar a likvidálási kaszkádot magyarázó tényezőként kezeli a szokatlanul gyors mozgásoknál: ilyenkor az elmozdulás mértéke nem a fundamentumból, hanem a tőkeáttétel kiszóródásából ered. A kaszkád után a rendszerben lévő tőkeáttétel jellemzően lecsökken.
+**Piacradar értelmezés** Szokatlanul gyors mozgásnál a kaszkád az egyik első magyarázat: az elmozdulás mértéke ilyenkor nem a fundamentumból, hanem a tőkeáttét kiszóródásából ered. A kaszkád után a rendszerben lévő tőkeáttét jellemzően lecsökken, ami stabilabb alapot adhat. A likvidálási térképek megmutatják, hol sűrűsödnek a kényszerzárási szintek.
 
 ## LNG
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1466,21 +1466,21 @@ Hivatkozás: https://piacradar.eu/szotar/market-cap.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/megerositesi-torzitas.html
 
-**Mi ez?** Angolul confirmation bias: az a hajlam, hogy a saját álláspontunkat alátámasztó információt keressük és fogadjuk el, az ellentmondót pedig figyelmen kívül hagyjuk vagy leértékeljük.
+**Mi ez?** Angolul confirmation bias: az a hajlam, hogy a saját álláspontunkat alátámasztó információt keressük, jobban megjegyezzük és könnyebben elfogadjuk, az ellentmondót pedig figyelmen kívül hagyjuk vagy leértékeljük. Mindenkit érint, a tapasztalt befektetőket is.
 
-**Miért fontos?** Nyitott pozíció mellett a torzítás felerősödik: a befektető olyan forrásokat követ, amelyek a saját tézisét ismétlik, és a figyelmeztető adatokat átmenetinek minősíti. Így a tézis érvénytelenné válása későn tudatosul.
+**Miért fontos?** Nyitott pozíció mellett a torzítás felerősödik: a befektető olyan forrásokat követ, amelyek a saját tézisét ismétlik, és a figyelmeztető adatokat átmenetinek minősíti. Így a tézis érvénytelenné válása későn tudatosul, a veszteség pedig addigra megnő. A közösségi média algoritmusai tovább erősítik, mert hasonló véleményeket jelenítenek meg.
 
-**Piacradar értelmezés** A Piacradar a torzítást azzal ellensúlyozza, hogy a belépéskor rögzíti, milyen konkrét adat cáfolná a tézist. Az előre leírt cáfolati feltételt nehezebb utólag átértelmezni, mint egy homályos elvárást.
+**Piacradar értelmezés** Ellenszere az előre leírt cáfolati feltétel: belépéskor rögzíteni kell, milyen konkrét adat vagy esemény cáfolná a tézist. Ezt nehezebb utólag átértelmezni, mint egy homályos elvárást. A tézissel szembeni legerősebb ellenérvek tudatos felkutatása szintén segít, akárcsak az, ha a befektető olyan forrásokat is követ, amelyek az ellenkező álláspontot képviselik.
 
 ## Mentális könyvelés – Mental Accounting
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/mentalis-konyveles.html
 
-**Mi ez?** Angolul mental accounting: az a jelenség, amikor a befektető elkülönített kasszákban gondolkodik, és ugyanazt az összeget eltérően kezeli attól függően, honnan származik vagy hol keletkezett a vesztesége.
+**Mi ez?** Angolul mental accounting: az a jelenség, amikor a befektető elkülönített kasszákban gondolkodik, és ugyanazt az összeget eltérően kezeli attól függően, honnan származik vagy hol keletkezett a nyeresége, illetve vesztesége. Ilyen például, ha a nyereségből származó pénzt játékpénznek tekinti.
 
-**Miért fontos?** A pénz helyettesíthető: egy adott összeg értéke nem függ attól, melyik eszközön keletkezett. A mentális könyvelés mégis oda vezethet, hogy a befektető ragaszkodik ahhoz, hogy a veszteséget ugyanabban az eszközosztályban hozza vissza.
+**Miért fontos?** A pénz helyettesíthető: egy adott összeg értéke nem függ attól, melyik számlán vagy eszközön keletkezett. A mentális könyvelés mégis oda vezethet, hogy a befektető ragaszkodik ahhoz, hogy a veszteséget ugyanabban az eszközben hozza vissza, vagy a nyereséget könnyelműbben kockáztatja. Hasznos is lehet, ha tudatos célkasszákat, például vésztartalékot különít el vele.
 
-**Piacradar értelmezés** A Piacradar kockázati jelzésként kezeli, ha egy döntés indoka egy korábbi, más eszközön elszenvedett veszteség helyreállítása. Ez a gondolat jellemzően nagyobb pozícióhoz és magasabb tőkeáttételhez vezet, mint amit a befektető egyébként vállalna.
+**Piacradar értelmezés** Kockázati jel, ha egy döntés indoka egy korábbi, más eszközön elszenvedett veszteség helyreállítása. Ez a gondolat jellemzően nagyobb pozícióhoz és magasabb tőkeáttételhez vezet, mint amit a befektető egyébként vállalna. A teljes portfólió szintű szemlélet ellensúlyozza.
 
 ## Michigan Sentiment – Fogyasztói hangulat
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1496,11 +1496,11 @@ Hivatkozás: https://piacradar.eu/szotar/michigan-sentiment.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/mining.html
 
-**Mi ez?** A Bitcoin-bányászat során a résztvevők számítási kapacitást biztosítanak a tranzakciók validálásához és új blokkok létrehozásához, cserébe blokkjutalmat és tranzakciós díjat kapnak. Ez adja a hálózat biztonságának alapját.
+**Mi ez?** Bányászat: a munkabizonyíték (proof of work) alapú hálózatokon, például a Bitcoinon a résztvevők számítási kapacitást biztosítanak a tranzakciók validálásához és új blokkok létrehozásához. Cserébe blokkjutalmat, vagyis újonnan kibocsátott érmét, valamint tranzakciós díjat kapnak. Ez adja a hálózat biztonságának gazdasági alapját.
 
-**Miért fontos?** A bányászok a friss kínálat forrásai: ha a jövedelmezőségük romlik, eladásra kényszerülhetnek a működési költségek fedezéséhez. A szektor állapota így közvetlenül hat a piaci kínálati oldalra.
+**Miért fontos?** A bányászok az újonnan kibocsátott kínálat forrásai: ha jövedelmezőségük romlik, a működési költségek fedezéséhez eladásra kényszerülhetnek. A szektor állapota így közvetlenül hat a piaci kínálati oldalra. A bányászat energiaigényes, ezért a működés helye az olcsó energiaforrásokhoz és a szabályozási környezethez igazodik.
 
-**Piacradar értelmezés** A Piacradar a bányászati gazdaságosságot az energiaárak, az árfolyam és a nehézségi szint együttesében nézi: a szűkülő marzs eladói nyomást és leálló kapacitást jelezhet, míg a bővülő jövedelmezőség felhalmozást tesz lehetővé.
+**Piacradar értelmezés** Gazdaságosság dönti el a bányászok viselkedését: az energiaár, az árfolyam és a nehézségi szint együtt adja a marzsot. A szűkülő marzs eladói nyomást és leálló kapacitást jelezhet, a bővülő jövedelmezőség felhalmozást tesz lehetővé. A felezések után a tranzakciós díjak súlya a bevételben fokozatosan nő.
 
 ## Moat – Gazdasági várárok
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1608,11 +1608,11 @@ Hivatkozás: https://piacradar.eu/szotar/oil-inventories.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/on-chain.html
 
-**Mi ez?** A blokkláncon nyilvánosan rögzített tranzakciós adatok elemzése: tárcaegyenlegek, átutalások, tőzsdei be- és kiáramlások, valamint a birtoklási idő szerinti megoszlás vizsgálata.
+**Mi ez?** A blokkláncon nyilvánosan rögzített tranzakciós adatok elemzése: tárcaegyenlegek, átutalások, tőzsdei be- és kiáramlások, a birtoklási idő szerinti megoszlás és a hálózati aktivitás vizsgálata. A címek csoportosításával becsülhető, mely tárcák tartoznak tőzsdékhez, nagy befektetőkhöz vagy hosszú távú birtokosokhoz.
 
-**Miért fontos?** A hagyományos piacokon a tulajdonosi mozgások nagy része rejtve marad, itt viszont valós időben követhető. Ez lehetővé teszi, hogy a befektetők a hírek helyett a tényleges tőkeáramlás alapján ítéljék meg a piaci helyzetet.
+**Miért fontos?** A hagyományos piacokon a tulajdonosi mozgások nagy része rejtve marad, itt viszont valós időben követhető. Ez lehetővé teszi, hogy a tényleges tőkeáramlás alapján is meg lehessen ítélni a piaci helyzetet, ne csak hírek és árfolyam alapján. A címek azonosítása azonban becslés, és a tőzsdéken belüli forgalom nem látszik a láncon.
 
-**Piacradar értelmezés** A Piacradar az onchain adatokat elsősorban a birtokosi csoportok viselkedésén keresztül olvassa: a nagyobb tárcák felhalmozása és a hosszú távú birtokosok mozgása többet mond a trendről, mint az árfolyam önmagában. A tőzsdei egyenlegek változása a kínálati oldalt jelzi.
+**Piacradar értelmezés** Birtokosi csoportok viselkedése többet mond a trendről, mint az árfolyam önmagában: a nagyobb tárcák felhalmozása és a hosszú távú birtokosok eladása vagy tartása a ciklus fontos jelzője. A tőzsdei egyenlegek változása a kínálati oldalt mutatja. Egyetlen mutató ritkán elég, a jelzések egybeesése ad megbízható képet.
 
 ## OPEC / OPEC+
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1750,11 +1750,11 @@ Hivatkozás: https://piacradar.eu/szotar/pboc.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/perpetual-futures.html
 
-**Mi ez?** Lejárat nélküli határidős kontraktus, amely tőkeáttételes pozíciót tesz lehetővé az alaptermék birtoklása nélkül. A hagyományos határidős ügyletektől eltérően nincs elszámolási időpont, a pozíció elvileg korlátlan ideig tartható.
+**Mi ez?** Lejárat nélküli határidős szerződés, amely tőkeáttételes long vagy short pozíciót tesz lehetővé az alaptermék birtoklása nélkül. A hagyományos határidős ügyletektől eltérően nincs elszámolási időpont, a pozíció elvileg korlátlan ideig tartható, amíg a fedezet elegendő. Az árat a finanszírozási ráta (funding rate) köti az azonnali piachoz.
 
-**Miért fontos?** A kripto derivatív piac forgalmának túlnyomó részét ezek a kontraktusok adják, ezért az árazás jelentős része itt dől el. A finanszírozási ráta az a mechanizmus, amely az árat a spot piachoz köti.
+**Miért fontos?** A kripto derivatív piac forgalmának túlnyomó részét ezek a szerződések adják, ezért az árfeltárás jelentős része itt zajlik. A magas elérhető tőkeáttét miatt kis árfolyammozgás is tömeges likvidálást indíthat. A nyitott kötésállomány (open interest) mutatja, mennyi tőkeáttétes pozíció halmozódott fel a rendszerben.
 
-**Piacradar értelmezés** A Piacradar a perpetual piacot a nyitott kötésállomány és a finanszírozási ráta együttesében nézi: a gyorsan növekvő tőkeáttétel sérülékennyé teszi a piacot, mert egy ellenirányú mozgás kényszerlikvidálási hullámot indíthat el.
+**Piacradar értelmezés** Nyitott kötésállomány és finanszírozási ráta együtt jelzi a kockázatot: a gyorsan növekvő tőkeáttét sérülékennyé teszi a piacot, mert egy ellenirányú mozgás kényszerlikvidálási hullámot indíthat. Ha az ár emelkedik, de a nyitott kötésállomány csökken, a mozgást inkább short zárás hajtja, mint új vétel.
 
 ## PMI – Beszerzési menedzserindex
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1770,11 +1770,11 @@ Hivatkozás: https://piacradar.eu/szotar/pmi.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/poziciomeretezes.html
 
-**Mi ez?** Annak meghatározása, mekkora tőkét helyez a befektető egyetlen pozícióba. Angolul position sizing. A méretet jellemzően nem az elérhető tőke, hanem a vállalt maximális veszteség alapján számítják ki.
+**Mi ez?** Annak meghatározása, mekkora tőkét helyez a befektető egyetlen pozícióba, angolul position sizing. A méretet jellemzően nem az elérhető tőke, hanem a vállalt maximális veszteség alapján számítják: például ha a portfólió legfeljebb 1%-át kockáztatnád, és a stop 10%-ra van a belépőtől, a pozíció a portfólió 10%-a lehet.
 
-**Miért fontos?** A pozícióméret dönti el, mekkora hatása lesz egy tévedésnek a teljes portfólióra. Ugyanaz a jó belépő túl nagy mérettel is veszteséges élménnyé válhat, mert a normális áringadozás is elviselhetetlen nyomást okoz.
+**Miért fontos?** A pozícióméret dönti el, mekkora hatása lesz egy tévedésnek a teljes portfólióra. Ugyanaz a jó belépő túl nagy mérettel is veszteséges élménnyé válhat, mert a normális áringadozás is elviselhetetlen nyomást okoz, és rossz döntésekhez vezet. Hosszú távon a méretezés gyakran többet számít a túlélés szempontjából, mint a belépők minősége.
 
-**Piacradar értelmezés** A Piacradar a kezdő pozíció méretét a mozgástér kérdéseként kezeli: ha egy papírba egyszerre kerül a teljes tervezett tőke, később nincs lehetőség átlagolni anélkül, hogy a koncentráció túlzottá válna. A lépcsős felépítés ezt a mozgásteret tartja fenn.
+**Piacradar értelmezés** Mozgástér kérdése is: ha egy papírba egyszerre kerül a teljes tervezett tőke, később nincs lehetőség átlagolni anélkül, hogy a koncentráció túlzottá válna. A lépcsős, például félmérettel induló felépítés ezt a mozgásteret tartja fenn. A volatilisebb eszköz kisebb méretet indokol.
 
 ## PPI – Termelői árindex
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2048,11 +2048,11 @@ Hivatkozás: https://piacradar.eu/szotar/short-squeeze.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/smart-contract.html
 
-**Mi ez?** A blokkláncon futó, önvégrehajtó programkód, amely előre rögzített feltételek teljesülésekor automatikusan végrehajtja a tranzakciót. Közvetítő és utólagos emberi jóváhagyás nélkül működik.
+**Mi ez?** A blokkláncon futó, önvégrehajtó programkód, amely előre rögzített feltételek teljesülésekor automatikusan végrehajtja a műveletet, például egy átutalást vagy egy fedezet zárolását. Közvetítő és utólagos emberi jóváhagyás nélkül működik, és a telepítés után jellemzően nem módosítható, hacsak a kód eleve nem tartalmaz módosítási lehetőséget.
 
-**Miért fontos?** Ez a decentralizált pénzügyi alkalmazások alapja: hitelezés, tőzsdei kereskedés és származtatott termékek egyaránt okosszerződéseken keresztül működnek. A kód nyilvános és ellenőrizhető, ugyanakkor a benne maradt hiba közvetlen és gyakran visszafordíthatatlan pénzügyi veszteséghez vezet.
+**Miért fontos?** Ez a decentralizált pénzügyi alkalmazások alapja: hitelezés, kereskedés és származtatott termékek egyaránt okosszerződéseken keresztül működnek. A kód nyilvános és ellenőrizhető, a benne maradt hiba viszont közvetlen és gyakran visszafordíthatatlan pénzügyi veszteséghez vezet. Külső adatforrásoktól (oracle) való függése további támadási felületet jelent.
 
-**Piacradar értelmezés** A Piacradar az okosszerződés-kockázatot a piaci kockázattól elkülönítve kezeli: az auditálatlan vagy frissen kiadott kód sérülékenységet hordoz. A nagyobb protokollhackek jellemzően nem árfolyammozgásból, hanem programozási hibából erednek.
+**Piacradar értelmezés** Programozási kockázat a piaci kockázattól külön kezelendő: az auditálatlan vagy újonnan kiadott kód sérülékenységet hordoz, és a nagy protokolltámadások jellemzően kódhibából, nem árfolyammozgásból erednek. Az audit csökkenti, de nem szünteti meg a kockázatot. A módosítható (upgradeable) szerződéseknél azt is meg kell nézni, ki és milyen feltételekkel módosíthatja a kódot.
 
 ## Soft Landing
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2078,11 +2078,11 @@ Hivatkozás: https://piacradar.eu/szotar/spread.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/stablecoin.html
 
-**Mi ez?** Stabil árfolyamú kriptovaluta, amely jellemzően az amerikai dollárhoz kötött (1 token ≈ 1 USD). A legnagyobbak: USDT (Tether), USDC (Circle). Fedezetük készpénz, állampapír vagy más eszköz.
+**Mi ez?** Stabil árfolyamra törekvő kriptotoken, jellemzően az amerikai dollárhoz kötve, egy token nagyjából egy dollárt ér. Három fő típusa van. A fedezett (fiat-backed) stablecoint készpénz és rövid lejáratú állampapír fedezi a kibocsátónál. A kriptofedezetű változatot más kriptoeszközök túlfedezése biztosítja okosszerződésben. Az algoritmikus stablecoint fedezet helyett kínálatszabályozó mechanizmus próbálja a célértéken tartani.
 
-**Miért fontos?** A stablecoinok a kriptopiac likviditási alaprétege: a kereskedési párok többsége stablecoin-alapú. A teljes stablecoin-kapitalizáció növekedése friss tőke beáramlását jelzi; a szabályozásuk (pl. amerikai stablecoin-törvény) a szektor legitimációjának kulcskérdése.
+**Miért fontos?** A stablecoinok a kriptopiac likviditási alaprétege: a kereskedési párok és a DeFi-protokollok többsége rájuk épül, és a fedezett típusok a kriptopiac és a dollárrendszer közötti átjárót jelentik. A teljes stablecoin-állomány növekedése új tőke beáramlását jelezheti. A szabályozás a szektor legitimációjának kulcskérdése.
 
-**Piacradar értelmezés** A Piacradar a stablecoin-állomány változását a kriptopiaci likviditás jelzőjeként, a szabályozási híreket pedig strukturális eseményként követi.
+**Piacradar értelmezés** Likviditási jelzőként olvasható: a bővülő állomány potenciális vételi erőt, a zsugorodó tőkekivonást jelez. A típus döntően meghatározza a kockázatot, ezért a fedezet minősége, átláthatósága és a beváltás feltételei számítanak a legjobban.
 
 ## Stagflation – Stagfláció
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2200,11 +2200,11 @@ Hivatkozás: https://piacradar.eu/szotar/token-taxonomia.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/tokenomics.html
 
-**Mi ez?** Egy token gazdasági felépítése: a teljes és a forgalomban lévő kínálat, a kibocsátási ütem, az induló elosztás a csapat és a korai befektetők között, valamint az esetleges égetési mechanizmusok.
+**Mi ez?** Egy token gazdasági felépítése: a teljes és a forgalomban lévő kínálat, a maximális kínálat, a kibocsátási ütem, az induló elosztás a csapat, a korai befektetők és a közösség között, a zárolási és feloldási ütemterv (vesting), valamint az esetleges égetési (burn) vagy visszavásárlási mechanizmusok.
 
-**Miért fontos?** A tokenomika határozza meg, hogy a hálózat sikere mennyire csapódik le a token árában. Az agresszív kibocsátási ütem tartós eladói nyomást jelent, a koncentrált induló elosztás pedig későbbi feloldási hullámokat vetít előre.
+**Miért fontos?** A tokenomika határozza meg, hogy a hálózat sikere mennyire csapódik le a token árában. Az agresszív kibocsátási ütem tartós eladói nyomást jelent, a koncentrált induló elosztás pedig későbbi feloldási hullámokat vetít előre. A teljesen hígított értékelés (fully diluted valuation, FDV) és a piaci kapitalizáció közötti nagy különbség jövőbeli hígítást jelez.
 
-**Piacradar értelmezés** A Piacradar a tokenomikát a keresleti oldal mellé helyezi: hiába nő a hálózati használat, ha a kínálat gyorsabban bővül. A deflációs vagy lassuló kibocsátású modellek szerkezetileg kedvezőbb helyzetben vannak egy keresleti fordulat esetén.
+**Piacradar értelmezés** Kereslet és kínálat együtt dönt: hiába nő a hálózati használat, ha a kínálat gyorsabban bővül. A deflációs vagy lassuló kibocsátású modellek szerkezetileg kedvezőbb helyzetben vannak egy keresleti fordulat esetén. A közelgő nagy feloldások előre ismert kockázatot jelentenek.
 
 ## Trade Balance – Külkereskedelmi mérleg
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2220,11 +2220,11 @@ Hivatkozás: https://piacradar.eu/szotar/trade-balance.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/trailing-stop.html
 
-**Mi ez?** Olyan stop megbízás, amely az árfolyammal együtt mozog a nyereség irányába, de visszafelé nem. Angolul trailing stop. Rögzíthető fix távolsággal vagy százalékos eltéréssel az aktuális ártól.
+**Mi ez?** Olyan stop megbízás, amely az árfolyammal együtt mozog a nyereség irányába, de visszafelé nem, angolul trailing stop. Rögzíthető fix távolsággal vagy százalékos eltéréssel az elért legjobb ártól. Ha az árfolyam a beállított mértékben visszafordul, a megbízás aktiválódik és jellemzően piaci áron teljesül.
 
-**Miért fontos?** A követő stop a nyereség egy részét védi anélkül, hogy előre meg kellene határozni a célárat. Trendben tartja a pozíciót, viszont a normális visszahúzások is kiüthetik, ha a távolság túl szűkre van állítva.
+**Miért fontos?** A követő stop a nyereség egy részét védi anélkül, hogy előre meg kellene határozni a célárat. Trendben tartja a pozíciót, és automatikusan kiléptet, amikor a trend megtörik. A normális visszahúzások viszont kiüthetik, ha a távolság túl szűkre van állítva, résnyitásnál pedig a teljesülés a beállított szintnél rosszabb lehet.
 
-**Piacradar értelmezés** A Piacradar a követő stopot magas volatilitású eszközöknél tartja indokoltnak, ahol a tézis gyorsan változhat. A távolságot az eszköz átlagos napi kilengéséhez érdemes igazítani: a túl szűk beállítás a zajra reagál, nem a trendfordulóra.
+**Piacradar értelmezés** Volatilis eszközöknél indokolt leginkább, ahol a tézis gyorsan változhat. A távolságot az eszköz átlagos napi kilengéséhez, például az átlagos valódi tartományhoz (average true range, ATR) kell igazítani: a túl szűk beállítás a zajra reagál, nem a trendfordulóra. Hosszú távú befektetésnél a tézis érvénytelenítése gyakran jobb kilépési szabály.
 
 ## Treasury – Amerikai állampapír
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -2250,21 +2250,21 @@ Hivatkozás: https://piacradar.eu/szotar/trendvonal.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/tvl.html
 
-**Mi ez?** A decentralizált pénzügyi protokollokban zárolt eszközök összesített értéke. Magában foglalja a hitelezési piacokon elhelyezett fedezetet, a tőzsdei likviditást és a hozamtermelő stratégiákba helyezett tőkét.
+**Mi ez?** A decentralizált pénzügyi protokollokban lekötött eszközök összesített értéke, jellemzően dollárban kifejezve. Magában foglalja a hitelezési piacokon elhelyezett fedezetet, a decentralizált tőzsdék likviditási készleteit és a hozamtermelő stratégiákba helyezett tőkét. Protokollonként és hálózatonként is számolják.
 
-**Miért fontos?** A TVL a szektor méretének és a benne lévő bizalomnak a mérőszáma. Emelkedése tőkebeáramlást és növekvő aktivitást jelez, csökkenése pedig tőkekivonást vagy a mögöttes eszközök árfolyamesését tükrözi.
+**Miért fontos?** A TVL a szektor méretének és a felhasználói bizalomnak a mérőszáma. Emelkedése tőkebeáramlást és növekvő aktivitást jelezhet, csökkenése tőkekivonást vagy a lekötött eszközök árfolyamesését tükrözheti. Az egymásra épülő protokollok miatt ugyanaz a tőke több helyen is megjelenhet, ami felfelé torzítja az összesített számot.
 
-**Piacradar értelmezés** A Piacradar a TVL-t óvatosan kezeli, mert az érték két okból változhat: ténylegesen érkező tőkéből, vagy pusztán a zárolt eszközök átértékelődéséből. Az egy protokollra jutó díjbevétellel együtt nézve ad tisztább képet a valós használatról.
+**Piacradar értelmezés** Óvatosan kezelendő, mert két okból változik: ténylegesen érkező tőkéből vagy pusztán a lekötött eszközök átértékelődéséből. A protokoll díjbevételével és a TVL-hez mért arányával együtt ad tisztább képet a valós használatról. Az ösztönzőkkel vonzott tőke gyorsan távozhat, ha a jutalmak csökkennek. Hálózatok összevetésénél a lekötött érték mellett az aktív felhasználók száma is számít.
 
 ## Újrasúlyozás – Rebalancing
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/ujrasulyozas.html
 
-**Mi ez?** A portfólió eredeti arányainak helyreállítása: a felülteljesítő eszközök egy részének eladása és az alulteljesítők vásárlása. Angolul rebalancing. Történhet naptári alapon vagy meghatározott eltérési küszöb elérésekor.
+**Mi ez?** A portfólió eredeti, tervezett arányainak helyreállítása: a felülteljesítő eszközök egy részének eladása és az alulteljesítők vásárlása, angolul rebalancing. Történhet naptári alapon, például évente, vagy meghatározott eltérési küszöb elérésekor, illetve új befizetések célzott elosztásával is.
 
-**Miért fontos?** Az emelkedő pozíciók idővel túlsúlyossá válnak, ezzel a portfólió kockázata észrevétlenül megnő. Az újrasúlyozás visszaállítja a tervezett kockázati szintet, és mechanikusan érvényesíti a drágán eladni, olcsón venni elvet.
+**Miért fontos?** Az emelkedő pozíciók idővel túlsúlyossá válnak, ezzel a portfólió kockázata észrevétlenül megnő. Az újrasúlyozás visszaállítja a tervezett kockázati szintet, és mechanikusan érvényesíti a drágán eladni, olcsón venni elvet. Erős, tartós trendben viszont visszafoghatja a hozamot, mert a nyertesekből ad el.
 
-**Piacradar értelmezés** A Piacradar az újrasúlyozást szabályalapú eszközként kezeli, nem előrejelzésként: éppen az a lényege, hogy érzelmi mérlegelés nélkül működik. Adózási és tranzakciós költsége van, ezért a túl gyakori kiigazítás rontja az eredményt.
+**Piacradar értelmezés** Szabályalapú eszköz, nem előrejelzés: éppen az a lényege, hogy érzelmi mérlegelés nélkül működik. Adózási és tranzakciós költsége van, ezért a túl gyakori kiigazítás rontja az eredményt. Az új befizetésekkel történő súlyozás eladás és adózási esemény nélkül éri el ugyanazt. Az eltérési küszöb, például néhány százalékpontos sáv, megakadályozza, hogy apró elmozdulásokra is reagálni kelljen.
 
 ## Unemployment Rate – Munkanélküliségi ráta
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2286,11 +2286,11 @@ Hivatkozás: https://piacradar.eu/szotar/unemployment-rate.html
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
 Hivatkozás: https://piacradar.eu/szotar/veszteseg-kerules.html
 
-**Mi ez?** Angolul loss aversion: a viselkedési közgazdaságtan megfigyelése, amely szerint az azonos nagyságú veszteség lélektanilag erősebb hatást vált ki, mint az ugyanakkora nyereség. Kahneman és Tversky kutatásaiból származik.
+**Mi ez?** Angolul loss aversion: a viselkedési közgazdaságtan megfigyelése, amelynek lényege, hogy az azonos nagyságú veszteség lélektanilag erősebb hatást vált ki, mint az ugyanakkora nyereség. A kilátáselmélet (prospect theory) egyik központi eleme, amely azt írja le, hogyan döntenek az emberek bizonytalanság mellett.
 
-**Miért fontos?** Ez magyarázza, miért hajlamosak a befektetők a nyereséges pozíciókat túl korán zárni, a veszteségeseket viszont hosszan tartani: a veszteség realizálása fájdalmasabb, mint a papíron megmaradó mínusz elviselése.
+**Miért fontos?** Ez magyarázza, miért hajlamosak a befektetők a nyereséges pozíciókat túl korán zárni, a veszteségeseket viszont hosszan tartani: a veszteség realizálása fájdalmasabb, mint a papíron megmaradó mínusz elviselése. Ezt a mintát diszpozíciós hatásnak (disposition effect) nevezik. A torzítás túlzott óvatossághoz is vezethet, amikor a befektető a veszteségtől tartva egyáltalán nem fektet be.
 
-**Piacradar értelmezés** A Piacradar ezt a torzítást a portfólió szerkezetében látja: ha a nyertesek rendre kis nyereséggel zárulnak, a vesztesek pedig hónapokig nyitva maradnak, az nem piaci, hanem döntési minta. Az előre rögzített kilépési feltétel ezt semlegesíti.
+**Piacradar értelmezés** Döntési mintaként jelenik meg a portfólióban: ha a nyertesek rendre kis nyereséggel zárulnak, a vesztesek pedig hónapokig nyitva maradnak, az nem piaci, hanem viselkedési probléma. Az előre rögzített kilépési feltétel semlegesíti.
 
 ## VIX – Volatilitási index
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -2322,21 +2322,21 @@ Hivatkozás: https://piacradar.eu/szotar/volatilitas.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/wallet.html
 
-**Mi ez?** Olyan szoftver vagy fizikai eszköz, amely a blokkláncon lévő vagyonhoz tartozó privát kulcsokat tárolja. Maga az érme a hálózaton marad — a tárca a hozzáférést őrzi, nem magát az eszközt.
+**Mi ez?** Szoftver vagy fizikai eszköz, amely a blokkláncon lévő vagyonhoz tartozó privát kulcsokat tárolja. Maga az érme a hálózaton marad, a tárca a hozzáférést őrzi, nem magát az eszközt. A visszaállító kifejezés (seed phrase) a kulcsok biztonsági mentése, amellyel a tárca bármikor helyreállítható.
 
-**Miért fontos?** A hot wallet folyamatos internetkapcsolattal működik, ezért kényelmes, de támadható. A cold wallet offline tárolja a kulcsokat, így ellenállóbb, viszont körülményesebb. A privát kulcs elvesztése az eszközök végleges elvesztését jelenti.
+**Miért fontos?** A hálózatra kötött (hot) tárca folyamatos internetkapcsolattal működik, ezért kényelmes, de támadható. A hideg (cold) tárca offline tárolja a kulcsokat, így ellenállóbb, viszont körülményesebb. Saját őrzésnél (self-custody) a felelősség teljesen a tulajdonosé: a privát kulcs vagy a visszaállító kifejezés elvesztése az eszközök végleges elvesztését jelenti.
 
-**Piacradar értelmezés** A Piacradar a tárolási módot önálló kockázati tényezőként kezeli: a tőzsdén hagyott eszköz partnerkockázatot hordoz, mert a kulcsok a szolgáltatónál vannak. A tőzsdei egyenlegek onchain mért növekedése gyakran eladási szándékot vagy fedezetbe helyezést jelez.
+**Piacradar értelmezés** Tárolási mód önálló kockázati tényező: a tőzsdén hagyott eszköz partnerkockázatot hordoz, mert a kulcsok a szolgáltatónál vannak, és a szolgáltató csődje esetén a hozzáférés elveszhet. Nagyobb összegnél a hideg tárolás és a mentés biztonságos őrzése alapkövetelmény.
 
 ## Whale – Bálna
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/whale.html
 
-**Mi ez?** A kriptopiac szóhasználatában olyan szereplő, amely akkora eszközállománnyal rendelkezik, hogy egyetlen tranzakciója is érzékelhetően mozgatja a piacot. A blokklánc nyilvánossága miatt a nagy pénztárcák mozgása követhető.
+**Mi ez?** A kriptopiac szóhasználatában olyan szereplő, amely akkora eszközállománnyal rendelkezik, hogy egyetlen tranzakciója is érzékelhetően mozgathatja a piacot. Lehet magánszemély, alap, tőzsde vagy intézmény. A blokklánc nyilvánossága miatt a nagy tárcák mozgása követhető, a tulajdonos kiléte azonban jellemzően nem.
 
-**Miért fontos?** A kriptopiac koncentráltabb, mint a hagyományos részvénypiac, ezért egy-egy nagy szereplő lépése aránytalanul nagy hatású lehet. A bálnák tőzsdére küldött átutalása eladási szándékot jelezhet, a tőzsdéről való kivonás inkább hosszú távú tartást.
+**Miért fontos?** A kriptopiac koncentráltabb, mint a hagyományos részvénypiac, ezért egy-egy nagy szereplő lépése aránytalanul nagy hatású lehet, főleg a vékonyabb likviditású eszközöknél. A tőzsdére küldött nagy átutalás eladási szándékot jelezhet, a tőzsdéről való kivonás inkább hosszú távú tartást. Több bálna egyirányú mozgása erősebb jelzés, mint egy elszigetelt tranzakció.
 
-**Piacradar értelmezés** A Piacradar a bálnamozgásokat kizárólag megerősítő jelzésként használja, önálló előrejelzésként soha — egy nagy átutalásnak számos oka lehet, a letétkezelő-váltástól a belső átrendezésig.
+**Piacradar értelmezés** Megerősítő jelzés, önálló előrejelzésként nem használható: egy nagy átutalásnak számos oka lehet, a letétkezelő-váltástól a belső átrendezésig. A tőzsdei tárcák belső mozgásai különösen félrevezetők. Akkor beszédes, ha más on-chain és piaci adatok ugyanabba az irányba mutatnak.
 
 ## WTI Oil
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)

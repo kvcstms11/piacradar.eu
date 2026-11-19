@@ -20,8 +20,8 @@
   "first": "2026-03-14"
  },
  "szotar/altcoin": {
-  "hash": "80becdb01b2b8a54",
-  "date": "2026-08-24",
+  "hash": "04972a359933c0fa",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/amc": {
@@ -65,8 +65,8 @@
   "first": "2026-07-15"
  },
  "szotar/blockchain": {
-  "hash": "f733314c07546a0b",
-  "date": "2026-08-24",
+  "hash": "b4b0516650b2a642",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/blue-chip": {
@@ -100,13 +100,13 @@
   "first": "2026-03-14"
  },
  "szotar/btc-dominance": {
-  "hash": "7653df3ce0add139",
-  "date": "2026-08-24",
+  "hash": "420ff36f8f219955",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/btc-etf": {
-  "hash": "ea04ae61ef2ed491",
-  "date": "2026-08-24",
+  "hash": "8a69b269cd19ed8f",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/building-permits": {
@@ -200,8 +200,8 @@
   "first": "2026-03-14"
  },
  "szotar/dca": {
-  "hash": "a8832387dfb8e846",
-  "date": "2026-08-24",
+  "hash": "a72bd76109aa8a67",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/defenziv-ciklikus": {
@@ -210,8 +210,8 @@
   "first": "2026-07-15"
  },
  "szotar/defi": {
-  "hash": "a22b2e0dc885e34b",
-  "date": "2026-08-24",
+  "hash": "9d570d43233ec320",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/delta": {
@@ -220,8 +220,8 @@
   "first": "2026-03-14"
  },
  "szotar/depeg": {
-  "hash": "154f08bb1087953d",
-  "date": "2026-08-24",
+  "hash": "c6cc04e2cd0493d5",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/devizaintervencio": {
@@ -230,8 +230,8 @@
   "first": "2026-08-23"
  },
  "szotar/diverzifikacio": {
-  "hash": "d6aa491883dce363",
-  "date": "2026-08-24",
+  "hash": "26a0d8b141e04509",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/dividend": {
@@ -300,8 +300,8 @@
   "first": "2026-03-14"
  },
  "szotar/etf": {
-  "hash": "1f61094b2bd0d3e2",
-  "date": "2026-08-24",
+  "hash": "ea7d61b681861099",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/etf-flows": {
@@ -330,8 +330,8 @@
   "first": "2026-03-14"
  },
  "szotar/fomo": {
-  "hash": "71bbc0d0ebc3da01",
-  "date": "2026-08-24",
+  "hash": "f05e0a879d83d525",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/forex": {
@@ -350,8 +350,8 @@
   "first": "2026-03-14"
  },
  "szotar/funding-rate": {
-  "hash": "c637d2a0e5a66729",
-  "date": "2026-08-24",
+  "hash": "c726458c2b8f32d3",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/futures": {
@@ -375,8 +375,8 @@
   "first": "2026-08-23"
  },
  "szotar/gas-fee": {
-  "hash": "d74000b83a310b58",
-  "date": "2026-08-24",
+  "hash": "c7b8b2df936df832",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/gdp": {
@@ -395,8 +395,8 @@
   "first": "2026-06-27"
  },
  "szotar/governance-token": {
-  "hash": "edfe977a010ea75a",
-  "date": "2026-08-24",
+  "hash": "ac607d9591af3ad6",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/guidance": {
@@ -405,8 +405,8 @@
   "first": "2026-03-14"
  },
  "szotar/halving": {
-  "hash": "69f80c22a6170436",
-  "date": "2026-11-18",
+  "hash": "7db15f93cd5676ca",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/hard-landing": {
@@ -415,8 +415,8 @@
   "first": "2026-03-14"
  },
  "szotar/hashrate": {
-  "hash": "7fc22962108b1c79",
-  "date": "2026-08-24",
+  "hash": "a5993d01235b8c04",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/hawkish": {
@@ -430,8 +430,8 @@
   "first": "2026-03-23"
  },
  "szotar/horgonyzas": {
-  "hash": "f38636da13c6b867",
-  "date": "2026-08-24",
+  "hash": "8f9f7dcf7f344cfb",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/housing-starts": {
@@ -510,8 +510,8 @@
   "first": "2026-08-23"
  },
  "szotar/kockazat-hozam-arany": {
-  "hash": "2a3eee143c81cf16",
-  "date": "2026-08-24",
+  "hash": "cb2ded9a692a62e2",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/kotveny": {
@@ -530,8 +530,8 @@
   "first": "2026-07-15"
  },
  "szotar/liquidation": {
-  "hash": "d5637703120dfe12",
-  "date": "2026-08-24",
+  "hash": "8ee057a588805f0a",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/lng": {
@@ -570,13 +570,13 @@
   "first": "2026-03-14"
  },
  "szotar/megerositesi-torzitas": {
-  "hash": "f4b10920160ca80c",
-  "date": "2026-08-24",
+  "hash": "d12d1663930f8753",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/mentalis-konyveles": {
-  "hash": "5d5b4971a1c8f6ce",
-  "date": "2026-08-24",
+  "hash": "9e4027b2c9ad646c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/michigan-sentiment": {
@@ -585,8 +585,8 @@
   "first": "2026-03-14"
  },
  "szotar/mining": {
-  "hash": "bcbd3893d4488571",
-  "date": "2026-08-24",
+  "hash": "9bee6c0d30be966a",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/moat": {
@@ -635,8 +635,8 @@
   "first": "2026-07-15"
  },
  "szotar/on-chain": {
-  "hash": "233d6e428c44550c",
-  "date": "2026-08-24",
+  "hash": "eec65a6a231b1771",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/opec": {
@@ -695,8 +695,8 @@
   "first": "2026-08-23"
  },
  "szotar/perpetual-futures": {
-  "hash": "6c25c0f858fa6ad8",
-  "date": "2026-08-24",
+  "hash": "690b74ec53d36f6e",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/pmi": {
@@ -705,8 +705,8 @@
   "first": "2026-03-14"
  },
  "szotar/poziciomeretezes": {
-  "hash": "31b2105da763a5ff",
-  "date": "2026-08-24",
+  "hash": "e1f8878e5b4e721c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/ppi": {
@@ -840,8 +840,8 @@
   "first": "2026-06-27"
  },
  "szotar/smart-contract": {
-  "hash": "c9c41dd961ee50e6",
-  "date": "2026-08-24",
+  "hash": "585a89edb3f30b49",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/soft-landing": {
@@ -855,8 +855,8 @@
   "first": "2026-03-14"
  },
  "szotar/stablecoin": {
-  "hash": "8472069662e16f35",
-  "date": "2026-08-24",
+  "hash": "119232bf5dc6ed0c",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/stagflation": {
@@ -915,8 +915,8 @@
   "first": "2026-08-23"
  },
  "szotar/tokenomics": {
-  "hash": "43637af5fa33f826",
-  "date": "2026-08-24",
+  "hash": "06ed64b079d263ad",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/trade-balance": {
@@ -925,8 +925,8 @@
   "first": "2026-03-14"
  },
  "szotar/trailing-stop": {
-  "hash": "ef432ded01d67dc0",
-  "date": "2026-08-24",
+  "hash": "e3ca7806b3d88681",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/treasury": {
@@ -940,13 +940,13 @@
   "first": "2026-08-23"
  },
  "szotar/tvl": {
-  "hash": "36bd8dc4fb52a169",
-  "date": "2026-08-24",
+  "hash": "ae0be7e7b8346d0b",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/ujrasulyozas": {
-  "hash": "d38fb8e75d272413",
-  "date": "2026-08-24",
+  "hash": "829abeec095d4758",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/unemployment-rate": {
@@ -955,8 +955,8 @@
   "first": "2026-03-14"
  },
  "szotar/veszteseg-kerules": {
-  "hash": "79a9478be4c44243",
-  "date": "2026-08-24",
+  "hash": "0d505e9913bfb418",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/vix": {
@@ -970,13 +970,13 @@
   "first": "2026-07-15"
  },
  "szotar/wallet": {
-  "hash": "b26569750ab9306c",
-  "date": "2026-08-24",
+  "hash": "f1f901a4adc8eb7c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/whale": {
-  "hash": "abdb401b7b381215",
-  "date": "2026-08-24",
+  "hash": "989df7d410cf6ab1",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/wti": {
