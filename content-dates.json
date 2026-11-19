@@ -95,8 +95,8 @@
   "first": "2026-08-23"
  },
  "szotar/brent": {
-  "hash": "667f598a4b6d1617",
-  "date": "2026-08-24",
+  "hash": "349831d8afa88843",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/btc-dominance": {
@@ -145,13 +145,13 @@
   "first": "2026-06-27"
  },
  "szotar/carry-trade": {
-  "hash": "130348aa121e76b5",
-  "date": "2026-08-24",
+  "hash": "c472bf6bfd3c0423",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/chip-export-control": {
-  "hash": "f9e9a7232266ac9c",
-  "date": "2026-08-24",
+  "hash": "89d2cfd38d502ccb",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/circuit-breaker": {
@@ -165,8 +165,8 @@
   "first": "2026-08-23"
  },
  "szotar/commodity": {
-  "hash": "2c0de47dddaf7731",
-  "date": "2026-08-24",
+  "hash": "b52e002200ed5832",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/consumer-confidence": {
@@ -225,8 +225,8 @@
   "first": "2026-06-27"
  },
  "szotar/devizaintervencio": {
-  "hash": "9d394877e5f155ea",
-  "date": "2026-08-24",
+  "hash": "89184b2fbcbf637c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/diverzifikacio": {
@@ -260,13 +260,13 @@
   "first": "2026-06-27"
  },
  "szotar/duration": {
-  "hash": "a20090105d08a073",
-  "date": "2026-08-24",
+  "hash": "1bc520ff4a847dad",
+  "date": "2026-11-19",
   "first": "2026-03-23"
  },
  "szotar/dxy": {
-  "hash": "a65c7672443dbc15",
-  "date": "2026-08-24",
+  "hash": "94d47c28f06f1b3f",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/earnings-beat": {
@@ -290,8 +290,8 @@
   "first": "2026-08-23"
  },
  "szotar/em": {
-  "hash": "eb7215df53ea45b0",
-  "date": "2026-08-24",
+  "hash": "5b799226d58226f6",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/eps": {
@@ -310,8 +310,8 @@
   "first": "2026-03-14"
  },
  "szotar/eurusd": {
-  "hash": "adb5026dca8845bd",
-  "date": "2026-08-24",
+  "hash": "a27a9e2e46cd5f83",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/ev-ebitda": {
@@ -335,8 +335,8 @@
   "first": "2026-08-23"
  },
  "szotar/forex": {
-  "hash": "745560a561b94d08",
-  "date": "2026-08-24",
+  "hash": "e8befaca14216d54",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/forgalom": {
@@ -390,8 +390,8 @@
   "first": "2026-08-23"
  },
  "szotar/gold": {
-  "hash": "9938ae91c6cd6ddc",
-  "date": "2026-08-24",
+  "hash": "0dad8bb51d4e44ea",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/governance-token": {
@@ -490,8 +490,8 @@
   "first": "2026-03-14"
  },
  "szotar/jgb": {
-  "hash": "461a4ea677001af7",
-  "date": "2026-08-24",
+  "hash": "aff7cb0998d5eb88",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/jobless-claims": {
@@ -505,8 +505,8 @@
   "first": "2026-03-14"
  },
  "szotar/kamatparitas": {
-  "hash": "e3c09cc3342bffaa",
-  "date": "2026-08-24",
+  "hash": "83f403f79d2c1726",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/kockazat-hozam-arany": {
@@ -535,8 +535,8 @@
   "first": "2026-08-23"
  },
  "szotar/lng": {
-  "hash": "9f06671c1a7ee59e",
-  "date": "2026-08-24",
+  "hash": "f5c83221380c49cf",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/m-and-a": {
@@ -605,8 +605,8 @@
   "first": "2026-03-14"
  },
  "szotar/move-index": {
-  "hash": "d6ac3976c152243a",
-  "date": "2026-08-24",
+  "hash": "8c73f433ab86d128",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/mozgoatlag": {
@@ -630,8 +630,8 @@
   "first": "2026-03-14"
  },
  "szotar/oil-inventories": {
-  "hash": "d55eb772bc4ced96",
-  "date": "2026-08-24",
+  "hash": "676797c200c6526e",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/on-chain": {
@@ -640,8 +640,8 @@
   "first": "2026-03-14"
  },
  "szotar/opec": {
-  "hash": "063978fdb99201f8",
-  "date": "2026-08-24",
+  "hash": "a7c51970347b401c",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/open-interest": {
@@ -795,18 +795,18 @@
   "first": "2026-08-23"
  },
  "szotar/safe-haven": {
-  "hash": "b7a2a52386c65d0b",
-  "date": "2026-08-24",
+  "hash": "ffedd17d22ccdb95",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/sanction": {
-  "hash": "39aa8f24bb3696e4",
-  "date": "2026-08-24",
+  "hash": "10c171eaa8ee06cd",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/sec": {
-  "hash": "bb7319142bf6d1d3",
-  "date": "2026-08-24",
+  "hash": "6cabfa7adf96e718",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/sell-off": {
@@ -850,8 +850,8 @@
   "first": "2026-03-14"
  },
  "szotar/spread": {
-  "hash": "80150eaff4509345",
-  "date": "2026-08-24",
+  "hash": "1c670d9eaf5ef5b8",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/stablecoin": {
@@ -890,8 +890,8 @@
   "first": "2026-08-23"
  },
  "szotar/tariff": {
-  "hash": "ca2750ae2860f840",
-  "date": "2026-08-24",
+  "hash": "4c990d4e5cf9db30",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/ten-year-yield": {
@@ -930,8 +930,8 @@
   "first": "2026-08-23"
  },
  "szotar/treasury": {
-  "hash": "8b992335be4157a7",
-  "date": "2026-08-24",
+  "hash": "bb361f99c1ed0649",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/trendvonal": {
@@ -980,8 +980,8 @@
   "first": "2026-03-14"
  },
  "szotar/wti": {
-  "hash": "2a230fbf23932c76",
-  "date": "2026-08-24",
+  "hash": "35a9880837c62b96",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/ycc": {
@@ -990,8 +990,8 @@
   "first": "2026-03-14"
  },
  "szotar/yield-curve": {
-  "hash": "980de4effea5e6c0",
-  "date": "2026-08-24",
+  "hash": "55c05196a2f89e84",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/zew": {

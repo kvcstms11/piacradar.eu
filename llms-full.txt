@@ -448,11 +448,11 @@ Hivatkozás: https://piacradar.eu/szotar/bollinger-szalag.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/brent.html
 
-**Mi ez?** Az északi-tengeri kitermelésű kőolaj, a globális olajkereskedelem fő referenciaára. A világ olajszállítmányainak nagyjából kétharmadát ehhez árazzák, határidős jegyzése az ICE-en történik.
+**Mi ez?** Az északi-tengeri kitermelésű, könnyű, alacsony kéntartalmú kőolaj, a globális olajkereskedelem fő referenciaára. A világ olajszállítmányainak jelentős részét ehhez árazzák, határidős szerződéseivel az ICE londoni tőzsdéjén kereskednek. Az árat több északi-tengeri olajfajta kosara határozza meg, nem egyetlen mező.
 
-**Miért fontos?** A Brent ára a globális inflációs várakozások egyik legfontosabb inputja. Erősen reagál az OPEC+ döntésekre, a geopolitikai feszültségekre és a szállítási útvonalak zavaraira, és közvetlenül alakítja az energia- és szállítmányozási szektor eredményét.
+**Miért fontos?** A Brent ára a globális inflációs várakozások egyik legfontosabb bemenete. Erősen reagál az OPEC+ döntéseire, a geopolitikai feszültségekre és a tengeri szállítási útvonalak zavaraira, és közvetlenül alakítja az energia-, a légi- és a szállítmányozási szektor eredményét. Az amerikai WTI-hez mért különbözete a regionális kínálati viszonyokat mutatja.
 
-**Piacradar értelmezés** A Piacradar a Brentet inflációs előjelzőként olvassa: a tartós emelkedés a jegybanki kamatpályát szigorúbb irányba tolja, míg a mérséklődés teret ad a lazításnak. A geopolitikai kockázati prémium gyorsan beépül, és gyorsan ki is árazódik.
+**Piacradar értelmezés** Inflációs előjelzőként működik: a tartós emelkedés a jegybanki kamatpályát szigorúbb irány felé tolhatja, a mérséklődés teret adhat a lazításnak. A geopolitikai kockázati prémium gyorsan beépül az árba, és ha a fizikai kínálat nem sérül, gyorsan ki is árazódik.
 
 ## Building Permits – Építési engedélyek
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -534,21 +534,21 @@ Hivatkozás: https://piacradar.eu/szotar/capitulation.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/carry-trade.html
 
-**Mi ez?** Stratégia, amelyben a befektető alacsony kamatozású devizában vesz fel hitelt, és magasabb hozamú eszközbe fekteti. A legismertebb változat a jen alapú finanszírozás, amely évtizedeken át a japán nulla közeli kamatokra épült.
+**Mi ez?** Stratégia, amelyben a befektető alacsony kamatozású devizában vesz fel forrást, és magasabb hozamú devizába vagy eszközbe fekteti. A nyereség a kamatkülönbözetből adódik, amíg az árfolyam nem mozdul a pozíció ellen. A legismertebb változat a jenalapú finanszírozás, amely hosszú ideig a japán nulla közeli kamatokra épült.
 
-**Miért fontos?** A carry trade globális likviditást teremt, de kétélű: ha a finanszírozó deviza erősödik vagy a kamatkülönbözet szűkül, kényszerű pozíciózárás indulhat. Ez az eszközosztályokon átívelő „carry unwind” eladási hullámot okozhat.
+**Miért fontos?** A carry trade globális likviditást teremt, de kétélű: ha a finanszírozó deviza erősödik vagy a kamatkülönbözet szűkül, kényszerű pozíciózárás indulhat. Ilyenkor a befektetők egyszerre adják el a magas hozamú eszközöket és vásárolják vissza a finanszírozó devizát, ami eszközosztályokon átívelő eladási hullámot (carry unwind) okozhat.
 
-**Piacradar értelmezés** A Piacradar a kamatkülönbözetet és a finanszírozó deviza árfolyamát együtt figyeli: a szűkülő olló és az erősödő jen a kockázatvállalás csökkenését vetíti előre. Az unwind jellemzően a legmagasabb bétájú eszközöket éri el először.
+**Piacradar értelmezés** Kamatkülönbözet és a finanszírozó deviza árfolyama együtt jelzi a kockázatot: a szűkülő olló és az erősödő jen a kockázatvállalás csökkenését vetíti előre. A leépülés jellemzően a legmagasabb bétájú, legzsúfoltabb pozíciókat éri el először, és a volatilitás emelkedése tovább gyorsítja.
 
 ## Chip Export Controls
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/chip-export-control.html
 
-**Mi ez?** Az Egyesült Államok és szövetségesei által bevezetett kiviteli korlátozások, amelyek a fejlett félvezetők, gyártóberendezések és tervezőszoftverek exportját tiltják vagy engedélyhez kötik, elsősorban Kína irányába.
+**Mi ez?** Az Egyesült Államok és szövetségesei által bevezetett kiviteli korlátozások, amelyek a fejlett félvezetők, a gyártóberendezések és a tervezőszoftverek exportját tiltják vagy engedélyhez kötik, elsősorban Kína irányába. A szabályok a chipek teljesítményéhez, a gyártási technológia szintjéhez és a végfelhasználáshoz kötött küszöbökkel dolgoznak.
 
-**Miért fontos?** A korlátozások átrendezik a félvezetőipari ellátási láncokat és a bevételi kitettséget: az érintett gyártók kínai forgalma csökken, miközben a helyi alternatívák fejlesztése felgyorsul. A szabályozás minden módosítása azonnal árazódik.
+**Miért fontos?** A korlátozások átrendezik a félvezetőipari ellátási láncokat és a bevételi kitettséget: az érintett gyártók kínai forgalma csökkenhet, miközben a helyi alternatívák fejlesztése felgyorsul. A szabályozás minden módosítása gyorsan beárazódik, mert a kínai piac sok gyártónak és berendezésszállítónak jelentős bevételi forrás. A megkerülés és az ellenintézkedések újabb bizonytalanságot hoznak.
 
-**Piacradar értelmezés** A Piacradar a chip-korlátozásokat kétirányú kockázatként kezeli: a szigorítás rövid távon a nagy exportkitettségű gyártókat üti, hosszabb távon viszont a kínai önellátás gyorsulása strukturális versenyt teremthet a jelenlegi piacvezetőknek.
+**Piacradar értelmezés** Kétirányú kockázatot jelentenek: a szigorítás rövid távon a nagy exportkitettségű gyártókat és berendezésszállítókat üti, hosszabb távon viszont a kínai önellátás gyorsulása strukturális versenyt teremthet a meglévő piacvezetőknek. A cégek kínai bevételi aránya mutatja a közvetlen kitettséget.
 
 ## Circuit Breaker – Kereskedési megszakító
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -576,11 +576,11 @@ Hivatkozás: https://piacradar.eu/szotar/clarity-act.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/commodity.html
 
-**Mi ez?** Szabványosított nyersanyagok, amelyekkel tőzsdén kereskednek: energiahordozók, ipari és nemesfémek, mezőgazdasági termékek. Áruk a globális kereslet-kínálat egyensúlyát tükrözi, jellemzően határidős szerződéseken keresztül.
+**Mi ez?** Szabványosított nyersanyagok, amelyekkel tőzsdén kereskednek: energiahordozók, ipari és nemesfémek, mezőgazdasági termékek. Áruk a globális kereslet-kínálat egyensúlyát tükrözi, és jellemzően határidős szerződéseken keresztül kereskednek velük. A legtöbb nyersanyagot dollárban árazzák.
 
-**Miért fontos?** A nyersanyagárak a termelői költséglánc elején állnak, ezért az infláció korai jelzői. Az ipari fémek — különösen a réz — a globális gyártási aktivitás előretekintő indikátorai.
+**Miért fontos?** A nyersanyagárak a termelői költséglánc elején állnak, ezért az infláció korai jelzői. Az ipari fémek, különösen a réz, a globális gyártási aktivitás előretekintő indikátorai. A dollár erősödése jellemzően nyomja a nyersanyagárakat, mert más devizában számolva drágulnak. Időjárás, geopolitika és szállítási zavarok a kínálati oldalon okozhatnak hirtelen árugrást.
 
-**Piacradar értelmezés** A Piacradar a nyersanyagpiacot két rétegben olvassa: az ipari fémek a konjunktúra irányát, az energiahordozók az inflációs nyomást jelzik. Az emelkedő rézár bővülő ipari aktivitást vetít előre, a nemesfémek erősödése inkább kockázatkerülést vagy csökkenő reálhozamot tükröz.
+**Piacradar értelmezés** Két rétegben olvasható a piac: az ipari fémek a konjunktúra irányát, az energiahordozók az inflációs nyomást jelzik. Az emelkedő rézár bővülő ipari aktivitást vetíthet előre, a nemesfémek erősödése inkább kockázatkerülést vagy csökkenő reálhozamot tükröz. A határidős görbe alakja a kínálat szűkösségéről is árulkodik: a közeli lejárat felára feszes, a távoli lejáraté bőséges kínálatra utal.
 
 ## Commodity Trading Advisors (CTA)
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -708,11 +708,11 @@ Hivatkozás: https://piacradar.eu/szotar/depeg.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/devizaintervencio.html
 
-**Mi ez?** Jegybanki vagy kormányzati beavatkozás a devizapiacon, amelynek célja a saját fizetőeszköz árfolyamának befolyásolása. Történhet közvetlen adásvétellel, illetve verbális formában, puszta bejelentéssel is.
+**Mi ez?** Jegybanki vagy kormányzati beavatkozás a devizapiacon, amelynek célja a saját fizetőeszköz árfolyamának befolyásolása. Történhet közvetlen adásvétellel, amikor a jegybank tartalékból vesz vagy ad el devizát, illetve verbális formában, puszta figyelmeztetéssel vagy bejelentéssel. A sterilizált intervenció a pénzmennyiségre gyakorolt hatást kiegyenlíti.
 
-**Miért fontos?** Az intervencióhoz devizatartalékot kell felhasználni, ami korlátozott erőforrás. Ezért a beavatkozás jellemzően a mozgás ütemét lassítja vagy időt nyer, de a fundamentumokkal szemben tartósan nem képes irányt fordítani.
+**Miért fontos?** A saját deviza védelméhez devizatartalékot kell felhasználni, ami véges erőforrás. Ezért a beavatkozás jellemzően a mozgás ütemét lassítja vagy időt nyer, de a fundamentumokkal, például a kamatkülönbözettel szemben tartósan nem képes irányt fordítani. A gyengítő célú intervenció elvben korlátlan, mert a jegybank saját devizát nyomtathat.
 
-**Piacradar értelmezés** A Piacradar az intervenciót figyelmeztető jelzésként olvassa: azt mutatja, hogy az árfolyammozgás elért egy olyan szintet, amelyet a döntéshozók már kezelendőnek tartanak. Több jegybank összehangolt fellépése erősebb hatású, mint az egyoldalú beavatkozás.
+**Piacradar értelmezés** Figyelmeztető jelzés: azt mutatja, hogy az árfolyammozgás elért egy olyan szintet, amelyet a döntéshozók kezelendőnek tartanak. A verbális figyelmeztetés gyakran megelőzi a tényleges beavatkozást. Több jegybank összehangolt fellépése erősebb hatású, mint az egyoldalú beavatkozás. Ha a beavatkozás nem jár együtt a monetáris politika módosításával, a hatása jellemzően átmeneti.
 
 ## Diverzifikáció – Diversification
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -790,21 +790,21 @@ Hivatkozás: https://piacradar.eu/szotar/durable-goods.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/duration.html
 
-**Mi ez?** A kötvény árfolyamának kamatlábérzékenységét mérő mutató, években kifejezve. Minél hosszabb a duráció, annál nagyobb az ármozgás ha a kamatok változnak. 10 éves duráció = 1% kamatemelés → ~10% áresés.
+**Mi ez?** A kötvény árfolyamának kamatérzékenységét mérő mutató, években kifejezve. A Macaulay-duráció a pénzáramok súlyozott átlagos megtérülési ideje, a módosított duráció (modified duration) pedig azt közelíti, hány százalékkal változik a kötvény ára a hozam egy százalékpontos elmozdulására. Szemléltetésként egy 10 éves módosított durációjú kötvény ára 1 százalékpontos hozamemelkedés esetén nagyjából 10%-kal esik.
 
-**Miért fontos?** Emelkedő kamatkörnyezetben a hosszú durációjú kötvények (és részvények — pl. tech/growth) nagyot esnek. Csökkenő kamatkörnyezetben pont fordítva: a hosszú durációjú eszközök a nyertesek.
+**Miért fontos?** Emelkedő hozamkörnyezetben a hosszú durációjú kötvények esnek a legnagyobbat, csökkenő hozamok mellett ők a nyertesek. A fogalom részvényekre is átvihető: a távoli jövőbeli nyereségre épülő növekedési részvények viselkednek hosszú durációjú eszközként. Nagyobb hozammozgásnál a konvexitás miatt a közelítés pontatlanabb.
 
-**Piacradar értelmezés** A Piacradar durációt akkor említ, ha kamatemelkedés vagy -csökkenés közvetlenül hat az eszközárakra — a 'long duration trade' jellemzően a tech szektorra utal.
+**Piacradar értelmezés** Kamatérzékenység összevetésére szolgál eszközosztályokon át. Ha a piac csökkenő hozamokra fogad, a hosszú durációjú eszközök, vagyis a hosszú lejáratú kötvények és a növekedési részvények felé fordul, emelkedő hozamoknál ezek szenvednek a legjobban.
 
 ## DXY – Dollárindex
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/dxy.html
 
-**Mi ez?** A dollár erejét méri hat fő devizából álló kosárhoz képest (a legnagyobb súly az euró). A globális dollárerő legfontosabb benchmarkja.
+**Mi ez?** A dollár erejét méri hat fő devizából álló kosárhoz képest: euró, jen, angol font, kanadai dollár, svéd korona és svájci frank. A kosárban az euró súlya a legnagyobb, több mint a fele, ezért az index mozgását erősen az EURUSD határozza meg. A kínai jüan és a feltörekvő piaci devizák nem szerepelnek benne.
 
-**Miért fontos?** Erős DXY nyomás alá helyezi a feltörekvő piacokat (EM), a dollárban árazott nyersanyagokat, az aranyat és a multinacionális cégek bevételét; gyengülő DXY fordítva hat. Risk-off időszakban a dollár gyakran maga is menedékként erősödik.
+**Miért fontos?** Az erős dollár nyomás alá helyezi a feltörekvő piacokat, a dollárban árazott nyersanyagokat, az aranyat és az amerikai multinacionális cégek külföldi bevételének dollárértékét, a gyengülő dollár fordítva hat. Kockázatkerülő időszakban a dollár gyakran maga is menedékként erősödik. Az amerikai kamatszint és a kamatkülönbözetek a fő hajtóerői.
 
-**Piacradar értelmezés** A Piacradar a DXY-t a forex, az EM, az arany és a nyersanyagok mozgásának közös magyarázó tényezőjeként használja — sok napi mozgás a dollár irányából érthető meg leggyorsabban.
+**Piacradar értelmezés** Közös magyarázó tényező: a devizák, a feltörekvő piacok, az arany és a nyersanyagok sok napi mozgása a dollár irányából érthető meg leggyorsabban. Mivel az euró dominálja, szélesebb dollárkép kell a kereskedelemmel súlyozott indexekből, ha a feltörekvő devizák is számítanak.
 
 ## Earnings Beat – Várakozások feletti eredmény
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -840,11 +840,11 @@ Hivatkozás: https://piacradar.eu/szotar/eladosodottsag.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/em.html
 
-**Mi ez?** Gyorsan növekvő, de a fejlett piacoknál kockázatosabb gazdaságok csoportja, például Brazília, India, Indonézia vagy Mexikó. Jellemzőjük a nagyobb tőkepiaci volatilitás és a külső finanszírozásra való ráutaltság.
+**Mi ez?** Gyorsan növekvő, de a fejlett piacoknál kockázatosabb gazdaságok csoportja, például Brazília, India, Indonézia vagy Mexikó. Jellemzőjük a nagyobb tőkepiaci volatilitás, a gyakran sekélyebb és kevésbé likvid piac, valamint a külső finanszírozásra való ráutaltság. A besorolást az indexszolgáltatók végzik, eltérő kritériumok alapján.
 
-**Miért fontos?** Az EM-eszközök teljesítménye erősen függ a dollár erejétől és az amerikai hozamoktól, mert adósságuk jelentős része dollárban denominált. A nyersanyagárak és a globális kockázati étvágy szintén meghatározó.
+**Miért fontos?** Az EM-eszközök teljesítménye erősen függ a dollár erejétől és az amerikai hozamoktól, mert adósságuk jelentős része dollárban denominált. A nyersanyagárak és a globális kockázati étvágy szintén meghatározó, a nyersanyag-exportőr országok különösen. A politikai kockázat és a tőkekorlátozások lehetősége további prémiumot igényel.
 
-**Piacradar értelmezés** A Piacradar az EM-kitettséget a dollárindex irányához köti: az erősödő dollár és emelkedő amerikai hozamok jellemzően tőkekiáramlást hoznak, míg a gyengülő dollár az EM-részvények és -devizák felülteljesítésének kedvez.
+**Piacradar értelmezés** Dollárindex és amerikai hozamok iránya jelzi a tőkeáramlást: az erősödő dollár és emelkedő hozamok jellemzően kiáramlást hoznak, a gyengülő dollár a feltörekvő részvények és devizák felülteljesítésének kedvez. A csoport nem egységes: a nyersanyag-exportőrök és -importőrök ugyanarra a sokkra ellentétesen reagálhatnak.
 
 ## EPS – Earnings Per Share
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -890,11 +890,11 @@ Hivatkozás: https://piacradar.eu/szotar/ecb.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/eurusd.html
 
-**Mi ez?** Az euró és az amerikai dollár árfolyampárja, a devizapiac legnagyobb forgalmú instrumentuma. Az árfolyam azt mutatja, hány dollárt ér egy euró az adott pillanatban.
+**Mi ez?** Az euró és az amerikai dollár árfolyampárja, a devizapiac legnagyobb forgalmú instrumentuma. Az árfolyam azt mutatja, hány dollárt ér egy euró: emelkedése erősödő eurót, csökkenése erősödő dollárt jelent. A két legnagyobb fejlett gazdasági övezet relatív helyzetét tükrözi.
 
-**Miért fontos?** A pár mozgása a Fed és az EKB kamatpályájának különbségét, a két gazdasági övezet növekedési kilátásait és a globális kockázati hangulatot tükrözi. Az európai exportőrök versenyképességét és az amerikai vállalatok külföldi bevételének dollárértékét egyaránt befolyásolja.
+**Miért fontos?** A pár mozgása a Fed és az EKB kamatpályájának különbségét, a két övezet növekedési kilátásait és a globális kockázati hangulatot tükrözi. Az európai exportőrök versenyképességét és az amerikai vállalatok európai bevételének dollárértékét egyaránt befolyásolja. Eurós befektetőnek az amerikai eszközök hozamába az árfolyamváltozás is beépül.
 
-**Piacradar értelmezés** A Piacradar az EURUSD-t elsősorban a kamatkülönbözet felől olvassa: ha a Fed szigorúbb pályán jár az EKB-nál, az jellemzően a dollárt erősíti. Kockázatkerülő időszakokban a dollár menedékszerepe önmagában is felfelé hajthatja a keresletét.
+**Piacradar értelmezés** Jegybanki pályák eltérése a fő hajtóerő: ha a Fed szigorúbb pályán jár az EKB-nál, az jellemzően a dollárt erősíti, fordított esetben az eurót. Kockázatkerülő időszakokban a dollár menedékszerepe önmagában is felfelé hajthatja a keresletét. Az energiaárak az eurót is érintik, mert az eurózóna nettó energiaimportőr.
 
 ## EV/EBITDA
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -946,11 +946,11 @@ Hivatkozás: https://piacradar.eu/szotar/fomo.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/forex.html
 
-**Mi ez?** A Forex (Foreign Exchange) a világ legnagyobb pénzügyi piaca, ahol devizákkal kereskednek. A kereskedés 24/5 zajlik, és a fő devizapárok (EUR/USD, USD/JPY, GBP/USD) adják a forgalom nagy részét.
+**Mi ez?** A devizapiac (foreign exchange, FX) a világ legnagyobb forgalmú pénzügyi piaca, ahol devizákat cserélnek egymásra. Nincs központi tőzsdéje, a kereskedés bankok, intézmények és brókerek között zajlik, hétfőtől péntekig a nap 24 órájában, ahogy a pénzügyi központok egymás után nyitnak. A forgalom nagy részét a fő devizapárok adják, például EURUSD, USDJPY és GBPUSD.
 
-**Miért fontos?** A devizaárfolyamok meghatározzák az importot, exportot, inflációt és a globális tőkefolyamatokat. A jegybanki kamatdöntések és makroadatok erősen mozgatják a Forex piacot.
+**Miért fontos?** A devizaárfolyamok meghatározzák az import és az export árát, befolyásolják az inflációt, a vállalati eredményeket és a nemzetközi tőkeáramlást. A jegybanki kamatdöntések, a makroadatok és a kockázati hangulat a fő mozgatóerők. A devizapiacon jellemző a magas tőkeáttét, ezért a kis árfolyammozgás is nagy nyereséget vagy veszteséget okozhat.
 
-**Piacradar értelmezés** A Piacradar a Forex mozgásokat a kamatkülönbözetek, a kockázati étvágy és a makroadatok összefüggésében értelmezi. A DXY különösen fontos benchmark.
+**Piacradar értelmezés** Kamatkülönbözetek, kockázati étvágy és makroadatok hármasa magyarázza a mozgások többségét. A dollárindex (DXY) gyors képet ad a dollár általános irányáról. Eurós befektetőnek minden dollárban tartott eszköz egyben devizapozíció is, ezért a hozamot az árfolyam is alakítja.
 
 ## Forgalom – Volume
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1062,11 +1062,11 @@ Hivatkozás: https://piacradar.eu/szotar/genius-act.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/gold.html
 
-**Mi ez?** Befektetési eszköz és klasszikus értékmegőrző, amelyet unciánként (troy ounce), XAU/USD jegyzésben áraznak. Kitettség szerezhető fizikai formában, arany-ETF-en (pl. GLD) vagy határidős kontraktuson keresztül.
+**Mi ez?** Befektetési eszköz és klasszikus értékmegőrző, amelyet trójai unciában (troy ounce) áraznak, jellemzően dollárban, XAU/USD jegyzésben. Kitettség szerezhető fizikai formában, például tömbben vagy érmében, fizikai fedezetű arany-ETF-en vagy határidős szerződésen keresztül. Nem fizet kamatot vagy osztalékot, értéke kizárólag az árfolyamból fakad.
 
-**Miért fontos?** Az arany a piac egyik fő menedékeszköze (safe haven): risk-off, magas infláció vagy geopolitikai feszültség idején keresletet kap. Jellemzően fordítottan mozog a reálkamatokkal és a dollárral (DXY), a jegybanki vásárlások pedig tartós keresleti tényezőt jelentenek.
+**Miért fontos?** Az arany a piac egyik fő menedékeszköze (safe haven): kockázatkerülés, magas infláció vagy geopolitikai feszültség idején keresletet kap. Jellemzően fordítottan mozog a reálkamatokkal, mert hozam nélküli eszközként a magasabb reálkamat drágítja a tartását, és a dollárral is. A jegybanki vásárlások is támogathatják a keresletet.
 
-**Piacradar értelmezés** A Piacradar az aranyat akkor emeli ki, ha menedék-szerepe kerül előtérbe, vagy ha a reálkamat- és DXY-mozgás magyarázza az árat. Tőzsdei stressznél a határidős margin-követelmény emelése kényszerlikvidálást (margin call) is okozhat — ilyenkor a mozgás technikai, nem fundamentális.
+**Piacradar értelmezés** Menedékszerep vagy reálkamat-hatás: a mozgás mögött jellemzően e kettő egyike áll, és érdemes szétválasztani őket. Tőzsdei stressznél a határidős letéti követelmény emelése kényszerlikvidálást is okozhat, ilyenkor az arany a pánik első szakaszában eshet is, mert likviditásforrásként adják el. Ez a mozgás technikai, nem fundamentális.
 
 ## Governance Token – Szavazati token
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -1282,11 +1282,11 @@ Hivatkozás: https://piacradar.eu/szotar/ism-service-pmi.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/jgb.html
 
-**Mi ez?** Japán állampapír. Az ország adósságállománya a GDP arányában a világ legmagasabbjai közé tartozik, a piacot pedig évtizedeken át a jegybank hozamgörbe-kontrollja tartotta mesterségesen alacsony szinten. A legfigyeltebb futamidő a 10 és a 30 éves.
+**Mi ez?** Japán állampapír. Az ország államadóssága a GDP arányában a világ legmagasabbjai közé tartozik, a hozamokat pedig évtizedeken át a rendkívül laza monetáris politika, a nulla közeli vagy negatív kamat és a nagy volumenű kötvényvásárlás tartotta alacsonyan. A hozamgörbe-kontroll (YCC) ennek csak egy későbbi, időszakos eszköze volt. A legfigyeltebb futamidők a 10 és a 30 éves.
 
-**Miért fontos?** A JGB-hozamok emelkedése hazacsábíthatja a japán intézményi tőkét, amely korábban külföldi — jellemzően amerikai és európai — kötvényekben keresett hozamot. Ez globális hozamemelkedést és likviditásszűkülést okozhat.
+**Miért fontos?** A JGB-hozamok emelkedése hazacsábíthatja a japán intézményi tőkét, például a biztosítókat és nyugdíjalapokat, amelyek korábban külföldi, jellemzően amerikai és európai kötvényekben kerestek hozamot. Ez globális hozamemelkedést és likviditásszűkülést okozhat. A japán jegybank mérlegében lévő óriási kötvényállomány a normalizálást is lassúvá és óvatossá teszi.
 
-**Piacradar értelmezés** A Piacradar a hosszú JGB-hozamokat a globális kockázati étvágy korai jelzőjeként követi: a gyors emelkedés carry pozíciók leépítését indíthatja el, ami a legmagasabb bétájú eszközöket éri el először.
+**Piacradar értelmezés** Globális kockázati étvágy korai jelzője lehet a hosszú lejáratú hozam: a gyors emelkedés a jen erősödésén keresztül carry pozíciók leépítését indíthatja el, ami a legmagasabb bétájú eszközöket éri el először. A hosszú lejáratú aukciók gyenge kereslete külön figyelmeztető jel.
 
 ## Jobless Claims – Munkanélküli segélykérelmek
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1318,11 +1318,11 @@ Hivatkozás: https://piacradar.eu/szotar/jolts.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/kamatparitas.html
 
-**Mi ez?** Elméleti összefüggés, amely szerint két deviza kamatkülönbözetét a határidős árfolyam kiegyenlíti, így a magasabb kamatozású deviza határidőre gyengébben árazódik. Fedezett és fedezetlen változata is létezik.
+**Mi ez?** Elméleti összefüggés két deviza kamatkülönbözete és árfolyama között. A fedezett kamatparitás (covered interest parity) értelmében a határidős árfolyam pontosan kiegyenlíti a kamatkülönbözetet, így a magasabb kamatozású deviza határidőre gyengébben árazódik. A fedezetlen változat (uncovered interest parity) értelmében a várható jövőbeli árfolyam-változás egyenlíti ki a különbözetet.
 
-**Miért fontos?** Ez a carry trade elméleti alapja: ha a paritás tökéletesen érvényesülne, a kamatkülönbözetből nem lehetne nyereséget elérni. A gyakorlatban a fedezetlen változat rendszeresen sérül, és éppen ez teremti meg a stratégia hozamát.
+**Miért fontos?** Ez a carry trade elméleti alapja: ha a fedezetlen paritás tökéletesen érvényesülne, a kamatkülönbözetből nem lehetne tartós nyereséget elérni. A gyakorlatban rendszeresen sérül, a magasabb kamatozású deviza gyakran nem gyengül annyit, amennyit az elmélet előre jelez, és éppen ez teremti meg a stratégia hozamát. A fedezett paritás jellemzően közelebb áll a valósághoz, mert arbitrázs tartja egyensúlyban.
 
-**Piacradar értelmezés** A Piacradar a kamatparitás sérülését kockázati jelzésként is olvassa: a carry pozíciók addig működnek, amíg a finanszírozó deviza gyenge marad. A kamatkülönbözet szűkülése vagy a finanszírozó deviza erősödése a pozíciók gyors leépítését indíthatja el.
+**Piacradar értelmezés** Sérülése kockázati jelzésként is olvasható: a carry pozíciók addig működnek, amíg a finanszírozó deviza gyenge marad. A kamatkülönbözet szűkülése vagy a finanszírozó deviza erősödése a pozíciók gyors leépítését indíthatja el.
 
 ## Kockázat/hozam arány – Risk/Reward Ratio
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -1390,11 +1390,11 @@ Hivatkozás: https://piacradar.eu/szotar/liquidation.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/lng.html
 
-**Mi ez?** Cseppfolyósított földgáz: a gázt lehűtve, folyékony halmazállapotban szállítják tankhajókkal, így vezeték nélküli piacokra is eljut. Kulcsszerepet játszik Európa energiaellátásában az orosz vezetékes szállítások kiesése óta.
+**Mi ez?** Cseppfolyósított földgáz (liquefied natural gas): a gázt mínusz 160 fok körüli hőmérsékletre hűtve folyékony halmazállapotban, tankhajókkal szállítják, így vezeték nélküli piacokra is eljut. A cseppfolyósító terminál az exportőr, a visszagázosító terminál az importőr oldalán áll. Európa energiaellátásában a vezetékes import kiváltásában és a beszerzési források diverzifikálásában kulcsszerepe van.
 
-**Miért fontos?** Az LNG ára és elérhetősége közvetlenül hat az európai ipari termelési költségekre és a lakossági energiaszámlákra. A szállítási útvonalak zavara vagy egy terminál kiesése gyors áringadozást okoz.
+**Miért fontos?** Az LNG ára és elérhetősége közvetlenül hat az európai ipari termelési költségekre és a lakossági energiaszámlákra. Mivel a szállítmányok a legjobb árat kínáló piac felé fordulhatnak, Európa és Ázsia versenyez ugyanazért a kínálatért. A szállítási útvonalak zavara vagy egy terminál kiesése gyors áringadozást okoz.
 
-**Piacradar értelmezés** A Piacradar az LNG-árat európai inflációs és versenyképességi mutatóként olvassa: a tartósan magas gázár nyomja az energiaintenzív ipar marzsait, és szigorúbb EKB-kamatpálya irányába hat. A tárolói töltöttség szezonális alakulása gyakran előre jelzi a téli árnyomást.
+**Piacradar értelmezés** Európai inflációs és versenyképességi mutatóként hasznos: a tartósan magas gázár nyomja az energiaintenzív ipar marzsait, és az inflációs pályán keresztül a kamatvárakozásokra is hathat. A tárolói töltöttség szezonális alakulása gyakran előre jelzi a téli árnyomást.
 
 ## M&A – Mergers & Acquisitions (fúziók és felvásárlások)
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1536,11 +1536,11 @@ Hivatkozás: https://piacradar.eu/szotar/monetaris-politika.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/move-index.html
 
-**Mi ez?** Az amerikai államkötvénypiac implikált volatilitását mérő index, opciós árazásból számítva. A részvénypiaci VIX kötvénypiaci megfelelője, neve a Merrill Lynch Option Volatility Estimate rövidítése.
+**Mi ez?** Az amerikai állampapírpiac implikált volatilitását mérő index, a különböző lejáratú állampapírokra szóló opciók árazásából számítva. A részvénypiaci VIX kötvénypiaci megfelelője, neve a Merrill Lynch Option Volatility Estimate rövidítése. Bázispontban fejezi ki a várt hozamingadozást.
 
-**Miért fontos?** A kötvénypiac a globális árazás alapja, ezért a hozamok volatilitása minden más eszközosztályra átgyűrűzik. Az emelkedő MOVE szűkülő likviditást, táguló vételi-eladási sávokat és növekvő fedezeti igényt jelez.
+**Miért fontos?** A kötvénypiac a globális árazás alapja, ezért a hozamok volatilitása minden más eszközosztályra átgyűrűzik. Az emelkedő MOVE szűkülő likviditást, táguló vételi-eladási különbözetet és növekvő fedezési igényt jelez. A magas kötvénypiaci volatilitás a jelzáloghitelek és a vállalati kötvények árazását is drágítja, mert a befektetők nagyobb kockázati prémiumot kérnek.
 
-**Piacradar értelmezés** A Piacradar a MOVE emelkedését korai figyelmeztetésként olvassa: a kötvénypiaci nyugtalanság gyakran megelőzi a részvénypiaci volatilitást. A tartósan alacsony érték viszont önelégült pozicionáltságra utalhat, ami sérülékennyé teszi a piacot egy meglepetéssel szemben.
+**Piacradar értelmezés** Korai figyelmeztetés lehet: a kötvénypiaci nyugtalanság gyakran megelőzi a részvénypiaci volatilitást. A tartósan alacsony érték viszont önelégült pozicionáltságra utalhat, ami sérülékennyé teszi a piacot egy meglepetéssel szemben. A VIX és a MOVE eltérő mozgása megmutatja, melyik piacon halmozódik a feszültség.
 
 ## Mozgóátlag – Moving Average
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1598,11 +1598,11 @@ Hivatkozás: https://piacradar.eu/szotar/nonfarm-productivity.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/oil-inventories.html
 
-**Mi ez?** Az amerikai kereskedelmi nyersolaj-készletek heti változása (EIA adat). A kereslet-kínálat egyensúly közvetlen mutatója.
+**Mi ez?** Az amerikai kőolaj- és üzemanyagkészletek heti változása, amelyet az amerikai energiainformációs hivatal (EIA) közöl szerdánként, egy iparági előzetes becslés után. A nyersolaj mellett a finomított termékek, a benzin és a párlatok (desztillátumok) készletét, a finomítói kapacitáskihasználtságot és a Cushingban, a WTI szállítási pontján tárolt mennyiséget is mutatja. A stratégiai kőolajtartalék (SPR) változását külön kezelik.
 
-**Miért fontos?** Növekvő készletek gyenge keresletet vagy túlkínálatot jeleznek (bearish olaj), csökkenő készletek erős keresletet (bullish olaj).
+**Miért fontos?** A kereslet-kínálat egyensúlyának közvetlen, heti mutatója. A vártnál nagyobb készletnövekedés gyenge keresletre vagy túlkínálatra utalhat, ami lefelé nyomja az árat, a vártnál nagyobb csökkenés erős keresletet jelezhet. A meglepetés a piaci várakozáshoz képest számít.
 
-**Piacradar értelmezés** A Piacradar az EIA-adatot az olajár rövid távú mozgásának egyik fő katalizátoraként kezeli.
+**Piacradar értelmezés** Rövid távú olajármozgások egyik fő katalizátora, de egyetlen hét zajos: az export és az import ingadozása, illetve a finomítói karbantartás torzíthat. A finomított termékek készlete a fogyasztói keresletről, a cushingi készlet a WTI határidős árazásáról mond többet. A szezonális normához mért szint a mérvadó.
 
 ## On-chain analízis
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -1618,11 +1618,11 @@ Hivatkozás: https://piacradar.eu/szotar/on-chain.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/opec.html
 
-**Mi ez?** A kőolaj-exportáló országok szervezete (OPEC), kibővítve Oroszországgal és más termelőkkel (OPEC+). A tagok összehangolt termelési kvótákkal befolyásolják a globális olajkínálatot.
+**Mi ez?** A kőolaj-exportáló országok szervezete (Organization of the Petroleum Exporting Countries, OPEC), amelynek székhelye Bécsben van. Az OPEC+ kibővített formáció, amelyben Oroszország és más nem tag termelők is részt vesznek. A tagok összehangolt termelési kvótákkal befolyásolják a globális olajkínálatot, rendszeres miniszteri üléseken döntenek.
 
-**Miért fontos?** Az OPEC+ döntései (kvótavágás vagy -emelés) közvetlenül mozgatják az olajárat, ezen keresztül az inflációt, az energiaszektor részvényeit és a fogyasztói költéseket.
+**Miért fontos?** Az OPEC+ döntései, például kvótacsökkentés vagy -emelés, közvetlenül mozgatják az olajárat, ezen keresztül az inflációt, az energiaszektor részvényeit és a fogyasztói költést. Hatásuk a kvótafegyelmen múlik: ha egyes tagok túltermelnek, a bejelentett vágás kevesebbet ér. A szabad kapacitás (spare capacity), vagyis a gyorsan bevonható tartalék termelés megmutatja, mekkora mozgástere van a kartellnek egy kínálati sokk kezelésére.
 
-**Piacradar értelmezés** A Piacradar az OPEC+ üléseket és a tagok közti feszültségeket (kvótafegyelem) az olajpiaci narratíva fő elemeként követi.
+**Piacradar értelmezés** Bejelentés helyett a tényleges termelés számít: a döntés és a végrehajtás között gyakran rés van. A tagok közötti feszültség és a piaci részesedésért folytatott verseny a kartell egységét gyengítheti. Az amerikai kitermelés rugalmassága korlátozza, meddig tudja az OPEC+ magasan tartani az árat.
 
 ## Open Interest – Nyitott kötésállomány
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1958,31 +1958,31 @@ Hivatkozás: https://piacradar.eu/szotar/rsi.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/safe-haven.html
 
-**Mi ez?** Olyan eszköz, amely piaci stressz idején jellemzően felértékelődik vagy legalábbis megőrzi értékét, miközben a kockázatos eszközök esnek. Klasszikus példák: az amerikai állampapír, az arany, a dollár, a svájci frank és a jen.
+**Mi ez?** Olyan eszköz, amely piaci stressz idején jellemzően felértékelődik vagy legalábbis megőrzi értékét, miközben a kockázatos eszközök esnek. Klasszikus példák az amerikai állampapír, az arany, a dollár, a svájci frank és a jen. Közös jellemzőjük a mély, likvid piac és a széles körű bizalom.
 
-**Miért fontos?** A menedék-keresletet nem az eszköz hozama, hanem a biztonsága hajtja. Válsághelyzetben ezért olyan eszközök is emelkedhetnek, amelyek fundamentálisan drágák. A menedékek egyidejű erősödése a piac félelmének egyik legmegbízhatóbb jelzése.
+**Miért fontos?** A menedékkeresletet nem az eszköz hozama, hanem a biztonsága hajtja. Válsághelyzetben ezért olyan eszközök is emelkedhetnek, amelyek fundamentálisan drágák. A menedékszerep nem állandó: ha a válság forrása maga a menedékeszköz kibocsátója, például egy adósságplafon-vita vagy egy hazai inflációs sokk, a megszokott kapcsolat felborulhat.
 
-**Piacradar értelmezés** A Piacradar a menedékeszközök együttmozgását risk-off jelzésként olvassa: ha az arany, a dollár és a hosszú kötvény egyszerre erősödik, a mozgás nem eszköz-specifikus, hanem általános kockázatkerülés.
+**Piacradar értelmezés** Együttmozgásuk a kockázatkerülés megbízható jelzése: ha az arany, a dollár és a hosszú lejáratú állampapír egyszerre erősödik, a mozgás nem eszközspecifikus, hanem általános félelem. Ha a menedékek egymással ellentétesen mozognak, például az arany emelkedik, de az állampapír esik, az inflációs vagy fiskális aggodalomra utalhat.
 
 ## Sanctions – Szankciók
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/sanction.html
 
-**Mi ez?** Egy állam vagy államcsoport által bevezetett gazdasági korlátozások: kereskedelmi tilalom, vagyonbefagyasztás, pénzügyi rendszerből való kizárás, exportkorlátozás vagy egyéni listázás.
+**Mi ez?** Egy állam vagy államcsoport által bevezetett gazdasági korlátozások, amelyek egy országot, vállalatot vagy személyt céloznak. Formájuk lehet kereskedelmi tilalom, vagyonbefagyasztás, a nemzetközi pénzügyi rendszerből való kizárás, exportkorlátozás vagy egyéni listázás. A másodlagos szankciók azokat a harmadik országbeli szereplőket is sújtják, amelyek a célponttal üzletelnek.
 
-**Miért fontos?** A szankciók átrendezik az ellátási láncokat és a nyersanyagáramlást, ami közvetlenül hat az energia- és fémárakra. A pénzügyi szankciók a bankszektort és a fizetési rendszereket érintik, a másodlagos szankciók pedig harmadik országok vállalatait is kockázatnak teszik ki.
+**Miért fontos?** A szankciók átrendezik az ellátási láncokat és a nyersanyagáramlást, ami közvetlenül hat az energia-, a fém- és a mezőgazdasági árakra. A pénzügyi szankciók a bankszektort és a fizetési rendszereket érintik, a másodlagos szankciók pedig harmadik országok vállalatait is kockázatnak teszik ki. A kijátszási útvonalak, például közvetítő országok, idővel tompíthatják a hatást.
 
-**Piacradar értelmezés** A Piacradar a szankciókat akkor emeli ki, ha konkrét árhatás vagy vállalati kitettség azonosítható — a bejelentés önmagában kevesebbet mond, mint a végrehajtás részletei és a haladék határideje.
+**Piacradar értelmezés** Végrehajtás részletei többet mondanak, mint a bejelentés: a kivételek, a haladék határideje és az ellenőrzés szigora dönti el a valódi hatást. Akkor van piaci jelentősége, ha konkrét árhatás vagy vállalati kitettség azonosítható, például bevételkiesés vagy leírandó eszközök formájában.
 
 ## SEC – Amerikai tőzsdefelügyelet
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/sec.html
 
-**Mi ez?** A Securities and Exchange Commission az amerikai értékpapírpiac felügyelete: engedélyez, szabályoz, vizsgál és büntet.
+**Mi ez?** A Securities and Exchange Commission az amerikai értékpapírpiac szövetségi felügyeleti hatósága. Feladata a befektetők védelme, a tisztességes és rendezett piacok fenntartása és a tőkebevonás elősegítése. Szabályokat alkot, engedélyez, például új tőzsdei termékeket, vizsgálatokat folytat, és polgári peres eljárásokat indít jogsértések esetén. A tőzsdei cégek kötelező jelentései is hozzá futnak be.
 
-**Miért fontos?** A SEC döntései (ETF-engedélyek, vizsgálatok, perek) közvetlen ármozgató erővel bírnak — különösen a kriptopiacon, ahol az engedélyezési döntések narratíva-formálók.
+**Miért fontos?** Döntései közvetlen ármozgató erővel bírhatnak: egy termékengedély, egy vizsgálat vagy egy per egy egész szektor megítélését átírhatja. Különösen a kriptopiacon formálja a narratívát, mert ott a szabályozási besorolás a termékek elérhetőségét is meghatározza. A kötelező jelentések nyilvános adatbázisa, az EDGAR, az elemzés egyik alapforrása.
 
-**Piacradar értelmezés** A Piacradar a SEC-lépéseket a szabályozási kockázat és a legitimációs folyamat fő eseményeiként követi.
+**Piacradar értelmezés** Szabályozási kockázat és legitimáció mércéje: egy engedély a szélesebb intézményi tőke előtt nyithatja meg az utat, egy szigorító lépés vagy per pedig gyorsan kiárazhatja a prémiumot. A hatóság vezetésének és szabályozási irányának változása hosszabb távon többet számít egy-egy döntésnél.
 
 ## Sell the News – Hírre eladás
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -2068,11 +2068,11 @@ Hivatkozás: https://piacradar.eu/szotar/soft-landing.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/spread.html
 
-**Mi ez?** Két hozam vagy ár közötti különbség. Leggyakoribb formái: kötvény-hozamfelár (pl. vállalati vs. állampapír — credit spread), országok közti felár (pl. BTP-Bund), vagy lejáratok közti különbség (hozamgörbe-spread, pl. 2s10s).
+**Mi ez?** Két hozam vagy ár közötti különbség, jellemzően bázispontban kifejezve. Leggyakoribb formái a vállalati és állampapír-hozam közötti hitelfelár (credit spread), az országok közötti felár, például az olasz és német tízéves hozam különbsége (BTP-Bund), valamint a lejáratok közötti különbség, például a kétéves és tízéves hozam eltérése (2s10s).
 
-**Miért fontos?** A táguló credit spread növekvő kockázatérzékelést és romló finanszírozási kondíciókat jelez — gyakran a részvénypiaci stressz előfutára. A szűkülő spread bizalmat és bőséges likviditást mutat.
+**Miért fontos?** A táguló hitelfelár növekvő kockázatérzékelést és romló finanszírozási feltételeket jelez, gyakran a részvénypiaci stressz előfutára. A szűkülő felár bizalmat és bőséges likviditást mutat. A magas hozamú (high yield) kötvények felára a legérzékenyebb, mert ott a csődkockázat a legnagyobb. Az eurózónában az országfelárak a fiskális feszültség mérői.
 
-**Piacradar értelmezés** A Piacradar a spreadeket a rendszerszintű kockázat hőmérőjeként használja — a részvényindexek nyugalma mellett táguló spreadek korai figyelmeztető jelek.
+**Piacradar értelmezés** Rendszerszintű kockázat hőmérőjeként működik: ha a részvényindexek nyugodtak, de a felárak tágulnak, az korai figyelmeztető jel, mert a hitelpiac gyakran előbb érzékeli a gondot. A rendkívül szűk felár viszont kevés tartalékot hagy egy meglepetésre.
 
 ## Stablecoin
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -2160,11 +2160,11 @@ Hivatkozás: https://piacradar.eu/szotar/tamasz-ellenallas.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/tariff.html
 
-**Mi ez?** Importált árukra kivetett adó, amely drágítja a külföldi termékeket. Kereskedelempolitikai és alkupozíciós eszköz.
+**Mi ez?** Importált árukra kivetett adó, amely drágítja a külföldi termékeket a hazaiakhoz képest. Lehet értékarányos (az áru értékének százaléka) vagy fajlagos (mennyiségre vetített összeg). Kereskedelempolitikai, iparvédelmi és alkupozíciós eszköz, a vámot jogilag az importőr fizeti meg a határon.
 
-**Miért fontos?** A vámok emelik az inflációt, átrendezik az ellátási láncokat, és megtorló intézkedéseket válthatnak ki (kereskedelmi háború). Szektor-szinten nyertesekre és vesztesekre osztják a piacot.
+**Miért fontos?** Hogy valójában ki viseli a terhet, a piaci erőviszonyokon múlik: az importőr a marzsából fizetheti, a külföldi exportőr árcsökkentéssel átvállalhatja, vagy a költség a fogyasztói árakba gyűrűzik. Az átgyűrűzés jellemzően fokozatos, ezért az inflációs hatás hónapok alatt jelenik meg. A vámok átrendezik az ellátási láncokat, és megtorló intézkedéseket válthatnak ki.
 
-**Piacradar értelmezés** A Piacradar a vám-híreket az inflációs pálya és a szektorhatások (autóipar, félvezetők, fogyasztási cikkek) szempontjából értelmezi.
+**Piacradar értelmezés** Ágazati nyerteseket és veszteseket jelöl ki: a hazai versenytársak profitálhatnak, az importált alkatrészekre épülő gyártók és a kiskereskedők marzsa szűkülhet. A bejelentés és a hatálybalépés közötti időben gyakran előrehozott import torzítja a kereskedelmi adatokat. A kivételek és a tárgyalási haladékok döntik el a végső hatást.
 
 ## Terminal Rate – Terminális kamat
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -2230,11 +2230,11 @@ Hivatkozás: https://piacradar.eu/szotar/trailing-stop.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/treasury.html
 
-**Mi ez?** Az amerikai állam által kibocsátott, világszerte referenciának számító kötvények: T-bill (1 éven belüli), T-note (2–10 év), T-bond (20–30 év).
+**Mi ez?** Az amerikai pénzügyminisztérium által kibocsátott állampapírok, amelyek világszerte referenciának számítanak. Futamidő tekintetében három fő típusuk van: a diszkontpapír (T-bill) legfeljebb egyéves, a T-note 2–10 éves, a T-bond 20–30 éves futamidejű. Léteznek inflációkövető (TIPS) és változó kamatozású változatok is. Aukciókon bocsátják ki őket.
 
-**Miért fontos?** A Treasury a világ „kockázatmentes” eszköze és a globális biztosíték-rendszer alapja. Hozamai minden más eszköz árazásának viszonyítási pontjai; a piac mérete és likviditása miatt a Treasury-piac zavarai rendszerszintű kockázatot jelentenek.
+**Miért fontos?** A Treasury a világ kockázatmentesnek tekintett eszköze és a globális biztosítéki rendszer alapja. Hozamai minden más eszköz árazásának viszonyítási pontjai, a vállalati hitelektől a részvényértékeltségig. A piac mérete és likviditása miatt a Treasury-piac zavarai rendszerszintű kockázatot jelentenek, ezért a Fed szükség esetén közbeléphet.
 
-**Piacradar értelmezés** A Piacradar a Treasury-piacot a kockázatmentes hozamgörbe és a menedék-kereslet fő színtereként követi — az aukciók és a hozammozgások a tőkepiaci hangulat alapjelei.
+**Piacradar értelmezés** Aukciós kereslet és hozammozgás együtt adja a tőkepiaci hangulat alapjeleit. A gyenge aukció, vagyis alacsony túljegyzés vagy a vártnál magasabb hozam, a növekvő kínálat finanszírozási nehézségére utalhat. A menedékkereslet idején a hozamok esnek, inflációs vagy fiskális aggodalomnál a hosszú vég emelkedik.
 
 ## Trendvonal – Trendline
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -2342,21 +2342,21 @@ Hivatkozás: https://piacradar.eu/szotar/whale.html
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/wti.html
 
-**Mi ez?** A West Texas Intermediate az amerikai olajpiac referencia-típusa, könnyű és alacsony kéntartalmú kőolaj. Határidős szerződéseit a NYMEX-en jegyzik, fizikai szállítási pontja az oklahomai Cushing.
+**Mi ez?** A West Texas Intermediate az amerikai olajpiac referenciatípusa, könnyű, alacsony kéntartalmú kőolaj. Határidős szerződéseivel a NYMEX-en kereskednek, fizikai szállítási pontja az oklahomai Cushing. Fizikai szállítású szerződés, ezért a cushingi tárolói kapacitás a lejárat körüli árazást is befolyásolhatja.
 
-**Miért fontos?** A WTI ára az üzemanyagárakon keresztül közvetlenül hat az amerikai fogyasztói inflációra. Az energiaszektor eredményének és a szállítási költségeknek is ez az egyik legfontosabb inputja.
+**Miért fontos?** A WTI ára az üzemanyagárakon keresztül közvetlenül hat az amerikai fogyasztói inflációra. Az energiaszektor eredményének és a szállítási költségeknek is az egyik legfontosabb bemenete. Az amerikai palaolaj-termelők beruházási döntései is ehhez igazodnak, ami hosszabb távon a globális kínálatot alakítja.
 
-**Piacradar értelmezés** A Piacradar a WTI-t a Brenthez viszonyított különbözettel együtt nézi: a szűkülő spread jellemzően amerikai kínálati szűkösséget jelez. A tartósan emelkedő olajár szigorúbb kamatpálya irányába hat, mert az inflációs főszámot közvetlenül emeli.
+**Piacradar értelmezés** Brenthez mért különbözetével együtt beszédes: a szűkülő különbözet jellemzően amerikai kínálati szűkösséget, a táguló inkább bőséges amerikai kínálatot vagy szállítási korlátokat jelez. A tartósan emelkedő olajár szigorúbb kamatpálya felé tolhatja a várakozásokat, mert az inflációs főszámot közvetlenül emeli. Lejárat környékén a fizikai szállítás logikája miatt a határidős ár szélsőségesen is mozoghat, ha a tárolás szűk keresztmetszetté válik.
 
 ## Yield Curve – Hozamgörbe
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
 Hivatkozás: https://piacradar.eu/szotar/yield-curve.html
 
-**Mi ez?** Az azonos kibocsátó (jellemzően az amerikai állam) különböző lejáratú kötvényeinek hozamait ábrázoló görbe. Normál esetben emelkedő: a hosszabb lejáratért magasabb hozam jár.
+**Mi ez?** Az azonos kibocsátó, jellemzően az amerikai állam különböző lejáratú kötvényeinek hozamait ábrázoló görbe. Normál esetben emelkedő, mert a hosszabb lejáratért a befektetők magasabb hozamot, úgynevezett lejárati prémiumot (term premium) kérnek. A rövid végét a jegybanki kamat, a hosszú végét a növekedési és inflációs várakozások alakítják.
 
-**Miért fontos?** A görbe alakja a piac növekedési és kamatvárakozásait tükrözi. A meredekülő görbe élénkülést vagy inflációs várakozást, a laposodó lassulást, az invertálódás (rövid hozam > hosszú hozam) történelmileg recessziós kockázatot jelez.
+**Miért fontos?** A görbe alakja a piac növekedési és kamatvárakozásait tükrözi. A meredekülő görbe élénkülést vagy inflációs várakozást, a laposodó lassulást jelezhet, az invertált görbe, amikor a rövid hozam meghaladja a hosszút, történelmileg recessziós kockázatot jelzett. A bankok jövedelmezőségét is befolyásolja, mert rövid forrásból hosszú hitelt nyújtanak.
 
-**Piacradar értelmezés** A Piacradar a hozamgörbe alakváltozásait (2s10s spread, meredekség) a gazdasági ciklus és a Fed-pálya piaci árazásának legfontosabb jelzéseként követi.
+**Piacradar értelmezés** Alakváltozás iránya és oka egyaránt számít: a meredekülés jöhet csökkenő rövid hozamokból (bull steepening) vagy emelkedő hosszú hozamokból (bear steepening), és a kettő ellentétes üzenetet hordoz. A kétéves és tízéves különbség a leggyakrabban idézett mérőszám.
 
 ## Yield Curve Control (YCC) – Hozamgörbe-kontroll
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
