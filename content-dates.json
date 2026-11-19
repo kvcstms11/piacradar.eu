@@ -160,8 +160,8 @@
   "first": "2026-06-27"
  },
  "szotar/clarity-act": {
-  "hash": "bf37afcd3ea2fe38",
-  "date": "2026-11-18",
+  "hash": "76f2e680b10cefee",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/commodity": {
@@ -385,8 +385,8 @@
   "first": "2026-03-14"
  },
  "szotar/genius-act": {
-  "hash": "13eb2fb2b8fe2ece",
-  "date": "2026-08-24",
+  "hash": "9e972b5aefd43954",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/gold": {
@@ -910,8 +910,8 @@
   "first": "2026-03-14"
  },
  "szotar/token-taxonomia": {
-  "hash": "b36f928eb8a9e687",
-  "date": "2026-08-24",
+  "hash": "07f30be03f11d383",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/tokenomics": {

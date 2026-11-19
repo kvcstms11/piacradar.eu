@@ -564,13 +564,13 @@ Hivatkozás: https://piacradar.eu/szotar/circuit-breaker.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/clarity-act.html
 
-**Mi ez?** Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci struktúráját szabályozó amerikai törvényjavaslat. 2026 szeptemberéig nem lett belőle törvény: a képviselőház 2025. július 17-én elfogadta, a szenátusban azonban 2026. szeptember 15-én elbukott az eljárási szavazás.
+**Mi ez?** Teljes nevén Digital Asset Market Clarity Act (H.R. 3633): a digitális eszközök piaci szerkezetét szabályozó amerikai törvényjavaslat. A Képviselőház 2025. július 17-én 294–134 arányban elfogadta. A Szenátusban a mezőgazdasági bizottság 2026. január 29-én, a bankbizottság 2026. május 14-én szavazta meg a saját változatát, a 2026. szeptember 15-i eljárási szavazáson azonban a tárgyalásba vétel 49–50 arányban elbukott, mert 60 szavazat kellett volna.
 
-**Miért fontos?** A javaslat a CFTC-hez rendelné a digitális nyersanyagok azonnali piacának felügyeletét, míg a tőkebevonás és a befektetési szerződések a SEC hatáskörében maradnának. Ez oldaná fel azt a hatásköri bizonytalanságot, amely évek óta akadályozza az amerikai piac fejlődését.
+**Miért fontos?** A javaslat a CFTC-hez rendelné a digitális nyersanyagok azonnali piacának felügyeletét, míg a tőkebevonás és a befektetési szerződések a SEC hatáskörében maradnának. Ez oldaná fel azt a hatásköri bizonytalanságot, amely évek óta akadályozza az amerikai piac fejlődését, és törvényi szintre emelné a hatóságok által addig csak értelmezésben rögzített tokenbesorolást.
 
-**Piacradar értelmezés** A Piacradar a jogalkotási folyamat tényleges állását követi, nem az egyes nyilatkozatokat: a Képviselőház 2025 júliusában elfogadta, a szenátusi bankbizottság 2026 májusában megszavazta, a végszavazás azonban még nem történt meg. Vitatott pont az összeférhetetlenség és a stablecoin-hozam kérdése.
+**Piacradar értelmezés** A jogalkotás tényleges állása a mérvadó, nem az egyes nyilatkozatok. A szeptemberi szavazás után újratárgyalási indítványt nyújtottak be, így a javaslat elvileg visszakerülhet a Szenátus elé, de 2026. november közepéig nem került napirendre. Ha a 2027. január 3-án lejáró Kongresszus nem fogadja el, a folyamat az új ciklusban elölről indul. Vitatott pont az összeférhetetlenségi szabályozás és a stablecoin-hozam kérdése.
 
-**Források:** FinTech Weekly – CLARITY Act Tracker (2026.09.26.) (https://www.fintechweekly.com/news/what-is-the-clarity-act-digital-asset-market-structure-explained-2026)
+**Források:** Latham & Watkins – US Crypto Policy Tracker (2026. augusztus) (https://www.lw.com/en/us-crypto-policy-tracker/legislative-developments) · FinTech Weekly – CLARITY Act Tracker (2026.09.26.) (https://www.fintechweekly.com/news/what-is-the-clarity-act-digital-asset-market-structure-explained-2026) · TokenPost – Senate's Next Announced Votes Omit CLARITY Act (2026.11.15.) (https://www.tokenpost.com/news/regulation/57826)
 
 ## Commodities
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -1052,11 +1052,13 @@ Hivatkozás: https://piacradar.eu/szotar/gdp.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/genius-act.html
 
-**Mi ez?** 2025. július 18-án aláírt, hatályos amerikai szövetségi törvény, amely a fizetési stablecoinokra hoz létre keretrendszert. Előírja az 1:1 arányú tartalékfedezetet, és megtiltja a kibocsátóknak, hogy hozamot fizessenek a tulajdonosoknak.
+**Mi ez?** A fizetési stablecoinokra vonatkozó amerikai szövetségi törvény (Guiding and Establishing National Innovation for U.S. Stablecoins Act), amelyet 2025. július 18-án írtak alá. Előírja az 1:1 arányú tartalékfedezetet, és megtiltja a kibocsátóknak, hogy hozamot fizessenek a tulajdonosoknak. A törvény 2027. január 18-án lép hatályba.
 
-**Miért fontos?** A törvény jogi biztonságot ad a stablecoin-kibocsátásnak, ami feltétele az intézményi használatnak. A hozamfizetés tilalma elválasztja a stablecoint a banki betéttől, a decentralizált pénzügyek pedig kimaradnak a szolgáltatói definícióból. A végrehajtási rendeletek kidolgozása még tart.
+**Miért fontos?** A törvény jogi biztonságot ad a stablecoin-kibocsátásnak, ami feltétele az intézményi használatnak. A hozamfizetés tilalma elválasztja a stablecoint a banki betéttől, a decentralizált pénzügyek pedig kimaradnak a szolgáltatói definícióból. A végrehajtás szakaszos: az OCC 2026. október 21-én kiadta az általa felügyelt kibocsátókra vonatkozó végleges szabályt, a pénzmosás elleni és szankciós előírásokat pedig külön, a pénzügyminisztériummal közös szabályozás rendezi.
 
-**Piacradar értelmezés** A Piacradar a GENIUS Actet a stablecoinok fizetési célú elterjedésének feltételeként olvassa: a tartalékkövetelmény miatt a kibocsátóknak jellemzően rövid lejáratú államkötvényben kell tartaniuk a fedezetet, ami a szektor növekedését az államadósság-finanszírozáshoz is hozzákapcsolja.
+**Piacradar értelmezés** Fizetési célú elterjedés feltételeként olvasható: a tartalékkövetelmény miatt a kibocsátók jellemzően rövid lejáratú állampapírban tartják a fedezetet, ami a szektor növekedését az államadósság-finanszírozáshoz is hozzákapcsolja. A hatálybalépés után a kibocsátók engedélyezése és a tartalékjelentések mutatják meg, mennyire szigorú a gyakorlati végrehajtás.
+
+**Források:** OCC – News Release 2026-92 (2026.10.21.) (https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html) · Latham & Watkins – US Crypto Policy Tracker (2026. augusztus) (https://www.lw.com/en/us-crypto-policy-tracker/legislative-developments)
 
 ## Gold – Arany
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -2190,11 +2192,13 @@ Hivatkozás: https://piacradar.eu/szotar/theta.html
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
 Hivatkozás: https://piacradar.eu/szotar/token-taxonomia.html
 
-**Mi ez?** A digitális eszközök jogi besorolása három fő kategóriába: digitális nyersanyag, befektetési szerződés vagy fizetési stablecoin. A besorolás dönti el, melyik hatóság felügyeli az eszközt és milyen szabályok vonatkoznak rá.
+**Mi ez?** A digitális eszközök jogi besorolása, amely eldönti, melyik amerikai hatóság felügyeli őket, és milyen szabályok vonatkoznak rájuk. A SEC és a CFTC 2026. március 17-i közös értelmezése öt kategóriát használ: digitális nyersanyag, digitális gyűjthető (például mémtokenek), digitális eszköz (digital tool), stablecoin és digitális értékpapír. Az első négy nem minősül értékpapírnak, a stablecoin csak bizonyos feltételekkel, az utolsó a hagyományos értékpapírok tokenizált formája.
 
 **Miért fontos?** A minősítés közvetlenül hat arra, hogy egy token elérhető-e szabályozott platformokon, és milyen közzétételi kötelezettség terheli a kibocsátót. A besorolás bizonytalansága évekig visszatartotta az intézményi tőkét az eszközosztálytól.
 
-**Piacradar értelmezés** A Piacradar megkülönbözteti a hatósági iránymutatást a törvénytől: a SEC és a CFTC 2026. március 17-i közös besorolása tizenhat tokent minősített nyersanyagnak, de ez rendeleti szintű döntés, amelyet egy következő adminisztráció visszabonthat. Jogszabályi szintre a CLARITY Act emelné.
+**Piacradar értelmezés** Hatósági értelmezés és törvény között lényeges a különbség: a márciusi közös értelmezés mindkét hatóságra kötelező, és tizenhat tokent név szerint digitális nyersanyagnak minősített, de nem törvény, így egy későbbi hatósági vezetés módosíthatja. Jogszabályi szintre a CLARITY Act emelné, amely 2026 szeptemberében elakadt a Szenátusban.
+
+**Források:** Jenner & Block – SEC and CFTC Joint Interpretation on Crypto Asset Classification (https://www.jenner.com/en/news-insights/client-alerts/sec-and-cftc-issue-landmark-joint-interpretation-on-crypto-asset-classification)
 
 ## Tokenomics – Tokenomika
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
