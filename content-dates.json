@@ -30,13 +30,13 @@
   "first": "2026-04-30"
  },
  "szotar/antitrust": {
-  "hash": "3ad4aba5156433ca",
-  "date": "2026-08-24",
+  "hash": "5ddeac1e1228d602",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/aum": {
-  "hash": "800c79a940be7bff",
-  "date": "2026-08-24",
+  "hash": "10e6f197d1b67eef",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/average-hourly-earnings": {
@@ -60,8 +60,8 @@
   "first": "2026-06-27"
  },
  "szotar/biosimilar": {
-  "hash": "8e0e445e47286f05",
-  "date": "2026-08-24",
+  "hash": "c0b62dde5c4528af",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/blockchain": {
@@ -70,8 +70,8 @@
   "first": "2026-08-23"
  },
  "szotar/blue-chip": {
-  "hash": "77c5fc6e8e2a6bb1",
-  "date": "2026-08-24",
+  "hash": "10878670d9f4dec6",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/bmo": {
@@ -125,8 +125,8 @@
   "first": "2026-03-23"
  },
  "szotar/buyback": {
-  "hash": "4cb81ab13e681429",
-  "date": "2026-08-24",
+  "hash": "219ded961c294c43",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/call": {
@@ -205,8 +205,8 @@
   "first": "2026-08-23"
  },
  "szotar/defenziv-ciklikus": {
-  "hash": "88ef21ce1619d782",
-  "date": "2026-08-24",
+  "hash": "7101118a62729b25",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/defi": {
@@ -235,8 +235,8 @@
   "first": "2026-08-23"
  },
  "szotar/dividend": {
-  "hash": "f47e793c5b52a620",
-  "date": "2026-08-24",
+  "hash": "221bd44729d27205",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/dot-plot": {
@@ -270,13 +270,13 @@
   "first": "2026-06-27"
  },
  "szotar/earnings-beat": {
-  "hash": "38c53ef269504a1f",
-  "date": "2026-08-24",
+  "hash": "e30a4ae76f31f899",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/ebitda": {
-  "hash": "4125f22387e2bd3d",
-  "date": "2026-08-24",
+  "hash": "f514dabd001aec33",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/ecb": {
@@ -285,8 +285,8 @@
   "first": "2026-03-14"
  },
  "szotar/eladosodottsag": {
-  "hash": "2f32b4581d59e7d9",
-  "date": "2026-08-24",
+  "hash": "b173efb2e8f7e23c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/em": {
@@ -295,8 +295,8 @@
   "first": "2026-03-14"
  },
  "szotar/eps": {
-  "hash": "a5a394951a38c6cc",
-  "date": "2026-08-24",
+  "hash": "9f37ef3459200571",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/etf": {
@@ -315,8 +315,8 @@
   "first": "2026-08-23"
  },
  "szotar/ev-ebitda": {
-  "hash": "e990991b638e2e7c",
-  "date": "2026-08-24",
+  "hash": "d419d7a94d04e62c",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/fiskalis-politika": {
@@ -345,8 +345,8 @@
   "first": "2026-08-23"
  },
  "szotar/free-cash-flow": {
-  "hash": "d0b3820d3f90f440",
-  "date": "2026-08-24",
+  "hash": "626b85b77e1cfddf",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/funding-rate": {
@@ -360,8 +360,8 @@
   "first": "2026-03-14"
  },
  "szotar/gaap-adjusted": {
-  "hash": "98be6ddd9131957f",
-  "date": "2026-08-24",
+  "hash": "6eafa851459d48cd",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/gamma": {
@@ -400,8 +400,8 @@
   "first": "2026-03-14"
  },
  "szotar/guidance": {
-  "hash": "9783484473ff7d07",
-  "date": "2026-08-24",
+  "hash": "c4ac32b466b5bbe0",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/halving": {
@@ -460,8 +460,8 @@
   "first": "2026-03-14"
  },
  "szotar/installed-base": {
-  "hash": "3730283c25475f28",
-  "date": "2026-08-24",
+  "hash": "02be58da2bbc69fc",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/interest-rate": {
@@ -540,8 +540,8 @@
   "first": "2026-03-14"
  },
  "szotar/m-and-a": {
-  "hash": "6e76f65fe8367c5a",
-  "date": "2026-08-24",
+  "hash": "554d48a37c16f413",
+  "date": "2026-11-19",
   "first": "2026-03-23"
  },
  "szotar/m2-money-supply": {
@@ -555,8 +555,8 @@
   "first": "2026-08-23"
  },
  "szotar/magnificent-seven": {
-  "hash": "d2a59b39108f44b1",
-  "date": "2026-08-24",
+  "hash": "c3e393909d959170",
+  "date": "2026-11-19",
   "first": "2026-06-27"
  },
  "szotar/margin-call": {
@@ -565,8 +565,8 @@
   "first": "2026-03-23"
  },
  "szotar/market-cap": {
-  "hash": "0a137f1b6192245d",
-  "date": "2026-08-24",
+  "hash": "085a99123c66c9c8",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/megerositesi-torzitas": {
@@ -590,8 +590,8 @@
   "first": "2026-03-14"
  },
  "szotar/moat": {
-  "hash": "f1b71fe9a8a08078",
-  "date": "2026-08-24",
+  "hash": "0d5e1cfd555c42a2",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/momentum": {
@@ -620,8 +620,8 @@
   "first": "2026-03-14"
  },
  "szotar/nii": {
-  "hash": "332d5d9039159a4a",
-  "date": "2026-08-24",
+  "hash": "71353be2b864ddf3",
+  "date": "2026-11-19",
   "first": "2026-07-15"
  },
  "szotar/nonfarm-productivity": {
@@ -650,8 +650,8 @@
   "first": "2026-03-14"
  },
  "szotar/operating-margin": {
-  "hash": "856c58c0713eaf34",
-  "date": "2026-08-24",
+  "hash": "52e1c664cba541f8",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/options": {
@@ -665,8 +665,8 @@
   "first": "2026-03-14"
  },
  "szotar/osztalekhozam": {
-  "hash": "2446c50a47e245a4",
-  "date": "2026-08-24",
+  "hash": "cc55dd6bc269e1ae",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/participation-rate": {
@@ -690,8 +690,8 @@
   "first": "2026-03-14"
  },
  "szotar/peg-ratio": {
-  "hash": "9c2c8e5f5014aeec",
-  "date": "2026-08-24",
+  "hash": "482e490849202e93",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/perpetual-futures": {
@@ -720,13 +720,13 @@
   "first": "2026-03-14"
  },
  "szotar/price-to-book": {
-  "hash": "2a0362ec87fb4a74",
-  "date": "2026-08-24",
+  "hash": "d875a3a850640482",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/profit-margin": {
-  "hash": "df45afa8cedfea5c",
-  "date": "2026-08-24",
+  "hash": "c11858db6d737ba5",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/put": {
@@ -770,8 +770,8 @@
   "first": "2026-03-14"
  },
  "szotar/revenue": {
-  "hash": "d30ea4dbf136dd00",
-  "date": "2026-08-24",
+  "hash": "df88a4dfe360007b",
+  "date": "2026-11-19",
   "first": "2026-03-14"
  },
  "szotar/risk-on-off": {
@@ -780,13 +780,13 @@
   "first": "2026-07-15"
  },
  "szotar/roe": {
-  "hash": "ea6ade288fc729fd",
-  "date": "2026-08-24",
+  "hash": "baaf5114898d0a77",
+  "date": "2026-11-19",
   "first": "2026-03-23"
  },
  "szotar/roic": {
-  "hash": "77362a2249ce6db4",
-  "date": "2026-08-24",
+  "hash": "6ff49dbf67034076",
+  "date": "2026-11-19",
   "first": "2026-08-23"
  },
  "szotar/rsi": {

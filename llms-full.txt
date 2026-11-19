@@ -282,21 +282,21 @@ Hivatkozás: https://piacradar.eu/szotar/amc.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/antitrust.html
 
-**Mi ez?** Szabályozói eljárás, amely a piaci verseny fenntartását célozza. Felvásárlásokat blokkolhat, cégeket feldarabolásra kötelezhet, vagy bírságot szabhat ki monopolista magatartásért.
+**Mi ez?** Versenyjogi eljárás, amelyet a versenyhatóság vagy bíróság indít a piaci verseny védelmében. Az USA-ban jellemzően az igazságügyi minisztérium és a szövetségi kereskedelmi bizottság (FTC), az EU-ban az Európai Bizottság jár el. Blokkolhat felvásárlásokat, előírhatja üzletágak leválasztását, megtilthat üzleti gyakorlatokat, vagy bírságot szabhat ki erőfölénnyel való visszaélésért.
 
-**Miért fontos?** Antitrust döntések közvetlenül mozgatják a részvényárfolyamot: Google/Epic ítélet csökkenti a jutalékot, M&A blokkolás leállítja a felvásárlási prémiumot. A tech szektor különösen érzékeny.
+**Miért fontos?** A döntések közvetlenül érinthetik az üzleti modellt: ha egy platformot kötelezik versenytársak beengedésére vagy a jutalékok csökkentésére, a magas marzsú bevétel egy része kérdésessé válik. Egy blokkolt felvásárlásnál a célpont részvényéből eltűnik a felvásárlási prémium. A nagy technológiai platformok különösen kitettek, mert a piaci erejük maga a vizsgálat tárgya.
 
-**Piacradar értelmezés** A Piacradar antitrust híreket akkor hozza, ha konkrét ár- vagy üzleti modell hatás van — nem minden szabályozói bejelentésnél.
+**Piacradar értelmezés** Bírság ritkán mozgatja tartósan az árfolyamot, a viselkedési kötelezettség vagy a szétválasztás viszont igen. Az eljárások évekig tartanak, fellebbezésekkel, ezért az első bejelentés és a végleges hatás között hosszú idő telik el. Az érdemi kérdés az, mennyi bevételt és marzsot érint a döntés.
 
 ## AUM – Kezelt vagyon (Assets Under Management)
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/aum.html
 
-**Mi ez?** Egy vagyonkezelő (alapkezelő, ETF-szolgáltató, hedge fund) által kezelt eszközök összértéke. Az AUM két forrásból nő: a piaci árfolyamok emelkedéséből és a nettó beáramlásból (új ügyfélpénz mínusz kivonások).
+**Mi ez?** Egy vagyonkezelő, például alapkezelő, ETF-szolgáltató vagy fedezeti alap által kezelt eszközök összértéke. Az AUM két forrásból nő: a piaci árfolyamok emelkedéséből és a nettó beáramlásból, vagyis az új ügyfélpénz és a kivonások különbségéből.
 
-**Miért fontos?** A vagyonkezelők bevétele jellemzően az AUM százalékában meghatározott díj, így az AUM közvetlenül a bevételt hajtja. A nettó beáramlás (inflow) a minőségi jelző: azt mutatja, hogy az ügyfelek bizalma nő — nem csak a piac emeli az értéket.
+**Miért fontos?** A vagyonkezelők bevétele jellemzően az AUM százalékában meghatározott díj, így a kezelt vagyon közvetlenül a bevételt hajtja. Ezért ezek a cégek erősen piacfüggők: egy tőzsdei esés a nettó beáramlástól függetlenül is csökkenti a díjbevételt. A nettó beáramlás a minőségi jelző, mert azt mutatja, hogy az ügyfelek bizalma nő, nem csak a piac emeli az értéket. A díjszint is számít, mert a passzív termékek felé áramló pénz alacsonyabb díjat hoz.
 
-**Piacradar értelmezés** A Piacradar a vagyonkezelői jelentéseknél az AUM-ot és a nettó beáramlást együtt nézi: a rekord AUM piaci emelkedésből is jöhet, a tartósan erős inflow viszont valódi üzleti lendületet jelez.
+**Piacradar értelmezés** Rekord kezelt vagyon önmagában keveset mond, mert piaci emelkedésből is származhat. A tartósan erős nettó beáramlás viszont valódi üzleti lendületet jelez. A díjbevétel és az AUM eltérő üteme a termékösszetétel változását mutatja meg.
 
 ## Average Hourly Earnings – Órabérek
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -368,11 +368,11 @@ Hivatkozás: https://piacradar.eu/szotar/bid-ask-spread.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/biosimilar.html
 
-**Mi ez?** Egy már engedélyezett biológiai gyógyszer (pl. monoklonális antitest) hatóanyagában és hatásában nagymértékben hasonló, olcsóbb változata, amely az eredeti szabadalmi védettségének lejárta után léphet piacra. A klasszikus generikum biológiai megfelelője.
+**Mi ez?** Egy már engedélyezett biológiai gyógyszer, például monoklonális antitest hatóanyagában és hatásában nagymértékben hasonló, olcsóbb változata, amely az eredeti szabadalmi és adatvédelmének lejárta után léphet piacra. A klasszikus generikum biológiai megfelelője, de fejlesztése és engedélyeztetése jóval drágább, mert élő sejtekben előállított, összetett molekuláról van szó.
 
-**Miért fontos?** Amikor egy kasszasiker-gyógyszer (blockbuster) védettsége lejár, a biosimilar-verseny gyors áreróziót és piacvesztést okoz — ez a „szabadalmi szakadék" (patent cliff). A gyógyszercégek értékelésének egyik kulcskérdése, hogy az új készítmények növekedése ellensúlyozza-e a régiek biosimilar-erózióját.
+**Miért fontos?** Amikor egy kasszasiker-gyógyszer (blockbuster) védettsége lejár, a biohasonló verseny áreróziót és piacvesztést okoz, ez a szabadalmi szakadék (patent cliff). Az erózió jellemzően lassabb, mint a generikumoknál, mert kevesebb versenytárs lép be. A gyógyszercégek értékelésének kulcskérdése, hogy az új készítmények növekedése ellensúlyozza-e a régiek bevételvesztését.
 
-**Piacradar értelmezés** A Piacradar a gyógyszeripari jelentéseknél a biosimilar-eróziót és az új termékek felfutását egymással szemben méri — ez a szektor növekedési képletének két serpenyője.
+**Piacradar értelmezés** Két serpenyős mérlegként működik a gyógyszeripari elemzésben: az egyikben a lejáró szabadalmak miatti erózió, a másikban az új termékek felfutása. Ha a fejlesztési portfólió nem tölti ki a rést, a cég bevétele a szabadalmi szakadék után évekig csökkenhet.
 
 ## Bitcoin Dominance – BTC-dominancia
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -418,11 +418,11 @@ Hivatkozás: https://piacradar.eu/szotar/blockchain.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/blue-chip.html
 
-**Mi ez?** Nagy, stabil, piacvezető, hosszú működési múltú vállalat részvénye — jellemzően nagy kapitalizációjú, likvid, gyakran osztalékfizető papír (pl. a Dow Jones index tagjai). Az elnevezés a póker legértékesebb, kék zsetonjából ered.
+**Mi ez?** Nagy, stabil, piacvezető, hosszú működési múltú vállalat részvénye. Jellemzően nagy kapitalizációjú, likvid, gyakran rendszeres osztalékfizető papír, amely a fő tőzsdeindexek tagja. Az elnevezés a póker legértékesebb, kék zsetonjából ered. Nincs hivatalos definíciója, a kifejezés a piaci szóhasználatban alakult ki.
 
-**Miért fontos?** A blue chip részvények a portfóliók stabil magját adják: kisebb kilengéssel mozognak, válságban ellenállóbbak, és az intézményi tőke első számú célpontjai. A blue chip indexek (Dow, DAX) a piaci hangulat referenciái.
+**Miért fontos?** A blue chip részvények a portfóliók stabil magját adják: jellemzően kisebb kilengéssel mozognak, válságban ellenállóbbak, és az intézményi tőke elsődleges célpontjai. A blue chip indexek, például a Dow Jones vagy a DAX a piaci hangulat referenciái. A stabilitás azonban nem garancia: egy piacvezető pozíció technológiai váltás vagy rossz tőkeallokáció miatt elveszhet.
 
-**Piacradar értelmezés** A Piacradar a blue chip kifejezést a stabil, nagy kapitalizációjú piacvezetőkre használja — jellemzően a defenzívebb, indexmeghatározó nevek kontextusában.
+**Piacradar értelmezés** Stabilitás és növekedés között jellemzően kompromisszum van: a nagy, érett cégek ritkán nőnek gyorsan. A blue chip státusz múltbeli teljesítményt tükröz, nem a jövőt, ezért a márkanév nem helyettesíti az értékelést. Túlzott árazás mellett egy stabil cég részvénye is gyenge befektetés lehet.
 
 ## BMO (Before Market Open)
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -488,11 +488,11 @@ Hivatkozás: https://piacradar.eu/szotar/bullish-bearish.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/buyback.html
 
-**Mi ez?** A buyback során a vállalat a saját részvényeit vásárolja vissza a piacról, csökkentve a forgalomban lévő részvények számát.
+**Mi ez?** A vállalat a saját részvényeit vásárolja vissza a piacról, csökkentve a forgalomban lévő részvények számát. A visszavett részvényeket bevonják vagy saját részvényként tartják. Az osztalék mellett a részvényesek javadalmazásának másik fő formája, amely rugalmasabb, mert nem jár olyan elvárással, hogy minden évben ismétlődjön.
 
-**Miért fontos?** A buyback növeli az egy részvényre jutó nyereséget (EPS), és gyakran támogatja a részvényárfolyamot. A menedzsment bizalmát is jelezheti.
+**Miért fontos?** Kevesebb részvényre jut ugyanaz a nyereség, így nő az egy részvényre jutó eredmény (EPS), és a menedzsment bizalmát is jelezheti. Sok cégnél azonban a visszavásárlás nagy része csak a részvényalapú juttatások miatti hígítást ellensúlyozza, így a részvényszám alig csökken. Az időzítés is számít: ha a cég drágán vásárol vissza, értéket rombol.
 
-**Piacradar értelmezés** A Piacradar a buyback programokat a részvényesi értékteremtés egyik kulcselemeként kezeli.
+**Piacradar értelmezés** Nettó részvényszám-változás mutatja meg, mennyit ér valójában a program: a bejelentett összeg önmagában félrevezető. Ha a visszavásárlást adósságból finanszírozzák, a mérleg gyengül, és egy visszaesésben szűkül a mozgástér. Akkor teremt értéket, ha a szabad cash flow fedezi, és a részvény a belső értéke alatt forog.
 
 ## Call – Vételi opció
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -668,11 +668,11 @@ Hivatkozás: https://piacradar.eu/szotar/dca.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/defenziv-ciklikus.html
 
-**Mi ez?** Defenzív szektor: kereslete a gazdasági ciklustól nagyjából függetlenül stabil — egészségügy, közüzemek, alapvető fogyasztási cikkek (élelmiszer, háztartási termékek). Ciklikus szektor: kereslete a gazdasággal együtt hullámzik — autóipar, luxus, utazás, ipar, félvezetők, diszkrecionális fogyasztás.
+**Mi ez?** Defenzív szektor: kereslete a gazdasági ciklustól nagyjából függetlenül stabil, ide tartozik az egészségügy, a közművek és az alapvető fogyasztási cikkek, például élelmiszer és háztartási termékek. Ciklikus szektor: kereslete a gazdasággal együtt hullámzik, ide tartozik az autóipar, a luxus, az utazás, az ipar, a félvezetők és a nem alapvető (diszkrecionális) fogyasztás.
 
-**Miért fontos?** A kettő közötti rotáció a piac gazdasági várakozásait tükrözi: ha a tőke a ciklikusokból a defenzívekbe áramlik, a piac lassulást áraz; fordított irányban élénkülést. A defenzív nevek esésben kevesebbet veszítenek, emelkedésben kevesebbet nyernek.
+**Miért fontos?** A kettő közötti rotáció a piac gazdasági várakozásait tükrözi: ha a tőke a ciklikusokból a defenzívekbe áramlik, a piac lassulást áraz, fordított irányban élénkülést. A defenzív nevek esésben kevesebbet veszítenek, emelkedésben kevesebbet nyernek. A defenzív szektorok kamatérzékenyek is, mert stabil osztalékuk miatt a kötvényekkel versenyeznek.
 
-**Piacradar értelmezés** A Piacradar a defenzív–ciklikus rotációt a piaci ciklusérzet egyik legjobb jelzőjeként használja — gyakran hamarabb mozdul, mint a makróadatok.
+**Piacradar értelmezés** Rotáció gyakran hamarabb mozdul, mint a makroadatok, ezért a piaci cikluslátás egyik korai jelzője. A besorolás nem kőbe vésett: egy technológiai cég ciklikusból részben defenzívvé válhat, ha bevétele előfizetéses, ismétlődő modellre épül.
 
 ## DeFi – Decentralized Finance
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -728,11 +728,11 @@ Hivatkozás: https://piacradar.eu/szotar/diverzifikacio.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/dividend.html
 
-**Mi ez?** Az osztalék a vállalat által a részvényeseknek kifizetett készpénz vagy részvény formájú juttatás a nyereség terhére.
+**Mi ez?** A vállalat által a részvényeseknek kifizetett juttatás a nyereség vagy a felhalmozott eredmény terhére, jellemzően készpénzben, ritkábban részvényben. Az amerikai cégek többsége negyedévente, az európaiak jellemzően évente vagy félévente fizetnek. A kifizetésre az jogosult, aki az osztalékmentes nap (ex-dividend date) előtt megvásárolja a részvényt.
 
-**Miért fontos?** Az osztalék stabil, rendszeres hozamot adhat, és jelzi, hogy a vállalat elég erős cash flow-val rendelkezik a kifizetések fenntartásához.
+**Miért fontos?** Az osztalék rendszeres készpénzhozamot ad, és jelzi, hogy a vállalat elég erős pénztermelő képességgel rendelkezik. A kifizetési ráta (payout ratio), vagyis a nyereség kifizetett aránya mutatja a fenntarthatóságot: a tartósan 100% közeli vagy feletti érték veszélyjel. Az osztalékvágás erős negatív jelzés, mert a menedzsment csak végső esetben nyúl hozzá.
 
-**Piacradar értelmezés** A Piacradar az osztalékot a részvényesi hozam egyik pilléreként kezeli, különösen defenzív szektoroknál.
+**Piacradar értelmezés** Fenntarthatóság számít, nem a hozam mértéke: a szabad cash flow-ból fedezett, fokozatosan emelt osztalék többet ér, mint egy magas, de hitelből fizetett kifizetés. Defenzív szektoroknál az osztalék a teljes részvényesi hozam jelentős része. Az emelési sorozat megszakadása gyakran előbb jelez problémát, mint az eredmény.
 
 ## Dot Plot – Fed kamatvárakozás-térkép
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -810,31 +810,31 @@ Hivatkozás: https://piacradar.eu/szotar/dxy.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/earnings-beat.html
 
-**Mi ez?** Earnings Beat-ről akkor beszélünk, ha a vállalat EPS-e vagy bevétele meghaladja az elemzői konszenzust.
+**Mi ez?** Akkor beszélünk erről, ha a vállalat egy részvényre jutó eredménye (EPS) vagy bevétele meghaladja az elemzői konszenzust. Ellentéte a várakozások alatti eredmény (earnings miss). A konszenzus jellemzően a korrigált (adjusted) EPS-re vonatkozik, nem a számviteli szabályok szerinti (GAAP) számra.
 
-**Miért fontos?** Egy erős beat rövid távon gyakran emelkedő részvényárfolyamot hoz, de a reakció függ a guidance-től és az értékeltségtől is.
+**Miért fontos?** A cégek többsége rendszeresen felülmúlja a várakozásokat, részben azért, mert a menedzsment óvatos előrejelzéssel alacsonyan tartja a lécet. Ezért egy kis mértékű felülmúlás alig mozdítja az árfolyamot. A reakció a meglepetés mértékén, a bevétel minőségén, a jövőre vonatkozó előrejelzésen (guidance) és az értékeltségen múlik.
 
-**Piacradar értelmezés** A Piacradar az earnings beat-et a várakozásokhoz viszonyított teljesítmény gyors jelzőjeként használja.
+**Piacradar értelmezés** Beat önmagában nem elég: a piac azt nézi, honnan jön. Ha a felülmúlás költségcsökkentésből vagy alacsonyabb adókulcsból ered, miközben a bevétel elmarad, a reakció negatív is lehet. A bevétel és az EPS együttes felülmúlása, emelt előrejelzéssel kiegészítve, a legerősebb kombináció.
 
 ## EBITDA
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/ebitda.html
 
-**Mi ez?** Az EBITDA a vállalat eredménye a kamatok, adók, értékcsökkenés és amortizáció levonása előtt.
+**Mi ez?** A vállalat eredménye a kamatok, adók, értékcsökkenés és amortizáció levonása előtt (earnings before interest, taxes, depreciation and amortization). A működési eredményhez (EBIT) hozzáadják az értékcsökkenést és az amortizációt. Nem szabványosított számviteli mutató, ezért a cégek eltérően számolhatják.
 
-**Miért fontos?** Az EBITDA segít összehasonlítani a vállalatok működési teljesítményét anélkül, hogy a finanszírozási struktúra vagy az amortizáció torzítaná a képet.
+**Miért fontos?** Segít összehasonlítani a vállalatok működési teljesítményét úgy, hogy a finanszírozási szerkezet, az adózás és az értékcsökkenési módszerek ne torzítsák a képet. Az EV/EBITDA szorzó és a nettó adósság/EBITDA arány alapja. Felvásárlásoknál és hitelezésnél ezért alapmutató.
 
-**Piacradar értelmezés** A Piacradar az EBITDA-t különösen tőkeigényes szektoroknál használja a működési eredmény tisztább mérésére.
+**Piacradar értelmezés** Kritikusan kell kezelni, mert nem pénzáram: figyelmen kívül hagyja a beruházási igényt, a forgótőke változását, a kamat- és adófizetést. Tőkeigényes cégeknél az értékcsökkenés valós, ismétlődő költség, kiszűrése túl kedvező képet ad. Ha egy cég saját korrigált EBITDA-t (adjusted EBITDA) mutat, érdemes megnézni, mit hagyott ki belőle. A szabad cash flow-val összevetve derül ki, mennyi marad belőle ténylegesen készpénzben.
 
 ## Eladósodottság – Debt-to-Equity
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/eladosodottsag.html
 
-**Mi ez?** A kamatozó adósság és a saját tőke aránya. Angolul debt-to-equity ratio (D/E). Azt mutatja, milyen mértékben finanszírozza a vállalat a működését hitelből a tulajdonosi tőkéhez képest.
+**Mi ez?** A kamatozó adósság és a saját tőke aránya, angolul debt-to-equity ratio (D/E). Azt mutatja, milyen mértékben finanszírozza a vállalat a működését hitelből a tulajdonosi tőkéhez képest. Gyakran használt párja a nettó adósság (adósság mínusz készpénz) és az EBITDA hányadosa, amely azt jelzi, hány év működési eredményéből lehetne visszafizetni az adósságot.
 
-**Miért fontos?** A magas eladósodottság emelkedő kamatkörnyezetben gyorsan növekvő terhet jelent, és szűkíti a mozgásteret egy visszaesésben. A tolerálható szint ágazatonként eltér: a közművek és a telekommunikáció stabil cash flow mellett magasabb adósságot bír el.
+**Miért fontos?** A magas eladósodottság emelkedő kamatkörnyezetben gyorsan növekvő terhet jelent, és szűkíti a mozgásteret egy visszaesésben. A tolerálható szint ágazatonként eltér: a közművek és a távközlési cégek stabil pénztermelés mellett magasabb adósságot bírnak el, mint a ciklikus ipar. A saját tőke sajátrészvény-visszavásárlás miatt negatív is lehet, ilyenkor a mutató értelmét veszti.
 
-**Piacradar értelmezés** A Piacradar az eladósodottságot az adósság lejárati szerkezetével együtt vizsgálja: a közeli refinanszírozási igény magas kamatszint mellett akkor is kockázat, ha az arány önmagában elfogadható. A nettó adósság és az EBITDA hányadosa gyakran beszédesebb mutató.
+**Piacradar értelmezés** Lejárati szerkezet nélkül félrevezető: a közeli refinanszírozási igény magas kamatszint mellett akkor is kockázat, ha az arány önmagában elfogadható. A kamatfedezet, vagyis a működési eredmény és a kamatköltség aránya mutatja meg, mennyire biztonságos a teher.
 
 ## Emerging Markets (EM)
 Kategória: Globális piacok (https://piacradar.eu/szotar/kategoria-globalis-piacok.html)
@@ -850,11 +850,11 @@ Hivatkozás: https://piacradar.eu/szotar/em.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/eps.html
 
-**Mi ez?** Az EPS azt mutatja meg, hogy a vállalat egy részvényre vetítve mennyi nyereséget termelt.
+**Mi ez?** Az egy részvényre jutó eredmény (earnings per share): a nettó eredmény, csökkentve az elsőbbségi részvények osztalékával, elosztva a forgalomban lévő részvények átlagos számával. A hígított EPS (diluted EPS) a még le nem hívott opciókat, részvényjuttatásokat és átváltható értékpapírokat is beszámítja, ezért óvatosabb mérce. Létezik számviteli (GAAP) és korrigált (adjusted) változata is.
 
-**Miért fontos?** Az EPS a vállalati eredménykimutatások egyik legfontosabb mutatója. A „beat” vagy „miss” kifejezések arra utalnak, hogy az EPS meghaladta vagy elmaradt az elemzői várakozásoktól.
+**Miért fontos?** Az eredménykimutatás egyik legfontosabb mutatója és a P/E mutató nevezője. A várakozások feletti (beat) vagy alatti (miss) eredmény jellemzően a korrigált EPS-re vonatkozik. Az EPS a részvényszám csökkentésével is növelhető, ezért a sajátrészvény-visszavásárlás akkor is javítja, ha a nettó eredmény változatlan.
 
-**Piacradar értelmezés** A Piacradar az EPS-t az eredményminőség és a vállalat profitabilitásának gyors jelzőjeként használja.
+**Piacradar értelmezés** Növekedésének forrása legalább annyira fontos, mint a mértéke. Ha az EPS gyorsabban nő, mint a nettó eredmény, a különbséget a csökkenő részvényszám adja, ami nem működési javulás. A hígított és a korrigált változat közötti nagy rés részvényalapú juttatásokra vagy kiszűrt költségekre utal.
 
 ## ETF – Tőzsdén kereskedett alap
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -900,11 +900,11 @@ Hivatkozás: https://piacradar.eu/szotar/eurusd.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/ev-ebitda.html
 
-**Mi ez?** A vállalatérték és az EBITDA hányadosa. Az EV (enterprise value) a piaci kapitalizáció plusz a nettó adósság, vagyis a cég teljes felvásárlási ára. Angolul enterprise value to EBITDA.
+**Mi ez?** A vállalatérték és az EBITDA hányadosa, angolul enterprise value to EBITDA. A vállalatérték (EV) a piaci kapitalizáció plusz a nettó adósság, vagyis a cég teljes, adósságot is magában foglaló felvásárlási ára. Kiszámításakor a kisebbségi részesedéseket és az elsőbbségi részvényeket is hozzá szokták adni.
 
-**Miért fontos?** A P/E-vel szemben figyelembe veszi az eladósodottságot, ezért eltérő tőkeszerkezetű vállalatok is összehasonlíthatók vele. Felvásárlási tárgyalásokon és iparági összevetésekben ez az egyik leggyakrabban használt szorzószám.
+**Miért fontos?** A P/E-vel szemben figyelembe veszi az eladósodottságot, ezért eltérő tőkeszerkezetű vállalatok is összehasonlíthatók vele. Felvásárlási tárgyalásokon és iparági összevetésekben az egyik leggyakrabban használt szorzószám. Veszteséges, de pozitív EBITDA-jú cégeknél is használható, ahol a P/E értelmetlen.
 
-**Piacradar értelmezés** A Piacradar az EV/EBITDA-t iparágon belül értelmezi, mert az elfogadott szint ágazatonként jelentősen eltér. Az EBITDA nem tartalmazza az értékcsökkenést, ezért tőkeigényes szektorokban a mutató kedvezőbb képet ad a valós készpénztermelésnél.
+**Piacradar értelmezés** Iparágon belül ad értelmezhető képet, mert az elfogadott szint ágazatonként jelentősen eltér. Az EBITDA nem tartalmazza az értékcsökkenést és a beruházási igényt, ezért tőkeigényes szektorokban a mutató kedvezőbb képet fest a valós készpénztermelésnél. Ilyenkor az EV/EBIT vagy a szabad cash flow alapú mutatók megbízhatóbbak.
 
 ## Fiskális politika – Költségvetési politika
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -966,11 +966,11 @@ Hivatkozás: https://piacradar.eu/szotar/forgalom.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/free-cash-flow.html
 
-**Mi ez?** A szabad cash flow az a pénzmennyiség, ami a működési kiadások és beruházások után szabadon felhasználható (pl. osztalékra, buybackre, adósságcsökkentésre).
+**Mi ez?** Az a készpénz, amely a működésből befolyó pénzből a beruházások (capex) levonása után megmarad. Egyszerű képlete: működési cash flow mínusz beruházási kiadás. Ebből fizethet a vállalat osztalékot, vásárolhat vissza saját részvényt, törleszthet adósságot vagy finanszírozhat felvásárlásokat.
 
-**Miért fontos?** A Free Cash Flow mutatja meg, mennyire „valódi” a vállalat nyeresége, és mennyi mozgástere van a részvényesek jutalmazására.
+**Miért fontos?** Megmutatja, mennyire valódi a vállalat nyeresége: a számviteli eredmény becsléseket és elhatárolásokat tartalmaz, a készpénz viszont kevésbé manipulálható. Ha a szabad cash flow tartósan elmarad a nettó eredménytől, az gyenge eredményminőségre utal. A forgótőke-változások negyedéves szinten erősen torzíthatják, ezért az éves vagy gördülő négy negyedéves szám megbízhatóbb.
 
-**Piacradar értelmezés** A Piacradar a FCF-et a fenntartható osztalék- és buyback-politika egyik kulcsmutatójaként figyeli.
+**Piacradar értelmezés** Osztalék és visszavásárlás fenntarthatóságának legjobb próbája: ha a kifizetéseket nem fedezi a szabad cash flow, a különbséget adósságból vagy tartalékból pótolják. A szabad cash flow hozam, vagyis a szabad cash flow és a piaci kapitalizáció aránya hasznos értékelési mutató. Növekedési cégeknél az alacsony érték tudatos beruházásból is fakadhat.
 
 ## Funding Rate – Finanszírozási ráta
 Kategória: Kripto (https://piacradar.eu/szotar/kategoria-kripto.html)
@@ -996,11 +996,11 @@ Hivatkozás: https://piacradar.eu/szotar/futures.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/gaap-adjusted.html
 
-**Mi ez?** A GAAP (Generally Accepted Accounting Principles) a hivatalos amerikai számviteli szabályok szerinti eredmény. Az adjusted (korrigált, non-GAAP) eredmény ebből indul ki, de kiszűri az egyszeri, nem a működéshez tartozó tételeket: felvásárlási költségeket, leírásokat, részvényalapú juttatásokat, peres tartalékokat. Ezért egy earnings-jelentésben gyakran két EPS szerepel — és a kettő jelentősen eltérhet.
+**Mi ez?** A GAAP (Generally Accepted Accounting Principles) a hivatalos amerikai számviteli szabályok szerinti eredmény. A korrigált (adjusted, non-GAAP) eredmény ebből indul ki, de kiszűr bizonyos tételeket: felvásárlási költségeket, átszervezési költségeket, leírásokat, peres tartalékokat és gyakran a részvényalapú juttatásokat is. Ezért egy gyorsjelentésben gyakran két EPS szerepel, és a kettő jelentősen eltérhet.
 
-**Miért fontos?** Az elemzői konszenzus és a „beat/miss" jellemzően az adjusted számra vonatkozik, mert az tükrözi a folyó működést. A GAAP viszont a teljes, szépítetlen kép. Ha a kettő közti rés tartósan nagy, az figyelmeztető jel: a cég rendszeresen „egyszerinek" minősít visszatérő költségeket.
+**Miért fontos?** Az elemzői konszenzus és a beat vagy miss jellemzően a korrigált számra vonatkozik. A részvényalapú juttatás kiszűrése vitatott, mert nem egyszeri tétel, hanem visszatérő, valós költség, amely a részvényesek hígításán keresztül fizetődik meg. Ha a két szám közti rés tartósan nagy, a cég rendszeresen egyszerinek minősíthet ismétlődő költségeket.
 
-**Piacradar értelmezés** A Piacradar earnings-posztjaiban a beat/miss az adjusted számhoz viszonyít, de a GAAP-ot is jelezzük, ha a különbség maga a sztori — a rés mérete az eredményminőség gyors tesztje.
+**Piacradar értelmezés** Rés mérete az eredményminőség gyors tesztje: minél nagyobb és minél tartósabb, annál óvatosabban kell kezelni a korrigált számot. A korrigált eredmény a folyó működés trendjét mutatja, a GAAP a teljes, szépítetlen képet. Egy valóban egyszeri tétel nem ismétlődik minden negyedévben.
 
 ## Gamma
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1082,11 +1082,11 @@ Hivatkozás: https://piacradar.eu/szotar/governance-token.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/guidance.html
 
-**Mi ez?** A vállalat saját előrejelzése a következő negyedévre vagy évre vonatkozó bevételről, nyereségről vagy más kulcsmutatókról.
+**Mi ez?** A vállalat saját előrejelzése a következő negyedévre vagy pénzügyi évre vonatkozó bevételről, eredményről, marzsról vagy más kulcsmutatókról. Jellemzően sávként adják meg, és a gyorsjelentéssel együtt teszik közzé vagy módosítják. Nem kötelező, egyes cégek nem adnak előrejelzést, mások csak éves szintűt.
 
-**Miért fontos?** A guidance gyakran fontosabb, mint a friss eredmény: ha a jövőre vonatkozó várakozások romlanak, a részvény eshet akkor is, ha a mostani számok jók.
+**Miért fontos?** Gyakran fontosabb, mint a lezárt negyedév eredménye: ha a jövőre vonatkozó várakozások romlanak, a részvény akkor is eshet, ha a visszatekintő számok jók. Az árfolyam a konszenzushoz viszonyított előrejelzésre reagál, nem önmagában a számra. Sok menedzsment óvatosan, alacsonyan húzza meg a sávot, hogy később felülmúlhassa.
 
-**Piacradar értelmezés** A Piacradar a guidance változását a menedzsment bizalmának egyik legjobb jelzőjeként értelmezi.
+**Piacradar értelmezés** Irányváltozás többet mond a szintnél: egy emelt előrejelzés a menedzsment bizalmát jelzi, a csökkentett vagy visszavont előrejelzés pedig gyakran a probléma első nyilvános jele. A sáv szélessége is beszédes, mert a táguló sáv növekvő bizonytalanságra utal. A menedzsment korábbi pontossága megmutatja, mennyire lehet építeni rá.
 
 ## Hard Landing
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1204,11 +1204,11 @@ Hivatkozás: https://piacradar.eu/szotar/inflacio.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/installed-base.html
 
-**Mi ez?** A már kihelyezett, ügyfeleknél működő gépek, berendezések vagy rendszerek állománya — és az ezekből származó, visszatérő bevétel: szerviz, alkatrész, szoftverfrissítés, teljesítménynövelő csomagok. Tőkejavakat gyártó cégeknél (pl. ASML, gyógyszeripari műszergyártók) külön üzletágként jelentik.
+**Mi ez?** A már kihelyezett, ügyfeleknél működő gépek, berendezések vagy rendszerek állománya, és az ezekből származó, visszatérő bevétel: szerviz, alkatrész, szoftverfrissítés, teljesítménynövelő csomagok. Tőkejavakat gyártó ágazatokban, például a félvezetőgyártó-berendezések vagy az orvosi és laboratóriumi műszerek gyártóinál gyakran külön üzletágként jelentik.
 
-**Miért fontos?** Az installed base bevétel ismétlődő és jóval stabilabb, mint az új gépeladás, amely a beruházási ciklussal hullámzik. Ha ez az üzletág nő, a cég eredménye kevésbé ciklusfüggő — a piac ezt jellemzően magasabb értékeltségi szorzóval jutalmazza.
+**Miért fontos?** Az installed base bevétel ismétlődő és jóval stabilabb, mint az új gépeladás, amely a beruházási ciklussal hullámzik. A géppark mérete idővel nő, így a szolgáltatási bevétel akkor is bővülhet, ha az új eladások egy ideig visszaesnek. Ha ez az üzletág nő, a cég eredménye kevésbé ciklusfüggő, amit a piac jellemzően magasabb értékeltségi szorzóval jutalmaz.
 
-**Piacradar értelmezés** A Piacradar az installed base növekedését az üzleti modell minőségi javulásaként kezeli: egy második, stabil profitmotor épülését jelzi a ciklikus gépeladások mellé.
+**Piacradar értelmezés** Második, stabil profitmotor épülését jelzi a ciklikus gépeladások mellé. Az üzletág marzsa gyakran magasabb az új gépekénél, így részarányának növekedése a teljes jövedelmezőséget is javítja. Ciklikus mélypontokon ez tartja a cég eredményét.
 
 ## Interest Rate – Kamatláb
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1400,11 +1400,11 @@ Hivatkozás: https://piacradar.eu/szotar/lng.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/m-and-a.html
 
-**Mi ez?** Vállalatok összeolvadása (merger) vagy felvásárlása (acquisition). A felvásárló általában prémiumot fizet a piaci ár felett, ami a célpont részvényét emeli, a felvásárlóét gyakran nyomás alá helyezi.
+**Mi ez?** Vállalatok összeolvadása (merger) vagy felvásárlása (acquisition). A felvásárló jellemzően prémiumot fizet a piaci ár felett, ami a célpont részvényét emeli, a felvásárlóét viszont gyakran nyomás alá helyezi. Fizethet készpénzzel, saját részvénnyel vagy a kettő kombinációjával, a finanszírozás módja pedig a mérleget és a részvényesek hígulását is befolyásolja.
 
-**Miért fontos?** M&A aktivitás a piaci hangulat barométere: magas M&A = optimizmus és olcsó finanszírozás. Leálló M&A = óvatosság, magas kamatok vagy regulációs bizonytalanság. Antitrust döntések blokkolhatják a deal-eket.
+**Miért fontos?** Az M&A-aktivitás a piaci hangulat barométere: élénk tranzakciós piac optimizmust és elérhető finanszírozást jelez, a lelassuló pedig óvatosságot, magas kamatokat vagy szabályozói bizonytalanságot. Trösztellenes döntések blokkolhatják az ügyleteket. A célpont és a bejelentett ár közötti rés (deal spread) azt mutatja, mekkora kockázatot lát a piac a lezárásban.
 
-**Piacradar értelmezés** A Piacradar M&A híreket akkor hozza, ha érdemi piaci hatásuk van: nagy deal (>$10Mrd), szektort mozgató felvásárlás, vagy antitrust döntés.
+**Piacradar értelmezés** Érdemi piaci hatás a mérce, nem a tranzakció mérete: egy szektort átrendező, versenyhelyzetet módosító vagy szabályozói próbát jelentő ügylet akkor is fontos, ha kisebb. A felvásárlói oldalon kérdés, hogy a fizetett prémium megtérül-e a szinergiákból, mert sok felvásárlás végül értéket rombol.
 
 ## M2 Money Supply – M2 pénzmennyiség
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1436,11 +1436,11 @@ Hivatkozás: https://piacradar.eu/szotar/macd.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/magnificent-seven.html
 
-**Mi ez?** Hét nagy amerikai technológiai cég gyűjtőneve: Apple, Microsoft, Alphabet (Google), Amazon, Nvidia, Meta és Tesla. A megnevezés 2023-ban terjedt el, és az AI-narratíva fő hordozóit jelöli.
+**Mi ez?** Hét nagy amerikai technológiai cég gyűjtőneve: Apple, Microsoft, Alphabet (Google), Amazon, Nvidia, Meta és Tesla. A kifejezés a nagy technológiai növekedési történet fő hordozóit jelöli, amelyek piaci súlyuk miatt külön csoportként szerepelnek a piaci elemzésekben.
 
-**Miért fontos?** Ez a hét cég adja az S&P 500 és a Nasdaq teljesítményének aránytalanul nagy részét, ezért index-koncentrációt okoznak: ha a Mag7 mozog, gyakran az egész index velük mozog. Az earnings-ük a teljes piaci hangulatot meghatározhatja.
+**Miért fontos?** Ez a hét cég az S&P 500 és a Nasdaq teljesítményének aránytalanul nagy részét adhatja, ezért indexkoncentrációt okoz: ha a Mag7 mozog, gyakran az egész index velük mozog. Gyorsjelentéseik és beruházási terveik a teljes piaci hangulatot meghatározhatják, mert sok más cég, például a beszállítóik, bevétele is tőlük függ.
 
-**Piacradar értelmezés** A Piacradar a Mag7 jelentéseit és mozgásait kiemelt piacmozgató tényezőként kezeli. Ugyanakkor jelzi a koncentráció kockázatát is: néhány név gyengélkedése az egész indexet lehúzhatja, miközben a szélesebb piac stabil.
+**Piacradar értelmezés** Piacmozgató tényezőként kezelendők, de a csoport nem homogén: üzleti modelljük, növekedésük és értékeltségük jelentősen eltér, ezért együttes kezelésük leegyszerűsítés. A koncentráció kockázat is: néhány név gyengélkedése az egész indexet lehúzhatja, miközben a szélesebb piac stabil. Az egyenlő súlyú index összevetése megmutatja a különbséget.
 
 ## Margin Call – Fedezeti felhívás
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1456,11 +1456,11 @@ Hivatkozás: https://piacradar.eu/szotar/margin-call.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/market-cap.html
 
-**Mi ez?** A piaci kapitalizáció a vállalat összes részvényének összértéke: részvényár × részvényszám.
+**Mi ez?** A vállalat összes forgalomban lévő részvényének piaci értéke: részvényár szorozva a részvények számával. A méret alapján a piac kategóriákba sorolja a cégeket: kis (small cap), közepes (mid cap) és nagy kapitalizációjú (large cap). A határok nem hivatalosak, indexszolgáltatónként eltérnek.
 
-**Miért fontos?** A Market Cap határozza meg, hogy a vállalat melyik kategóriába tartozik (small, mid, large cap), és milyen súllyal szerepel indexekben.
+**Miért fontos?** A piaci kapitalizáció határozza meg, hogy egy vállalat milyen súllyal szerepel a kapitalizációval súlyozott indexekben, ezért a legnagyobb cégek mozgása aránytalanul hat az indexre. Indexkövető alapok a súly arányában vásárolnak, ami a legnagyobb neveket tovább erősítheti. A kisebb cégek jellemzően volatilisebbek és kevésbé likvidek.
 
-**Piacradar értelmezés** A Piacradar a Market Cap-et a vállalat méretének és piaci jelentőségének alapmutatójaként kezeli.
+**Piacradar értelmezés** Méretmutató, nem értékelés: a nagy piaci kapitalizáció nem jelenti, hogy a cég drága vagy olcsó. A vállalatérték (EV) teljesebb kép, mert az adósságot és a készpénzt is figyelembe veszi. Indexeknél gyakran a közkézhányaddal korrigált (free float) kapitalizáció számít.
 
 ## Megerősítési torzítás – Confirmation Bias
 Kategória: Portfólió & pszichológia (https://piacradar.eu/szotar/kategoria-portfolio-pszichologia.html)
@@ -1506,11 +1506,11 @@ Hivatkozás: https://piacradar.eu/szotar/mining.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/moat.html
 
-**Mi ez?** Tartós versenyelőny, amely megvédi a vállalat jövedelmezőségét a versenytársaktól. Angolul economic moat, a kifejezést Warren Buffett tette ismertté. Forrása lehet márka, hálózati hatás, méretgazdaságosság, szabadalom vagy magas váltási költség.
+**Mi ez?** Tartós versenyelőny, amely megvédi a vállalat jövedelmezőségét a versenytársaktól. Angolul economic moat, a befektetési szakirodalomban elterjedt kifejezés. Forrása lehet erős márka, hálózati hatás, méretgazdaságosság, szabadalom, szabályozói engedély vagy magas váltási költség, amely miatt az ügyfelek nehezen pártolnak át.
 
-**Miért fontos?** A várárok nélküli magas nyereségességet a verseny idővel leépíti. A védett pozíció ezzel szemben lehetővé teszi, hogy a vállalat évtizedekig a tőkeköltsége felett termeljen megtérülést, ami a hosszú távú értéknövekedés motorja.
+**Miért fontos?** A várárok nélküli magas jövedelmezőséget a verseny idővel leépíti, mert a magas profit új belépőket vonz. A védett pozíció ezzel szemben lehetővé teszi, hogy a vállalat hosszú ideig a tőkeköltsége felett termeljen megtérülést, ami a hosszú távú értéknövekedés motorja. A várárok szélessége mellett a tartóssága is kérdés.
 
-**Piacradar értelmezés** A Piacradar a várárok meglétét a marzsok időbeli alakulásán méri: a tartósan magas és stabil működési marzs védett pozícióra utal, a szűkülő marzs pedig erősödő versenyre. Az árazási erő megléte a legmegbízhatóbb gyakorlati jelzés.
+**Piacradar értelmezés** Marzsok és megtérülés időbeli alakulásán mérhető: a tartósan magas és stabil működési marzs és befektetett tőke megtérülése (ROIC) védett pozícióra utal, a szűkülő marzs erősödő versenyre. Az árazási erő a legmegbízhatóbb gyakorlati jelzés. Technológiai váltás a legszélesebb várárkot is betemetheti.
 
 ## Momentum – Lendület
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1578,11 +1578,11 @@ Hivatkozás: https://piacradar.eu/szotar/nfp.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/nii.html
 
-**Mi ez?** A bank kamatbevételeinek (hitelek, értékpapírok) és kamatkiadásainak (betétek, források) különbsége — a hagyományos banki üzletmodell motorja. Százalékos formája a nettó kamatmarzs (NIM): az NII a kamatozó eszközök arányában.
+**Mi ez?** A bank kamatbevételeinek, például a hitelek és értékpapírok után kapott kamatnak, valamint kamatkiadásainak, például a betétek és egyéb források után fizetett kamatnak a különbsége. A hagyományos banki üzletmodell motorja. Százalékos formája a nettó kamatmarzs (net interest margin, NIM): a nettó kamatbevétel a kamatozó eszközök arányában.
 
-**Miért fontos?** A nagybankok eredményének legnagyobb és legstabilabb komponense, amely közvetlenül függ a kamatkörnyezettől: emelkedő kamatoknál a marzs tágul, kamatvágási ciklusban szűkül. A banki earnings-szezonban az NII-guidance gyakran fontosabb piaci jelzés, mint maga a negyedéves profit.
+**Miért fontos?** A nagybankok eredményének legnagyobb és legstabilabb összetevője, amely közvetlenül függ a kamatkörnyezettől. Emelkedő kamatoknál a marzs jellemzően tágul, mert a hitelkamatok gyorsabban igazodnak, mint a betéti kamatok, kamatcsökkentési ciklusban pedig szűkül. A hozamgörbe alakja is számít: a meredek görbe kedvez a rövid forrásból hosszú hitelt nyújtó bankoknak. A banki gyorsjelentési szezonban a nettó kamatbevételre adott előrejelzés gyakran fontosabb jelzés, mint a negyedéves profit.
 
-**Piacradar értelmezés** A Piacradar a banki jelentéseknél az NII irányát a kamatpálya tükrében értelmezi — a trading- és díjbevételek ingadozhatnak, de a bank alappályáját az NII rajzolja ki.
+**Piacradar értelmezés** Banki jelentéseknél ez rajzolja ki az alappályát: a kereskedési és díjbevételek ingadozhatnak, a nettó kamatbevétel iránya viszont a kamatpályával együtt mozog. A betéti kamatok átárazásának üteme, vagyis hogy a bank mennyit ad tovább a kamatemelésből a betéteseknek, dönti el a marzs tartósságát.
 
 ## Nonfarm Productivity – Termelékenység
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1638,11 +1638,11 @@ Hivatkozás: https://piacradar.eu/szotar/open-interest.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/operating-margin.html
 
-**Mi ez?** A működési eredmény (EBIT) és az árbevétel hányadosa, százalékban. Azt mutatja, az árbevétel hány százaléka marad meg a működési költségek — anyag, bér, marketing, kutatás-fejlesztés — levonása után, de a kamatok és adók előtt.
+**Mi ez?** A működési eredmény (EBIT) és az árbevétel hányadosa, százalékban. Azt mutatja, az árbevétel hány százaléka marad meg a működési költségek, például anyag, bér, marketing és kutatás-fejlesztés levonása után, de a kamatok és adók előtt. A bruttó marzs és a nettó profitmarzs között helyezkedik el.
 
-**Miért fontos?** A működési marzs a vállalat árazási erejének és költséghatékonyságának legjobb mérőszáma. Tartós javulása skálahatásra vagy erős piaci pozícióra utal; a szűkülés költségnyomást, árversenyt vagy romló termékösszetételt jelez. Szektoronként nagyon eltérő szintek a normálisak.
+**Miért fontos?** A vállalat árazási erejének és költséghatékonyságának egyik legjobb mérőszáma. Tartós javulása méretgazdaságosságra vagy erős piaci pozícióra utal, szűkülése költségnyomást, árversenyt vagy romló termékösszetételt jelez. Szektoronként nagyon eltérő szintek számítanak normálisnak, ezért összehasonlításra iparágon belül alkalmas. A működési tőkeáttét miatt a bevétel változása felnagyítva jelenik meg benne.
 
-**Piacradar értelmezés** A Piacradar a marzs irányát fontosabbnak tartja a szintjénél: a bevételnövekedés önmagában keveset ér, ha a marzs közben szűkül — a kettő együtt adja meg, hogy a növekedés értékteremtő-e.
+**Piacradar értelmezés** Irány fontosabb a szintnél: a bevételnövekedés önmagában keveset ér, ha a marzs közben szűkül, a kettő együtt adja meg, hogy a növekedés értékteremtő-e. A korrigált és a számviteli működési eredmény eltérése is figyelmet érdemel.
 
 ## Options – Opciók
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1668,21 +1668,21 @@ Hivatkozás: https://piacradar.eu/szotar/options-expiration.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/osztalekhozam.html
 
-**Mi ez?** Az egy részvényre jutó éves osztalék és az aktuális árfolyam hányadosa, százalékban. Angolul dividend yield. Az árfolyam változásával automatikusan mozog: eső árfolyam mellett emelkedik.
+**Mi ez?** Az egy részvényre jutó éves osztalék és a piaci árfolyam hányadosa, százalékban, angolul dividend yield. Az árfolyam változásával automatikusan mozog: eső árfolyam mellett emelkedik, emelkedő árfolyam mellett csökken, akkor is, ha az osztalék változatlan. Számolható a múltbeli kifizetésekkel vagy a következő évre várt osztalékkal.
 
-**Miért fontos?** A hozam a befektetett tőkére vetített készpénzmegtérülést mutatja. A kiugróan magas érték azonban gyakran nem a bőkezűségből, hanem az árfolyam eséséből ered, ezért önmagában nem jelent olcsóságot.
+**Miért fontos?** A befektetett tőkére vetített készpénzhozamot mutatja, ezért a kötvényhozamokkal is versenyez: emelkedő kamatok mellett az osztalékpapírok vonzereje csökkenhet. A kiugróan magas érték azonban gyakran nem a bőkezűségből, hanem az árfolyam eséséből ered, mert a piac osztalékvágást áraz. Önmagában ezért nem jelent olcsóságot.
 
-**Piacradar értelmezés** A Piacradar az osztalékhozamot a kifizetési rátával és a szabad cash flow-val együtt nézi: a fenntarthatóság kérdése az, hogy a vállalat a termelt készpénzből fizet-e. A többéves átlaghoz mért magas hozam value-jelzés lehet, de osztalékvágás előjele is.
+**Piacradar értelmezés** Hozam mögé kell nézni: a döntő kérdés, hogy a vállalat a termelt készpénzből fizet-e, ezért a hozamot a kifizetési rátával és a szabad cash flow-val együtt kell nézni. A többéves átlaghoz mért magas hozam értékjelzés lehet, de osztalékvágás előjele is. A teljes részvényesi hozam az osztalékot és a visszavásárlást együtt mutatja.
 
 ## P/B – Ár/könyv szerinti érték
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/price-to-book.html
 
-**Mi ez?** Az árfolyam és az egy részvényre jutó saját tőke hányadosa. Angolul price-to-book ratio. Azt mutatja, hányszorosát fizeti a piac a vállalat könyv szerinti nettó vagyonának.
+**Mi ez?** Az árfolyam és az egy részvényre jutó saját tőke (könyv szerinti érték) hányadosa, angolul price-to-book ratio. Azt mutatja, hányszorosát fizeti a piac a vállalat könyv szerinti nettó vagyonának. Az 1 alatti érték azt jelenti, hogy a piac a könyv szerinti vagyonnál kevesebbre értékeli a céget.
 
-**Miért fontos?** Eszközintenzív ágazatokban — bankok, biztosítók, ingatlan, ipar — jól használható értékelési mutató. Szolgáltató és szoftvercégeknél kevésbé informatív, mert a fő érték a mérlegben nem szereplő szellemi tulajdonban van.
+**Miért fontos?** Eszközintenzív ágazatokban, például a bankoknál, biztosítóknál, ingatlanos cégeknél és az iparban jól használható értékelési mutató. Szolgáltató és szoftvercégeknél kevésbé informatív, mert a fő érték a mérlegben nem szereplő szellemi tulajdonban, márkában és ügyfélkapcsolatokban van. A sajátrészvény-visszavásárlás és a leírások torzíthatják.
 
-**Piacradar értelmezés** A Piacradar a P/B-t a saját tőke arányos megtérülésével együtt nézi: az alacsony mutató önmagában lehet olcsóság, de romló jövedelmezőség jele is. Az egy alatti érték azt jelenti, hogy a piac a könyv szerinti vagyonnál kevesebbre értékeli a céget.
+**Piacradar értelmezés** Sajáttőke-arányos megtérüléssel (ROE) együtt van értelme: a magas ROE magasabb P/B-t indokol, az alacsony mutató pedig lehet olcsóság, de romló jövedelmezőség jele is. Bankoknál a könyv szerinti érték minősége kérdés, mert a hitelportfólió rejtett veszteségei csak később jelenhetnek meg a mérlegben.
 
 ## P/E Ratio – Árfolyam/nyereség ráta
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
@@ -1730,11 +1730,11 @@ Hivatkozás: https://piacradar.eu/szotar/pce.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/peg-ratio.html
 
-**Mi ez?** A P/E mutató elosztva a várható éves eredménynövekedési ütemmel. Angolul price/earnings-to-growth ratio. A növekedés ütemét is beépíti az értékelésbe, ezért a gyorsan bővülő cégeknél reálisabb képet ad.
+**Mi ez?** A P/E mutató elosztva a várható éves eredménynövekedési ütemmel, angolul price/earnings-to-growth ratio. A növekedés ütemét is beépíti az értékelésbe, ezért a gyorsan bővülő cégeknél reálisabb képet ad, mint a P/E önmagában. A növekedést százalékpontban, de százalékjel nélkül osztják be.
 
-**Miért fontos?** Az egy alatti érték hagyományosan azt jelzi, hogy a piac a növekedési ütemnél olcsóbban árazza a részvényt. Egy 30-as P/E magas lehet, de 30 százalékos növekedés mellett a PEG 1,0 — vagyis az értékeltség indokolt.
+**Miért fontos?** Az 1 alatti érték hagyományosan azt jelzi, hogy a piac a növekedési ütemnél olcsóbban árazza a részvényt. Szemléltető példával: egy 30-as P/E magasnak tűnhet, de évi 30%-os várt növekedés mellett a PEG 1,0, vagyis az értékeltség a növekedéssel arányos. Növekedési részvények összehasonlítására különösen népszerű.
 
-**Piacradar értelmezés** A Piacradar a PEG-et a növekedési előrejelzés minőségével együtt kezeli: a mutató annyit ér, amennyire a becsült ütem megalapozott. Ciklikus vállalatoknál a csúcson mért növekedés torzít, ezért ott a többéves átlag ad használhatóbb képet.
+**Piacradar értelmezés** Annyit ér, amennyire a becsült növekedési ütem megalapozott: optimista elemzői becslések mellett a mutató mesterségesen alacsony. Ciklikus vállalatoknál a ciklus csúcsán mért növekedés torzít, ezért ott a többéves átlag ad használhatóbb képet. Nem veszi figyelembe a kockázatot és az eladósodottságot sem.
 
 ## People's Bank of China (PBoC)
 Kategória: Makró & jegybank (https://piacradar.eu/szotar/kategoria-makro-jegybank.html)
@@ -1806,11 +1806,11 @@ Hivatkozás: https://piacradar.eu/szotar/pre-market.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/profit-margin.html
 
-**Mi ez?** A nettó eredmény és az árbevétel hányadosa, százalékban. A működési marzstól eltérően a kamatokat, adókat és egyszeri tételeket is tartalmazza, tehát a teljes, végső jövedelmezőséget mutatja.
+**Mi ez?** A nettó eredmény és az árbevétel hányadosa, százalékban. A működési marzstól eltérően a kamatokat, adókat és egyszeri tételeket is tartalmazza, tehát a teljes, végső jövedelmezőséget mutatja: az árbevétel hány százaléka marad meg a részvényeseknek minden költség után.
 
-**Miért fontos?** A nettó marzs a vállalat teljes költség- és tőkeszerkezetének eredőjét méri. Szűkülése fakadhat működési romlásból, de emelkedő kamatterhekből vagy adóváltozásból is — ezért mindig érdemes a működési marzzsal együtt nézni, hogy kiderüljön, hol keletkezik a nyomás.
+**Miért fontos?** A nettó marzs a vállalat teljes költség- és tőkeszerkezetének eredőjét méri. Szűkülése fakadhat működési romlásból, de emelkedő kamatterhekből, magasabb adókulcsból vagy egyszeri leírásokból is. Javulása is félrevezető lehet, ha egy eszközeladás egyszeri nyeresége vagy adókedvezmény okozza. Ezért a működési marzzsal együtt mutatja meg, hol keletkezik a változás.
 
-**Piacradar értelmezés** A Piacradar a nettó és a működési marzs együttmozgását vizsgálja: ha a működési marzs stabil, de a nettó romlik, a probléma jellemzően a finanszírozási oldalon van, nem az üzletben.
+**Piacradar értelmezés** Ha a működési marzs stabil, de a nettó romlik, a probléma jellemzően a finanszírozási oldalon vagy az adózásban van, nem az üzletben. Ágazatok között nehezen összehasonlítható: egy kiskereskedő alacsony, egy szoftvercég magas nettó marzzsal is egészséges lehet. A trend és a versenytársakhoz mért szint a mérvadó.
 
 ## Put – Eladási opció
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1902,11 +1902,11 @@ Hivatkozás: https://piacradar.eu/szotar/retail-sales.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/revenue.html
 
-**Mi ez?** A vállalat adott időszakban értékesített termékeiből és szolgáltatásaiból származó összes bevétele, a költségek levonása előtt. Az eredménykimutatás első sora, ezért nevezik gyakran „top line”-nak.
+**Mi ez?** A vállalat adott időszakban értékesített termékeiből és szolgáltatásaiból származó összes bevétele, a költségek levonása előtt. Az eredménykimutatás első sora, ezért nevezik felső sornak (top line). Az organikus bevételnövekedés a felvásárlások és árfolyamhatások nélküli, belső növekedést mutatja.
 
-**Miért fontos?** Az árbevétel a növekedés legtisztább mérőszáma: a nyereség javítható költségcsökkentéssel is, de a tartós értékteremtéshez bővülő bevétel kell. A negyedéves jelentéseknél a bevétel és az EPS egyszerre számít — előfordul, hogy egy cég veri az EPS-várakozást, miközben a bevétel elmarad, ami a növekedési kilátásokat kérdőjelezi meg.
+**Miért fontos?** Az árbevétel a növekedés legtisztább mérőszáma: a nyereség javítható költségcsökkentéssel is, de a tartós értékteremtéshez bővülő bevétel kell. A gyorsjelentéseknél a bevétel és az EPS együtt számít. Előfordul, hogy egy cég felülmúlja az EPS-várakozást, miközben a bevétel elmarad, ami a növekedési kilátásokat kérdőjelezi meg. A bevétel minősége is fontos: az ismétlődő, előfizetéses bevétel többet ér az egyszeri eladásnál.
 
-**Piacradar értelmezés** A Piacradar a bevétel és az eredmény együttes irányát nézi: a költségcsökkentésből származó nyereség rövid távon jó hír, de stagnáló bevétel mellett nem fenntartható.
+**Piacradar értelmezés** Bevétel és eredmény együttes iránya dönt: a költségcsökkentésből származó nyereség rövid távon jó hír, de stagnáló bevétel mellett nem fenntartható. A devizahatás és a felvásárlások kiszűrése után derül ki a valódi növekedési ütem.
 
 ## Risk-on / Risk-off
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
@@ -1922,21 +1922,21 @@ Hivatkozás: https://piacradar.eu/szotar/risk-on-off.html
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/roe.html
 
-**Mi ez?** A nettó eredmény és a saját tőke hányadosa, százalékban. Azt mutatja, mekkora hozamot termel a vállalat a részvényesek által befektetett tőkén.
+**Mi ez?** A nettó eredmény és a saját tőke hányadosa, százalékban, angolul return on equity. Azt mutatja, mekkora hozamot termel a vállalat a részvényesek által befektetett és a cégben felhalmozott tőkén. Gyakran a nyitó és záró saját tőke átlagával számolják.
 
-**Miért fontos?** A ROE a tőkehatékonyság alapmutatója, különösen a bankszektorban, ahol a tőkeszabályozás közvetlenül korlátozza a mérlegméretet. Óvatosan kell kezelni: a magas ROE fakadhat valódi hatékonyságból, de erős eladósodottságból is, mert a hitelfelvétel csökkenti a saját tőkét és felnagyítja a mutatót.
+**Miért fontos?** A tőkehatékonyság alapmutatója, különösen a bankszektorban, ahol a tőkeszabályozás közvetlenül korlátozza a mérlegméretet. Óvatosan kell kezelni: a magas ROE fakadhat valódi működési hatékonyságból, de tőkeáttételből is. Ha a vállalat ugyanakkora eredményt kisebb saját tőkével ér el, mert működését nagyobb részben adósságból finanszírozza, a mutató nő. Az adósságból finanszírozott sajátrészvény-visszavásárlás ugyanígy csökkenti a saját tőkét, és felnagyítja a ROE-t.
 
-**Piacradar értelmezés** A Piacradar a ROE-t az eladósodottsággal együtt értelmezi — a tőkeáttétellel felpumpált magas ROE nem ugyanaz, mint a működésből származó.
+**Piacradar értelmezés** Eladósodottsággal együtt értelmezhető: a tőkeáttétellel felpumpált magas ROE nem ugyanaz, mint a működésből származó. A DuPont-felbontás megmutatja, hogy a marzs, az eszközforgás vagy az áttét hajtja-e. Negatív saját tőkénél a mutató értelmét veszti.
 
 ## ROIC – Befektetett tőke megtérülése
 Kategória: Vállalati & értékelés (https://piacradar.eu/szotar/kategoria-vallalati-ertekeles.html)
 Hivatkozás: https://piacradar.eu/szotar/roic.html
 
-**Mi ez?** Angolul return on invested capital: az adózott működési eredmény és a működésbe fektetett tőke — saját tőke plusz kamatozó adósság — hányadosa. Azt méri, mennyire hatékonyan használja a vállalat a rendelkezésére álló forrásokat.
+**Mi ez?** Angolul return on invested capital: az adózott működési eredmény (NOPAT) és a működésbe fektetett tőke, vagyis a saját tőke és a kamatozó adósság összegének, csökkentve a felesleges készpénzzel, hányadosa. Azt méri, mennyire hatékonyan használja a vállalat az összes rendelkezésére álló forrást.
 
-**Miért fontos?** A ROIC a minőség egyik legjobb mérőszáma, mert az adósságtól függetlenül mutatja a működés hatékonyságát. Akkor teremt értéket a vállalat, ha a ROIC tartósan meghaladja a tőkeköltségét — a kettő különbsége a valódi kérdés.
+**Miért fontos?** A vállalati minőség egyik legjobb mérőszáma, mert a finanszírozás módjától függetlenül mutatja a működés hatékonyságát. Akkor teremt értéket a vállalat, ha a ROIC tartósan meghaladja a tőkeköltségét (WACC), a kettő különbsége a valódi kérdés. Ha a ROIC a tőkeköltség alatt marad, a növekedés értéket rombol, mert minden új befektetés kevesebbet hoz, mint amennyibe a tőke kerül.
 
-**Piacradar értelmezés** A Piacradar a ROIC-ot a saját tőke megtérülésénél informatívabbnak tartja, mert a magas adósság a ROE-t mesterségesen felnagyíthatja. A tartósan magas ROIC általában védett piaci pozícióra utal, a hanyatló trend pedig erősödő versenyre.
+**Piacradar értelmezés** Informatívabb a sajáttőke-arányos megtérülésnél, mert a magas adósság a ROE-t mesterségesen felnagyíthatja, a ROIC-ot viszont nem. A tartósan magas ROIC általában védett piaci pozícióra utal, a hanyatló trend erősödő versenyre. A felvásárlásokból származó goodwill jelentősen csökkentheti.
 
 ## RSI – Relatív erősség index
 Kategória: Kereskedés & technikai (https://piacradar.eu/szotar/kategoria-kereskedes-technikai.html)
